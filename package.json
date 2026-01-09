@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@portabletext/markdown": "^1.1.2",
+    "fs": "^0.0.1-security"
+  }
+}
