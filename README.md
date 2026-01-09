@@ -10,4 +10,4 @@ To update the underlying json file the following manual process needs to be perf
 3. Copy the inner html of the `<script id="__NEXT_DATA__" type="application/json">` field
 4. Paste the contents into a text editor, preferibly with a json formatter like vs code
 5. replace the codex.json files with the entire "data" object (close/fold it to make this faster)
-  5a. Make sure to remove the `"data":` property so that your file starts `[` and ends with `]`, and no comma after the last ]
+6. Make sure to remove the `"data":` property so that your file starts `[` and ends with `]`, and no comma after the last ]
