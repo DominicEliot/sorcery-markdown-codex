@@ -2640,15 +2640,15 @@
     {
         "_createdAt": "2025-03-24T19:42:19Z",
         "_id": "16ed5006-40f3-4df2-8b60-6d0b13bb35a8",
-        "_rev": "OVwv9CvZAhvcLZb6pGC5AS",
+        "_rev": "sUoj7uhqXTsr7OTcIohJgN",
         "_system": {
             "base": {
                 "id": "16ed5006-40f3-4df2-8b60-6d0b13bb35a8",
-                "rev": "gU9bhb6O12NIfsOGiKhDT2"
+                "rev": "puzbcwpTukxGDk1j0IhB6V"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-30T18:14:30Z",
+        "_updatedAt": "2026-02-09T18:42:32Z",
         "content": [
             {
                 "_key": "60971edaaeb0",
@@ -2680,7 +2680,7 @@
                         "_key": "b584c0b6ff54",
                         "_type": "span",
                         "marks": [],
-                        "text": "By using one step, a minion with Burrowing can move between the surface and subsurface of a land site, or between adjacent underground locations."
+                        "text": "By using one step, a minion with Burrowing can move between the surface and subsurface of a land site, or between adjacent underground locations. A minion with both the Burrowing and Submerge abilities can move directly from an underground location to an underwater location in an adjacent square, and vice versa, in one step."
                     }
                 ],
                 "markDefs": [],
@@ -2716,7 +2716,7 @@
             }
         ],
         "field": "rulesText",
-        "finder": "burrow,burrowing",
+        "finder": "burrow,burrowing,burrowed",
         "interlinking": true,
         "subcodexes": null,
         "title": "Burrowing"
@@ -2804,15 +2804,15 @@
     {
         "_createdAt": "2025-03-30T04:06:50Z",
         "_id": "5b78b0b7-6d27-421b-898e-cc69bd33771b",
-        "_rev": "ookNLRdALho2Ztyjdp395d",
+        "_rev": "sUoj7uhqXTsr7OTcIoe9tf",
         "_system": {
             "base": {
                 "id": "5b78b0b7-6d27-421b-898e-cc69bd33771b",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "ookNLRdALho2Ztyjdp395d"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-15T22:03:00Z",
+        "_updatedAt": "2026-02-09T18:39:42Z",
         "content": [
             {
                 "_key": "0874f3632649",
@@ -2844,7 +2844,7 @@
             }
         ],
         "field": "rulesText",
-        "finder": "can't be modified,can’t be modified,modified",
+        "finder": "can't be modified,can’t be modified,modified,modify",
         "interlinking": true,
         "subcodexes": null,
         "title": "Can't be Modified"
@@ -3443,15 +3443,15 @@
     {
         "_createdAt": "2025-06-30T16:59:51Z",
         "_id": "5f6697d3-c0a4-42b3-b682-ce807b9e4cd4",
-        "_rev": "GCbohJg6TwplmYSTlUnGBQ",
+        "_rev": "9CUWpgoW5Q44hTUbbHICNy",
         "_system": {
             "base": {
                 "id": "5f6697d3-c0a4-42b3-b682-ce807b9e4cd4",
-                "rev": "QeWjyPK1aQVeNnTUYe1psZ"
+                "rev": "GCbohJg6TwplmYSTlUnGBQ"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-23T20:39:46Z",
+        "_updatedAt": "2026-02-09T18:42:26Z",
         "content": [
             {
                 "_key": "9bbbc63d2208",
@@ -3461,7 +3461,7 @@
                         "_key": "46e49c9c2cfb",
                         "_type": "span",
                         "marks": [],
-                        "text": "Normally, units cannot be carried by other units, but some effects allow it, e.g. [[War Horse]]."
+                        "text": "Normally, units cannot be carried by other units, but some effects allow it, e.g. [[War Horse]]. Such effects are worded \"may carry...\" or \"can pick up...\" or similar, but all work in the same way."
                     }
                 ],
                 "markDefs": [],
@@ -3923,1949 +3923,6 @@
         "interlinking": false,
         "subcodexes": null,
         "title": "Cemetery"
-    },
-    {
-        "_createdAt": "2025-07-10T01:24:42Z",
-        "_id": "f4350853-04b4-43f5-a439-e0c0cbbb3bbd",
-        "_rev": "Frt9xx5VA6r6IgDelbGIax",
-        "_system": {
-            "base": {
-                "id": "f4350853-04b4-43f5-a439-e0c0cbbb3bbd",
-                "rev": "ddCziRH2Fm886tLDwsusff"
-            }
-        },
-        "_type": "codex",
-        "_updatedAt": "2025-12-21T07:11:52Z",
-        "content": [
-            {
-                "_key": "6372136e7aa7",
-                "_type": "block",
-                "children": [
-                    {
-                        "_key": "b29f3f1e9458",
-                        "_type": "span",
-                        "marks": [],
-                        "text": "When the codex or card FAQs have notable changes, we'll list them in this entry."
-                    }
-                ],
-                "markDefs": [],
-                "style": "normal"
-            }
-        ],
-        "interlinking": true,
-        "subcodexes": [
-            {
-                "_key": "ef9b982ebb7a",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "bd1275578f41",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e8808e7ebb6a",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "Codex"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "a65c04432395",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "dbcad70679ee",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Fixed the order of layers in \"((Apply Ongoing Effects In Order))\" so that disabling and silencing effects apply before control changing effects, so that [[King of the Realm]]'s ability can be properly disabled and silenced!"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "cf34611c4052",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "dca02d6b986d",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "FAQ"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "36e3198236df",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "3880cb7fbdb4",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that [[Silence]], [[Sisters of Silence]], and [[Magnetic Muzzle]] are silence effects."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "136c74556053",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e523be521b29",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Yes, that confirms Magnetic Muzzle has no effect on Avatars."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Changelog - July 14, 2025"
-            },
-            {
-                "_key": "b6343cb440b0",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "781b36f80c7f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "9d9231327374",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "First release of the codex! Notable rule updates include:"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "5991c4920642",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4ea6b18291c9",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "When attacking undefended sites, the attacking unit strikes the site, damaging it. When a site is damaged, the controlling avatar loses life equal to the damage dealt."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "d58e3bc9be5a",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "44e5b2bdf482",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "This impacts cards like [[Mask of Mayhem]], [[Daperyll Vampire]], and [[Free City]], among others."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "ec5c596ec4e6",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "9df137272b86",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "For Move and Attack, you don't declare your attack target in advance; you simply resolve your movement (and any triggered abilities), and then choose to attack if you want."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "2c087118e581",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "427e87f52899",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "\"Attack\" triggers only happen once, based on the initial target of the attack (e.g. [[Dodge Roll]] only works if the target was directly attacked, not if they Defend.)"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "0567f7557988",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7a05181a425a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "\"Attack and kill\" triggers (e.g. [[Battlemage]], [[Sea Raider]]) resolve as long as there was an attack, for each minion killed, based on kill credit."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "fdfb072e8aac",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "11c65ecf004c",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "When a unit defends, it automatically becomes a legal target for the attack, superseding the silver rule. (e.g. If I attack [[White Hart]] and you defend with a different minion, that minion is now a legal target for the attack)"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "54d80426f34c",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7dd6c58c83b8",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Intercept triggers when an attack doesn't happen, not when a unit enters a location."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "92e19ff4deb9",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "14a43a17bd3d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Therefore, movement never gets stopped by intercept, and speedy units with Movement +X can slip by defenses."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "26a9e53bbdb8",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "2c84d737b01a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "\"You\" means the player, so for [[Deathspeaker]], [[Enchantress]], [[Templar]], and [[Sparkmage]], any of your spellcasters can cast the spell, not just your avatar."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "482abc020d72",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "c7ee86f5932d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Stealth breaks when you interact with the realm. Non-minions can't have stealth."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "2f9b91e557da",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "89f1790f329c",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "A unit can't activate the Drop ability after they interact with the realm in a given turn."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "63e61915e773",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f52e60bff2b1",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Airborne works on avatars!"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "bc51b9f27c0c",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "02e55bcaa2fc",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Immobile means can't move itself. Immobile units can now attack and defend at their location."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "7724c000363f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "02b72b3981e0",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Units that carry other units - if the carried unit can't move in the chosen direction, the unit doing the carrying still moves. If the two units then don't share a location, the carried unit is automatically dropped."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "de429d0f9dcc",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "d0d32e6e0cc9",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Auras can be cast to anywhere, including all void if desired."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c416455b3d28",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "bd9fa1a08c8a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Oversized units (often called large units in the past) have an official term. Also, effects that specify \"its site\" or \"its location\" mean \"a site it occupies\" or \"a location it occupies\" for oversized units. This is relevant for cards like [[Spin Attack]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "4368b72606ce",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e426bebc200d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified how ((cost)) is calculated, including alternate costs like [[Aramos Mercenaries]] combined with [[Maddening Bells]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "b46328764d4f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "9181047d740d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified the application of ongoing effects, which changed some previous FAQs, like [[King of the Realm]] vs. [[King of the Realm]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "fc3c4ba636c4",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "cf5c51fb8330",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified application of damage replacement and damage prevention effects."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "af117ea609cb",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "b683675b1b17",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Replacement effects always go first (e.g. Lance, [[Critical Strike]], [[Golden Harp]], and get ordered by the controlling player as they wish. Damage prevention effects (e.g. [[Shield Maidens]], [[Tufted Turtles]]) always go last."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "58090e1fd2f1",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e3459d64b5f8",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "As if adjacent effects allow the controller to choose the cardinal direction."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "430d8c8f76de",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f58e47157841",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified kill credit."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "6291a0ee9341",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "a14a210bd35d",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "FAQ Changes"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "decd8572ab2e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "74c103342f50",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Removed many superfluous FAQs that are covered directly by the codex."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "2456130b3378",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "25be1c4055b5",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Battlemage]] and [[Sea Raider]] abilities trigger for each minion they attack and kill, even if multiple minions defend the attack, or they get kill credit in other ways during the attack (e.g. [[Flaming Sword]])."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c318e866fc49",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "60e3688fd357",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Seirawan Hydra]] is immune to non-lethal damage, as in the keyword. So even a [[Major Explosion]] or a strike from [[Great Old One]] isn't enough to kill it. Of course, a single point of damage from [[Pit Vipers]] or [[Poison Nova]] will still kill it, or being underwater, underground, etc., and it's still vulnerable to [[Mesmerism]], [[Infiltrate]], etc."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "0f6ea048d83e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "56fda143019d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Merlin]]'s ability is clarified to be a passive ability, so you can look at your top spell any time on your turn, but you can still only cast a spell when it's normally allowed."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f4e4583d3125",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "855d76aa9746",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Typically you can only cast spells during your main phase."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "3f119d820ab9",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "c25ab5070ab1",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If a [[Crave Golem]] were attacking during your Start Phase, you could use Merlin's ability to cast a [[Dodge Roll]] then. Let me know if you ever do that in a real game! -Ira"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "fa0e2fa8ff4e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7d37d3ee9088",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that [[Awakened Mummies]] cause a fight when they unburrow."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c1fe742e842f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "aff23a641e97",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified [[Crave Golem]]'s ability."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "e4aa04f54cf6",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "d52b9581f953",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Some cards were updated, including:"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "44c5624c8e42",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "a609e6452937",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Askelon Phoenix]]"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "46a2e05446c3",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "528229146d37",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Druid]]"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "11882bc95d9b",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "6b4594315847",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Updraft Ridge]]"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "8a0ee9422389",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "fae916840166",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Archimago]]"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "03f0fe2e34fc",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4880c87ee567",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Geomancer]]"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "be1606d65089",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "67e7ce1dbf6a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Vivien the Enchantress]]"
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Changelog - July 10, 2025"
-            },
-            {
-                "_key": "fd09d2f53a10",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "8cbe93c5e680",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "ef9ccb183e6d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added Dragonlord FAQs!"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Changelog - August 3, 2025"
-            },
-            {
-                "_key": "103e34aef072",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "09577107f1ee",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "c285d4b44931",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Cards with updated text now show that updated text immediately when you click on them."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f4b194a01d28",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "78a132617ad7",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "FAQs with \"treat it as\" text have been removed, since the updated text now serves that purpose."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "58dd4cfb7876",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e4f1981aa960",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "The most significant updated card is [[Druid]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "29fac8104918",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "08f16e6b97e4",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "The majority of updated cards are minor updates for rules clarity or design intent, e.g. [[Magnetic Muzzle]] uses the keyword \"silence\" now."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "68e5a0a053c0",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "bd1d4fe2ba50",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "You can see all the updated cards in the \"((Updated Cards))\" Codex entry, as well as doing a card search for the word \"updated.\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "aaa95065679f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "210ac2dc4ed4",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Note that [[Skirmishers of Mu]] are played as-written. See its FAQs for clarity."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "be04cab714f6",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "c6db6edde982",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated the definition of ((basic movement)) to include all basic abilities, i.e. Move and Attack, and Defend."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Changelog - November 25, 2025"
-            },
-            {
-                "_key": "922b68d6a6dc",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "644f39282554",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "da1b50cdaffb",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "FAQ"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f92932339cb9",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f9f0aca67bf5",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added Gothic FAQs! Have fun!"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "63ad8117af95",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "6baec65596c7",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Land Deed]] when carried by an oversized unit now only affects a single site, which matches design intent."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "94a7d75deca0",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f340b2920bf9",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that [[Twist of Fate]] is not healing."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c2ed048a3d42",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "2ca97ddb8168",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "Codex"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c9941e0c0621",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "40843d39c8f8",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Spellbook)), which must contain 60 or more spells."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "0ab64de2d070",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "6d72c6e2c984",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added ((Collection))."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "7ccc6df6436e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "653d3911617b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added ((Evil))."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "a19947baee3a",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "ec5cd1c39975",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added ((Ward))."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1d9bfa41ce64",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f06ca6faf1ae",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Transform)) to clarify that Ward tokens carry over just like Stealth tokens when a minion is transformed."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "d035c4e5ff8b",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "833ec8bd1a70",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Stealth)) so that artifacts cannot be targeted while they're carried by a minion with Stealth."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "741389c304f2",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "23a24e1c0436",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that if you're on ((Death's Door)) without actually being at 0 life (e.g. [[Orpheus' Crossing]]), you can still take damage and lose life."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "86b02d63a5d5",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "1160c5529d44",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that you can still take damage the turn you go to Death's Door, you just won't die. For example, if you put me on Death's Door and then later that same turn you strike my Avatar with a [[Daperyll Vampire]], I still take the 4 damage and you could heal."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "6d817613bd48",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "adadd7e0f656",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "The Pick Up basic ability now targets the picked up unit. This is relevant for [[Bodach Bogeyman]] when trying to pick up Stealth minions. Note that Warded minions can still be picked up by the Bogeyman, since Pick Up is a basic ability, not a special ability (and then their Ward would go away when they're disabled)."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1ac9455fd58f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "87646e3867ca",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Also clarified that an Oversized Unit may simultaneously Pick Up from all locations it occupies."
-                            }
-                        ],
-                        "level": 2,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "be07f2130a87",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "b461ea9658d3",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Changed \"takes X less damage\" to be considered an effect ((preventing damage)) and thus always gets applied after effects ((modifying damage)). (This isn't really a change, just a correction to make the rules function as we intended all along and to match player intuition.)"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f61067fd1456",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e65ab8a59263",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that size is a characteristic and thus isn't silenced. Relevant to only a few cards, e.g. [[Megamoeba]] and [[Yog Sothoth]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "bb56219e2ae9",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "594136bc1cb2",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Cost)) and added \"((For Free))\" to clarify how to cast spells ((for free)). This is a minor powerup to a [[Deathspeaker]] on Death's Door while also nearby [[Maddening Bells]], so that (0) really means (0)!"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "7a45f9f5c9f4",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4f5525b75674",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Can't Be Modified)) to clarify how it applies to minions like [[Monks of Kobalsa]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "6e5c90e908f0",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "a9942e182fc6",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Moving to a Specific Location Via a Special Ability or Magic))\" as a subcodex of ((Move)) to provide a consistent way to deal with effects like [[Giant Shark]], [[Mount Ussar Sanctuary]], [[Guardian Angel]], [[Darkest Dungeon]], [[Harpyon Urge]], etc."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1c48ac2c8853",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "9b0fce7b2fe8",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added a Codex entry for \"((Must Be Cast))\" (which also covers \"Must be Summoned\") to clarify that it's an additional restriction, and you still must choose your own site as well. Relevant for cards like [[Mephistopheles]], [[Weathered Trunks]], [[Cerberus in Chains]], [[Algor Omphalos]], etc."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "2d125c433284",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "e65312313f6b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"fully heal\" to clarify that it wins over [[River of Blood]], and really does fully heal."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "3c67b6bd9557",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4899f18b5395",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that when you ((transform)) a card, control of that card doesn't change by default. E.g. if you [[Pollimorph]] my minion, I still control the resulting Frog token. If you [[Desecrate]] my site, I still control the resulting [[Desecrated Ground]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "ff2fa75959f8",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "65a71a04d50b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Lasts 3 of Your Turns))\" so that it applies consistently to [[Entangle Terrain]], [[Falling Star]], etc."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "e4113de68cad",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "caa35a4e14ed",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that \"((allied)) Ward\" means \"a Ward on a card you control.\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "345abacbc86a",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7a2541aadaf6",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that \"((Forced Movement))\" cannot cause a card to change regions."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "8268baec16ba",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7c414a6234ad",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"shoot\" and \"throw\" (in the context of a projectile) to \"((Phrases that are Synonymous)).\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c530265960a8",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "527cdbc97924",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Closest))\" for [[Persecutor]] (and [[Crave Golem]])."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "4a660b862475",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f573667798bc",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Can't Drop))\" for cards like [[Blade of Thorns]], [[Tabula Rasa]], etc."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "bb471c7ae869",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4cf45d9ff838",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified ((End Phase)) to specify when \"after each turn\" effects resolve. Just for you, updated [[Torshammar Trinket]]!"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "0271284a6599",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "c4d27c9db605",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated \"((Atop))\" to acknowledge the alternate meaning from [[The Base of Babel]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "15c0cca66990",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "bbba1e9dd1e7",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated \"((Disabled))\" to include disabled sites, e.g. [[Blightstone]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "7bfb31b5afc0",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "b812215a89d8",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Only It Can Cast))\" to unify how to handle cards like [[Char Omphalos]], [[Morgana Le Fay]], and [[Archangel Gabriel]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "fddf706fa1fb",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "d2672aa58444",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Empty Site)).\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c5f2cf2a3929",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "a17e2bd61471",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Pay Life)).\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "e23ace2a38dd",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "96a359f508c3",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Avatar Characteristics)) to clarify that Avatars can only enter surface locations (instead of preventing them from entering non-surface regions). That is, they can enter other regions as long as those regions are also part of the surface region, e.g. [[The Void]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "243ed796db4f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7b1cf367ade2",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that ((Wounded)) for minions means taking damage this turn."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "503d5b7ee7df",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "16a3e79189e3",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added \"((Break Stealth)).\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Changelog - December 5, 2025"
-            },
-            {
-                "_key": "463f5a4e8c2c",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "ab39e779cf34",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "993e4febbdb9",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "FAQ"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "3ce55e9c4cde",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "fe9a73d25011",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Corruptor]] corrected to match design intent: minions gain the new type, and retain their original type as well. For example, a [[Lugbog Cat]] will be a Beast Monster and thus [[Pond]] will still function even with [[Corruptor]], and [[Bower of Bliss]] will still silence a Mortal Undead [[Grandmaster Wizard]]."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "c01d3b7d5f6e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "fb7170cad27e",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Imposter]] clarified that it can wear masks of avatars with pre-game or setup abilities, and those setup abilities do not trigger since the game has already begun (e.g. [[Pathfinder]] is fine even though your atlas has duplicates, you don't get to pick a Dragon for [[Dragonlord]] or roll for summoning portals as [[Harbinger]], your decks remain as-is for [[Magician]], etc.)"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "b5d89a9963c1",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "5996dfdc0562",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Fixed the [[Persecutor]] FAQ and ((Ward)) definition that gave an example of Persecutor branding its own minion (which is not possible)."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "eb4221c9dd16",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "6f1c9bb30fb7",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that [[Pith Imp]] steals the card to a separate zone, not to your hand. You can only cast it if Pith Imp becomes a spellcaster."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "43a3942bf662",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "29df73754ae2",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[The Void]] clarified targeting while occupying this site, and your opponent casting Voidwalk minions to this site."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "3ac6d5f1ac08",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "dfe129fa9b46",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Castle Haunt]] clarified what happens if it survives leaving its summoning site, and what happens if it's not summoned to a site in the first place (e.g. [[Lucid Dreamers]])."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "d9ba651468b3",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "0b9650ea65f0",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified that when [[Dragonlord]] gains [[Ignis Rex]]'s ability, the Dragonlord will indeed deal fire damage (and same for [[Adtonitum]] and air damage)."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "7111a0983b95",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "05a014929e69",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Removed superfluous comment in [[Bodach Bogeyman]]'s FAQ; minions are dropped in the Bogeyman's location, not adjacent."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f073ed9007e1",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "acf768726ae1",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Locusts of Illyria]] clarifying that you get one copy the first turn they're summoned; \"new Locusts\" refers to Locusts summoned by the triggered ability."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "4848c6855559",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "90055899f57c",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Jack the Ripper]] clarifying he's a Monster (and Mortal)."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "bfc297428f7d",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "db1058e7cacd",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Animist]] casting a Magic as a Minion spell plus [[Orb of Ba'al Berith]]. (Orb doesn't copy it, because it's effectively a Minion spell, not Magic.)"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "3bb276e9d740",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "6fce8ddaebdd",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Gilman House]] clarifying multiple uses per turn is allowed."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "5ed17cfe506b",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "bff46d5f12de",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Sow the Earth]] clarifying mana from effects like a [[Lone Tower]]'s genesis or [[Abundance]] will also be doubled."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "d29b6f6ceb92",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "03a4ca213d50",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Symmetric Suffering]] clarifying how to handle cards with multiple types (e.g. an Automaton that is a minion and an artifact)."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "2c80be33c7e7",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "02374b6dc18b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Mismanaged Mortuary]] clarifying that you always put cards into the cemetery you own."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f4d35613d3ef",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "fc07427f675b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added FAQ for [[Lord of Greed]] clarifying how his effect works."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "0afcb1bbba12",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "28a56cf8256e",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "Codex"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "44e90edf3b4b",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "d3c803a33d36",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Sacrifice)), changing the way destruction prevention effects and sacrifice interact. Now, sacrifice takes priority and effects that prevent destruction (e.g. Ward, Lady Iseult, etc.) will not save a sacrificed card! Also reminded players that sacrificed cards count as dying (which was already noted in the \"((die))\" entry). Updated [[The Doom of Dilmun]] FAQ to match."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "47c81b60e379",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "59ed35833040",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Disabled)) to clarify that disabled minions cannot deal damage (e.g. [[Abyssal Assault]])."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "60c4cb64af97",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "70375afe2613",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Fixed \"((Oversized Units))\" section that previously said there were exceptions to size being a characteristic; it's always a characteristic now and won't change if silenced or disabled."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1ba0e8efaca1",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "35037d45b21e",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Added Ward as an example of a replacement effect that can protect from death in the \"((Die))\" entry."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f4667e94433c",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "72efa63e955a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified how to order multiple cards with passive abilities entering the realm simultaneously, e.g. [[Boneyard]]. See \"((Apply Ongoing Effects in Order)).\""
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "e90665829231",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4ab86436d2cf",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified \"((How to Handle Dependencies))\" when applying ongoing effects."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "9d1417d19797",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f21d0f1968b2",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Updated ((Zone)) to include ((Collection))."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "8d413099f964",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "a1902feb31f0",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified \"((Stops))\" to include rules for units being carried by other units, matching player intuition."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "4cab1e12a702",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4152aa806c20",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Clarified \"((Cost))\" when casting using alternate costs other than \"for free,\" like [[De Vermis Mysteriis]], and added FAQ too!"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Changelog - December 21, 2025"
-            }
-        ],
-        "title": "Changelog"
     },
     {
         "_createdAt": "2025-03-30T16:47:01Z",
@@ -7189,15 +5246,15 @@
     {
         "_createdAt": "2025-03-24T19:45:00Z",
         "_id": "d54c08da-2107-484a-9f68-123bb62581b5",
-        "_rev": "FWoaewO3AQZvYTIadMI7Gy",
+        "_rev": "9CUWpgoW5Q44hTUbbHGfYP",
         "_system": {
             "base": {
                 "id": "d54c08da-2107-484a-9f68-123bb62581b5",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "FWoaewO3AQZvYTIadMI7Gy"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-01-04T19:24:20Z",
+        "_updatedAt": "2026-02-09T18:39:27Z",
         "content": [
             {
                 "_key": "bbc91be1ceb7",
@@ -7333,6 +5390,7 @@
             }
         ],
         "field": "rulesText",
+        "finder": "damage,damaged",
         "interlinking": true,
         "subcodexes": [
             {
@@ -8334,15 +6392,15 @@
     {
         "_createdAt": "2025-01-21T03:00:23Z",
         "_id": "08fff20b-76c1-45c3-b13f-989202cdacf0",
-        "_rev": "kOTnyjIH1b2lIev2mZPWpX",
+        "_rev": "LMVXo7FMYpSQSPwXD8KEMI",
         "_system": {
             "base": {
                 "id": "08fff20b-76c1-45c3-b13f-989202cdacf0",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "kOTnyjIH1b2lIev2mZPWpX"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-10T07:35:13Z",
+        "_updatedAt": "2026-02-09T18:40:10Z",
         "content": [
             {
                 "_key": "95370634c1c1",
@@ -8352,7 +6410,7 @@
                         "_key": "030bd0f399e6",
                         "_type": "span",
                         "marks": [],
-                        "text": "While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs.\n\nA disabled minion may be moved forcefully as long the disabled minion does not take one of its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.\n\nDisabled is not an ability itself and is not removed by silenced effects (e.g. [[Silence]])."
+                        "text": "While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.\n\nA disabled minion may be ))moved(( forcefully as long the disabled minion does not take one of its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.\n\nDisabled is not an ability itself and is not removed by silenced effects (e.g. [[Silence]])."
                     }
                 ],
                 "markDefs": [],
@@ -9680,15 +7738,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "6c4c8d4d-e954-4018-bc7b-e32b85a6829b",
-        "_rev": "ZpVaiE4pJy6g57SU6fwBpf",
+        "_rev": "08Phwy2JNx8pNx4wfC8nbZ",
         "_system": {
             "base": {
                 "id": "6c4c8d4d-e954-4018-bc7b-e32b85a6829b",
-                "rev": "ddCziRH2Fm886tLDwtn5d9"
+                "rev": "ZpVaiE4pJy6g57SU6fwBpf"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T19:02:24Z",
+        "_updatedAt": "2026-02-09T06:23:51Z",
         "content": [
             {
                 "_key": "e875d36d0d63",
@@ -9726,7 +7784,7 @@
                         "_key": "62922afd56e0",
                         "_type": "span",
                         "marks": [],
-                        "text": "If you cast a spell that costs X \"for free\" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal 0. But, if spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell."
+                        "text": "If you cast a spell that costs X \"for free\" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal zero. But, if spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell."
                     }
                 ],
                 "markDefs": [],
@@ -10079,9 +8137,15 @@
     {
         "_createdAt": "2025-03-24T19:47:47Z",
         "_id": "0cfac092-e152-4b50-9eb6-c772a8e717b8",
-        "_rev": "OVwv9CvZAhvcLZb6pGC3ed",
+        "_rev": "9CUWpgoW5Q44hTUbbHGiaU",
+        "_system": {
+            "base": {
+                "id": "0cfac092-e152-4b50-9eb6-c772a8e717b8",
+                "rev": "OVwv9CvZAhvcLZb6pGC3ed"
+            }
+        },
         "_type": "codex",
-        "_updatedAt": "2025-06-07T04:35:33Z",
+        "_updatedAt": "2026-02-09T18:39:47Z",
         "content": [
             {
                 "_key": "f55dc6e20046",
@@ -10141,6 +8205,7 @@
             }
         ],
         "field": "*",
+        "finder": "hand,hands",
         "interlinking": false,
         "subcodexes": null,
         "title": "Hand"
@@ -12003,6 +10068,47 @@
         "interlinking": true,
         "subcodexes": null,
         "title": "Location"
+    },
+    {
+        "_createdAt": "2026-02-06T20:49:58Z",
+        "_id": "0f71f26a-a091-4fb2-9dcc-bcfed14f282a",
+        "_rev": "sUoj7uhqXTsr7OTcIoh63n",
+        "_type": "codex",
+        "_updatedAt": "2026-02-09T18:41:41Z",
+        "content": [
+            {
+                "_key": "28fa09b1dd61",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "6f4d6c08a027",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "When a card instructs you to \"look at\" cards in a zone, you do not reveal those cards to other players, only you look at them.  This is similar to, but distinct from, a \"search.\""
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "96a478a11187",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "8667830b7836",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Whenever you return cards that you have looked at to a deck, you may put them back in any order unless the effect specifies otherwise."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "*",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Look At"
     },
     {
         "_createdAt": "2025-03-24T19:48:42Z",
@@ -14447,15 +12553,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "31be3c09-84b6-4ff4-bb37-18b00e77e77e",
-        "_rev": "ddCziRH2Fm886tLDwtxq16",
+        "_rev": "Ltaay2MHVgCBDdNbMiIHCp",
         "_system": {
             "base": {
                 "id": "31be3c09-84b6-4ff4-bb37-18b00e77e77e",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "ddCziRH2Fm886tLDwtxq16"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T19:14:16Z",
+        "_updatedAt": "2026-01-22T06:28:30Z",
         "content": [
             {
                 "_key": "27cf304b6e17",
@@ -14521,7 +12627,7 @@
                         "_key": "d1ffdf5d8a98",
                         "_type": "span",
                         "marks": [],
-                        "text": "If the special spellcaster may cast the spell, even if they don't normally have spellcaster, e.g. the allied minion blessed by [[Archangel Gabriel]]."
+                        "text": "The special spellcaster may cast the spell, even if they don't normally have spellcaster, e.g. the allied minion blessed by [[Archangel Gabriel]]."
                     }
                 ],
                 "markDefs": [],
@@ -17673,9 +15779,15 @@
     {
         "_createdAt": "2025-03-30T04:10:26Z",
         "_id": "fc2e5653-d210-4ba9-9280-57f2baeaedfd",
-        "_rev": "OVwv9CvZAhvcLZb6pGCq0U",
+        "_rev": "LMVXo7FMYpSQSPwXD8LDZ3",
+        "_system": {
+            "base": {
+                "id": "fc2e5653-d210-4ba9-9280-57f2baeaedfd",
+                "rev": "OVwv9CvZAhvcLZb6pGCq0U"
+            }
+        },
         "_type": "codex",
-        "_updatedAt": "2025-06-09T19:54:57Z",
+        "_updatedAt": "2026-02-09T18:41:44Z",
         "content": [
             {
                 "_key": "cff731a17810",
@@ -17685,7 +15797,7 @@
                         "_key": "040625c0f0af",
                         "_type": "span",
                         "marks": [],
-                        "text": "Searching a zone (e.g. [[Adept Illusionist]]) allows you to look at the cards in those zones and potentially find something."
+                        "text": "Searching a zone (e.g. [[Adept Illusionist]]) allows you to ))look at(( the cards in those zones and potentially find something.  Only effects which use the word \"search\" are considered to be searching a zone."
                     }
                 ],
                 "markDefs": [],
@@ -17700,6 +15812,34 @@
                         "_type": "span",
                         "marks": [],
                         "text": "If you search a public zone, then you must find what you're searching for, if possible. If you search a private zone, then you may choose to fail to find what you're searching for, even if it exists in that zone."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "b1afec6267a7",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "538891d8545f",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "When returning cards you have searched through to the top or bottom of a deck, specifically, you may choose the order for them."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "1e0e81489468",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "f625ff55a177",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Some search effects say \"shuffle if needed.\"  This is usually because the effect gives you the option to search a private zone, and/or public ones.  If you choose to search a private zone, you must shuffle afterward, but if you only search a public zone, you do not shuffle.  For instance, if you use [[Adept Illusionist]]'s ability to summon another copy from your cemetery and do not search your spellbook, you do not shuffle your spellbook."
                     }
                 ],
                 "markDefs": [],
@@ -17935,15 +16075,15 @@
     {
         "_createdAt": "2025-03-24T19:57:03Z",
         "_id": "5e633a96-c807-4915-be05-e83cacfcbfd6",
-        "_rev": "OVwv9CvZAhvcLZb6q9zS6p",
+        "_rev": "sUoj7uhqXTsr7OTcIoe6aV",
         "_system": {
             "base": {
                 "id": "5e633a96-c807-4915-be05-e83cacfcbfd6",
-                "rev": "TErrISLPjz1kwp8pztB1zf"
+                "rev": "OVwv9CvZAhvcLZb6q9zS6p"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-14T19:45:10Z",
+        "_updatedAt": "2026-02-09T18:39:22Z",
         "content": [
             {
                 "_key": "76c26b90b745",
@@ -18030,6 +16170,34 @@
                 "style": "normal"
             },
             {
+                "_key": "b5ce435369c2",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "60daede16171",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If a site is played to a void square occupied by minions or artifacts, the site springs into being under them.  Those minion and artifacts end up on the surface of the site, and do not count as having entered the site or location."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "fc54933e09fb",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "7426a1472f38",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If a site is played to rubble that is occupied by minions or artifacts, those minions and artifacts will end up in the same relative position they had to the rubble (i.e. occupying the sub-surface or surface)."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
                 "_key": "d63aab158640",
                 "_type": "block",
                 "children": [
@@ -18049,6 +16217,33 @@
         "interlinking": true,
         "subcodexes": null,
         "title": "Site"
+    },
+    {
+        "_createdAt": "2026-02-02T02:12:20Z",
+        "_id": "4d00cfac-df9c-417c-80c8-40bce04a46a8",
+        "_rev": "LMVXo7FMYpSQSPwXD8K9uU",
+        "_type": "codex",
+        "_updatedAt": "2026-02-09T18:39:11Z",
+        "content": [
+            {
+                "_key": "65e1a306c760",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "de54a06888a6",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "A Skeleton is a token minion with 1 power.  A Skeleton is an Ordinary Undead and an ((air)) minion.  For example, [[Open Mausoleum]]."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Skeleton Token"
     },
     {
         "_createdAt": "2025-03-24T19:41:55Z",
@@ -19138,15 +17333,15 @@
     {
         "_createdAt": "2025-07-30T04:21:32Z",
         "_id": "a8c1b7eb-e60a-4087-8715-ea6799593ea2",
-        "_rev": "KHnr3gvBiZnksMpgfYM1i5",
+        "_rev": "sUoj7uhqXTsr7OTcIoe8d1",
         "_system": {
             "base": {
                 "id": "a8c1b7eb-e60a-4087-8715-ea6799593ea2",
-                "rev": "aRLdVXqaZRdNyTt5ek2fJR"
+                "rev": "KHnr3gvBiZnksMpgfYM1i5"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-19T19:52:16Z",
+        "_updatedAt": "2026-02-09T18:39:34Z",
         "content": [
             {
                 "_key": "7bc4560cdf10",
@@ -19206,6 +17401,7 @@
             }
         ],
         "field": "rulesText",
+        "finder": "stop,stops,stopping",
         "interlinking": true,
         "subcodexes": null,
         "title": "Stops"
@@ -20675,15 +18871,15 @@
     {
         "_createdAt": "2025-03-29T20:30:55Z",
         "_id": "8bb6e5a1-6989-4ec1-98d7-ef50283cccf6",
-        "_rev": "TErrISLPjz1kwp8pzhi6gN",
+        "_rev": "sUoj7uhqXTsr7OTcIohOTr",
         "_system": {
             "base": {
                 "id": "8bb6e5a1-6989-4ec1-98d7-ef50283cccf6",
-                "rev": "OVwv9CvZAhvcLZb6pGO6CR"
+                "rev": "TErrISLPjz1kwp8pzhi6gN"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T19:54:22Z",
+        "_updatedAt": "2026-02-09T18:42:42Z",
         "content": [
             {
                 "_key": "7bd8708cc991",
@@ -20722,6 +18918,20 @@
                         "_type": "span",
                         "marks": [],
                         "text": "Split power units deal damage equal to their attack power when they strike."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "a2b3593f7665",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "ea958118c393",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Sometimes the striking unit and the unit being struck are at different locations, and some effects (e.g. [[Mask of Mayhem]]) care about the location of the strike. For clarity, the strike occurs at the location of the unit being struck."
                     }
                 ],
                 "markDefs": [],
@@ -20787,6 +18997,41 @@
                     }
                 ],
                 "title": "Strikes for Zero Damage"
+            },
+            {
+                "_key": "789d3177aadd",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "3f87a6b036d3",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "d897c09eb1c1",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Some effects care about a unit's \"next strike\" or \"the next time it strikes.\"  If the unit is making multiple strikes at the same time (from an effect like [[Whirling Blades]] or [[Leap Attack]]) then all of those strikes are considered the \"next strike.\"  This means that a unit with a Lance that is affected by [[Spin Attack]] will deal one extra damage on each of it's strikes."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "433ad8e1bb7a",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "95b82e6326d8",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Note that this is different from attacking while there are multiple defenders. In that case, the attacker makes a single strike, and the damage is split among the defenders."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Multiple Simultaneous Strikes"
             }
         ],
         "title": "Strike"
@@ -20794,15 +19039,15 @@
     {
         "_createdAt": "2025-03-29T20:34:26Z",
         "_id": "aaa76e05-0cbc-4114-ad1c-411eeec89eea",
-        "_rev": "TErrISLPjz1kwp8pzhRsy3",
+        "_rev": "LMVXo7FMYpSQSPwXD8LITt",
         "_system": {
             "base": {
                 "id": "aaa76e05-0cbc-4114-ad1c-411eeec89eea",
-                "rev": "gU9bhb6O12NIfsOGiKhFqg"
+                "rev": "TErrISLPjz1kwp8pzhRsy3"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-30T18:16:04Z",
+        "_updatedAt": "2026-02-09T18:42:37Z",
         "content": [
             {
                 "_key": "31caed682fa6",
@@ -20834,7 +19079,7 @@
                         "_key": "9f2b12bde072",
                         "_type": "span",
                         "marks": [],
-                        "text": "By using one step, a minion with Submerge can move between the surface and subsurface of a water site, or between adjacent underwater locations."
+                        "text": "By using one step, a minion with Submerge can move between the surface and subsurface of a water site, or between adjacent underwater locations. A minion with both the Burrowing and Submerge abilities can move directly from an underground location to an underwater location in an adjacent square, and vice versa, in one step."
                     }
                 ],
                 "markDefs": [],
@@ -21192,15 +19437,15 @@
     {
         "_createdAt": "2025-03-30T04:01:53Z",
         "_id": "4b73c89d-914a-4911-a73b-1ae905e4a398",
-        "_rev": "OVwv9CvZAhvcLZb6pGCKaY",
+        "_rev": "LMVXo7FMYpSQSPwXD8KBxV",
         "_system": {
             "base": {
                 "id": "4b73c89d-914a-4911-a73b-1ae905e4a398",
-                "rev": "gzcTUvinGX6KlBImCaT98v"
+                "rev": "OVwv9CvZAhvcLZb6pGCKaY"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-30T05:41:29Z",
+        "_updatedAt": "2026-02-09T18:39:57Z",
         "content": [
             {
                 "_key": "1819416bf9d0",
@@ -21210,7 +19455,7 @@
                         "_key": "9ba1df03cfec",
                         "_type": "span",
                         "marks": [],
-                        "text": "Cards in the realm can be tapped as a cost to activate various abilities. A player may also need to tap a card as a cost related to spells or abilities on other cards. A minion with summoning sickness cannot tap or be tapped to pay costs (but may be tapped directly by other effects, e.g. [[Grievous Insult]])."
+                        "text": "Units in the realm can be tapped as a cost to activate various abilities. A player may also need to tap a unit as a cost related to spells or abilities on other cards. A minion with summoning sickness cannot tap or be tapped to pay costs (but may be tapped directly by other effects, e.g. [[Grievous Insult]])."
                     }
                 ],
                 "markDefs": [],
@@ -21224,7 +19469,7 @@
                         "_key": "fb684d1b433a",
                         "_type": "span",
                         "marks": [],
-                        "text": "To tap a card, turn a it 90° to the right, from an upright position. Only untapped cards in the realm can be tapped."
+                        "text": "To tap a card, turn a it 90° to the right, from an upright position. Only untapped units in the realm can be tapped."
                     }
                 ],
                 "markDefs": [],
@@ -21232,6 +19477,7 @@
             }
         ],
         "field": "rulesText",
+        "finder": "tap,tapped,tapping",
         "interlinking": false,
         "subcodexes": null,
         "title": "Tap"
@@ -21239,15 +19485,15 @@
     {
         "_createdAt": "2025-06-08T03:43:48Z",
         "_id": "98943611-2a6f-4756-ad9b-a7d6598e9729",
-        "_rev": "OVwv9CvZAhvcLZb6pGCaMz",
+        "_rev": "08Phwy2JNx8pNx4wf5BJTt",
         "_system": {
             "base": {
                 "id": "98943611-2a6f-4756-ad9b-a7d6598e9729",
-                "rev": "PGuKHklOLtxRgLs58HvgQK"
+                "rev": "OVwv9CvZAhvcLZb6pGCaMz"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-09T23:51:09Z",
+        "_updatedAt": "2026-02-08T21:30:22Z",
         "content": [
             {
                 "_key": "990fb2df698d",
@@ -21299,7 +19545,7 @@
                         "_key": "f84f85b9ad0a",
                         "_type": "span",
                         "marks": [],
-                        "text": "You must declare a legal target as the effect goes on the storyline, and the legality of the target is checked again when the effect actually resolves. If you cannot declare a legal target when the spell or ability would enter the storyline, the spell isn't actually cast and the ability can't be used."
+                        "text": "You must declare a legal target as the effect goes on the storyline, and the legality of the target is checked again when the effect starts to resolve. If you cannot declare a legal target when the spell or ability would enter the storyline, the spell isn't actually cast and the ability can't be used."
                     }
                 ],
                 "markDefs": [],
@@ -22664,9 +20910,15 @@
     {
         "_createdAt": "2025-03-30T04:02:14Z",
         "_id": "28aa5f89-96ed-4d96-8276-578f65920d8b",
-        "_rev": "Y3ZKz7xA6Z0oNIVqRM8ooN",
+        "_rev": "LMVXo7FMYpSQSPwXD8L9DI",
+        "_system": {
+            "base": {
+                "id": "28aa5f89-96ed-4d96-8276-578f65920d8b",
+                "rev": "Y3ZKz7xA6Z0oNIVqRM8ooN"
+            }
+        },
         "_type": "codex",
-        "_updatedAt": "2025-06-16T19:41:28Z",
+        "_updatedAt": "2026-02-09T18:41:04Z",
         "content": [
             {
                 "_key": "10a60b892ab9",
@@ -22676,7 +20928,7 @@
                         "_key": "33b891f66d5a",
                         "_type": "span",
                         "marks": [],
-                        "text": "To untap a card, turn it upright. All of your cards in the realm untap during your Start phase."
+                        "text": "To untap a card, turn it upright.  Even though only units can tap, all of your cards in the realm untap during your Start phase (i.e. if they were previously units and are now no longer units, they still untap)."
                     }
                 ],
                 "markDefs": [],
@@ -23198,15 +21450,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "ae9b6774-aa8f-45c5-a424-d6d7e58014c3",
-        "_rev": "zvKrGaEbn7fmhmu7rPR0eI",
+        "_rev": "sUoj7uhqXTsr7OTcIoeHOh",
         "_system": {
             "base": {
                 "id": "ae9b6774-aa8f-45c5-a424-d6d7e58014c3",
-                "rev": "gqpUrOYcDmwy6M0j0oc9rT"
+                "rev": "zvKrGaEbn7fmhmu7rPR0eI"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-07T18:23:37Z",
+        "_updatedAt": "2026-02-09T18:40:15Z",
         "content": [
             {
                 "_key": "958ad495edff",
@@ -23324,7 +21576,7 @@
                         "_key": "2ff95d6b7b1d",
                         "_type": "span",
                         "marks": [],
-                        "text": "If a warded unit would take damage from multiple sources simultaneously, all simultaneous damage is prevented and the Ward breaks."
+                        "text": "If a warded unit would take damage from multiple sources simultaneously, all simultaneous damage is prevented and the Ward breaks. For example, when a minion with a Ward attacks and multiple units defend that attack."
                     }
                 ],
                 "level": 2,
@@ -23443,6 +21695,22 @@
                 "style": "normal"
             },
             {
+                "_key": "5e5b5e1448b1",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "237d93c30f99",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "A Ward also protects a location at a Warded site from being targeted. At the time the spell or special ability resolves, the Ward will break, and the location will be removed as a target."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
                 "_key": "716aa4e34da7",
                 "_type": "block",
                 "children": [
@@ -23521,6 +21789,7 @@
                 "style": "normal"
             }
         ],
+        "finder": "ward,warded,wards",
         "interlinking": true,
         "subcodexes": null,
         "title": "Ward"
