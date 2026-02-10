@@ -7,6 +7,6 @@ Only the controller of the special spellcaster can look at the spell. If the con
 
 If the special spellcaster leaves the realm, any remaining spells go to the cemetery.
 
-If the special spellcaster may cast the spell, even if they don't normally have spellcaster, e.g. the allied minion blessed by [[Archangel Gabriel]].
+The special spellcaster may cast the spell, even if they don't normally have spellcaster, e.g. the allied minion blessed by [[Archangel Gabriel]].
 
 [Codex Entry](https://curiosa.io/codex?id=31be3c09-84b6-4ff4-bb37-18b00e77e77e)

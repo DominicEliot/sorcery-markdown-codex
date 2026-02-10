@@ -1,7 +1,7 @@
 # Submerge
 **Keyword Ability. **A minion with Submerge can be summoned to underwater locations and survive underwater.
 
-By using one step, a minion with Submerge can move between the surface and subsurface of a water site, or between adjacent underwater locations.
+By using one step, a minion with Submerge can move between the surface and subsurface of a water site, or between adjacent underwater locations. A minion with both the Burrowing and Submerge abilities can move directly from an underground location to an underwater location in an adjacent square, and vice versa, in one step.
 
 For example, [[Coral-reef Kelpie]] can be summoned underwater to one of your water sites. Then, after their summoning sickness wore off, they could use their Move and Attack ability to take a step from underwater to the surface of that site (and that would use up their step). If they were on the surface of a water site, they could use their step to move from the surface to underwater of that site.
 

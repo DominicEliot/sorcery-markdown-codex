@@ -1,5 +1,5 @@
 # Carrying Units
-Normally, units cannot be carried by other units, but some effects allow it, e.g. [[War Horse]].
+Normally, units cannot be carried by other units, but some effects allow it, e.g. [[War Horse]]. Such effects are worded "may carry..." or "can pick up..." or similar, but all work in the same way.
 
 Such units have ))modified(( Pick Up and Drop basic abilities, as described in those codex entries. If such a unit loses the ability to carry other units, the carried units are immediately dropped.
 
