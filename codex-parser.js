@@ -28,4 +28,4 @@ for (let codex of fullCodex){
     fs.writeFileSync(path.join('markdown', codex.title + '.md'), markdown);
 }
 
-fs.writeFileSync(path.join('markdown', 'Full Codex.md'), singleFileMarkdown.trim());
+fs.writeFileSync(path.join('Full Codex.md'), singleFileMarkdown.trim());
