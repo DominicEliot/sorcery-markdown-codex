@@ -11,3 +11,5 @@ To update the underlying json file the following manual process needs to be perf
 4. Paste the contents into a text editor, preferibly with a json formatter like vs code
 5. replace the codex.json files with the entire "data" object (close/fold it to make this faster)
 6. Make sure to remove the `"data":` property so that your file starts `[` and ends with `]`, and no comma after the last ]
+
+_Note: Firefox users need to enable large response payloads to see the data in the inspection tool. This can be done be opening the `about:config` page and setting `devtools.netmonitor.responseBodyLimit` to a much higher value, or 0 to disable it all together._
