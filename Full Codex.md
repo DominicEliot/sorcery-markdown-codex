@@ -207,6 +207,13 @@ Auras have characteristics, specifically ((aura characteristics)), and are one o
 
 The "((Casting Auras))" entry has details on how to cast aura spells.
 
+## Moving Auras
+Some effects can move an aura by force (e.g. [[Windblast]]) and some auras can move themselves (e.g. [[Thunderstorm]]). Auras ignore the regional boundary between the surface and void when moving. ([[Wildfire]]'s "adjacent locations" are still defined by its current region.)
+
+For example, a [[Thunderstorm]] moves itself with its end-of-turn ability. It can take a step into the void with this movement, though not to the subsurface. Additionally, an aura being moved by force (e.g. [[Displace]] or [[Windblast]]) can be moved from surface locations to void locations, and visa versa.
+
+This only applies to non-minion auras. See "Cards with Multiple Types" for details on Aura Minions.
+
 [Codex Entry](https://curiosa.io/codex?id=1c5c02a4-586e-4bfd-99ce-11e9230ed140)
 
 # Aura minion
@@ -246,6 +253,13 @@ Basic movement is movement from any basic ability, i.e. Move and Attack, or Defe
 
 [Codex Entry](https://curiosa.io/codex?id=87da10a4-a269-4d30-a02a-8f3e52f924f5)
 
+# Bearer
+A unit holding a carriable artifact is its "bearer." Some artifacts grant abilities to their bearer, e.g. [[Sword and Shield]].
+
+If an artifact is also a minion (e.g. [[Clay Golem]]), it does not have a bearer even if it's being carried (e.g. [[War Horse]]).
+
+[Codex Entry](https://curiosa.io/codex?id=7905603d-dce8-48ad-9932-7bd31ebeedce)
+
 # Below
 At the subsurface of a site (not void).
 
@@ -275,7 +289,7 @@ When referring to the realm, bottom means the row closest to you. For example, [
 [Codex Entry](https://curiosa.io/codex?id=53d7e6bf-1f13-4f24-b290-9e213282968a)
 
 # Break Stealth
-"Break ))Stealth((" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]] means that the minion must have Stealth and voluntarily lose it as the cost of the activated ability.
+"Break ))Stealth((" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]], means that the minion must have Stealth and voluntarily lose it as the cost of the activated ability.  The ability is not activated if the minion loses Stealth for any other reason, such as interacting with the realm or being silenced.
 
 [Codex Entry](https://curiosa.io/codex?id=0a28f999-f406-478e-b396-61930bdd948a)
 
@@ -325,7 +339,7 @@ Note that [[Monks of Kobalsa]] can have their cost reduced (or increased) during
 [Codex Entry](https://curiosa.io/codex?id=5b78b0b7-6d27-421b-898e-cc69bd33771b)
 
 # Card
-When you are instructed to draw a **card**, you may choose to draw a spell from your spellbook or a site from your atlas. If you draw multiple cards at once (e.g. [[Pact with the Devil]]), choose how many of each you'll draw, then draw all of them simultaneously.
+Cards are the sites, spells, and avatars that are used to play a game of Sorcery. At the beginning of the game, all of your spell cards will be in your Spellbook, your site cards will be in your Atlas, and your collection will consist of cards you have selected to begin the game in that zone. The only card that begins in play is the Avatar you have selected to represent you during the game.
 
 If a game effect or rule references a **card** in the realm, it includes tokens as well.
 
@@ -536,7 +550,7 @@ _Pbatenghyngvbaf ba qrpvcurevat guvf pbqr ohevrq jvguva gur Pbqrk! Vs lbh QZ @Ve
 # Collection
 Your collection includes additional cards and is one of the zones in the game.
 
-You may look at your collection at any time. Your opponent may only know the number and type of cards in your collection.
+You may look at your collection at any time. Your opponent may only know the number of cards in your collection. The card back (Spell, Site, or Avatar) is hidden information while the card is in the collection. When the card moves to another zone (i.e. your hand) the information about its card back becomes public.
 
 **Constructed Format**  
 Your collection may contain up to 10 cards and must respect rarity limits.
@@ -545,6 +559,10 @@ Your collection may contain up to 10 cards and must respect rarity limits.
 Your collection includes all the unplayed cards in your card pool. Furthermore, whenever an effect specifies a _named _card in your collection, you simply get one as if it were in your collection. Take it from outside your card pool, using a substitute if needed.
 
 For example, if you play [[Troubled Town]], you may gain any Townsfolk and cast it. If you play [[Release the Hounds]], you gain two [[Hellhounds]]. On the other hand, if you use [[Toolbox]], you must only select from your unplayed ordinary cards, since no specific card is named by Toolbox's effect.
+
+**Casual Play**
+
+Your collection includes every card that you own outside of the game during casual play.
 
 [Codex Entry](https://curiosa.io/codex?id=78ce4090-a2e1-4893-97c0-6eaafd5c5937)
 
@@ -626,7 +644,7 @@ After applying all the damage modification, proceed to damage prevention.
 Damage prevention uses the words "prevent" or "immune," or the phrase "takes less damage," and applies after all other damage modification. Examples include:
 
 - Takes less damage, e.g. [[Shield Maidens]].
-- Prevent damage, e.g. [[Goswhit Helmet]].
+- Prevent damage, e.g. [[Goswhit Helmet]], ((Ward)).
 - Immune to damage, e.g. [[Lava Salamander]].
 
 After applying all damage modification effects, then apply damage prevention effects in the same way:
@@ -646,7 +664,9 @@ A damage grid may be rotated and reflected, though some effects may specify othe
 
 A damage grid affects each unit at the shown squares and **in the same region as the caster**, though some effects may specify otherwise. E.g. [[Craterize]] specifies "above and below." 
 
-An effect with a damage grid may be oriented so that the grid is partially outside the realm, as long as the source or origin square in the realm.
+By default, an effect with a damage grid may be oriented so that the grid is partially outside the realm, as long as the source or origin square in the realm.
+
+Damage grids do not inherently target sites or locations in the grid; effects will use the word "target" if they actually target a site or location.
 
 [Codex Entry](https://curiosa.io/codex?id=015d636e-716c-450e-9e17-abef557f3e4c)
 
@@ -729,18 +749,20 @@ If a Deathrite ability causes more cards to die, they are also marked for death,
   
 Players cannot choose to sacrifice or kill a card that is already marked for death. A card that is already marked for death cannot be marked for death again, and any effect that attempts to destroy or sacrifice that card fails. That card still only triggers its Deathrite ability once.  
   
-Cards that are sacrificed also count as being destroyed. They are marked for death following the same process outlined above.
+Cards that are sacrificed also count as being destroyed. They are marked for death following the same process outlined ))above((.
 
 [Codex Entry](https://curiosa.io/codex?id=56de42f7-3d67-4437-826c-6a89cd356458)
 
 # Disabled
 While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.  
   
-A disabled minion may be ))moved(( forcefully as long the disabled minion does not take one of its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.  
+A disabled minion may be ))moved(( forcefully as long the disabled minion does not take its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.  
   
 Disabled is not an ability itself and is not removed by silenced effects (e.g. [[Silence]]).
 
 If a site is disabled, it has no abilities and cannot provide any mana or affinity.
+
+If an artifact or aura is disabled, it has no abilities.
 
 [Codex Entry](https://curiosa.io/codex?id=08fff20b-76c1-45c3-b13f-989202cdacf0)
 
@@ -748,6 +770,17 @@ If a site is disabled, it has no abilities and cannot provide any mana or affini
 Dispel means to "die," for auras. See the "die" codex entry for more details.
 
 [Codex Entry](https://curiosa.io/codex?id=52381b7c-b7bc-4f71-a21e-30f2cfa49015)
+
+# Draw
+Drawing is the primary way of getting cards from your Spellbook or Atlas into your hand. It means to take a card from one of your decks and put it into your hand, resolving anything which may trigger from "drawing." Effects which say to put a card into your hand (e.g. [[Common Sense]]) do not trigger "draw" effects.
+
+Whenever you are instructed to draw a "card," you may choose to draw a spell from your spellbook or a site from your atlas. When you are instructed to draw a "spell," you must draw from your Spellbook, and when instructed to draw a "site" you must draw from your Atlas.
+
+If you are instructed to draw multiple "cards" by a single effect (e.g. [[Pact with the Devil]]), you must declare how many sites and how many spells you intend to draw before drawing any of them.
+
+Whenever you draw multiple cards, sites, or spells, you draw them one at a time and resolve any triggers after each individual card drawn (e.g. [[Chains of Prometheus]]).
+
+[Codex Entry](https://curiosa.io/codex?id=c50821a8-cb00-4270-a252-25e5f9c077c1)
 
 # Drop
 Drop is a basic, activated ability with the following text:
@@ -913,7 +946,7 @@ When you cast a spell "for free" it costs (0) mana and requires no additional co
 
 You must still meet the threshold requirements to cast the spell.
 
-If you cast a spell that costs X "for free" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal zero. But, if spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell.
+If you cast a spell that costs X "for free" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal zero. But, if the spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell.
 
 [Codex Entry](https://curiosa.io/codex?id=6c4c8d4d-e954-4018-bc7b-e32b85a6829b)
 
@@ -926,13 +959,13 @@ A unit being carried by another unit, e.g. [[War Horse]], is also forced movemen
 
 Effects that use the words drag, pull, or push are also forced movement, e.g. [[Unland Eel]] or [[Grapple Shot]].
 
-Teleportation is forced movement.
+Teleportation is forced movement. However, Teleportation effects can cross regional boundaries unless otherwise specified in their text.
 
 Effects that require a unit to take a step are **_not _**forced movement. For example, [[Led Astray]] is not forced movement, because the unit is taking their own step (and an Immobile unit wouldn't move at all). Confusingly, some lure effects on older cards use a phrase like "force an enemy to take a step towards," e.g. [[Coy Nixie]]. This is still **_not_** forced movement, since the unit is taking their own step, and an Immobile unit wouldn't move; "force" in these cases is being used in the normal English usage.
 
 The guiding principle for forced movement is whether or not the unit is taking their own step. If they aren't taking their own step, then it's forced movement!
 
-Unless specified by card text, forced movement cannot cause a card to change regions.
+Unless specified by card text, forced movement cannot cause a card to change regions (except for teleportation, which can change regions by default).
 
 [Codex Entry](https://curiosa.io/codex?id=8ffdae56-1aef-44f7-b9af-cdcbc334a377)
 
@@ -965,7 +998,7 @@ Do whatever is stated.
 # Hand
 Your hand contains spells and sites. There is no limit to the number of cards you may have in your hand, and their order is irrelevant.
 
-You may look at cards in your hand at any time. Your opponent is allowed to know how many cards of each type (spell or site) you have in your hand at any time.
+You may look at cards in your hand. Your opponent is allowed to know the card backs (spell or site) you have in your hand.
 
 For clarity of game state, if you are using card sleeves, you should use different sleeves for sites and spells.
 
@@ -1120,11 +1153,15 @@ Some effects care about who did the killing (e.g. [[Crown of the Victor]]). Only
 2. Did a unit just resolve a Magic spell they cast?
 3. Did a unit just activate or trigger an ability, including abilities granted by artifacts?
 
-If any of the above are true, in priority order, then that unit is the killer.
+If any of the above are true, in priority order, then that unit is the killer. Examples:
+
+- A [[Vile Imp]] resolves its Genesis ability, dealing two damage to a minion. The Imp gets credit for killing that minion under condition 1.
+- An Avatar casts [[Bury]], forcefully ))burrowing(( a minion so it dies underground since that minion doesn't have burrowing. The minion dies there and the Avatar gets kill credit under condition 2.
+- [[Asmodeus]] breaks stealth, activating his ability, and destroying a minion. He gets credit under condition 3.
 
 If a unit is tapped to pay for an ability (e.g. [[Payload Trebuchet]]), they count as "activating" the artifact’s ability for purposes of kill credit.
 
-The killer must be a unit, but multiple units can share credit for a kill, if they both share the same priority. For example, [[Grapple Shot]] will only give credit to the ally who strikes, not the spellcaster, since priority 1 is higher. If two units defend against a single attack, both defenders could get credit for the kill.
+The **killer must be a unit**, but multiple units can share credit for a kill, if they both share the same priority. For example, [[Grapple Shot]] will only give credit to the ally who strikes, not the spellcaster, since priority 1 is higher. If two units defend against a single attack, both defenders could get credit for the kill.
 
 Note that passive abilities and other ongoing effects are not included in kill credit. Only activated and triggered abilities are included at priority 3.
 
@@ -1179,6 +1216,8 @@ If the aura is silenced during your end phase (presumably because it was animate
 
 For example, [[Pit Vipers]] can kill [[Amazon Warriors]] with a single strike for 1 damage. If the Amazon Warriors had their [[Shield Maidens]] nearby, then the Pit Vipers wouldn't actually kill the Amazon Warriors, because they'd do zero damage, which isn't actually damage at all.
 
+A spellcaster with the Lethal ability still casts Magic spells normally; the Magic spells themselves deal the damage. For example, a spellcaster with Lethal casts [[Firebolts]], but the damage from [[Firebolts]] is not Lethal; Firebolts is dealing the damage, not the spellcaster. On the other hand, the damage from [[Poison Nova]] is Lethal, because the spell itself says it's lethal.
+
 [Codex Entry](https://curiosa.io/codex?id=47a59bae-9234-404e-8299-efeec4d1c78d)
 
 # Life
@@ -1209,7 +1248,7 @@ Whenever you return cards that you have looked at to a deck, you may put them ba
 # Lose
 Some effects will cause artifacts, minions, and sites to lose certain abilities, often keywords. “Lose” really means "lose, can't gain, and can't have." These effects take precedence over competing passive abilities. E.g. [[Sky Baron]] wins, even if I give [[Wings of Invention]] to my minion after you summoned Sky Baron. It’s relevant to these cards:
 
-[[Sisters of Silence]], [[Silence]], [[Entangle Terrain]], [[Sky Baron]], [[Atlantean Fate]], [[Scent Hounds]], [[House of Ondaros]], [[Master Tracker]], [[Magnetic Muzzle]], [[Smokestacks of Gnaak]], [[Watchtower]], [[Hunting Party]], [[Sir Bors the Younger]], [[Pebbled Paths]]
+[[Sisters of Silence]], [[Silence]], [[Entangle Terrain]], [[Sky Baron]], [[Atlantean Fate]], [[Scent Hounds]], [[Hounds of Ondaros]], [[Master Tracker]], [[Magnetic Muzzle]], [[Smokestacks of Gnaak]], [[Watchtower]], [[Hunting Party]], [[Sir Bors the Younger]], [[Pebbled Paths]]
 
 See the "Can vs. Can't" codex entry for more details.
 
@@ -1321,11 +1360,7 @@ _Tap -> This unit may take one step. Then, it may attack._
 ## Movement
 Normally the unit's movement path is one step between two adjacent surface locations, but some abilities may modify this, including Movement +X, Moves Freely, Burrowing, Submerge, Airborne, and Voidwalk (and effects like [[Felbog Frog Men]]).
 
-Steps resolve one at a time. Because some abilities may change as your unit moves through the realm, you may declare seemingly-illegal movement paths. That is, the legality of the movement path is only checked step by step, as each individual step is about to happen. If the step is not legal at the moment you try to take it, you do not take that step, and you continue resolving anything remaining. See the examples below for further details.
-
-When you declare movement, the only restriction is that you may not repeat specific steps.
-
-If your unit takes at least one step, it has moved; if it takes zero steps, it has not moved.
+See the entry for Movement Path for more information about declaring paths.
 
 ## Declaring The Attack Target
 The Move and Attack ability does not use the word "target," so you do not declare any targets in advance. As it resolves from the storyline, you declare your full movement path, then resolve that movement.
@@ -1333,16 +1368,6 @@ The Move and Attack ability does not use the word "target," so you do not declar
 After completing all the movement (if any), you may attack, declaring your attack target at that time. See the "((attack))" codex entry for further details on the attack sequence.
 
 #### 
-
-## Example - Declaring a Seemingly Illegal Movement Path
-_See live codex for table_
-
-[[Rimland Nomads]] are at A, in a [[Silence]] aura on the leftmost 2x2 area. You use their Move and Attack basic ability and declare the following movement path:
-
-- Surface A -> Surface B
-- Surface B -> Surface C
-
-Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C.
 
 [Codex Entry](https://curiosa.io/codex?id=d7f6af80-0923-4ab1-88bc-11b7c694d49b)
 
@@ -1447,7 +1472,7 @@ If ongoing effects overlap or conflict, apply them in the order listed here by l
 1. Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]]
 2. Disabling effects, silencing effects, e.g. [[Root Spider]], [[Iron Shackles]], [[Silence]], [[Sisters of Silence]]
 3. Control effects, e.g. [[King of the Realm]], [[Mesmerism]]
-4. Type changing effects, e.g. [[Bower of Bliss]], [[Island Leviathan]]
+4. Type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]]
 5. Ability adding and removing effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]
 6. Power setting effects, e.g. [[Shrink]]
 7. Power addition and subtraction effects, e.g. [[Overpower]], [[Wicked Witch]]
@@ -1573,7 +1598,23 @@ A passive ability is one of the few ways that an ongoing effect can be created. 
 # Path
 A path for a card that's moving involves 1 or more steps, and each step has a starting and ending location that's different. If your step is from a location to that same location, you didn't actually move anywhere. If you occupied multiple locations while moving, all of those locations are included in your path, including for oversized units.
 
+Steps resolve one at a time. Because some abilities may change as your unit moves through the realm, you may declare seemingly-illegal movement paths. That is, the legality of the movement path is only checked step by step, as each individual step is about to happen. If the step is not legal at the moment you try to take it, you do not take that step, and you continue resolving anything remaining. See the examples below for further details.
+
+When you declare movement, the only restriction is that you may not repeat specific steps. This means that a unit may move from location A, to location B, then back to location A (assuming it has enough movement), but it cannot then repeat the step of "A to B." Note that steps "A to B" and "B to A" are different steps.
+
+If your unit takes at least one step, it has moved; if it takes zero steps, it has not moved.
+
 A path for projectiles is a bit different, and can include just the starting location. See "((projectiles))" for more details.
+
+## Example - Declaring a Seemingly Illegal Movement Path
+_See live codex for table_
+
+[[Rimland Nomads]] are at A, in a [[Silence]] aura on the leftmost 2x2 area. You use their Move and Attack basic ability and declare the following movement path:
+
+- Surface A -> Surface B
+- Surface B -> Surface C
+
+Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C.
 
 [Codex Entry](https://curiosa.io/codex?id=2ba56532-3ac0-41e8-a73f-1005cbefe8db)
 
@@ -1986,7 +2027,7 @@ The start phase is the first phase you complete during your turn. Follow these s
 [Codex Entry](https://curiosa.io/codex?id=d74587ee-6256-4009-b144-9d46e9125822)
 
 # Stealth
-**Keyword Ability. **Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Artifacts carried by a Stealthed minion also cannot be targeted.
+**Keyword Ability. **Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
 
 Stealth is tracked with a stealth token.
 
@@ -2283,13 +2324,13 @@ To tap a card, turn a it 90° to the right, from an upright position. Only untap
 [Codex Entry](https://curiosa.io/codex?id=4b73c89d-914a-4911-a73b-1ae905e4a398)
 
 # Target
-A target is the chosen object of a spell or effect. It uses the word "target," and choosing a target is required. For example, [[Arc Lightning]] has a target of a "nearby unit" and [[Red Desert]] has a target of "nearby site."
+A target is the chosen object of a spell or effect. A spell or effect that targets will and must use the word "target." Choosing a target is required. For example, [[Arc Lightning]] has a target of a "nearby unit" and [[Red Desert]] has a target of "nearby site."
 
 The source of the ability, or the caster of the spell, must be in the same region as everything it targets.
 
 When you cast a spell or use an ability that targets, before it even goes on the storyline, you must declare all targets. For example, [[Bury]] is a spell that targets, and [[Vile Imp]] has an ability that targets.
 
-You must declare a legal target as the effect goes on the storyline, and the legality of the target is checked again when the effect starts to resolve. If you cannot declare a legal target when the spell or ability would enter the storyline, the spell isn't actually cast and the ability can't be used.
+You must declare a legal target as the effect goes on the storyline, and the legality of the target is checked again when the effect starts to resolve. If you cannot declare a legal target when the spell or ability would be added to the storyline, the spell isn't actually cast and the ability can't be used.
 
 See "((Casting Magics))" for more details.
 
@@ -2301,7 +2342,9 @@ Tawny is a token minion with 1 power. She is a Unique Beast with "Airborne, Spel
 [Codex Entry](https://curiosa.io/codex?id=6abfe680-2378-4bff-bd76-ecc07dc4439a)
 
 # Teleport
-Teleportation is forced movement directly from one location to another. Teleportation does not cross borders, and does not have a defined cardinal direction (even if the two locations are in the same row or column).
+Teleportation is forced movement directly from one location to another. Teleportation does not cross borders, and does not have a defined cardinal direction (even if the two locations are in the same row or column). 
+
+Teleportation can cross regional boundaries unless their effect specifies otherwise. For example, [[Flanking Maneuver]] can move minions from one region to another. [[Blink]], however, requires that the unit move to a "nearby" location, and only locations within the same region are nearby one another. [[Displace]] specifies that you move something "one diagonal step" and steps are always measured within the same region.
 
 Teleportation from the same location to itself is not movement at all; in that case, the unit never left the location and never entered it again.
 
@@ -2551,7 +2594,7 @@ Further Notes:
    - For example, if I tried to [[Bury]] your warded minion, I could cast the magic since your minion is a valid target. The Bury goes onto the Storyline. Then, as Bury resolves from the Storyline, the Ward protects the targeted minion and breaks, and minion isn't burrowed.
 - Ward protects the targeted minion or site _at the time the effect resolves_. You resolve as much of the effect as you can otherwise.
    - For example, I cast [[Grievous Insult]] targeting your warded minion. The spell goes onto the storyline. Then as the Magic is resolving, the Ward protects the targeted minion and breaks, and minion isn't silenced or tapped. Then, I still get to draw a spell.
-   - Another example: I cast [[Bury]] targeting your warded minion while carrying a [[Ring of Morrigan]]. The Bury goes onto the Storyline. The Ring of Morgana triggers, dealing 1 damage to warded minion. The Ward protects the minion and breaks, dealing no damage. Then, as Bury resolves from the Storyline, the Ward is already gone so the minion is burrowed.
+   - Another example: I cast [[Bury]] targeting your warded minion while carrying a [[Ring of Morrigan]]. The Bury goes onto the Storyline. The Ring of Morrigan triggers, dealing 1 damage to warded minion. The Ward protects the minion and breaks, dealing no damage. Then, as Bury resolves from the Storyline, the Ward is already gone so the minion is burrowed.
 - A Ward also protects a location at a Warded site from being targeted. At the time the spell or special ability resolves, the Ward will break, and the location will be removed as a target.
 - If a Ward protects a target, additional effects that rely on the target do not resolve.
    - For example, I cast [[Geyser]] on your warded site. The Ward protects the site and breaks. No minions gain Airborne, since "there" references the site, which was the protected target. Similarly, [[Craterize]] would deal no damage at all if it targeted a warded site.
@@ -2573,6 +2616,11 @@ If a site previously provided water affinity and then stops providing water affi
 **Keyword Ability. **This minion is disabled while not occupying at least one water location. The waterbound ability persists even when disabled.
 
 [Codex Entry](https://curiosa.io/codex?id=00c82dd7-d184-4a34-adf7-45a9bf9f3f70)
+
+# When it Arrives
+Some effects use the phrase "when it arrives." For example, ((Grapple Shot)). A card "arrives" when it shares a location with the origin of the effect, after resolving movement, if any. If no movement occurs, but the card shares a location with the origin of the effect, it still "arrives."
+
+[Codex Entry](https://curiosa.io/codex?id=ba6ffd23-34eb-400c-b57f-aa0344194320)
 
 # Winning the Game
 You win the game if you deal a death blow to your opponent's avatar, or if your opponent attempts to draw a card from an empty deck.

@@ -1937,15 +1937,15 @@
     {
         "_createdAt": "2025-03-24T19:39:36Z",
         "_id": "1c5c02a4-586e-4bfd-99ce-11e9230ed140",
-        "_rev": "JqYIfC99ihZ0hVFs4k8Lkl",
+        "_rev": "GStVz4VPsOdrjZ7bXyyoHp",
         "_system": {
             "base": {
                 "id": "1c5c02a4-586e-4bfd-99ce-11e9230ed140",
-                "rev": "TErrISLPjz1kwp8pzhRAIx"
+                "rev": "JqYIfC99ihZ0hVFs4k8Lkl"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-11T17:47:20Z",
+        "_updatedAt": "2026-03-25T19:18:50Z",
         "content": [
             {
                 "_key": "fd02340469b7",
@@ -1993,7 +1993,57 @@
         "field": "*",
         "finder": "aura,auras",
         "interlinking": true,
-        "subcodexes": null,
+        "subcodexes": [
+            {
+                "_key": "cfade9791284",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "ea8542a7f3cf",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "c6faadd1e3e8",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Some effects can move an aura by force (e.g. [[Windblast]]) and some auras can move themselves (e.g. [[Thunderstorm]]). Auras ignore the regional boundary between the surface and void when moving. ([[Wildfire]]'s \"adjacent locations\" are still defined by its current region.)"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "ae61276910a8",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "1e1ca48da11a",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "For example, a [[Thunderstorm]] moves itself with its end-of-turn ability. It can take a step into the void with this movement, though not to the subsurface. Additionally, an aura being moved by force (e.g. [[Displace]] or [[Windblast]]) can be moved from surface locations to void locations, and visa versa."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "8b6b0f24bd00",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "c5f73ace7f40",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "This only applies to non-minion auras. See \"Cards with Multiple Types\" for details on Aura Minions."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Moving Auras"
+            }
+        ],
         "title": "Aura"
     },
     {
@@ -2281,6 +2331,47 @@
         "title": "Basic Movement"
     },
     {
+        "_createdAt": "2026-03-05T22:51:02Z",
+        "_id": "7905603d-dce8-48ad-9932-7bd31ebeedce",
+        "_rev": "GStVz4VPsOdrjZ7bXyyoWO",
+        "_type": "codex",
+        "_updatedAt": "2026-03-25T19:18:52Z",
+        "content": [
+            {
+                "_key": "b20b4de02fd3",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "38d4d37dd6db",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "A unit holding a carriable artifact is its \"bearer.\" Some artifacts grant abilities to their bearer, e.g. [[Sword and Shield]]."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "b55f027629d7",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "02f9631660d1",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If an artifact is also a minion (e.g. [[Clay Golem]]), it does not have a bearer even if it's being carried (e.g. [[War Horse]])."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Bearer"
+    },
+    {
         "_createdAt": "2025-06-07T04:17:56Z",
         "_id": "dddd875f-725d-4173-9905-6393156fa5bb",
         "_rev": "TErrISLPjz1kwp8pzhRzbv",
@@ -2500,15 +2591,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "0a28f999-f406-478e-b396-61930bdd948a",
-        "_rev": "ddCziRH2Fm886tLDwtsxhW",
+        "_rev": "TnhqSaR9j92SDOsu7KkuOy",
         "_system": {
             "base": {
                 "id": "0a28f999-f406-478e-b396-61930bdd948a",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "ddCziRH2Fm886tLDwtsxhW"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T19:06:34Z",
+        "_updatedAt": "2026-03-25T19:19:29Z",
         "content": [
             {
                 "_key": "c5000fd46746",
@@ -2518,21 +2609,7 @@
                         "_key": "431349c6e4dc",
                         "_type": "span",
                         "marks": [],
-                        "text": "\"Break ))Stealth((\" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]] means that the minion must have Stealth and voluntarily lose it as the cost of the activated ability."
-                    }
-                ],
-                "markDefs": [],
-                "style": "normal"
-            },
-            {
-                "_key": "18926f54ec0a",
-                "_type": "block",
-                "children": [
-                    {
-                        "_key": "86bf23906e94",
-                        "_type": "span",
-                        "marks": [],
-                        "text": ""
+                        "text": "\"Break ))Stealth((\" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]], means that the minion must have Stealth and voluntarily lose it as the cost of the activated ability.  The ability is not activated if the minion loses Stealth for any other reason, such as interacting with the realm or being silenced."
                     }
                 ],
                 "markDefs": [],
@@ -2852,15 +2929,15 @@
     {
         "_createdAt": "2025-06-07T02:32:31Z",
         "_id": "82d71a35-8bec-4d1d-9c33-765b0aa443e8",
-        "_rev": "OVwv9CvZAhvcLZb6pGCVc7",
+        "_rev": "TnhqSaR9j92SDOsu7Kkuno",
         "_system": {
             "base": {
                 "id": "82d71a35-8bec-4d1d-9c33-765b0aa443e8",
-                "rev": "siJR9kJyE6g55QBxpUJuOZ"
+                "rev": "OVwv9CvZAhvcLZb6pGCVc7"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T03:27:02Z",
+        "_updatedAt": "2026-03-25T19:19:47Z",
         "content": [
             {
                 "_key": "88d4e1a4afef",
@@ -2870,21 +2947,7 @@
                         "_key": "209b7447e21e",
                         "_type": "span",
                         "marks": [],
-                        "text": "When you are instructed to draw a "
-                    },
-                    {
-                        "_key": "b37455567d9a",
-                        "_type": "span",
-                        "marks": [
-                            "strong"
-                        ],
-                        "text": "card"
-                    },
-                    {
-                        "_key": "b9f71ef8a9ea",
-                        "_type": "span",
-                        "marks": [],
-                        "text": ", you may choose to draw a spell from your spellbook or a site from your atlas. If you draw multiple cards at once (e.g. [[Pact with the Devil]]), choose how many of each you'll draw, then draw all of them simultaneously."
+                        "text": "Cards are the sites, spells, and avatars that are used to play a game of Sorcery. At the beginning of the game, all of your spell cards will be in your Spellbook, your site cards will be in your Atlas, and your collection will consist of cards you have selected to begin the game in that zone. The only card that begins in play is the Avatar you have selected to represent you during the game."
                     }
                 ],
                 "markDefs": [],
@@ -4795,15 +4858,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "78ce4090-a2e1-4893-97c0-6eaafd5c5937",
-        "_rev": "oFB9wYvKrs2R4L9rOjw9fP",
+        "_rev": "7dbbsPJQJngj2t3aDSC9ZB",
         "_system": {
             "base": {
                 "id": "78ce4090-a2e1-4893-97c0-6eaafd5c5937",
-                "rev": "zvKrGaEbn7fmhmu7r5iPNi"
+                "rev": "oFB9wYvKrs2R4L9rOjw9fP"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-10T18:04:32Z",
+        "_updatedAt": "2026-03-25T19:19:53Z",
         "content": [
             {
                 "_key": "b9c1b349afa0",
@@ -4827,7 +4890,7 @@
                         "_key": "eb848dc20e9e",
                         "_type": "span",
                         "marks": [],
-                        "text": "You may look at your collection at any time. Your opponent may only know the number and type of cards in your collection."
+                        "text": "You may look at your collection at any time. Your opponent may only know the number of cards in your collection. The card back (Spell, Site, or Avatar) is hidden information while the card is in the collection. When the card moves to another zone (i.e. your hand) the information about its card back becomes public."
                     }
                 ],
                 "markDefs": [],
@@ -4900,6 +4963,36 @@
                         "_type": "span",
                         "marks": [],
                         "text": "For example, if you play [[Troubled Town]], you may gain any Townsfolk and cast it. If you play [[Release the Hounds]], you gain two [[Hellhounds]]. On the other hand, if you use [[Toolbox]], you must only select from your unplayed ordinary cards, since no specific card is named by Toolbox's effect."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "161edc85c071",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "59d7e92c0b54",
+                        "_type": "span",
+                        "marks": [
+                            "strong"
+                        ],
+                        "text": "Casual Play"
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "4ae5cf0e4c04",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "3f0f54bf52a5",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Your collection includes every card that you own outside of the game during casual play."
                     }
                 ],
                 "markDefs": [],
@@ -5246,15 +5339,15 @@
     {
         "_createdAt": "2025-03-24T19:45:00Z",
         "_id": "d54c08da-2107-484a-9f68-123bb62581b5",
-        "_rev": "9CUWpgoW5Q44hTUbbHGfYP",
+        "_rev": "5goMhdrkVetnVcdLLgcoGY",
         "_system": {
             "base": {
                 "id": "d54c08da-2107-484a-9f68-123bb62581b5",
-                "rev": "FWoaewO3AQZvYTIadMI7Gy"
+                "rev": "9CUWpgoW5Q44hTUbbHGfYP"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-02-09T18:39:27Z",
+        "_updatedAt": "2026-03-05T23:37:16Z",
         "content": [
             {
                 "_key": "bbc91be1ceb7",
@@ -5624,7 +5717,7 @@
                                 "_key": "32984998f06c",
                                 "_type": "span",
                                 "marks": [],
-                                "text": "Prevent damage, e.g. [[Goswhit Helmet]]."
+                                "text": "Prevent damage, e.g. [[Goswhit Helmet]], ((Ward))."
                             }
                         ],
                         "level": 1,
@@ -5719,15 +5812,15 @@
     {
         "_createdAt": "2025-03-24T19:46:14Z",
         "_id": "015d636e-716c-450e-9e17-abef557f3e4c",
-        "_rev": "TErrISLPjz1kwp8pzhR7L5",
+        "_rev": "7dbbsPJQJngj2t3aDSC6bR",
         "_system": {
             "base": {
                 "id": "015d636e-716c-450e-9e17-abef557f3e4c",
-                "rev": "hOEdn8La66tMItMmpcPRvD"
+                "rev": "TErrISLPjz1kwp8pzhR7L5"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-30T04:21:24Z",
+        "_updatedAt": "2026-03-25T19:19:25Z",
         "content": [
             {
                 "_key": "f396b1bf20ae",
@@ -5807,7 +5900,21 @@
                         "_key": "a68bedd74439",
                         "_type": "span",
                         "marks": [],
-                        "text": "An effect with a damage grid may be oriented so that the grid is partially outside the realm, as long as the source or origin square in the realm."
+                        "text": "By default, an effect with a damage grid may be oriented so that the grid is partially outside the realm, as long as the source or origin square in the realm."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "a61636fba638",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "1c3bd6d6d508",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Damage grids do not inherently target sites or locations in the grid; effects will use the word \"target\" if they actually target a site or location."
                     }
                 ],
                 "markDefs": [],
@@ -6344,15 +6451,15 @@
     {
         "_createdAt": "2025-03-30T06:06:07Z",
         "_id": "56de42f7-3d67-4437-826c-6a89cd356458",
-        "_rev": "kOTnyjIH1b2lIev2mhjRlP",
+        "_rev": "LBRy0x6E5f3ZYVVFRxd3WN",
         "_system": {
             "base": {
                 "id": "56de42f7-3d67-4437-826c-6a89cd356458",
-                "rev": "Y3ZKz7xA6Z0oNIVqRM900L"
+                "rev": "kOTnyjIH1b2lIev2mhjRlP"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-10T18:29:42Z",
+        "_updatedAt": "2026-03-18T21:59:04Z",
         "content": [
             {
                 "_key": "a1fd70151901",
@@ -6376,7 +6483,7 @@
                         "_key": "46f0cf94f35e",
                         "_type": "span",
                         "marks": [],
-                        "text": "Whenever a minion has damage on it equal to or greater than its power (or is destroyed directly by an effect), that card is marked for death. After it is marked, any \"kill\" or Deathrite triggers resolve, and finally the marked card is put into its owner’s cemetery. If multiple cards are marked for death simultaneously, use the normal storyline rules for simultaneous triggers, then all the marked cards are put into their owners’ cemeteries simultaneously.\n\nOnce a card has been marked for death, nothing can remove the mark. An effect that heals a marked creature or increases its power does not remove the mark. Certain replacement effects can avoid death entirely (e.g. Ward, [[Gilded Aegis]], [[Lady Iseult]]), in which case the minion was never marked for death at all, because that's how replacement effects work.\n\nAn effect may move a marked card to a different zone (e.g. [[Fey Changeling]] on [[The Geistwood]]), but that card is still considered to have died for the purposes of other effects.\n\nIf a Deathrite ability causes more cards to die, they are also marked for death, and their Deathrite effects will also trigger before any cards are placed in the cemetery. None of the cards that have been marked for death are put into their owners’ cemeteries until all Deathrite effects have resolved.\n\nPlayers cannot choose to sacrifice or kill a card that is already marked for death. A card that is already marked for death cannot be marked for death again, and any effect that attempts to destroy or sacrifice that card fails. That card still only triggers its Deathrite ability once.\n\nCards that are sacrificed also count as being destroyed. They are marked for death following the same process outlined above."
+                        "text": "Whenever a minion has damage on it equal to or greater than its power (or is destroyed directly by an effect), that card is marked for death. After it is marked, any \"kill\" or Deathrite triggers resolve, and finally the marked card is put into its owner’s cemetery. If multiple cards are marked for death simultaneously, use the normal storyline rules for simultaneous triggers, then all the marked cards are put into their owners’ cemeteries simultaneously.\n\nOnce a card has been marked for death, nothing can remove the mark. An effect that heals a marked creature or increases its power does not remove the mark. Certain replacement effects can avoid death entirely (e.g. Ward, [[Gilded Aegis]], [[Lady Iseult]]), in which case the minion was never marked for death at all, because that's how replacement effects work.\n\nAn effect may move a marked card to a different zone (e.g. [[Fey Changeling]] on [[The Geistwood]]), but that card is still considered to have died for the purposes of other effects.\n\nIf a Deathrite ability causes more cards to die, they are also marked for death, and their Deathrite effects will also trigger before any cards are placed in the cemetery. None of the cards that have been marked for death are put into their owners’ cemeteries until all Deathrite effects have resolved.\n\nPlayers cannot choose to sacrifice or kill a card that is already marked for death. A card that is already marked for death cannot be marked for death again, and any effect that attempts to destroy or sacrifice that card fails. That card still only triggers its Deathrite ability once.\n\nCards that are sacrificed also count as being destroyed. They are marked for death following the same process outlined ))above((."
                     }
                 ],
                 "markDefs": [],
@@ -6392,15 +6499,15 @@
     {
         "_createdAt": "2025-01-21T03:00:23Z",
         "_id": "08fff20b-76c1-45c3-b13f-989202cdacf0",
-        "_rev": "LMVXo7FMYpSQSPwXD8KEMI",
+        "_rev": "7dbbsPJQJngj2t3aDSC6KD",
         "_system": {
             "base": {
                 "id": "08fff20b-76c1-45c3-b13f-989202cdacf0",
-                "rev": "kOTnyjIH1b2lIev2mZPWpX"
+                "rev": "LMVXo7FMYpSQSPwXD8KEMI"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-02-09T18:40:10Z",
+        "_updatedAt": "2026-03-25T19:19:21Z",
         "content": [
             {
                 "_key": "95370634c1c1",
@@ -6410,7 +6517,7 @@
                         "_key": "030bd0f399e6",
                         "_type": "span",
                         "marks": [],
-                        "text": "While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.\n\nA disabled minion may be ))moved(( forcefully as long the disabled minion does not take one of its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.\n\nDisabled is not an ability itself and is not removed by silenced effects (e.g. [[Silence]])."
+                        "text": "While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.\n\nA disabled minion may be ))moved(( forcefully as long the disabled minion does not take its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.\n\nDisabled is not an ability itself and is not removed by silenced effects (e.g. [[Silence]])."
                     }
                 ],
                 "markDefs": [],
@@ -6425,6 +6532,20 @@
                         "_type": "span",
                         "marks": [],
                         "text": "If a site is disabled, it has no abilities and cannot provide any mana or affinity."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "7c80d668504f",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "7248f40b83a2",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If an artifact or aura is disabled, it has no abilities."
                     }
                 ],
                 "markDefs": [],
@@ -6464,6 +6585,76 @@
         "interlinking": true,
         "subcodexes": null,
         "title": "Dispel"
+    },
+    {
+        "_createdAt": "2026-03-05T23:49:40Z",
+        "_id": "c50821a8-cb00-4270-a252-25e5f9c077c1",
+        "_rev": "7dbbsPJQJngj2t3aDSC4F1",
+        "_type": "codex",
+        "_updatedAt": "2026-03-25T19:19:07Z",
+        "content": [
+            {
+                "_key": "5db9c1644931",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "681850ca9171",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Drawing is the primary way of getting cards from your Spellbook or Atlas into your hand. It means to take a card from one of your decks and put it into your hand, resolving anything which may trigger from \"drawing.\" Effects which say to put a card into your hand (e.g. [[Common Sense]]) do not trigger \"draw\" effects."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "f25fbea549df",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "8bb2e729121f",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Whenever you are instructed to draw a \"card,\" you may choose to draw a spell from your spellbook or a site from your atlas. When you are instructed to draw a \"spell,\" you must draw from your Spellbook, and when instructed to draw a \"site\" you must draw from your Atlas."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "0ad7e5f9710d",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "e5541fec49cd",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If you are instructed to draw multiple \"cards\" by a single effect (e.g. [[Pact with the Devil]]), you must declare how many sites and how many spells you intend to draw before drawing any of them."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "c73036c43bc7",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "d938d5c15f2d",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Whenever you draw multiple cards, sites, or spells, you draw them one at a time and resolve any triggers after each individual card drawn (e.g. [[Chains of Prometheus]])."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "finder": "draw,draws",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Draw"
     },
     {
         "_createdAt": "2025-03-24T19:46:45Z",
@@ -6910,15 +7101,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "e55c9be1-9e4e-46ac-8451-9d2ebec428a8",
-        "_rev": "ddCziRH2Fm886tLDwtxn0W",
+        "_rev": "a1y1d7eveyUbI4QglMbEUw",
         "_system": {
             "base": {
                 "id": "e55c9be1-9e4e-46ac-8451-9d2ebec428a8",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "ddCziRH2Fm886tLDwtxn0W"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T19:13:47Z",
+        "_updatedAt": "2026-03-18T04:21:37Z",
         "content": [
             {
                 "_key": "2fce5a1c24cd",
@@ -6935,6 +7126,8 @@
                 "style": "normal"
             }
         ],
+        "field": "rulesText",
+        "finder": "empty site,empty sites",
         "interlinking": true,
         "subcodexes": null,
         "title": "Empty Site"
@@ -7359,9 +7552,15 @@
     {
         "_createdAt": "2025-11-20T21:47:47Z",
         "_id": "400bbb94-8877-4eea-ad2d-bd466aee2622",
-        "_rev": "HK0ugG9HLTa3DGHoUK1pDL",
+        "_rev": "gFnO3NeiEM5oQuG0XtijGr",
+        "_system": {
+            "base": {
+                "id": "400bbb94-8877-4eea-ad2d-bd466aee2622",
+                "rev": "HK0ugG9HLTa3DGHoUK1pDL"
+            }
+        },
         "_type": "codex",
-        "_updatedAt": "2025-11-21T23:12:32Z",
+        "_updatedAt": "2026-02-24T20:43:09Z",
         "content": [
             {
                 "_key": "a5b36339cc10",
@@ -7378,7 +7577,7 @@
                 "style": "normal"
             }
         ],
-        "field": "*",
+        "field": "rulesText",
         "interlinking": true,
         "subcodexes": null,
         "title": "Evil"
@@ -7738,15 +7937,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "6c4c8d4d-e954-4018-bc7b-e32b85a6829b",
-        "_rev": "08Phwy2JNx8pNx4wfC8nbZ",
+        "_rev": "ZnSMYMLMVMkpVEZl5f2tLl",
         "_system": {
             "base": {
                 "id": "6c4c8d4d-e954-4018-bc7b-e32b85a6829b",
-                "rev": "ZpVaiE4pJy6g57SU6fwBpf"
+                "rev": "08Phwy2JNx8pNx4wfC8nbZ"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-02-09T06:23:51Z",
+        "_updatedAt": "2026-03-05T05:59:24Z",
         "content": [
             {
                 "_key": "e875d36d0d63",
@@ -7784,13 +7983,14 @@
                         "_key": "62922afd56e0",
                         "_type": "span",
                         "marks": [],
-                        "text": "If you cast a spell that costs X \"for free\" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal zero. But, if spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell."
+                        "text": "If you cast a spell that costs X \"for free\" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal zero. But, if the spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell."
                     }
                 ],
                 "markDefs": [],
                 "style": "normal"
             }
         ],
+        "field": "rulesText",
         "interlinking": true,
         "subcodexes": null,
         "title": "For Free"
@@ -7798,15 +7998,15 @@
     {
         "_createdAt": "2025-03-24T19:51:12Z",
         "_id": "8ffdae56-1aef-44f7-b9af-cdcbc334a377",
-        "_rev": "ddCziRH2Fm886tLDwsusff",
+        "_rev": "GStVz4VPsOdrjZ7bXyynqm",
         "_system": {
             "base": {
                 "id": "8ffdae56-1aef-44f7-b9af-cdcbc334a377",
-                "rev": "TErrISLPjz1kwp8pzhRqTb"
+                "rev": "ddCziRH2Fm886tLDwsusff"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T17:31:08Z",
+        "_updatedAt": "2026-03-25T19:18:45Z",
         "content": [
             {
                 "_key": "fd863d9ba613",
@@ -7872,7 +8072,7 @@
                         "_key": "a512c394d214",
                         "_type": "span",
                         "marks": [],
-                        "text": "Teleportation is forced movement."
+                        "text": "Teleportation is forced movement. However, Teleportation effects can cross regional boundaries unless otherwise specified in their text."
                     }
                 ],
                 "markDefs": [],
@@ -7944,7 +8144,7 @@
                         "_key": "953ec8234968",
                         "_type": "span",
                         "marks": [],
-                        "text": "Unless specified by card text, forced movement cannot cause a card to change regions."
+                        "text": "Unless specified by card text, forced movement cannot cause a card to change regions (except for teleportation, which can change regions by default)."
                     }
                 ],
                 "markDefs": [],
@@ -8137,15 +8337,15 @@
     {
         "_createdAt": "2025-03-24T19:47:47Z",
         "_id": "0cfac092-e152-4b50-9eb6-c772a8e717b8",
-        "_rev": "9CUWpgoW5Q44hTUbbHGiaU",
+        "_rev": "7dbbsPJQJngj2t3aDSCA7d",
         "_system": {
             "base": {
                 "id": "0cfac092-e152-4b50-9eb6-c772a8e717b8",
-                "rev": "OVwv9CvZAhvcLZb6pGC3ed"
+                "rev": "9CUWpgoW5Q44hTUbbHGiaU"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-02-09T18:39:47Z",
+        "_updatedAt": "2026-03-25T19:19:56Z",
         "content": [
             {
                 "_key": "f55dc6e20046",
@@ -8169,7 +8369,7 @@
                         "_key": "ff3114daf87b",
                         "_type": "span",
                         "marks": [],
-                        "text": "You may look at cards in your hand at any time. Your opponent is allowed to know how many cards of each type (spell or site) you have in your hand at any time."
+                        "text": "You may look at cards in your hand. Your opponent is allowed to know the card backs (spell or site) you have in your hand."
                     }
                 ],
                 "markDefs": [],
@@ -8367,15 +8567,15 @@
     {
         "_createdAt": "2025-03-24T19:47:53Z",
         "_id": "7db6da14-a5eb-4dcf-8b3b-4ba4e3ecfbeb",
-        "_rev": "OVwv9CvZAhvcLZb6pGCTEg",
+        "_rev": "7dbbsPJQJngj2t3aDQ7M6n",
         "_system": {
             "base": {
                 "id": "7db6da14-a5eb-4dcf-8b3b-4ba4e3ecfbeb",
-                "rev": "gU9bhb6O12NIfsOGiKqtk0"
+                "rev": "OVwv9CvZAhvcLZb6pGCTEg"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-30T16:57:26Z",
+        "_updatedAt": "2026-03-25T16:14:52Z",
         "content": [
             {
                 "_key": "955c43f975d7",
@@ -8443,6 +8643,7 @@
             }
         ],
         "field": "rulesText",
+        "finder": "immobile,immobilized,immobilizing",
         "interlinking": true,
         "subcodexes": null,
         "title": "Immobile"
@@ -9367,15 +9568,15 @@
     {
         "_createdAt": "2025-06-09T18:26:15Z",
         "_id": "9da58b70-6d76-4a13-970d-1518ffd596d6",
-        "_rev": "OVwv9CvZAhvcLZb6pGCbso",
+        "_rev": "GStVz4VPsOdrjZ7bXyys2r",
         "_system": {
             "base": {
                 "id": "9da58b70-6d76-4a13-970d-1518ffd596d6",
-                "rev": "mGH8faZgOZ7Apthn6XMCPA"
+                "rev": "OVwv9CvZAhvcLZb6pGCbso"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T18:25:05Z",
+        "_updatedAt": "2026-03-25T19:19:31Z",
         "content": [
             {
                 "_key": "6a99dc0a39aa",
@@ -9447,9 +9648,57 @@
                         "_key": "373f10e69ab3",
                         "_type": "span",
                         "marks": [],
-                        "text": "If any of the above are true, in priority order, then that unit is the killer."
+                        "text": "If any of the above are true, in priority order, then that unit is the killer. Examples:"
                     }
                 ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "dfa1b72fd6f0",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "df8d7df78f67",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "A [[Vile Imp]] resolves its Genesis ability, dealing two damage to a minion. The Imp gets credit for killing that minion under condition 1."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "79eeba0b7b85",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "7562d6a898a9",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "An Avatar casts [[Bury]], forcefully ))burrowing(( a minion so it dies underground since that minion doesn't have burrowing. The minion dies there and the Avatar gets kill credit under condition 2."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "4f7266f041ec",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "bc4274a55ed8",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "[[Asmodeus]] breaks stealth, activating his ability, and destroying a minion. He gets credit under condition 3."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
                 "markDefs": [],
                 "style": "normal"
             },
@@ -9475,7 +9724,21 @@
                         "_key": "f2903218f3b0",
                         "_type": "span",
                         "marks": [],
-                        "text": "The killer must be a unit, but multiple units can share credit for a kill, if they both share the same priority. For example, [[Grapple Shot]] will only give credit to the ally who strikes, not the spellcaster, since priority 1 is higher. If two units defend against a single attack, both defenders could get credit for the kill."
+                        "text": "The "
+                    },
+                    {
+                        "_key": "848bef365e45",
+                        "_type": "span",
+                        "marks": [
+                            "strong"
+                        ],
+                        "text": "killer must be a unit"
+                    },
+                    {
+                        "_key": "da560669b28a",
+                        "_type": "span",
+                        "marks": [],
+                        "text": ", but multiple units can share credit for a kill, if they both share the same priority. For example, [[Grapple Shot]] will only give credit to the ally who strikes, not the spellcaster, since priority 1 is higher. If two units defend against a single attack, both defenders could get credit for the kill."
                     }
                 ],
                 "markDefs": [],
@@ -9886,9 +10149,15 @@
     {
         "_createdAt": "2025-03-24T19:48:35Z",
         "_id": "47a59bae-9234-404e-8299-efeec4d1c78d",
-        "_rev": "Y3ZKz7xA6Z0oNIVqRM8yAJ",
+        "_rev": "TnhqSaR9j92SDOsu7KkuXU",
+        "_system": {
+            "base": {
+                "id": "47a59bae-9234-404e-8299-efeec4d1c78d",
+                "rev": "Y3ZKz7xA6Z0oNIVqRM8yAJ"
+            }
+        },
         "_type": "codex",
-        "_updatedAt": "2025-06-16T20:12:39Z",
+        "_updatedAt": "2026-03-25T19:19:34Z",
         "content": [
             {
                 "_key": "e538d7201c07",
@@ -9921,6 +10190,20 @@
                         "_type": "span",
                         "marks": [],
                         "text": "For example, [[Pit Vipers]] can kill [[Amazon Warriors]] with a single strike for 1 damage. If the Amazon Warriors had their [[Shield Maidens]] nearby, then the Pit Vipers wouldn't actually kill the Amazon Warriors, because they'd do zero damage, which isn't actually damage at all."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "c584dc3a3de9",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "e760d798adf7",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "A spellcaster with the Lethal ability still casts Magic spells normally; the Magic spells themselves deal the damage. For example, a spellcaster with Lethal casts [[Firebolts]], but the damage from [[Firebolts]] is not Lethal; Firebolts is dealing the damage, not the spellcaster. On the other hand, the damage from [[Poison Nova]] is Lethal, because the spell itself says it's lethal."
                     }
                 ],
                 "markDefs": [],
@@ -10113,15 +10396,15 @@
     {
         "_createdAt": "2025-03-24T19:48:42Z",
         "_id": "7e87d038-ec40-446e-a213-952e429f2071",
-        "_rev": "Y3ZKz7xA6Z0oNIVqRM94q5",
+        "_rev": "i1QhM64a7hK8HMMEq9Pi5P",
         "_system": {
             "base": {
                 "id": "7e87d038-ec40-446e-a213-952e429f2071",
-                "rev": "gzcTUvinGX6KlBImCaSXtH"
+                "rev": "Y3ZKz7xA6Z0oNIVqRM94q5"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-17T20:58:20Z",
+        "_updatedAt": "2026-03-09T19:02:06Z",
         "content": [
             {
                 "_key": "ddf969c2c397",
@@ -10145,7 +10428,7 @@
                         "_key": "970bbdc3e7c7",
                         "_type": "span",
                         "marks": [],
-                        "text": "[[Sisters of Silence]], [[Silence]], [[Entangle Terrain]], [[Sky Baron]], [[Atlantean Fate]], [[Scent Hounds]], [[House of Ondaros]], [[Master Tracker]], [[Magnetic Muzzle]], [[Smokestacks of Gnaak]], [[Watchtower]], [[Hunting Party]], [[Sir Bors the Younger]], [[Pebbled Paths]]"
+                        "text": "[[Sisters of Silence]], [[Silence]], [[Entangle Terrain]], [[Sky Baron]], [[Atlantean Fate]], [[Scent Hounds]], [[Hounds of Ondaros]], [[Master Tracker]], [[Magnetic Muzzle]], [[Smokestacks of Gnaak]], [[Watchtower]], [[Hunting Party]], [[Sir Bors the Younger]], [[Pebbled Paths]]"
                     }
                 ],
                 "markDefs": [],
@@ -10871,15 +11154,15 @@
     {
         "_createdAt": "2025-03-24T19:49:40Z",
         "_id": "d7f6af80-0923-4ab1-88bc-11b7c694d49b",
-        "_rev": "TErrISLPjz1kwp8pzhRyil",
+        "_rev": "TnhqSaR9j92SDOsu7Kkwem",
         "_system": {
             "base": {
                 "id": "d7f6af80-0923-4ab1-88bc-11b7c694d49b",
-                "rev": "PGuKHklOLtxRgLs58IAWMK"
+                "rev": "TErrISLPjz1kwp8pzhRyil"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T02:54:27Z",
+        "_updatedAt": "2026-03-25T19:20:09Z",
         "content": [
             {
                 "_key": "6d19a7d59e6e",
@@ -10943,34 +11226,6 @@
                         "style": "normal"
                     },
                     {
-                        "_key": "ba11dd8420b0",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "788fc6f2534d",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Steps resolve one at a time. Because some abilities may change as your unit moves through the realm, you may declare seemingly-illegal movement paths. That is, the legality of the movement path is only checked step by step, as each individual step is about to happen. If the step is not legal at the moment you try to take it, you do not take that step, and you continue resolving anything remaining. See the examples below for further details."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1d49aa4cfe1a",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "506507bd8fa5",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "When you declare movement, the only restriction is that you may not repeat specific steps."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
                         "_key": "43a7483b76ec",
                         "_type": "block",
                         "children": [
@@ -10978,7 +11233,7 @@
                                 "_key": "ae050b69b9da",
                                 "_type": "span",
                                 "marks": [],
-                                "text": "If your unit takes at least one step, it has moved; if it takes zero steps, it has not moved."
+                                "text": "See the entry for Movement Path for more information about declaring paths."
                             }
                         ],
                         "markDefs": [],
@@ -11035,102 +11290,6 @@
                     }
                 ],
                 "title": "Declaring The Attack Target"
-            },
-            {
-                "_key": "dbf0c9558ea9",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "6eda2593bcbc",
-                        "_type": "damageGrid",
-                        "grid": {
-                            "rows": [
-                                {
-                                    "_key": "ad2804c9-ca66-45fd-9ae1-ff643179d4a4",
-                                    "_type": "tableRow",
-                                    "cells": [
-                                        "",
-                                        "A",
-                                        "B",
-                                        "C"
-                                    ]
-                                },
-                                {
-                                    "_key": "a190b284-e094-4622-828f-c579943ba814",
-                                    "_type": "tableRow",
-                                    "cells": [
-                                        "",
-                                        "",
-                                        "",
-                                        ""
-                                    ]
-                                }
-                            ]
-                        },
-                        "markDefs": null
-                    },
-                    {
-                        "_key": "8d8102984f4c",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "a2e4caaf5299",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "[[Rimland Nomads]] are at A, in a [[Silence]] aura on the leftmost 2x2 area. You use their Move and Attack basic ability and declare the following movement path:"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "40bd613786fc",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "0325125cbbf5",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Surface A -\u003e Surface B"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "7f6376b664d1",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "63f20a56f5c5",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Surface B -\u003e Surface C"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1368a41f2bc5",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "4a8caa8ee410",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Example - Declaring a Seemingly Illegal Movement Path"
             }
         ],
         "title": "Move and Attack"
@@ -11936,15 +12095,15 @@
     {
         "_createdAt": "2025-06-10T18:45:51Z",
         "_id": "e598f1a7-a876-431c-a414-33e1893cd4d8",
-        "_rev": "GOFL2kyVV19G5S1YnlyfLH",
+        "_rev": "GStVz4VPsOdrjZ7bXyyuti",
         "_system": {
             "base": {
                 "id": "e598f1a7-a876-431c-a414-33e1893cd4d8",
-                "rev": "GOFL2kyVV19G5S1YnlyRlz"
+                "rev": "GOFL2kyVV19G5S1YnlyfLH"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-20T06:39:20Z",
+        "_updatedAt": "2026-03-25T19:20:00Z",
         "content": [
             {
                 "_key": "89c74477fb46",
@@ -12116,7 +12275,7 @@
                                 "_key": "ab534aba8c49",
                                 "_type": "span",
                                 "marks": [],
-                                "text": "Type changing effects, e.g. [[Bower of Bliss]], [[Island Leviathan]]"
+                                "text": "Type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]]"
                             }
                         ],
                         "level": 1,
@@ -13228,15 +13387,15 @@
     {
         "_createdAt": "2025-06-08T06:12:51Z",
         "_id": "2ba56532-3ac0-41e8-a73f-1005cbefe8db",
-        "_rev": "OVwv9CvZAhvcLZb6pHhM0k",
+        "_rev": "TnhqSaR9j92SDOsu7KkwS0",
         "_system": {
             "base": {
                 "id": "2ba56532-3ac0-41e8-a73f-1005cbefe8db",
-                "rev": "Y3ZKz7xA6Z0oNIVqRM8out"
+                "rev": "OVwv9CvZAhvcLZb6pHhM0k"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T22:05:17Z",
+        "_updatedAt": "2026-03-25T19:20:06Z",
         "content": [
             {
                 "_key": "e6182e146649",
@@ -13247,6 +13406,48 @@
                         "_type": "span",
                         "marks": [],
                         "text": "A path for a card that's moving involves 1 or more steps, and each step has a starting and ending location that's different. If your step is from a location to that same location, you didn't actually move anywhere. If you occupied multiple locations while moving, all of those locations are included in your path, including for oversized units."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "e607aed327a8",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "898a84481b28",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Steps resolve one at a time. Because some abilities may change as your unit moves through the realm, you may declare seemingly-illegal movement paths. That is, the legality of the movement path is only checked step by step, as each individual step is about to happen. If the step is not legal at the moment you try to take it, you do not take that step, and you continue resolving anything remaining. See the examples below for further details."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "7f7ead1aabf9",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "a17ba8b59be4",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "When you declare movement, the only restriction is that you may not repeat specific steps. This means that a unit may move from location A, to location B, then back to location A (assuming it has enough movement), but it cannot then repeat the step of \"A to B.\" Note that steps \"A to B\" and \"B to A\" are different steps."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "8e41a1fa49b0",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "8cb3635c1fb6",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If your unit takes at least one step, it has moved; if it takes zero steps, it has not moved."
                     }
                 ],
                 "markDefs": [],
@@ -13268,8 +13469,106 @@
             }
         ],
         "field": "*",
+        "finder": "path,paths,movement path",
         "interlinking": true,
-        "subcodexes": null,
+        "subcodexes": [
+            {
+                "_key": "f1fc77573e8c",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "7176e34710b7",
+                        "_type": "damageGrid",
+                        "grid": {
+                            "rows": [
+                                {
+                                    "_key": "ad2804c9-ca66-45fd-9ae1-ff643179d4a4",
+                                    "_type": "tableRow",
+                                    "cells": [
+                                        "",
+                                        "A",
+                                        "B",
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "_key": "a190b284-e094-4622-828f-c579943ba814",
+                                    "_type": "tableRow",
+                                    "cells": [
+                                        "",
+                                        "",
+                                        "",
+                                        ""
+                                    ]
+                                }
+                            ]
+                        },
+                        "markDefs": null
+                    },
+                    {
+                        "_key": "b0c94b48375c",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "992532f564c3",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "[[Rimland Nomads]] are at A, in a [[Silence]] aura on the leftmost 2x2 area. You use their Move and Attack basic ability and declare the following movement path:"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "4060f6bfbb0a",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "343485c4054a",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Surface A -\u003e Surface B"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "df1c9bea2d54",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "226077010163",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Surface B -\u003e Surface C"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "fed525cc7dbc",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "9c3b00c2f49d",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Example - Declaring a Seemingly Illegal Movement Path"
+            }
+        ],
         "title": "Path"
     },
     {
@@ -16892,15 +17191,15 @@
     {
         "_createdAt": "2025-01-21T03:03:03Z",
         "_id": "8dc27cdf-47d5-4d69-8724-c30efbe94158",
-        "_rev": "ddCziRH2Fm886tLDwunEN1",
+        "_rev": "TnhqSaR9j92SDOsu7Kkuky",
         "_system": {
             "base": {
                 "id": "8dc27cdf-47d5-4d69-8724-c30efbe94158",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "ddCziRH2Fm886tLDwunEN1"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T21:01:11Z",
+        "_updatedAt": "2026-03-25T19:19:42Z",
         "content": [
             {
                 "_key": "d858b3eb89e9",
@@ -16918,7 +17217,7 @@
                         "_key": "03217d0f464a",
                         "_type": "span",
                         "marks": [],
-                        "text": "Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Artifacts carried by a Stealthed minion also cannot be targeted."
+                        "text": "Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted."
                     }
                 ],
                 "markDefs": [],
@@ -19485,15 +19784,15 @@
     {
         "_createdAt": "2025-06-08T03:43:48Z",
         "_id": "98943611-2a6f-4756-ad9b-a7d6598e9729",
-        "_rev": "08Phwy2JNx8pNx4wf5BJTt",
+        "_rev": "TnhqSaR9j92SDOsu7Kkwye",
         "_system": {
             "base": {
                 "id": "98943611-2a6f-4756-ad9b-a7d6598e9729",
-                "rev": "OVwv9CvZAhvcLZb6pGCaMz"
+                "rev": "08Phwy2JNx8pNx4wf5BJTt"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-02-08T21:30:22Z",
+        "_updatedAt": "2026-03-25T19:20:12Z",
         "content": [
             {
                 "_key": "990fb2df698d",
@@ -19503,7 +19802,7 @@
                         "_key": "3a87da70bc74",
                         "_type": "span",
                         "marks": [],
-                        "text": "A target is the chosen object of a spell or effect. It uses the word \"target,\" and choosing a target is required. For example, [[Arc Lightning]] has a target of a \"nearby unit\" and [[Red Desert]] has a target of \"nearby site.\""
+                        "text": "A target is the chosen object of a spell or effect. A spell or effect that targets will and must use the word \"target.\" Choosing a target is required. For example, [[Arc Lightning]] has a target of a \"nearby unit\" and [[Red Desert]] has a target of \"nearby site.\""
                     }
                 ],
                 "markDefs": [],
@@ -19545,7 +19844,7 @@
                         "_key": "f84f85b9ad0a",
                         "_type": "span",
                         "marks": [],
-                        "text": "You must declare a legal target as the effect goes on the storyline, and the legality of the target is checked again when the effect starts to resolve. If you cannot declare a legal target when the spell or ability would enter the storyline, the spell isn't actually cast and the ability can't be used."
+                        "text": "You must declare a legal target as the effect goes on the storyline, and the legality of the target is checked again when the effect starts to resolve. If you cannot declare a legal target when the spell or ability would be added to the storyline, the spell isn't actually cast and the ability can't be used."
                     }
                 ],
                 "markDefs": [],
@@ -19608,15 +19907,15 @@
     {
         "_createdAt": "2025-03-30T04:02:25Z",
         "_id": "148ecc13-72e8-46eb-812f-2c6f3b37cd6d",
-        "_rev": "OVwv9CvZAhvcLZb6pGC4fB",
+        "_rev": "GStVz4VPsOdrjZ7bXyyxx3",
         "_system": {
             "base": {
                 "id": "148ecc13-72e8-46eb-812f-2c6f3b37cd6d",
-                "rev": "tuEyhHPqNeE2U7cY1lbQJY"
+                "rev": "OVwv9CvZAhvcLZb6pGC4fB"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-06-29T18:27:19Z",
+        "_updatedAt": "2026-03-25T19:20:03Z",
         "content": [
             {
                 "_key": "63e0b26bee47",
@@ -19626,7 +19925,21 @@
                         "_key": "a5761d77a70a",
                         "_type": "span",
                         "marks": [],
-                        "text": "Teleportation is forced movement directly from one location to another. Teleportation does not cross borders, and does not have a defined cardinal direction (even if the two locations are in the same row or column)."
+                        "text": "Teleportation is forced movement directly from one location to another. Teleportation does not cross borders, and does not have a defined cardinal direction (even if the two locations are in the same row or column). "
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "7c1f2101aed1",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "a6cab96b1e0c",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Teleportation can cross regional boundaries unless their effect specifies otherwise. For example, [[Flanking Maneuver]] can move minions from one region to another. [[Blink]], however, requires that the unit move to a \"nearby\" location, and only locations within the same region are nearby one another. [[Displace]] specifies that you move something \"one diagonal step\" and steps are always measured within the same region."
                     }
                 ],
                 "markDefs": [],
@@ -21450,15 +21763,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "ae9b6774-aa8f-45c5-a424-d6d7e58014c3",
-        "_rev": "sUoj7uhqXTsr7OTcIoeHOh",
+        "_rev": "Vfx7hd7JwGrVL4MB9Azaad",
         "_system": {
             "base": {
                 "id": "ae9b6774-aa8f-45c5-a424-d6d7e58014c3",
-                "rev": "zvKrGaEbn7fmhmu7rPR0eI"
+                "rev": "4jl4xWbDCAcaPDgBGc1EiB"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-02-09T18:40:15Z",
+        "_updatedAt": "2026-02-23T05:41:06Z",
         "content": [
             {
                 "_key": "958ad495edff",
@@ -21686,7 +21999,7 @@
                         "_key": "2c5055f03ad4",
                         "_type": "span",
                         "marks": [],
-                        "text": "Another example: I cast [[Bury]] targeting your warded minion while carrying a [[Ring of Morrigan]]. The Bury goes onto the Storyline. The Ring of Morgana triggers, dealing 1 damage to warded minion. The Ward protects the minion and breaks, dealing no damage. Then, as Bury resolves from the Storyline, the Ward is already gone so the minion is burrowed."
+                        "text": "Another example: I cast [[Bury]] targeting your warded minion while carrying a [[Ring of Morrigan]]. The Bury goes onto the Storyline. The Ring of Morrigan triggers, dealing 1 damage to warded minion. The Ward protects the minion and breaks, dealing no damage. Then, as Bury resolves from the Storyline, the Ward is already gone so the minion is burrowed."
                     }
                 ],
                 "level": 2,
@@ -21789,6 +22102,7 @@
                 "style": "normal"
             }
         ],
+        "field": "rulesText",
         "finder": "ward,warded,wards",
         "interlinking": true,
         "subcodexes": null,
@@ -21890,6 +22204,34 @@
         "interlinking": true,
         "subcodexes": null,
         "title": "Waterbound"
+    },
+    {
+        "_createdAt": "2026-02-24T03:53:26Z",
+        "_id": "ba6ffd23-34eb-400c-b57f-aa0344194320",
+        "_rev": "7dbbsPJQJngj2t3aDSC2fP",
+        "_type": "codex",
+        "_updatedAt": "2026-03-25T19:18:47Z",
+        "content": [
+            {
+                "_key": "4f7a55f0a339",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "c79bef62e546",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Some effects use the phrase \"when it arrives.\" For example, ((Grapple Shot)). A card \"arrives\" when it shares a location with the origin of the effect, after resolving movement, if any. If no movement occurs, but the card shares a location with the origin of the effect, it still \"arrives.\""
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "finder": "it arrives,when it arrives",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "When it Arrives"
     },
     {
         "_createdAt": "2025-03-30T04:03:41Z",
