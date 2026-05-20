@@ -1,3 +1,12 @@
+# Abilities that Reference the Card's Own Name
+There are many abilities that reference the name of the card which has the ability, either with the full name or part thereof. For example, [[Adept Illusionist]] and [[Locusts of Illyria]] both refer to their own name with their ability.
+
+When another card gains such an ability, the text should be read as referencing the new card's name. For instance, if both [[Adept Illusionist]] and [[Vivien the Enchantress]] are in play, Vivien can tap to search for another card named "Vivien the Enchantress." If [[Grigori Rasputin]] banishes and gains the abilities of [[Locusts of Illyria]], he will look to see if another card named "Grigori Rasputin" has been summoned when creating a copy.
+
+In effect, when reading an ability which references the name of the card on which it is printed, you replace the name with a grammatically appropriate version of "this card."
+
+[Codex Entry](https://curiosa.io/codex?id=d123e994-d95f-4fa9-9f2d-3a3e31fe95af)
+
 # Ability
 All cards in the game have abilities! There are two categories of abilities:
 
@@ -125,13 +134,7 @@ Moving "as if connected" does cross borders normally, and uses normal cardinal d
 
 Oversized units that move as if connected and then find themselves spanning the realm will immediately end up on one side or the other. See "((Oversized Units))" for more details.
 
-Most forced movement effects require proximity and thus won't work across the top and bottom edge when moving "as if connected." For example, [[Whirlwind]] could theoretically push across the top or bottom edge because a "push" counts as movement, but you won't be able to select a 2x2 area that spans the top and bottom edges, because those rows are not actually connected; [[Polar Explorers]] merely allow _movement _"as if" connected, not "selecting 2x2 areas as if connected." (In contrast, if [[Magellan Globe]] were in the realm, then you really could select 2 squares in the top row and 2 squares in the bottom row, because Magellan Globe actually connects the edges, for all purposes.)
-
-An example of a forced movement effect that would work is [[Maelström]]:
-
-_See live codex for table_
-
-[[Maelström]] is at M, and [[Polar Bears]] are at P. The whole area is a giant body of water. You could pull normally to X, or could pull "as if connected" to M since pulling is a form of movement.
+Forced movement effects do not cause units to take their own steps, and so they cannot cause a unit with such an ability to cross an edge of the realm. The only exception is if the edges of the realm are truly connected by some other effect (e.g. [[Magellan Globe]]).
 
 [Codex Entry](https://curiosa.io/codex?id=78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b)
 
@@ -189,11 +192,11 @@ You may only attack enemy units or the surface of enemy sites that are at your l
    1. One unit may use the Defend ability, resolving its movement, if any.
    2. If it now occupies the attack's location, it joins the attack as a defender.
       1. If the original target was a site, it's removed from the attack.
-      2. If the original target was a unit, it may remain in the fight or not, as the defending player chooses.
+      2. If the original target was a unit, it may remain in the fight or not, as chosen by the player who controls the unit using the Defend ability.
       3. Note that the defender is not "attacked" nor "targeted." The opportunity to use "attack" triggers (e.g. [[Dodge Roll]], [[Wills-o'-the-Wisp]], etc.) has already passed.
    3. Repeat 3.a and 3.b as many times as defending player wants, one defender at a time.
    4. Defend window is closed.
-4. Check for attack target legality again. Units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)
+4. Check for attack target legality again. As long as it occupies the attack's location, units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)
 5. Resolve the fight.
    1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life.
 6. The attack is over. Any "after attack" triggers resolve now.
@@ -574,7 +577,11 @@ Conjure means "enter the realm," for artifacts and auras. See the "summon" codex
 # Copy
 When a card enters the realm as a copy, e.g. [[Mirror Realm]] or [[Selfsame Simulacrum]], its characteristics and abilities match the copied card. If the copying card (e.g. Selfsame Simulacrum) leaves the realm, it reverts to its printed characteristics and abilities.
 
-When you create a copy, e.g. an artifact via [[Replication]] or a magic via [[Archimago]] or [[Orb of Ba'al Berith]], the characteristics and abilities match those printed on the copied card, and the copy is a token. For example, in the case of a copied magic, it will be banished as soon as it resolves from the storyline, per the normal token rules.
+When you create a copy, e.g. an artifact via [[Replication]], or a magic via [[Archimago]] or [[Orb of Ba'al Berith]], the characteristics and abilities match the characteristics and abilities of the copied card, and the copy is a token. In the case of a copied magic (which is a token), it will be banished as soon as it resolves from the storyline, per the normal token rules.
+
+By default, whoever creates the copy controls it and makes any necessary decisions for that copy, e.g. a player chooses to create a copy of [[Chaoswish]] so they control that copy of the spell.
+
+A card's characteristics and abilities are its printed characteristics and abilities, by default. However, if a card "entered as a copy" then its characteristics and abilities are what's printed on the copied card. For example, if you play a [[Selfsame Simulacrum]] and have it enter as a copy of a nearby [[Locusts of Illyria]], at the end of the turn it will summon a new Locust, not a new Simulacrum. Additionally, if you play a [[Mirror Realm]], copying a nearby [[Bedrock]], and your opponent then plays their own Mirror Realm copying your first one, the new Mirror Realm will be a Bedrock.
 
 [Codex Entry](https://curiosa.io/codex?id=88663410-ac07-4dd6-b2fe-fbecbadf232a)
 
@@ -658,11 +665,11 @@ After applying all damage modification effects, then apply damage prevention eff
 # Damage Grid
 To simplify rules text and illustrate the extent of effects over a wide area, some cards show a damage grid, e.g. [[Craterize]].
 
-Damage grids may use a bold square to indicate the center of the card’s effect, or a dot to show the Spellcaster’s location on the grid, e.g. [[Cone of Flame]].
+Damage grids may use a bold square to indicate the center of the card’s effect, or a dot to show the location of the origin of the effect on the grid, e.g. [[Cone of Flame]], [[Mester Stoor Worm]].
 
 A damage grid may be rotated and reflected, though some effects may specify otherwise. E.g. [[Flame Wave]] may only be reflected, not rotated.
 
-A damage grid affects each unit at the shown squares and **in the same region as the caster**, though some effects may specify otherwise. E.g. [[Craterize]] specifies "above and below." 
+A damage grid affects each unit at the shown squares and **in the same region as the origin of the effect**, though some effects may specify otherwise. E.g. [[Craterize]] specifies "above and below." 
 
 By default, an effect with a damage grid may be oriented so that the grid is partially outside the realm, as long as the source or origin square in the realm.
 
@@ -709,17 +716,19 @@ See the "((die))" and "((attack))" codex entries for more details on specific De
 # Defend
 Defend is a basic ability that allows you to defend against your opponent's attacks. A unit must be untapped to defend, and it's one of two basic abilities that you can use on your opponent’s turn (the other is Intercept). Defend is a triggered ability with the following text:
 
-_When an enemy attacks another unit or site in this unit's range of motion, it may tap to defend, moving to the attack's location and joining the fight._
+_When an enemy attacks another unit or site in this unit's range of motion, it may tap to defend, moving to the attack's location and then joining the fight._
 
 When an attack is occurring, there is a window to defend. See the "((attack))" codex entry for further details. During that window, multiple different units can defend, one at a time.
 
 When a unit moves to defend, it may use any of its movement abilities, such as Airborne, Burrowing, Movement +X, Submerge, or Voidwalk.
 
-If the original target of the attack was a unit, the defender’s controller may decide if that unit remains in the fight, or is removed. If the original target was a site, it is automatically removed.
+After completing its movement, assuming the unit successfully reaches the attack location it will then complete the Defend action, changing the target of the attack to itself.
+
+If the original target of the attack was a unit, the controller of the unit using the Defend ability decides if the original target remains in the fight, or is removed. If the original target was a site, it is automatically removed.
 
 Remember, only “attacks” can be defended; attacks are only caused by the Move and Attack basic ability, or very specific card text that uses the word “attack," e.g. [[Crave Golem]].
 
-When a unit uses its Defend ability, it automatically becomes a legal target for the attack. For example, a minion with Stealth normally can't be targeted by an attack, but if it chooses to Defend, it will be a legal target (as an explicit exception to the normal precedence in the Silver Rule).
+When a unit uses its Defend ability, it automatically becomes a legal target for the attack as long as it completes the Defend action successfully. For example, a minion with Stealth normally can't be targeted by an attack, but if it chooses to Defend, it will be a legal target (as an explicit exception to the normal precedence in the Silver Rule).
 
 ## Movement Paths for Defending
 When a unit defends, it must declare a movement path that ends with it occupying the attack's location, ignoring any triggered abilities.
@@ -765,6 +774,15 @@ If a site is disabled, it has no abilities and cannot provide any mana or affini
 If an artifact or aura is disabled, it has no abilities.
 
 [Codex Entry](https://curiosa.io/codex?id=08fff20b-76c1-45c3-b13f-989202cdacf0)
+
+# Discard
+To "discard" a card, choose a card from your hand zone and put it into your cemetery. Some effects ))modify(( where the discarded card(s) come from. For example, an effect which tells you to discard your "top spell," means you discard the topmost card from your spellbook.
+
+By default, you may choose which card to discard, though many effects will tell you to discard a random card, spell, or site.
+
+Cards that are in zones other than a player's hand cannot be discarded, unless explicitly stated. For example, if you summon a [[Dreadwing]], you cannot discard a card from [[Morgana le Fay]]'s hand to pay for its effect.
+
+[Codex Entry](https://curiosa.io/codex?id=adee8b2b-40ba-4231-874d-df4790483730)
 
 # Dispel
 Dispel means to "die," for auras. See the "die" codex entry for more details.
@@ -936,6 +954,11 @@ If you fly a site somewhere, e.g. [[Cloud City]], treat all units occupying the 
 
 [Codex Entry](https://curiosa.io/codex?id=a679bc15-c028-430f-a84a-8b6556b33f0c)
 
+# Fly Over
+Some effects specify that projectiles "))fly(( over" a unit. This means that projectiles can't hit the unit, hitting other units normally.
+
+[Codex Entry](https://curiosa.io/codex?id=173e7fe0-f96c-4aea-8281-060c447ec78f)
+
 # Foot Soldier Token
 A Foot Soldier is a token minion with 1 power. A Foot Soldier is an Ordinary Mortal and an ((earth)) minion. For example, [[Common Village]].
 
@@ -1047,7 +1070,7 @@ A unit "interacts" with the realm if it does any of the following things:
    - Note that a "((special ability))" is different from a "((basic ability))".
 - Deal damage (even if the damage is prevented)
 
-Note that "deal damage" is mostly but not fully covered by the first three bullet points. "Activates a special ability" doesn't include triggered abilities, since only activated abilities can be activated. There are some triggered abilities that could deal damage, e.g. [[Infernal Legion]] or [[Colicky Dragonettes]], which are intentionally included in "interacting."
+If a unit's damage-dealing triggered ability (e.g. [[Infernal Legion]], [[Colicky Dragonettes]], [[Redbreast Robin]], etc.) doesn't actually hit anything, it has not interacted with the realm. If it hit something (whether or not damage was prevented), then it has interacted.
 
 [Codex Entry](https://curiosa.io/codex?id=c60b2516-48e8-4c55-9bc9-9971d98d829e)
 
@@ -1205,7 +1228,7 @@ If a site provides water affinity and other types of affinity (e.g. earth), it's
 # Lasts 3 of Your Turns
 This terminology is used on various aura, e.g. [[Entangle Terrain]], [[Falling Star]].
 
-To resolve the effect, add a counter at the end of each of your turns, and dispel the aura when there are 3 counters.
+To resolve the effect, add a counter at the end of each of your turns, and dispel the aura when there are 3 (or more) counters.
 
 If the aura is silenced during your end phase (presumably because it was animated by [[Enchantress]] and then silenced somehow), then no counter will be added that turn.
 
@@ -1457,7 +1480,7 @@ Ongoing effects apply continuously during their duration. If they do not have a 
 
 Between each event on the storyline, apply all ongoing effects. That is, the game is very regularly applying ongoing effects, both before and after each event on the storyline.
 
-Most of the time, the application of ongoing effects is straightforward; simply apply them. Complex interactions are described below.
+Most of the time, the application of ongoing effects is straightforward; simply apply them. If you need to resolve a complex interaction involving multiple ongoing effects and the order in which they apply is unclear, consult the following article: Ordering Ongoing Effects - The Layer System.
 
 ## Apply All Ongoing Effects Before Checking For Minions Dying
 If there are multiple ongoing effects, the game will apply all of them before checking to see if any minions died.
@@ -1465,63 +1488,6 @@ If there are multiple ongoing effects, the game will apply all of them before ch
 For example, you have a [[Bosk Troll]] that has taken 1 damage this turn. Then, you move it to a location that is nearby both [[Wicked Witch]] and your [[House Arn Bannerman]]. Both the Witch and the Bannerman generate ongoing effects with their passive abilities. If the game applied the -2 power from the Witch first and then immediately checked for minions dying, the Bosk Troll would die, even though it shouldn't due to the House Arn Bannerman.
 
 Therefore, between each event on the storyline, the game applies all ongoing effects before checking for minions dying.
-
-## Apply Ongoing Effects In Order
-If ongoing effects overlap or conflict, apply them in the order listed here by layer:
-
-1. Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]]
-2. Disabling effects, silencing effects, e.g. [[Root Spider]], [[Iron Shackles]], [[Silence]], [[Sisters of Silence]]
-3. Control effects, e.g. [[King of the Realm]], [[Mesmerism]]
-4. Type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]]
-5. Ability adding and removing effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]
-6. Power setting effects, e.g. [[Shrink]]
-7. Power addition and subtraction effects, e.g. [[Overpower]], [[Wicked Witch]]
-8. Power multiplication effects, e.g. [[Warp Spasm]]
-
-Within each layer, apply the effects based on their timestamp, from oldest to newest.
-
-- For ongoing effects generated by a passive ability (e.g. [[King of the Realm]], [[Root Spider]]), their timestamp is when the card entered the realm.
-- For ongoing effects generated by an activated or triggered ability (e.g. [[Floodplain]], [[Bog]]), their timestamp is when the ability was activated or triggered, not when the original source entered the realm.
-
-An effect cannot remove itself once it's already being applied. For example, an animated [[Silence]] aura will cause itself to lose its abilities in layer 2, but losing that ability will not remove the silence effect, which was already being applied.
-
-In the unlikely event that two or more cards enter the realm simultaneously and they have passive abilities that may need to be ordered (e.g. my [[King of the Realm]] and yours, entering simultaneously via [[Boneyard]]), the active player's cards are considered to have entered first (in the order of their choosing, if they have more than one entering simultaneously).
-
-## Example - Two Kings of the Realm
-If you play [[King of the Realm]] and then I play [[King of the Realm]] afterward, the game applies both control effects in layer 3. Since your King is older, the game starts with that effect. Your King gives you control of all mortals, including my King. Then, when the second King's ability is being applied, he's already controlled by you due to the first King's ability. Therefore, you control all mortals and the first King "wins."
-
-## Example - Two Smokestacks of Gnaak
-If you play [[Smokestacks of Gnaak]] and then I play another Smokestacks of Gnaak nearby, the game tries to apply both lose-ability effects in layer 5. Since your Smokestacks are older, the game starts with that effect. Your Smokestacks causes my Smokestacks to lose its ability. Then, when my Smokestacks ability would be applied, it already lost its ability due to the first Smokestacks. Therefore, the first Smokestacks "wins."
-
-## Example - Flood vs. Drought
-If you play [[Flood]] and then I play [[Drought]], the game tries to apply both affinity changing effects in layer 5. Since you played Flood first, the game first gives the affected sites a minimum of one water affinity (W). Then, when my Drought ability is applied, the affected sites have no water affinity. Therefore, the Drought "wins."
-
-If Flood had been played second, then the Flood effect would have been applied second, and thus would "win."
-
-Remember that if an activated or triggered ability creates an ongoing effect, the effect applies based on when the ability activated or triggered, not when the original source entered the realm. For example, [[Floodplain]]'s activated ability would "win" against a [[Drought]] even if the Floodplain entered the realm before Drought, as long as the Floodplain's activated ability was used after Drought.
-
-## How to Handle Dependencies
-This is a complicated concept, perhaps the most complicated in the whole codex! Be warned. Let's start with examples.
-
-I have [[Lucid Dreamers]] in the realm and cast a [[Bosk Troll]] to them, so my Troll gains voidwalk. Then, I cast [[Power of Flight]] on my Trolls. When applying those ongoing effects, I apply them in layer 5. Technically, I apply the Voidwalk first (because it's older) and then I apply Airborne. But, the end result would be the same if I applied them in the opposite order; either way, I end up with a Troll that has Voidwalk and Airborne. These two ongoing effects **do not** depend on each other.
-
-Now, let's consider two [[Sisters of Silence]]. I play Sister A then you play Sister B nearby. We apply the silenced effect in layer 2. Since Sister A is older, the game applies that first, Sister B loses her ability, and Sister A retains her ability. If I applied them in the opposite order, Sister A would lose her ability and Sister B would retain hers. In this case, both ongoing effects depend on each other.
-
-Finally, let's consider one Sister of Silence and a [[Grievous Insult]]. I play my Sister of Silence and then you play Grievous Insult. Let's say you have a [[House Arn Bannerman]] nearby my Sisters. If we apply the Sisters first (because they entered the realm before the Grievous Insult was played), House Arn Bannerman will be silenced, and then the Sisters would be silenced by the Insult. In this scenario, the House Arn Bannerman would already be silenced and not get his ability back when the Sisters became silenced by the Insult! If we consider the alternate order, applying the Insult first, the Sisters still end up silenced, but the House Arn Bannerman will not be silenced. In this case, the Sisters' ability is dependent on the Insult, but the Insult is not dependent on the Sisters (since the Sisters end up Silenced by the Insult regardless of order).
-
-Player intuition would say that if I play Sisters and then you play Grievous Insult, we would expect the Grievous Insult to actually apply first, even though it was played later. That is the whole point of the dependency rule!
-
-_If one effect depends on another (but not visa versa!), apply the independent effect first, ignoring normal timestamp order._
-
-This whole rule can probably be boiled down to "use your intuition on how it should work." Here are further examples:
-
-I play [[King of the Realm]], and then you use [[Mesmerism]] my King of the Realm. Without the dependency rule, we would apply the control effect from my King of the Realm to all Mortals, _then_ you would get control of only my King of the Realm via Mesmerism (but not all the other Mortals, because we already applied that effect). But that's obviously not the way it should work, since Mesmerism is independent of the King's effect. Therefore, we apply Mesmerism first, then King of the Realm.
-
-I play [[Fields of Phyxis]] to silence your [[Floodplain]] in front of it. Then, you play [[Acid Rain]] just on my Fields. If we applied these in order, my Fields would silence your Floodplain, then your Acid Rain would silence my Fields (but the Floodplain would already be silenced). But that's obviously not how it should work, since Acid Rain is independent of Fields. Therefore, we apply Acid Rain first, silencing Fields of Phyxis (and the Floodplains won't get silenced by the Fields).
-
-If there are multiple independent and dependent effects, apply the independent effects in timestamp order, then the dependent effects in timestamp order. For example, if I play King of the Realm, then you play King of the Realm, you Mesmerize my King, then I Infiltrate my King back... We would note that Mesmerize and Infiltrate are independent of the King's effects, and apply those first. Mesmerize, then Infiltrate. Then we'd apply the King's abilities in order after that.
-
-Finally, note that if two effects are both dependent on each other, use timestamp normally. Examples of that are detailed ))above(( in "((Example - Two Kings of the Realm))," "((Example - Two Smokestacks of Gnaak)), and "((Example - Flood vs. Drought))."
 
 [Codex Entry](https://curiosa.io/codex?id=e598f1a7-a876-431c-a414-33e1893cd4d8)
 
@@ -1534,9 +1500,123 @@ Only the controller of the special spellcaster can look at the spell. If the con
 
 If the special spellcaster leaves the realm, any remaining spells go to the cemetery.
 
-The special spellcaster may cast the spell, even if they don't normally have spellcaster, e.g. the allied minion blessed by [[Archangel Gabriel]].
+While casting the spell(s), the special spellcaster has the Spellcaster ability, e.g. the allied minion blessed by [[Archangel Gabriel]].
 
 [Codex Entry](https://curiosa.io/codex?id=31be3c09-84b6-4ff4-bb37-18b00e77e77e)
+
+# Ordering Ongoing Effects - The Layer System
+Sometimes there will be several ongoing effects and the game must apply them in the proper order. Remember the Golden Rule! This system is somewhat complex, but is intended to provide intuitive results. You can probably ignore this whole section simply do what's intuitive, and you'll get the right result.
+
+If you really want to dive into the nitty-gritty details of some complicated interactions, follow this guide. To determine the correct application of ongoing effects:
+
+**1)** Group effects by layer.
+
+**2)** Within each group, arrange effects by timestamp, oldest to newest.
+
+**3)** Rearrange effects based on their conditions, if needed.
+
+#### Layer Order
+
+First, group ongoing effects by layer:
+
+1. Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]], [[Assimilator Snail]]
+2. Type and sub-type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]], [[Enchantress]], [[Tombstone Wardens]]
+3. Ability Removing effects, including Disabling effects, silencing effects, e.g. [[Root Spider]], [[Sisters of Silence]], [[Smokestacks of Gnaak]]
+4. Control effects, e.g. [[King of the Realm]], [[Mesmerism]]
+5. Ability adding effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]
+6. Power Modification effects
+   1. Setting effects, e.g. [[Shrink]]
+   2. Then, addition and subtraction effects, e.g. [[Overpower]]
+   3. Then multiplication effects, e.g. [[Warp Spasm]]
+
+#### Timestamp Order
+
+Then, within each layer (or between layers), arrange effects based on timestamp, oldest to newest.
+
+- For ongoing effects generated by a passive ability (e.g. [[King of the Realm]], [[Root Spider]]), their timestamp is when the card entered the realm.
+- For ongoing effects generated by an activated or triggered ability (e.g. [[Floodplain]], [[Bog]]), their timestamp is when the ability was activated or triggered, not when the original source entered the realm.
+
+In the unlikely event that two or more cards enter the realm simultaneously and they have passive abilities that may need to be ordered (e.g. my [[King of the Realm]] and yours, entering simultaneously via [[Boneyard]]), the active player's cards are considered to have entered first (in the order of their choosing, if they have more than one entering simultaneously).
+
+#### Adding and Removing Abilities Out of Order
+
+Finally, you may have to rearrange certain effects that have conditions, as follows:
+
+_If an effect would add an ability, or remove an ability, it does so before that ability's layer._
+
+- For example, you have a minion holding a [[Land Deed]]. Since Land Deed adds a control ability to the bearer, it will be applied just before layer 4 (Control), rather than in layer 5 (Ability Adding). 
+- As another example, you have a [[Fields of Phyxis]] with an [[Infusion Factory]] in front of it. Because the Fields would remove a type-changing ability, it will be applied just before layer 2 (Type and Sub-Type Changing), rather than in layer 3 (Ability Removing).
+- If two abilities would try to remove each other, use timestamp order.
+
+_If an ongoing effect has a condition, first apply effects related to that condition, and only then check the condition._
+
+- For example, you have a Foot Soldier holding a [[Sword and Shield]] and your opponent has [[Pied Piper of Hameln]]. Because Pied Piper's ability is conditional on the minion's power, wait to check Pied Piper's condition until just after layer 6 (Power Modification). The Foot Soldier's power will be 1+2=3, so you keep control of your Foot Soldier.
+- Another Pied Piper example: You have Pied Piper and [[House Arn Bannerman]]. I have a Skeleton token. Pied Piper's ability is conditional on minion power, so we wait to apply it until after layer 6, after your House Arn Bannerman's ability has been applied. You gain control of my Skeleton after layer 6, but it stays at 1 power, since you didn't control it when House Arn Banner's ability was applied.
+- As another example, you have a [[Bound Spirit]] adjacent to a [[Bosk Troll]] holding an [[Eerie Coral]]. The Spirit's ability is conditional on being adjacent to an allied Spellcaster. The Troll gains the Spellcaster ability from the Coral in layer 5 (Ability Adding). Wait to check Spirit's ability until just after layer 5. In fact, a Bound Spirit holding an Eerie Coral could un-disable itself.
+
+## Effects Cannot Remove Themselves Once Applied
+An effect cannot remove itself once it's already being applied. For example, an animated [[Silence]] aura will cause itself to lose its abilities in layer 2, but losing that ability will not remove the silence effect, which was already being applied.
+
+## Dependencies in Control Effects 
+To ensure all control effects match player intuition, we need a "dependency" rule.
+
+Note that these cases are handled nicely already by the timestamp rule:
+
+- Two [[Kings of the Realm]] (apply in timestamp order)
+- Two [[Mesmerism]]s (apply in timestamp order)
+
+But, if you play [[King of the Realm]] and then I play [[Mesmerism]] on your King, we cannot simply use the timestamp rule! If we did, your King would take control of all mortals, then my Mesmerism would take control of your King... but not the other mortals, since that effect was already applied! Such an outcome doesn't match design intent nor player intuition, so we need a "dependency" rule for cases like this.
+
+In such cases, apply the independent effect first (e.g. Mesmerism), then apply any dependent effects (e.g. King of the Realm), ignoring normal timestamp order.
+
+In summary, do the intuitive thing and it will be correct!
+
+## Minions Disabled While "At Rest"
+There are some minions (e.g. [[Hillock Basilisk]] and [[Stone-gaze Gorgons]]) with an ability that disables other minions "at rest." For the most part, these abilities can be applied in normal timestamp order along with other similar abilities in layer 3 (Ability Removing effects).
+
+However, when two minions with this type of ability are trying to apply to one another, you first determine which would "win" the initial check (i.e. the one which is not at rest). That minion is then considered to have an earlier timestamp than the other for as long as that other minion is at rest.
+
+If both minions are at rest at the time you are applying these abilities, rely on normal timestamp order.
+
+## Example - Two Kings of the Realm
+If you play [[King of the Realm]] and then I play [[King of the Realm]] afterward, the game applies both control effects in layer 4. Since your King is older, the game starts with that effect. Your King gives you control of all mortals, including my King. Then, when the second King's ability is being applied, he's already controlled by you due to the first King's ability. Therefore, you control all mortals and the first King "wins."
+
+## Example - Two Smokestacks of Gnaak
+If you play [[Smokestacks of Gnaak]] and then I play another Smokestacks of Gnaak nearby, the game tries to apply both lose-ability effects in layer 3. Since your Smokestacks are older, the game starts with that effect. Your Smokestacks causes my Smokestacks to lose its ability. Then, when my Smokestacks ability would be applied, it already lost its ability due to the first Smokestacks. Therefore, the first Smokestacks "wins."
+
+## Example - Flood vs. Drought
+If you play [[Flood]] and then I play [[Drought]], the game tries to apply both affinity changing effects in layer 5. Since you played Flood first, the game first gives the affected sites a minimum of one water affinity (W). Then, when my Drought ability is applied, the affected sites have no water affinity. Therefore, the Drought "wins."
+
+If Flood had been played second, then the Flood effect would have been applied second, and thus would "win."
+
+Remember that if an activated or triggered ability creates an ongoing effect, the timestamp is when the ability activated or triggered, not when the original source entered the realm. For example, [[Floodplain]]'s activated ability would "win" against a [[Drought]] even if the Floodplain entered the realm before Drought, as long as the Floodplain's activated ability was used after Drought.
+
+## Example - Pallid Bust vs. Acid Rain
+Warning: This is a complicated interaction!
+
+- You control a Foot Soldier carrying a [[Pallid Bust]].
+- The Bust banished a [[Sisters of Silence]].
+- The Foot Soldier with Bust are standing in [[Acid Rain]].
+
+We start with the Pallid Bust itself. Normally, granting abilities happens in layer 5. However, it's trying to grant a silence ability to the bearer (layer 3) and types (layer 2), so it actually applies in layer 2.
+
+Acid Rain is a silence effect (layer 3). But in this case, it's removing the type-changing effect of the bust (layer 2), so it actually applies just before layer 2.
+
+The end result is that Acid Rain silences the Bust and the Foot Soldiers don't gain types or abilities of the Sisters. Hopefully that matches player intuition from just glancing at the cards!
+
+## Example - List of Cards with Conditional Ongoing Effects
+This is not an exhaustive list of cards with conditional ongoing effects, but highlights the most notable specimens:
+
+- [[Bound Spirit]]
+   - Disable is normally layer 3, but this waits until after layer 5 (Ability adding).
+- [[Pied Piper of Hameln]]
+   - Control is normally layer 4, but this waits until after layer 6 (Power modification)
+- [[Plate of the Whale]]
+   - Adding Immobile is normally layer 5, but this waits until after layer 6 (Power modification)
+- [[King of the Realm]] or [[Returned King]]
+   - Control is normally layer 4. Subtype changing happens in layer 2. So, these apply in layer 4 normally, since effects related to their condition have already been applied by the time we get to layer 4.
+
+[Codex Entry](https://curiosa.io/codex?id=aa624e74-7c3e-4622-8471-03e05b576c52)
 
 # Oversized Units
 Normally, units occupy only one location while in the realm. However, some oversized units occupy multiple locations simultaneously due to their size, e.g. [[Mountain Giant]]. To represent the minion’s locations, place the card at the intersection of the sites.
@@ -1584,7 +1664,12 @@ You are the owner of all the cards you bring to a game of _Sorcery_. The owner o
 
 While the owner of a card is most often its controller, control of cards may change over the course of a game, e.g. [[Mesmerism]]. When effects use phrases like “your minions” or “your sites,” it refers to what you control, and not what you own.
 
-By default, cards are controlled by whoever puts them into the realm. For artifacts that can be carried, the controller of the unit that's carrying the artifact also controls the artifact itself. If such an artifact is not carried, it has no controller. For tokens, see the "((Token))" codex entry for details.
+By default, cards are controlled by whoever puts them into the realm, with the following clarifications:
+
+- For tokens, see the "((Token))" codex entry for details.
+- For carriable artifacts, the controller of the unit that's carrying the artifact also controls the artifact itself.
+   - If such an artifact is not carried, it has no controller.
+- If [[King Arthur]] is in play, anything other than carriable artifacts will be controlled by their owner.
 
 [Codex Entry](https://curiosa.io/codex?id=40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f)
 
@@ -1853,6 +1938,11 @@ Even if a group of surface locations is separated by the void from another group
 
 [Codex Entry](https://curiosa.io/codex?id=aecd74a9-a6fd-41f2-8734-9d1f1c8ace1e)
 
+# Replace
+When you"replace" a site, banish it and immediately play another site in its square. There is no time during this process when there's a void.
+
+[Codex Entry](https://curiosa.io/codex?id=b9b55fb1-cabf-47df-b789-ad389d15df40)
+
 # Replacement Effect
 Replacement effects replace one event with another. These types of effects often use the word "instead" and "would," with phrases like "would die," "would take damage," "would successfully attack," or "would untap."
 
@@ -1863,6 +1953,15 @@ Note that replacement effects do not use the storyline; they immediately resolve
 See the "((Damage))" codex entry and subsections for more details on damage-specific replacement effects.
 
 [Codex Entry](https://curiosa.io/codex?id=68c087c1-84f7-41f3-b44b-fb1753fce12e)
+
+# Row and Column
+The realm is divided into Rows and Columns. Rows are each contiguous set of squares directly left and right of one another, and Columns are contiguous sets of squares directly in front of or behind one another. 
+
+This diagram shows the default shape of the realm, with an example of a Row (marked with "R") and a Column (marked with "C").
+
+_See live codex for table_
+
+[Codex Entry](https://curiosa.io/codex?id=b7cf02ba-497b-4ec2-a596-14c636024868)
 
 # Royalty
 Royalty is any card with King, Queen (or Queene), Prince, or Princess in its name. For example, [[Crown Prince]] and [[The Faerie Queene]] are royalty.

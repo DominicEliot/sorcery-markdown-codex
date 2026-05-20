@@ -1,5 +1,60 @@
 [
     {
+        "_createdAt": "2026-04-22T19:59:14Z",
+        "_id": "d123e994-d95f-4fa9-9f2d-3a3e31fe95af",
+        "_rev": "xUfyFbT1vwoJFdAninWR38",
+        "_type": "codex",
+        "_updatedAt": "2026-05-19T18:39:37Z",
+        "content": [
+            {
+                "_key": "a04eb8a98c1c",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "aeb747c7085a",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "There are many abilities that reference the name of the card which has the ability, either with the full name or part thereof. For example, [[Adept Illusionist]] and [[Locusts of Illyria]] both refer to their own name with their ability."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "b385ba37e02e",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "7099815bf006",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "When another card gains such an ability, the text should be read as referencing the new card's name. For instance, if both [[Adept Illusionist]] and [[Vivien the Enchantress]] are in play, Vivien can tap to search for another card named \"Vivien the Enchantress.\" If [[Grigori Rasputin]] banishes and gains the abilities of [[Locusts of Illyria]], he will look to see if another card named \"Grigori Rasputin\" has been summoned when creating a copy."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "ecbb6001c1a1",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "1cd51d14db54",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "In effect, when reading an ability which references the name of the card on which it is printed, you replace the name with a grammatically appropriate version of \"this card.\""
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "*",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Abilities that Reference the Card's Own Name"
+    },
+    {
         "_createdAt": "2025-03-24T19:58:17Z",
         "_id": "b59ebea2-8981-49ef-bb6f-770cafa22876",
         "_rev": "TErrISLPjz1kwp8pzhRwAd",
@@ -1087,15 +1142,15 @@
     {
         "_createdAt": "2025-06-10T20:55:00Z",
         "_id": "78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b",
-        "_rev": "OVwv9CvZAhvcLZb6pGCS0j",
+        "_rev": "6Ke5xshZdLsJpk9EDE50fT",
         "_system": {
             "base": {
                 "id": "78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b",
-                "rev": "tuEyhHPqNeE2U7cY1wAfPC"
+                "rev": "OVwv9CvZAhvcLZb6pGCS0j"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T03:58:21Z",
+        "_updatedAt": "2026-05-19T18:39:07Z",
         "content": [
             {
                 "_key": "ee445c9cbdde",
@@ -1182,93 +1237,6 @@
                 "style": "normal"
             },
             {
-                "_key": "6f4fef947fdf",
-                "_type": "block",
-                "children": [
-                    {
-                        "_key": "cb275e530312",
-                        "_type": "span",
-                        "marks": [],
-                        "text": "Most forced movement effects require proximity and thus won't work across the top and bottom edge when moving \"as if connected.\" For example, [[Whirlwind]] could theoretically push across the top or bottom edge because a \"push\" counts as movement, but you won't be able to select a 2x2 area that spans the top and bottom edges, because those rows are not actually connected; [[Polar Explorers]] merely allow "
-                    },
-                    {
-                        "_key": "78c036f1b68d",
-                        "_type": "span",
-                        "marks": [
-                            "em"
-                        ],
-                        "text": "movement "
-                    },
-                    {
-                        "_key": "2e9ac8b4c8a7",
-                        "_type": "span",
-                        "marks": [],
-                        "text": "\"as if\" connected, not \"selecting 2x2 areas as if connected.\" (In contrast, if [[Magellan Globe]] were in the realm, then you really could select 2 squares in the top row and 2 squares in the bottom row, because Magellan Globe actually connects the edges, for all purposes.)"
-                    }
-                ],
-                "markDefs": [],
-                "style": "normal"
-            },
-            {
-                "_key": "df6cec7b796a",
-                "_type": "block",
-                "children": [
-                    {
-                        "_key": "01bf707d99d4",
-                        "_type": "span",
-                        "marks": [],
-                        "text": "An example of a forced movement effect that would work is [[Maelström]]:"
-                    }
-                ],
-                "markDefs": [],
-                "style": "normal"
-            },
-            {
-                "_key": "2be116688085",
-                "_type": "damageGrid",
-                "grid": {
-                    "rows": [
-                        {
-                            "_key": "4d818ef7-46ce-4cf5-9b0e-c446fd08af7c",
-                            "_type": "tableRow",
-                            "cells": [
-                                "w",
-                                "M",
-                                "w"
-                            ]
-                        },
-                        {
-                            "_key": "4bf3b65b-3143-4616-99b6-4fbf7ff0f2be",
-                            "_type": "tableRow",
-                            "cells": [
-                                "w",
-                                "w",
-                                "w"
-                            ]
-                        },
-                        {
-                            "_key": "88342305-cd24-4e02-be3c-cb5a262d5848",
-                            "_type": "tableRow",
-                            "cells": [
-                                "w",
-                                "X",
-                                "w"
-                            ]
-                        },
-                        {
-                            "_key": "1c084220-079b-498b-99dc-28163e1af138",
-                            "_type": "tableRow",
-                            "cells": [
-                                "w",
-                                "P",
-                                "w"
-                            ]
-                        }
-                    ]
-                },
-                "markDefs": null
-            },
-            {
                 "_key": "dda3affb4799",
                 "_type": "block",
                 "children": [
@@ -1276,7 +1244,7 @@
                         "_key": "336e7fe3dc24",
                         "_type": "span",
                         "marks": [],
-                        "text": "[[Maelström]] is at M, and [[Polar Bears]] are at P. The whole area is a giant body of water. You could pull normally to X, or could pull \"as if connected\" to M since pulling is a form of movement."
+                        "text": "Forced movement effects do not cause units to take their own steps, and so they cannot cause a unit with such an ability to cross an edge of the realm. The only exception is if the edges of the realm are truly connected by some other effect (e.g. [[Magellan Globe]])."
                     }
                 ],
                 "markDefs": [],
@@ -1637,15 +1605,15 @@
     {
         "_createdAt": "2025-06-08T17:43:51Z",
         "_id": "c0fbcbae-e6a5-4048-b925-f2219ad43662",
-        "_rev": "OVwv9CvZAhvcLZb6pUEh3Z",
+        "_rev": "6Ke5xshZdLsJpk9EDE4zGl",
         "_system": {
             "base": {
                 "id": "c0fbcbae-e6a5-4048-b925-f2219ad43662",
-                "rev": "Y3ZKz7xA6Z0oNIVqRM9PXl"
+                "rev": "OVwv9CvZAhvcLZb6pUEh3Z"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-11T17:50:00Z",
+        "_updatedAt": "2026-05-19T18:39:02Z",
         "content": [
             {
                 "_key": "10d88fc82157",
@@ -1807,7 +1775,7 @@
                         "_key": "79191471d93c",
                         "_type": "span",
                         "marks": [],
-                        "text": "If the original target was a unit, it may remain in the fight or not, as the defending player chooses."
+                        "text": "If the original target was a unit, it may remain in the fight or not, as chosen by the player who controls the unit using the Defend ability."
                     }
                 ],
                 "level": 3,
@@ -1871,7 +1839,7 @@
                         "_key": "efe5db3cff73",
                         "_type": "span",
                         "marks": [],
-                        "text": "Check for attack target legality again. Units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)"
+                        "text": "Check for attack target legality again. As long as it occupies the attack's location, units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)"
                     }
                 ],
                 "level": 1,
@@ -5039,15 +5007,15 @@
     {
         "_createdAt": "2025-06-29T04:36:36Z",
         "_id": "88663410-ac07-4dd6-b2fe-fbecbadf232a",
-        "_rev": "ddCziRH2Fm886tLDwsusff",
+        "_rev": "0UVkJe122u18jhmU1DLVe0",
         "_system": {
             "base": {
                 "id": "88663410-ac07-4dd6-b2fe-fbecbadf232a",
-                "rev": "mGH8faZgOZ7Apthn6XM1S4"
+                "rev": "ddCziRH2Fm886tLDwsusff"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T17:31:08Z",
+        "_updatedAt": "2026-05-19T18:39:34Z",
         "content": [
             {
                 "_key": "d146e651f282",
@@ -5071,7 +5039,35 @@
                         "_key": "ac4b3646c2bd",
                         "_type": "span",
                         "marks": [],
-                        "text": "When you create a copy, e.g. an artifact via [[Replication]] or a magic via [[Archimago]] or [[Orb of Ba'al Berith]], the characteristics and abilities match those printed on the copied card, and the copy is a token. For example, in the case of a copied magic, it will be banished as soon as it resolves from the storyline, per the normal token rules."
+                        "text": "When you create a copy, e.g. an artifact via [[Replication]], or a magic via [[Archimago]] or [[Orb of Ba'al Berith]], the characteristics and abilities match the characteristics and abilities of the copied card, and the copy is a token. In the case of a copied magic (which is a token), it will be banished as soon as it resolves from the storyline, per the normal token rules."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "095bcfbad2c6",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "f6cb22a42e38",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "By default, whoever creates the copy controls it and makes any necessary decisions for that copy, e.g. a player chooses to create a copy of [[Chaoswish]] so they control that copy of the spell."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "57d01cb106fe",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "b35609731227",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "A card's characteristics and abilities are its printed characteristics and abilities, by default. However, if a card \"entered as a copy\" then its characteristics and abilities are what's printed on the copied card. For example, if you play a [[Selfsame Simulacrum]] and have it enter as a copy of a nearby [[Locusts of Illyria]], at the end of the turn it will summon a new Locust, not a new Simulacrum. Additionally, if you play a [[Mirror Realm]], copying a nearby [[Bedrock]], and your opponent then plays their own Mirror Realm copying your first one, the new Mirror Realm will be a Bedrock."
                     }
                 ],
                 "markDefs": [],
@@ -5812,15 +5808,15 @@
     {
         "_createdAt": "2025-03-24T19:46:14Z",
         "_id": "015d636e-716c-450e-9e17-abef557f3e4c",
-        "_rev": "7dbbsPJQJngj2t3aDSC6bR",
+        "_rev": "0UVkJe122u18jhmU1DLZHO",
         "_system": {
             "base": {
                 "id": "015d636e-716c-450e-9e17-abef557f3e4c",
-                "rev": "TErrISLPjz1kwp8pzhR7L5"
+                "rev": "7dbbsPJQJngj2t3aDSC6bR"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-03-25T19:19:25Z",
+        "_updatedAt": "2026-05-19T18:39:46Z",
         "content": [
             {
                 "_key": "f396b1bf20ae",
@@ -5844,7 +5840,7 @@
                         "_key": "1185501e957d",
                         "_type": "span",
                         "marks": [],
-                        "text": "Damage grids may use a bold square to indicate the center of the card’s effect, or a dot to show the Spellcaster’s location on the grid, e.g. [[Cone of Flame]]."
+                        "text": "Damage grids may use a bold square to indicate the center of the card’s effect, or a dot to show the location of the origin of the effect on the grid, e.g. [[Cone of Flame]], [[Mester Stoor Worm]]."
                     }
                 ],
                 "markDefs": [],
@@ -5880,7 +5876,7 @@
                         "marks": [
                             "strong"
                         ],
-                        "text": "in the same region as the caster"
+                        "text": "in the same region as the origin of the effect"
                     },
                     {
                         "_key": "d22b53f885c2",
@@ -6228,15 +6224,15 @@
     {
         "_createdAt": "2025-03-24T19:46:33Z",
         "_id": "7bc7a52c-25dc-4c80-8608-89667ef5eed7",
-        "_rev": "OVwv9CvZAhvcLZb6pGCSns",
+        "_rev": "0UVkJe122u18jhmU1DLHoe",
         "_system": {
             "base": {
                 "id": "7bc7a52c-25dc-4c80-8608-89667ef5eed7",
-                "rev": "tuEyhHPqNeE2U7cY1wHGkC"
+                "rev": "OVwv9CvZAhvcLZb6pGCSns"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-06T04:01:13Z",
+        "_updatedAt": "2026-05-19T18:38:50Z",
         "content": [
             {
                 "_key": "53645253ef30",
@@ -6262,7 +6258,7 @@
                         "marks": [
                             "em"
                         ],
-                        "text": "When an enemy attacks another unit or site in this unit's range of motion, it may tap to defend, moving to the attack's location and joining the fight."
+                        "text": "When an enemy attacks another unit or site in this unit's range of motion, it may tap to defend, moving to the attack's location and then joining the fight."
                     }
                 ],
                 "markDefs": [],
@@ -6297,6 +6293,20 @@
                 "style": "normal"
             },
             {
+                "_key": "dc18117584fe",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "70dbf7c832a8",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "After completing its movement, assuming the unit successfully reaches the attack location it will then complete the Defend action, changing the target of the attack to itself."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
                 "_key": "1383be06c2ba",
                 "_type": "block",
                 "children": [
@@ -6304,7 +6314,7 @@
                         "_key": "b3ba1346fd07",
                         "_type": "span",
                         "marks": [],
-                        "text": "If the original target of the attack was a unit, the defender’s controller may decide if that unit remains in the fight, or is removed. If the original target was a site, it is automatically removed."
+                        "text": "If the original target of the attack was a unit, the controller of the unit using the Defend ability decides if the original target remains in the fight, or is removed. If the original target was a site, it is automatically removed."
                     }
                 ],
                 "markDefs": [],
@@ -6332,7 +6342,7 @@
                         "_key": "51fc6859dc2e",
                         "_type": "span",
                         "marks": [],
-                        "text": "When a unit uses its Defend ability, it automatically becomes a legal target for the attack. For example, a minion with Stealth normally can't be targeted by an attack, but if it chooses to Defend, it will be a legal target (as an explicit exception to the normal precedence in the Silver Rule)."
+                        "text": "When a unit uses its Defend ability, it automatically becomes a legal target for the attack as long as it completes the Defend action successfully. For example, a minion with Stealth normally can't be targeted by an attack, but if it chooses to Defend, it will be a legal target (as an explicit exception to the normal precedence in the Silver Rule)."
                     }
                 ],
                 "markDefs": [],
@@ -6557,6 +6567,61 @@
         "interlinking": true,
         "subcodexes": null,
         "title": "Disabled"
+    },
+    {
+        "_createdAt": "2026-04-03T03:03:20Z",
+        "_id": "adee8b2b-40ba-4231-874d-df4790483730",
+        "_rev": "6Ke5xshZdLsJpk9EDE53Ap",
+        "_type": "codex",
+        "_updatedAt": "2026-05-19T18:39:14Z",
+        "content": [
+            {
+                "_key": "22d7b4ff4720",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "13a00b5263b6",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "To \"discard\" a card, choose a card from your hand zone and put it into your cemetery. Some effects ))modify(( where the discarded card(s) come from. For example, an effect which tells you to discard your \"top spell,\" means you discard the topmost card from your spellbook."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "059b629ad74e",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "095e9e44839c",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "By default, you may choose which card to discard, though many effects will tell you to discard a random card, spell, or site."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "43e02a175909",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "16e148d9658f",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Cards that are in zones other than a player's hand cannot be discarded, unless explicitly stated. For example, if you summon a [[Dreadwing]], you cannot discard a card from [[Morgana le Fay]]'s hand to pay for its effect."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Discard"
     },
     {
         "_createdAt": "2025-06-23T19:47:36Z",
@@ -7902,6 +7967,33 @@
         "title": "Fly"
     },
     {
+        "_createdAt": "2026-04-04T23:45:05Z",
+        "_id": "173e7fe0-f96c-4aea-8281-060c447ec78f",
+        "_rev": "0UVkJe122u18jhmU1DLTIA",
+        "_type": "codex",
+        "_updatedAt": "2026-05-19T18:39:20Z",
+        "content": [
+            {
+                "_key": "0a5cc7f2bb2f",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "bc5b15ff0ba6",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Some effects specify that projectiles \"))fly(( over\" a unit. This means that projectiles can't hit the unit, hitting other units normally."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Fly Over"
+    },
+    {
         "_createdAt": "2025-06-29T06:07:20Z",
         "_id": "194b5249-57f1-49d6-8e41-71e734649053",
         "_rev": "OVwv9CvZAhvcLZb6pGC5Wn",
@@ -8651,15 +8743,15 @@
     {
         "_createdAt": "2025-06-22T20:32:33Z",
         "_id": "c60b2516-48e8-4c55-9bc9-9971d98d829e",
-        "_rev": "TErrISLPjz1kwp8pzikhZP",
+        "_rev": "xUfyFbT1vwoJFdAninWH98",
         "_system": {
             "base": {
                 "id": "c60b2516-48e8-4c55-9bc9-9971d98d829e",
-                "rev": "OVwv9CvZAhvcLZb6pGCiRN"
+                "rev": "TErrISLPjz1kwp8pzikhZP"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-10T21:56:39Z",
+        "_updatedAt": "2026-05-19T18:39:11Z",
         "content": [
             {
                 "_key": "647e3ed940a4",
@@ -8779,7 +8871,7 @@
                         "_key": "faee1c22ebc9",
                         "_type": "span",
                         "marks": [],
-                        "text": "Note that \"deal damage\" is mostly but not fully covered by the first three bullet points. \"Activates a special ability\" doesn't include triggered abilities, since only activated abilities can be activated. There are some triggered abilities that could deal damage, e.g. [[Infernal Legion]] or [[Colicky Dragonettes]], which are intentionally included in \"interacting.\""
+                        "text": "If a unit's damage-dealing triggered ability (e.g. [[Infernal Legion]], [[Colicky Dragonettes]], [[Redbreast Robin]], etc.) doesn't actually hit anything, it has not interacted with the realm. If it hit something (whether or not damage was prevented), then it has interacted."
                     }
                 ],
                 "markDefs": [],
@@ -10089,15 +10181,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "3315e2bf-73f5-4db2-833f-ed25d0bbd260",
-        "_rev": "ddCziRH2Fm886tLDwtxplY",
+        "_rev": "6Ke5xshZdLsJpk9EDE5E0p",
         "_system": {
             "base": {
                 "id": "3315e2bf-73f5-4db2-833f-ed25d0bbd260",
-                "rev": "ddCziRH2Fm886tLDwsusff"
+                "rev": "ddCziRH2Fm886tLDwtxplY"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-12-05T19:14:12Z",
+        "_updatedAt": "2026-05-19T18:39:52Z",
         "content": [
             {
                 "_key": "fe4359fee0b1",
@@ -10121,7 +10213,7 @@
                         "_key": "164f31631fd0",
                         "_type": "span",
                         "marks": [],
-                        "text": "To resolve the effect, add a counter at the end of each of your turns, and dispel the aura when there are 3 counters."
+                        "text": "To resolve the effect, add a counter at the end of each of your turns, and dispel the aura when there are 3 (or more) counters."
                     }
                 ],
                 "markDefs": [],
@@ -12095,15 +12187,15 @@
     {
         "_createdAt": "2025-06-10T18:45:51Z",
         "_id": "e598f1a7-a876-431c-a414-33e1893cd4d8",
-        "_rev": "GStVz4VPsOdrjZ7bXyyuti",
+        "_rev": "6Ke5xshZdLsJpk9EDE5AdH",
         "_system": {
             "base": {
                 "id": "e598f1a7-a876-431c-a414-33e1893cd4d8",
-                "rev": "GOFL2kyVV19G5S1YnlyfLH"
+                "rev": "N2W1Bts8FGrMoEh6S1fKoN"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-03-25T19:20:00Z",
+        "_updatedAt": "2026-05-19T18:39:40Z",
         "content": [
             {
                 "_key": "89c74477fb46",
@@ -12141,7 +12233,7 @@
                         "_key": "64aecf9244e3",
                         "_type": "span",
                         "marks": [],
-                        "text": "Most of the time, the application of ongoing effects is straightforward; simply apply them. Complex interactions are described below."
+                        "text": "Most of the time, the application of ongoing effects is straightforward; simply apply them. If you need to resolve a complex interaction involving multiple ongoing effects and the order in which they apply is unclear, consult the following article: Ordering Ongoing Effects - The Layer System."
                     }
                 ],
                 "markDefs": [],
@@ -12200,511 +12292,6 @@
                     }
                 ],
                 "title": "Apply All Ongoing Effects Before Checking For Minions Dying"
-            },
-            {
-                "_key": "6f46ec26d327",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "d51cc9149a84",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "f0ce35a77d2e",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If ongoing effects overlap or conflict, apply them in the order listed here by layer:"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "bcb977dcbb04",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "3508196c6fc2",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "3010e5a80347",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "295bcf4f797e",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Disabling effects, silencing effects, e.g. [[Root Spider]], [[Iron Shackles]], [[Silence]], [[Sisters of Silence]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "9fce55655478",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "b28ec91447ce",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Control effects, e.g. [[King of the Realm]], [[Mesmerism]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "10494a77738f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "ab534aba8c49",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "5f3250918684",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "349d69ef3df3",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Ability adding and removing effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1dbe7e80a499",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "0d792c9bec7b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Power setting effects, e.g. [[Shrink]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "d03ee732e988",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7c20762a0bff",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Power addition and subtraction effects, e.g. [[Overpower]], [[Wicked Witch]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "e6feff23b23e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "6a8c1c5cb4b8",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Power multiplication effects, e.g. [[Warp Spasm]]"
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "number",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "57f04c772fe7",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "38b883bba83a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Within each layer, apply the effects based on their timestamp, from oldest to newest."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "8f4c20e6b192",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7e1a5548b6c4",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "For ongoing effects generated by a passive ability (e.g. [[King of the Realm]], [[Root Spider]]), their timestamp is when the card entered the realm."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "19865231b1b4",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "611b776cf336",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "For ongoing effects generated by an activated or triggered ability (e.g. [[Floodplain]], [[Bog]]), their timestamp is when the ability was activated or triggered, not when the original source entered the realm."
-                            }
-                        ],
-                        "level": 1,
-                        "listItem": "bullet",
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "d32f7ea49a5b",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "fbfb88d1d835",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "An effect cannot remove itself once it's already being applied. For example, an animated [[Silence]] aura will cause itself to lose its abilities in layer 2, but losing that ability will not remove the silence effect, which was already being applied."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "03db7c64654b",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "b66ae3c4d11e",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "In the unlikely event that two or more cards enter the realm simultaneously and they have passive abilities that may need to be ordered (e.g. my [[King of the Realm]] and yours, entering simultaneously via [[Boneyard]]), the active player's cards are considered to have entered first (in the order of their choosing, if they have more than one entering simultaneously)."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Apply Ongoing Effects In Order"
-            },
-            {
-                "_key": "1144913dd216",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "590ab8bfc4c0",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "980e00c9fa70",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If you play [[King of the Realm]] and then I play [[King of the Realm]] afterward, the game applies both control effects in layer 3. Since your King is older, the game starts with that effect. Your King gives you control of all mortals, including my King. Then, when the second King's ability is being applied, he's already controlled by you due to the first King's ability. Therefore, you control all mortals and the first King \"wins.\""
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Example - Two Kings of the Realm"
-            },
-            {
-                "_key": "1efbc67d329d",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "ca2a7885ede7",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "3adb5ac94ff4",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If you play [[Smokestacks of Gnaak]] and then I play another Smokestacks of Gnaak nearby, the game tries to apply both lose-ability effects in layer 5. Since your Smokestacks are older, the game starts with that effect. Your Smokestacks causes my Smokestacks to lose its ability. Then, when my Smokestacks ability would be applied, it already lost its ability due to the first Smokestacks. Therefore, the first Smokestacks \"wins.\""
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Example - Two Smokestacks of Gnaak"
-            },
-            {
-                "_key": "854b5ec6fefc",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "ab36bfb1903c",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "bda3c8d722ca",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If you play [[Flood]] and then I play [[Drought]], the game tries to apply both affinity changing effects in layer 5. Since you played Flood first, the game first gives the affected sites a minimum of one water affinity (W). Then, when my Drought ability is applied, the affected sites have no water affinity. Therefore, the Drought \"wins.\""
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "0eb3295d0ade",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "ccf3919f2bbb",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If Flood had been played second, then the Flood effect would have been applied second, and thus would \"win.\""
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "a6cc3a5c5fd4",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "9dfd2833fe56",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Remember that if an activated or triggered ability creates an ongoing effect, the effect applies based on when the ability activated or triggered, not when the original source entered the realm. For example, [[Floodplain]]'s activated ability would \"win\" against a [[Drought]] even if the Floodplain entered the realm before Drought, as long as the Floodplain's activated ability was used after Drought."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "Example - Flood vs. Drought"
-            },
-            {
-                "_key": "7791efa5e061",
-                "_type": "subcodex",
-                "content": [
-                    {
-                        "_key": "b15b8e04f89c",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "c448f5cbb941",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "This is a complicated concept, perhaps the most complicated in the whole codex! Be warned. Let's start with examples."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "b47141058195",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "9d93a870e74f",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "I have [[Lucid Dreamers]] in the realm and cast a [[Bosk Troll]] to them, so my Troll gains voidwalk. Then, I cast [[Power of Flight]] on my Trolls. When applying those ongoing effects, I apply them in layer 5. Technically, I apply the Voidwalk first (because it's older) and then I apply Airborne. But, the end result would be the same if I applied them in the opposite order; either way, I end up with a Troll that has Voidwalk and Airborne. These two ongoing effects "
-                            },
-                            {
-                                "_key": "5df257e6da04",
-                                "_type": "span",
-                                "marks": [
-                                    "strong"
-                                ],
-                                "text": "do not"
-                            },
-                            {
-                                "_key": "d35f606a32f5",
-                                "_type": "span",
-                                "marks": [],
-                                "text": " depend on each other."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "fda731fda83e",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "aaf5c9778403",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Now, let's consider two [[Sisters of Silence]]. I play Sister A then you play Sister B nearby. We apply the silenced effect in layer 2. Since Sister A is older, the game applies that first, Sister B loses her ability, and Sister A retains her ability. If I applied them in the opposite order, Sister A would lose her ability and Sister B would retain hers. In this case, both ongoing effects depend on each other."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "1ec49a23b084",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "bf333ddc39ae",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Finally, let's consider one Sister of Silence and a [[Grievous Insult]]. I play my Sister of Silence and then you play Grievous Insult. Let's say you have a [[House Arn Bannerman]] nearby my Sisters. If we apply the Sisters first (because they entered the realm before the Grievous Insult was played), House Arn Bannerman will be silenced, and then the Sisters would be silenced by the Insult. In this scenario, the House Arn Bannerman would already be silenced and not get his ability back when the Sisters became silenced by the Insult! If we consider the alternate order, applying the Insult first, the Sisters still end up silenced, but the House Arn Bannerman will not be silenced. In this case, the Sisters' ability is dependent on the Insult, but the Insult is not dependent on the Sisters (since the Sisters end up Silenced by the Insult regardless of order)."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "97b054ddf420",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7a3967b13cb0",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Player intuition would say that if I play Sisters and then you play Grievous Insult, we would expect the Grievous Insult to actually apply first, even though it was played later. That is the whole point of the dependency rule!"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "66610f354bc3",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "021fd6e18e95",
-                                "_type": "span",
-                                "marks": [
-                                    "em"
-                                ],
-                                "text": "If one effect depends on another (but not visa versa!), apply the independent effect first, ignoring normal timestamp order."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "fab16b3cb627",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "39e23568c8cf",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "This whole rule can probably be boiled down to \"use your intuition on how it should work.\" Here are further examples:"
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "795d938c2522",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "0bc1f1e21429",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "I play [[King of the Realm]], and then you use [[Mesmerism]] my King of the Realm. Without the dependency rule, we would apply the control effect from my King of the Realm to all Mortals, "
-                            },
-                            {
-                                "_key": "e08f5a741e12",
-                                "_type": "span",
-                                "marks": [
-                                    "em"
-                                ],
-                                "text": "then"
-                            },
-                            {
-                                "_key": "9ec985f9ce94",
-                                "_type": "span",
-                                "marks": [],
-                                "text": " you would get control of only my King of the Realm via Mesmerism (but not all the other Mortals, because we already applied that effect). But that's obviously not the way it should work, since Mesmerism is independent of the King's effect. Therefore, we apply Mesmerism first, then King of the Realm."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "61332c1d62da",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "2286fef015cf",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "I play [[Fields of Phyxis]] to silence your [[Floodplain]] in front of it. Then, you play [[Acid Rain]] just on my Fields. If we applied these in order, my Fields would silence your Floodplain, then your Acid Rain would silence my Fields (but the Floodplain would already be silenced). But that's obviously not how it should work, since Acid Rain is independent of Fields. Therefore, we apply Acid Rain first, silencing Fields of Phyxis (and the Floodplains won't get silenced by the Fields)."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "5f59e05dd608",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "7c1a64c68b2b",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "If there are multiple independent and dependent effects, apply the independent effects in timestamp order, then the dependent effects in timestamp order. For example, if I play King of the Realm, then you play King of the Realm, you Mesmerize my King, then I Infiltrate my King back... We would note that Mesmerize and Infiltrate are independent of the King's effects, and apply those first. Mesmerize, then Infiltrate. Then we'd apply the King's abilities in order after that."
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    },
-                    {
-                        "_key": "f9859a03bd7f",
-                        "_type": "block",
-                        "children": [
-                            {
-                                "_key": "556c6d6a2c2a",
-                                "_type": "span",
-                                "marks": [],
-                                "text": "Finally, note that if two effects are both dependent on each other, use timestamp normally. Examples of that are detailed ))above(( in \"((Example - Two Kings of the Realm)),\" \"((Example - Two Smokestacks of Gnaak)), and \"((Example - Flood vs. Drought)).\""
-                            }
-                        ],
-                        "markDefs": [],
-                        "style": "normal"
-                    }
-                ],
-                "title": "How to Handle Dependencies"
             }
         ],
         "title": "Ongoing Effect"
@@ -12712,15 +12299,15 @@
     {
         "_createdAt": "2025-12-05T17:31:08Z",
         "_id": "31be3c09-84b6-4ff4-bb37-18b00e77e77e",
-        "_rev": "Ltaay2MHVgCBDdNbMiIHCp",
+        "_rev": "6Ke5xshZdLsJpk9EDE56Ch",
         "_system": {
             "base": {
                 "id": "31be3c09-84b6-4ff4-bb37-18b00e77e77e",
-                "rev": "ddCziRH2Fm886tLDwtxq16"
+                "rev": "Ltaay2MHVgCBDdNbMiIHCp"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2026-01-22T06:28:30Z",
+        "_updatedAt": "2026-05-19T18:39:27Z",
         "content": [
             {
                 "_key": "27cf304b6e17",
@@ -12786,17 +12373,1064 @@
                         "_key": "d1ffdf5d8a98",
                         "_type": "span",
                         "marks": [],
-                        "text": "The special spellcaster may cast the spell, even if they don't normally have spellcaster, e.g. the allied minion blessed by [[Archangel Gabriel]]."
+                        "text": "While casting the spell(s), the special spellcaster has the Spellcaster ability, e.g. the allied minion blessed by [[Archangel Gabriel]]."
                     }
                 ],
                 "markDefs": [],
                 "style": "normal"
             }
         ],
-        "finder": "only it can cast,only they can cast,only she can cast",
+        "field": "rulesText",
+        "finder": "only it can cast, only they can cast, only she can cast",
         "interlinking": true,
         "subcodexes": null,
         "title": "Only It Can Cast"
+    },
+    {
+        "_createdAt": "2026-04-13T00:00:11Z",
+        "_id": "aa624e74-7c3e-4622-8471-03e05b576c52",
+        "_rev": "0UVkJe122u18jhmU1DQj2c",
+        "_system": {
+            "base": {
+                "id": "aa624e74-7c3e-4622-8471-03e05b576c52",
+                "rev": "xUfyFbT1vwoJFdAninWMZq"
+            }
+        },
+        "_type": "codex",
+        "_updatedAt": "2026-05-19T18:55:12Z",
+        "content": [
+            {
+                "_key": "7490b08a58d7",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "cfc542deb29c",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Sometimes there will be several ongoing effects and the game must apply them in the proper order. Remember the Golden Rule! This system is somewhat complex, but is intended to provide intuitive results. You can probably ignore this whole section simply do what's intuitive, and you'll get the right result."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "78c77b174cf3",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "d0fff6b238fe",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If you really want to dive into the nitty-gritty details of some complicated interactions, follow this guide. To determine the correct application of ongoing effects:"
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "842b7dcabcf6",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "fd67af64456a",
+                        "_type": "span",
+                        "marks": [
+                            "strong"
+                        ],
+                        "text": "1)"
+                    },
+                    {
+                        "_key": "27b593b4a6b3",
+                        "_type": "span",
+                        "marks": [],
+                        "text": " Group effects by layer."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "8e29220cbf3c",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "9bcfa96bcdc8",
+                        "_type": "span",
+                        "marks": [
+                            "strong"
+                        ],
+                        "text": "2)"
+                    },
+                    {
+                        "_key": "f5c2e57d6711",
+                        "_type": "span",
+                        "marks": [],
+                        "text": " Within each group, arrange effects by timestamp, oldest to newest."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "cb91f1e6658a",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "22e24c48ab96",
+                        "_type": "span",
+                        "marks": [
+                            "strong"
+                        ],
+                        "text": "3)"
+                    },
+                    {
+                        "_key": "845e6536fc1d",
+                        "_type": "span",
+                        "marks": [],
+                        "text": " Rearrange effects based on their conditions, if needed."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "c9d4a19b0ae4",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "ae2207c0a656",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Layer Order"
+                    }
+                ],
+                "markDefs": [],
+                "style": "h4"
+            },
+            {
+                "_key": "57be27f2916c",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "daf7e0047972",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "First, group ongoing effects by layer:"
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "c13552a066a8",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "5186fce9e2dd",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]], [[Assimilator Snail]]"
+                    }
+                ],
+                "level": 1,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "7eb9f78cf0b2",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "e56dcdff83cc",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Type and sub-type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]], [[Enchantress]], [[Tombstone Wardens]]"
+                    }
+                ],
+                "level": 1,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "499a0375530d",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "118d6339b52e",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Ability Removing effects, including Disabling effects, silencing effects, e.g. [[Root Spider]], [[Sisters of Silence]], [[Smokestacks of Gnaak]]"
+                    }
+                ],
+                "level": 1,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "91f7eafde458",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "3c0773fa697e",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Control effects, e.g. [[King of the Realm]], [[Mesmerism]]"
+                    }
+                ],
+                "level": 1,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "5ea8ce7473db",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "da03e6147809",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Ability adding effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]"
+                    }
+                ],
+                "level": 1,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "e4aee88a018c",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "fdbba368ffc9",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Power Modification effects"
+                    }
+                ],
+                "level": 1,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "7c95a5cf699b",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "be88573429b9",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Setting effects, e.g. [[Shrink]]"
+                    }
+                ],
+                "level": 2,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "d3eb3f33d3cf",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "73ab0bf28dd6",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Then, addition and subtraction effects, e.g. [[Overpower]]"
+                    }
+                ],
+                "level": 2,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "33f8a97070c7",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "d375dc105e10",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Then multiplication effects, e.g. [[Warp Spasm]]"
+                    }
+                ],
+                "level": 2,
+                "listItem": "number",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "565ff6133fe4",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "fa36da983f3c",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Timestamp Order"
+                    }
+                ],
+                "markDefs": [],
+                "style": "h4"
+            },
+            {
+                "_key": "09242d0fc443",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "804885caa113",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Then, within each layer (or between layers), arrange effects based on timestamp, oldest to newest."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "3129eea37eb6",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "11ab98879201",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "For ongoing effects generated by a passive ability (e.g. [[King of the Realm]], [[Root Spider]]), their timestamp is when the card entered the realm."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "700de9bb1d96",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "94e312e4b841",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "For ongoing effects generated by an activated or triggered ability (e.g. [[Floodplain]], [[Bog]]), their timestamp is when the ability was activated or triggered, not when the original source entered the realm."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "688c0a2d3303",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "7f333ddb0712",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "In the unlikely event that two or more cards enter the realm simultaneously and they have passive abilities that may need to be ordered (e.g. my [[King of the Realm]] and yours, entering simultaneously via [[Boneyard]]), the active player's cards are considered to have entered first (in the order of their choosing, if they have more than one entering simultaneously)."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "52b309463ac4",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "a3f64b8a9634",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Adding and Removing Abilities Out of Order"
+                    }
+                ],
+                "markDefs": [],
+                "style": "h4"
+            },
+            {
+                "_key": "d91cb85244e4",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "7080dc4d2cd8",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Finally, you may have to rearrange certain effects that have conditions, as follows:"
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "2ff3d2b132b6",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "25cb84eee78d",
+                        "_type": "span",
+                        "marks": [
+                            "em"
+                        ],
+                        "text": "If an effect would add an ability, or remove an ability, it does so before that ability's layer."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "49a223cc96c7",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "cc58719ec7d7",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "For example, you have a minion holding a [[Land Deed]]. Since Land Deed adds a control ability to the bearer, it will be applied just before layer 4 (Control), rather than in layer 5 (Ability Adding). "
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "aa90a10f4d9e",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "d03659d52921",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "As another example, you have a [[Fields of Phyxis]] with an [[Infusion Factory]] in front of it. Because the Fields would remove a type-changing ability, it will be applied just before layer 2 (Type and Sub-Type Changing), rather than in layer 3 (Ability Removing)."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "c94ed874b646",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "5a2e888aedf4",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If two abilities would try to remove each other, use timestamp order."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "235606532ea9",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "780279d981f5",
+                        "_type": "span",
+                        "marks": [
+                            "em"
+                        ],
+                        "text": "If an ongoing effect has a condition, first apply effects related to that condition, and only then check the condition."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "1235f2f3f63f",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "4a2d86450a34",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "For example, you have a Foot Soldier holding a [[Sword and Shield]] and your opponent has [[Pied Piper of Hameln]]. Because Pied Piper's ability is conditional on the minion's power, wait to check Pied Piper's condition until just after layer 6 (Power Modification). The Foot Soldier's power will be 1+2=3, so you keep control of your Foot Soldier."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "751b6453cb67",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "d64ec8a52cb9",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "Another Pied Piper example: You have Pied Piper and [[House Arn Bannerman]]. I have a Skeleton token. Pied Piper's ability is conditional on minion power, so we wait to apply it until after layer 6, after your House Arn Bannerman's ability has been applied. You gain control of my Skeleton after layer 6, but it stays at 1 power, since you didn't control it when House Arn Banner's ability was applied."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "6120b355ce5a",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "3ca2e62e54fb",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "As another example, you have a [[Bound Spirit]] adjacent to a [[Bosk Troll]] holding an [[Eerie Coral]]. The Spirit's ability is conditional on being adjacent to an allied Spellcaster. The Troll gains the Spellcaster ability from the Coral in layer 5 (Ability Adding). Wait to check Spirit's ability until just after layer 5. In fact, a Bound Spirit holding an Eerie Coral could un-disable itself."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "rulesText",
+        "interlinking": true,
+        "subcodexes": [
+            {
+                "_key": "d7f8566cf01c",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "82bb9c4ed53d",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "7abcdd586a77",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "An effect cannot remove itself once it's already being applied. For example, an animated [[Silence]] aura will cause itself to lose its abilities in layer 2, but losing that ability will not remove the silence effect, which was already being applied."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Effects Cannot Remove Themselves Once Applied"
+            },
+            {
+                "_key": "68a7cb17dfb9",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "83cab1e6b1c6",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "a83e70eee1d1",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "To ensure all control effects match player intuition, we need a \"dependency\" rule."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "fecfa853b003",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "973b8724a3ee",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Note that these cases are handled nicely already by the timestamp rule:"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "f2ef00d147dd",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "067244fe01ab",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Two [[Kings of the Realm]] (apply in timestamp order)"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "6e548cf0685b",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "598a0150a89b",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Two [[Mesmerism]]s (apply in timestamp order)"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "a31f1df0a493",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "9f476cb3397f",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "But, if you play [[King of the Realm]] and then I play [[Mesmerism]] on your King, we cannot simply use the timestamp rule! If we did, your King would take control of all mortals, then my Mesmerism would take control of your King... but not the other mortals, since that effect was already applied! Such an outcome doesn't match design intent nor player intuition, so we need a \"dependency\" rule for cases like this."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "ab75a262f6c3",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "f850e0ea9821",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "In such cases, apply the independent effect first (e.g. Mesmerism), then apply any dependent effects (e.g. King of the Realm), ignoring normal timestamp order."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "42681ebfaf08",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "221fc2ab6950",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "In summary, do the intuitive thing and it will be correct!"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Dependencies in Control Effects "
+            },
+            {
+                "_key": "848275403483",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "27b613ea051d",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "80e5390156a9",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "There are some minions (e.g. [[Hillock Basilisk]] and [[Stone-gaze Gorgons]]) with an ability that disables other minions \"at rest.\" For the most part, these abilities can be applied in normal timestamp order along with other similar abilities in layer 3 (Ability Removing effects)."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "3989201392cd",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "4581afacc013",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "However, when two minions with this type of ability are trying to apply to one another, you first determine which would \"win\" the initial check (i.e. the one which is not at rest). That minion is then considered to have an earlier timestamp than the other for as long as that other minion is at rest."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "4bb60b454d01",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "eeed65bcf7a5",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "If both minions are at rest at the time you are applying these abilities, rely on normal timestamp order."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Minions Disabled While \"At Rest\""
+            },
+            {
+                "_key": "f3ebcc9cf0b8",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "4e941016a8a5",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "7ea7189c0e58",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "If you play [[King of the Realm]] and then I play [[King of the Realm]] afterward, the game applies both control effects in layer 4. Since your King is older, the game starts with that effect. Your King gives you control of all mortals, including my King. Then, when the second King's ability is being applied, he's already controlled by you due to the first King's ability. Therefore, you control all mortals and the first King \"wins.\""
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Example - Two Kings of the Realm"
+            },
+            {
+                "_key": "b90a45cbe7e9",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "5534bf4dc9fc",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "4d6668c602a3",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "If you play [[Smokestacks of Gnaak]] and then I play another Smokestacks of Gnaak nearby, the game tries to apply both lose-ability effects in layer 3. Since your Smokestacks are older, the game starts with that effect. Your Smokestacks causes my Smokestacks to lose its ability. Then, when my Smokestacks ability would be applied, it already lost its ability due to the first Smokestacks. Therefore, the first Smokestacks \"wins.\""
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Example - Two Smokestacks of Gnaak"
+            },
+            {
+                "_key": "f3a79f1ec81e",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "803d06e6f721",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "d86e0e14b9f8",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "If you play [[Flood]] and then I play [[Drought]], the game tries to apply both affinity changing effects in layer 5. Since you played Flood first, the game first gives the affected sites a minimum of one water affinity (W). Then, when my Drought ability is applied, the affected sites have no water affinity. Therefore, the Drought \"wins.\""
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "cda7005d9711",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "3ea2d0e52416",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "If Flood had been played second, then the Flood effect would have been applied second, and thus would \"win.\""
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "9308d5b3496b",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "3b161282b7e7",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Remember that if an activated or triggered ability creates an ongoing effect, the timestamp is when the ability activated or triggered, not when the original source entered the realm. For example, [[Floodplain]]'s activated ability would \"win\" against a [[Drought]] even if the Floodplain entered the realm before Drought, as long as the Floodplain's activated ability was used after Drought."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Example - Flood vs. Drought"
+            },
+            {
+                "_key": "d980ece61b2a",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "d542470435ab",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "a7b3b59bbf2d",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Warning: This is a complicated interaction!"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "b366bad7231f",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "bb9ab7e99fd1",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "You control a Foot Soldier carrying a [[Pallid Bust]]."
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "4a0ad0917b66",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "21c5a813cf68",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "The Bust banished a [[Sisters of Silence]]."
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "d9b9086e8d5f",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "885c7d3c45c3",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "The Foot Soldier with Bust are standing in [[Acid Rain]]."
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "219d4f4aedfd",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "dd4d46586935",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "We start with the Pallid Bust itself. Normally, granting abilities happens in layer 5. However, it's trying to grant a silence ability to the bearer (layer 3) and types (layer 2), so it actually applies in layer 2."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "e5a62c83eb4c",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "19c866744a36",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Acid Rain is a silence effect (layer 3). But in this case, it's removing the type-changing effect of the bust (layer 2), so it actually applies just before layer 2."
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "182c3acfbe52",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "31883a1cd4fe",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "The end result is that Acid Rain silences the Bust and the Foot Soldiers don't gain types or abilities of the Sisters. Hopefully that matches player intuition from just glancing at the cards!"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Example - Pallid Bust vs. Acid Rain"
+            },
+            {
+                "_key": "248414541f68",
+                "_type": "subcodex",
+                "content": [
+                    {
+                        "_key": "d23c348d9886",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "89320f327f1d",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "This is not an exhaustive list of cards with conditional ongoing effects, but highlights the most notable specimens:"
+                            }
+                        ],
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "71a4e1861ec5",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "9849d8d1ffd8",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "[[Bound Spirit]]"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "493a8ce08233",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "b4c2548f79a0",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Disable is normally layer 3, but this waits until after layer 5 (Ability adding)."
+                            }
+                        ],
+                        "level": 2,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "8de519a12253",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "7af2fda893ff",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "[[Pied Piper of Hameln]]"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "2d8e80dd3ffd",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "c5845478fd04",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Control is normally layer 4, but this waits until after layer 6 (Power modification)"
+                            }
+                        ],
+                        "level": 2,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "c2a530214ad3",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "029cd88664d0",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "[[Plate of the Whale]]"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "c92df8a46eee",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "dc4b40fca575",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Adding Immobile is normally layer 5, but this waits until after layer 6 (Power modification)"
+                            }
+                        ],
+                        "level": 2,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "609b1ae14fff",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "4f54dcac38ab",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "[[King of the Realm]] or [[Returned King]]"
+                            }
+                        ],
+                        "level": 1,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    },
+                    {
+                        "_key": "14dea16d7292",
+                        "_type": "block",
+                        "children": [
+                            {
+                                "_key": "f9e4ba22bbec",
+                                "_type": "span",
+                                "marks": [],
+                                "text": "Control is normally layer 4. Subtype changing happens in layer 2. So, these apply in layer 4 normally, since effects related to their condition have already been applied by the time we get to layer 4."
+                            }
+                        ],
+                        "level": 2,
+                        "listItem": "bullet",
+                        "markDefs": [],
+                        "style": "normal"
+                    }
+                ],
+                "title": "Example - List of Cards with Conditional Ongoing Effects"
+            }
+        ],
+        "title": "Ordering Ongoing Effects - The Layer System"
     },
     {
         "_createdAt": "2025-03-24T19:52:29Z",
@@ -13263,15 +13897,15 @@
     {
         "_createdAt": "2025-03-24T19:53:26Z",
         "_id": "40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f",
-        "_rev": "TErrISLPjz1kwp8q0qB1Zz",
+        "_rev": "xUfyFbT1vwoJFdAninWOea",
         "_system": {
             "base": {
                 "id": "40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f",
-                "rev": "JFwAx7tBi2FJLulgh8MhfI"
+                "rev": "TErrISLPjz1kwp8q0qB1Zz"
             }
         },
         "_type": "codex",
-        "_updatedAt": "2025-07-16T21:18:09Z",
+        "_updatedAt": "2026-05-19T18:39:30Z",
         "content": [
             {
                 "_key": "9be9f96b7b9b",
@@ -13323,7 +13957,85 @@
                         "_key": "b388d8d1ad41",
                         "_type": "span",
                         "marks": [],
-                        "text": "By default, cards are controlled by whoever puts them into the realm. For artifacts that can be carried, the controller of the unit that's carrying the artifact also controls the artifact itself. If such an artifact is not carried, it has no controller. For tokens, see the \"((Token))\" codex entry for details."
+                        "text": "By default, cards are controlled by whoever puts them into the realm, with the following clarifications:"
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "3fb240c41e1c",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "912d723c2b27",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "For tokens, see the \"((Token))\" codex entry for details."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "bc22e9f5f3d2",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "eb7ce379cce1",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "For carriable artifacts, the controller of the unit that's carrying the artifact also controls the artifact itself."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "90c6667f8b99",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "6656056b29bd",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If such an artifact is not carried, it has no controller."
+                    }
+                ],
+                "level": 2,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "57069bffd0d3",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "b62c7ed24b52",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "If [[King Arthur]] is in play, anything other than carriable artifacts will be controlled by their owner."
+                    }
+                ],
+                "level": 1,
+                "listItem": "bullet",
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "4a888ff1819f",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "00812b374bcb",
+                        "_type": "span",
+                        "marks": [],
+                        "text": ""
                     }
                 ],
                 "markDefs": [],
@@ -15842,6 +16554,33 @@
         "title": "Region"
     },
     {
+        "_createdAt": "2026-04-03T03:29:02Z",
+        "_id": "b9b55fb1-cabf-47df-b789-ad389d15df40",
+        "_rev": "0UVkJe122u18jhmU1DLS9S",
+        "_type": "codex",
+        "_updatedAt": "2026-05-19T18:39:17Z",
+        "content": [
+            {
+                "_key": "78f186819be4",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "e60352a1bd79",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "When you\"replace\" a site, banish it and immediately play another site in its square. There is no time during this process when there's a void."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            }
+        ],
+        "field": "*",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Replace"
+    },
+    {
         "_createdAt": "2025-03-30T04:06:17Z",
         "_id": "68c087c1-84f7-41f3-b44b-fb1753fce12e",
         "_rev": "ddCziRH2Fm886tLDwsusff",
@@ -15910,6 +16649,101 @@
         "interlinking": true,
         "subcodexes": null,
         "title": "Replacement Effect"
+    },
+    {
+        "_createdAt": "2026-04-20T18:44:39Z",
+        "_id": "b7cf02ba-497b-4ec2-a596-14c636024868",
+        "_rev": "xUfyFbT1vwoJFdAninWXCP",
+        "_type": "codex",
+        "_updatedAt": "2026-05-19T18:39:50Z",
+        "content": [
+            {
+                "_key": "ec16acfc95bb",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "5170f1111fc4",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "The realm is divided into Rows and Columns. Rows are each contiguous set of squares directly left and right of one another, and Columns are contiguous sets of squares directly in front of or behind one another. "
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "fe03449dd050",
+                "_type": "block",
+                "children": [
+                    {
+                        "_key": "31a2ad98bed3",
+                        "_type": "span",
+                        "marks": [],
+                        "text": "This diagram shows the default shape of the realm, with an example of a Row (marked with \"R\") and a Column (marked with \"C\")."
+                    }
+                ],
+                "markDefs": [],
+                "style": "normal"
+            },
+            {
+                "_key": "6adf3c97b467",
+                "_type": "damageGrid",
+                "grid": {
+                    "rows": [
+                        {
+                            "_key": "6fc3096c-4303-4046-8cac-92f8e0459337",
+                            "_type": "tableRow",
+                            "cells": [
+                                "",
+                                "C",
+                                "",
+                                "",
+                                ""
+                            ]
+                        },
+                        {
+                            "_key": "0d545241-96a6-4f7f-8b2d-473fce574991",
+                            "_type": "tableRow",
+                            "cells": [
+                                "",
+                                "C",
+                                "",
+                                "",
+                                ""
+                            ]
+                        },
+                        {
+                            "_key": "8dcabd56-60c6-44f2-9a63-942fb4c6a1a2",
+                            "_type": "tableRow",
+                            "cells": [
+                                "R",
+                                "C/R",
+                                "R",
+                                "R",
+                                "R"
+                            ]
+                        },
+                        {
+                            "_key": "f30775c9-7df6-409f-87eb-48352246cc93",
+                            "_type": "tableRow",
+                            "cells": [
+                                "",
+                                "C",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "markDefs": null
+            }
+        ],
+        "field": "rulesText",
+        "finder": "row,column",
+        "interlinking": true,
+        "subcodexes": null,
+        "title": "Row and Column"
     },
     {
         "_createdAt": "2025-07-10T22:00:37Z",
