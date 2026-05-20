@@ -1,7 +1,8 @@
 This project can be used to generate markdown files for all sorcery codex data.
 
 ### Running the project:
-Simply run the included js file with nodejs
+First time: run `npm install @portabletext/markdown`
+Run the included codex-parser.js file with nodejs
 
 ### Updating the codex.json file:
 To update the underlying json file the following manual process needs to be performed:
