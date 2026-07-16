@@ -7,14 +7,12 @@ The majority of updates have been made for rules clarity and design intent, ofte
 
 - [[Druid]] - Tawny is only summoned once; the thorns from the flip side only affect your sites; thorns are a site ability, not the Druid's, and thus can be silenced. Druid was very powerful as originally written and repeated summoning of a free minion (i.e. Tawny) limited future design space.
 - [[Infiltrate]] - Control of the infiltrated minion returns when it no longer has Stealth, allowing for interesting counterplay. Infiltrate was very powerful as originally written and it was a thematic miss to retain control even after Stealth was lost.
-- [[Lord of Lies]] - Don’t trust his words, it’s in the name! He won’t dirty his own hands in the fight any more. Causes two **other** units to fight.
 
 **Updates to Match Original Design Intent**
 
 - [[Daperyll Vampire]], [[Blood Ravens]], [[Sir Galahad]], [[Mask of Mayhem]], [[Grim Guisarme]], Lance - The abilities on these cards only work when striking units, not sites. This matches design intent. (In an older version of the rules, units didn't strike sites.)
 - [[Seirawan Hydra]] - Hydra can be killed by taking 6 or more damage at once. For example, double defense by two [[Bosk Troll]]s will kill a Hydra. This matches design intent and how the card was ))played(( for a long time.
 - [[Deathspeaker]] - The cast minion is banished; a copy is summoned (using its Genesis) and also banished, matching design intent and avoiding [[Bottomless Pit]] shenanigans where the minion could have ended up in the cemetery repeatedly.
-- [[Mirage]] - The site you return to your hand must be one you own AND control. This now matches design intent and avoids [[Desecrate]] and [[Heirloom Lost]] shenanigans where you could steal sites from your opponent.
 
 **Minor Updates for Clarity**
 
