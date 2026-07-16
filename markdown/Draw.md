@@ -7,6 +7,4 @@ If you are instructed to draw multiple "cards" by a single effect (e.g. [[Pact w
 
 Whenever you draw multiple cards, sites, or spells, you draw them one at a time and resolve any triggers after each individual card drawn (e.g. [[Chains of Prometheus]]).
 
-If you draw a card but it ends up in a different zone, e.g. [[Morgana le Fay]], Omphalos, etc., it still counts as you (the player) drawing it.
-
 [Codex Entry](https://curiosa.io/codex?id=c50821a8-cb00-4270-a252-25e5f9c077c1)

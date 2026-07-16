@@ -15,8 +15,8 @@ In contrast, any ongoing effects continue to apply to the new form! For example,
 
 The game treats the new form as the same game object. For example, if the old form was tapped, had taken damage, and was carrying an artifact, the new form will also be tapped, have damage, and will be carrying that artifact.
 
-Note that Stealth and Ward, though a printed keyword on many cards, are tracked via a Stealth mark and a Ward mark, respectively. Therefore, Stealth and Ward marks _will _carry over to the new form. For example, if I [[Shapeshift]] a [[Band of Thieves]] with a Stealth mark into a [[Great Old One]], it will still have the Stealth mark. If I cast [[Fade]] on my [[Bosk Troll]] and then [[Shapeshift]] it into [[Great Old One]], then it will also still have the Stealth mark. Unlike the Airborne example, Stealth and Ward are tracked via a mark, which carries over.
+Note that Stealth and Ward, though a printed keyword on many cards, are tracked via a Stealth token and a Ward token, respectively. Therefore, Stealth and Ward tokens _will _carry over to the new form. For example, if I [[Shapeshift]] a [[Band of Thieves]] with a Stealth token into a [[Great Old One]], it will still have the Stealth token. If I cast [[Fade]] on my [[Bosk Troll]] and then [[Shapeshift]] it into [[Great Old One]], then it will also still have the Stealth token. Unlike the Airborne example, Stealth and Ward are tracked via a token, which carries over.
 
-Finally, if you Shapeshift a minion into a new form with the printed Stealth or Ward keyword, Stealth and Ward will not trigger since they are an "enters the realm" effect. You only get the Stealth mark or Ward mark when the minion enters the realm, and it's not entering the realm when transforming.
+Finally, if you Shapeshift a minion into a new form with the printed Stealth or Ward keyword, Stealth and Ward will not trigger since they are an "enters the realm" effect. You only get the Stealth token or Ward token when the minion enters the realm, and it's not entering the realm when transforming.
 
 [Codex Entry](https://curiosa.io/codex?id=c27cbd3f-39d3-46b0-8133-37063e86df7e)
