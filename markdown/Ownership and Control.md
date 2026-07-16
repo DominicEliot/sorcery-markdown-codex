@@ -3,6 +3,11 @@ You are the owner of all the cards you bring to a game of _Sorcery_. The owner o
 
 While the owner of a card is most often its controller, control of cards may change over the course of a game, e.g. [[Mesmerism]]. When effects use phrases like “your minions” or “your sites,” it refers to what you control, and not what you own.
 
-By default, cards are controlled by whoever puts them into the realm. For artifacts that can be carried, the controller of the unit that's carrying the artifact also controls the artifact itself. If such an artifact is not carried, it has no controller. For tokens, see the "((Token))" codex entry for details.
+By default, cards are controlled by whoever puts them into the realm, with the following clarifications:
+
+- For tokens, see the "((Token))" codex entry for details.
+- For carriable artifacts, the controller of the unit that's carrying the artifact also controls the artifact itself.
+   - If such an artifact is not carried, it has no controller.
+- If [[King Arthur]] is in play, anything other than carriable artifacts will be controlled by their owner.
 
 [Codex Entry](https://curiosa.io/codex?id=40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f)

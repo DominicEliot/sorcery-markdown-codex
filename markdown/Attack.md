@@ -11,11 +11,11 @@ You may only attack enemy units or the surface of enemy sites that are at your l
    1. One unit may use the Defend ability, resolving its movement, if any.
    2. If it now occupies the attack's location, it joins the attack as a defender.
       1. If the original target was a site, it's removed from the attack.
-      2. If the original target was a unit, it may remain in the fight or not, as the defending player chooses.
+      2. If the original target was a unit, it may remain in the fight or not, as chosen by the player who controls the unit using the Defend ability.
       3. Note that the defender is not "attacked" nor "targeted." The opportunity to use "attack" triggers (e.g. [[Dodge Roll]], [[Wills-o'-the-Wisp]], etc.) has already passed.
    3. Repeat 3.a and 3.b as many times as defending player wants, one defender at a time.
    4. Defend window is closed.
-4. Check for attack target legality again. Units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)
+4. Check for attack target legality again. As long as it occupies the attack's location, units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)
 5. Resolve the fight.
    1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life.
 6. The attack is over. Any "after attack" triggers resolve now.
