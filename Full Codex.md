@@ -198,7 +198,7 @@ You may only attack enemy units or the surface of enemy sites that are at your l
    4. Defend window is closed.
 4. Check for attack target legality again. As long as it occupies the attack's location, units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)
 5. Resolve the fight.
-   1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life.
+   1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life. This strike is referred to as "successfully attacking" the site (even if no damage is dealt due to a zero power strike).
 6. The attack is over. Any "after attack" triggers resolve now.
 
 [Codex Entry](https://curiosa.io/codex?id=c0fbcbae-e6a5-4048-b925-f2219ad43662)
@@ -798,6 +798,8 @@ If you are instructed to draw multiple "cards" by a single effect (e.g. [[Pact w
 
 Whenever you draw multiple cards, sites, or spells, you draw them one at a time and resolve any triggers after each individual card drawn (e.g. [[Chains of Prometheus]]).
 
+If you draw a card but it ends up in a different zone, e.g. [[Morgana le Fay]], Omphalos, etc., it still counts as you (the player) drawing it.
+
 [Codex Entry](https://curiosa.io/codex?id=c50821a8-cb00-4270-a252-25e5f9c077c1)
 
 # Drop
@@ -1045,7 +1047,7 @@ Setting life doesn't count as healing (e.g. [[Twist of Fate]]). But, if you're a
 
 For auras, that usually means 4 locations, most commonly the surface of 4 sites. For example, [[A Midsummer Night's Dream]]. Another example is the use of "here" on [[Evil Presence]], which includes the site surfaces but could also include void squares as well, if the aura occupied a void square.
 
-When a site itself uses the word "here," that includes both the site's surface location and it's subsurface location. For example, [[Dome of Osiros]] protects minions in its subsurface as well as surface.
+When a site itself uses the word "here," that includes both the site's surface location and it's subsurface location. For example, [[Dome of Osiros]] protects minions in its subsurface as well as surface. When an effect cares about a card entering "here" in reference to a site, that means to enter any of the site's locations from outside of the site.
 
 "Here" is analogous to "there."
 
@@ -1063,7 +1065,7 @@ Forced movement effects apply normally to Immobile units, so they can [[Blink]] 
 # Interact
 A unit "interacts" with the realm if it does any of the following things:
 
-- Strikes
+- Strikes (even if the strike is replaced with another effect)
 - Casts a spell
 - Activates a special ability
    - Note that only ((activated abilities)) can be activated. Triggered abilities and passive abilities aren't activated.
@@ -1299,7 +1301,7 @@ You may have your units do these as many times as you have resources to do so, a
 # Mana
 Mana can come from several sources, but sites are the most common. When a mana source enters the realm on your turn, and during your start phase, they generate mana.
 
-You use this mana to cast spells or activate abilities. At the end of your turn, any remaining mana is lost, whether or not you used it that turn.
+You use this mana to cast spells or activate abilities. During step 3 of the end phase of your turn, any remaining mana is lost, whether or not you used it that turn.
 
 You may not generate mana on your opponent's turn.
 
@@ -1468,6 +1470,11 @@ The non-active player is the player who is not currently taking their turn.
 
 [Codex Entry](https://curiosa.io/codex?id=9c37d326-d9f1-4efa-bd20-cd84a210a64a)
 
+# Normal Size
+A card is "normal size" if it occupies exactly one location. This is the default size for minions, avatars, and artifacts.
+
+[Codex Entry](https://curiosa.io/codex?id=3aac6b84-0fe9-4c94-ad58-f37fb604eed6)
+
 # On the Ground
 To move "on the ground" means to start from the surface of a site and move to another site's surface, excluding Airborne and teleport.
 
@@ -1521,9 +1528,9 @@ First, group ongoing effects by layer:
 
 1. Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]], [[Assimilator Snail]]
 2. Type and sub-type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]], [[Enchantress]], [[Tombstone Wardens]]
-3. Ability Removing effects, including Disabling effects, silencing effects, e.g. [[Root Spider]], [[Sisters of Silence]], [[Smokestacks of Gnaak]]
+3. Ability Removing effects, including Disabling effects, silencing effects, e.g. [[Root Spider]], [[Sisters of Silence]], [[Watchtower]], [[Smokestacks of Gnaak]]
 4. Control effects, e.g. [[King of the Realm]], [[Mesmerism]]
-5. Ability adding effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]
+5. Ability adding effects, and affinity changing effects, e.g. [[Power of Flight]], [[Tide Naiads]], [[Drought]]
 6. Power Modification effects
    1. Setting effects, e.g. [[Shrink]]
    2. Then, addition and subtraction effects, e.g. [[Overpower]]
@@ -1621,7 +1628,11 @@ This is not an exhaustive list of cards with conditional ongoing effects, but hi
 # Oversized Units
 Normally, units occupy only one location while in the realm. However, some oversized units occupy multiple locations simultaneously due to their size, e.g. [[Mountain Giant]]. To represent the minion’s locations, place the card at the intersection of the sites.
 
+#### ))Casting(( an ))Oversized Unit((
+
 When you cast such a minion, declare the area it will occupy when summoned, which must include at least one of your sites, per normal minion casting rules. It may include some of your opponent’s sites, but couldn’t include the void (without Voidwalk) nor [[Gnome Hollows]] (unless its power was low enough).
+
+#### Determining Size and Occupying Locations
 
 A card's size is determined as it enters the realm (or via other effects, e.g. [[Megamoeba]] or [[The Rack]]) and becomes one of its characteristics. Therefore, even if a [[Mountain Giant]] were disabled or in a [[Silence]] aura, it would continue to occupy a 2x2 area.
 
@@ -1629,12 +1640,73 @@ Oversized units occupy each of their locations. Therefore, if grid damage is dea
 
 An oversized unit could simultaneously occupy both land and water sites, as well as void squares if it had voidwalk. It cannot occupy the surface and subsurface simultaneously, unless it has specific text allowing it, e.g. [[Megamoeba]].
 
-When an oversized unit moves, you choose a direction and all parts of it move that direction. If any part of it can’t move in the chosen direction, then it can’t move in that direction at all.
+#### ))Moving((
 
-When attacking, oversized units still target only a single enemy unit or site.
+When an oversized unit moves, you choose a direction and all parts of it move that direction. If any part of it cannot move in the chosen direction, then it cannot move in that direction at all. All parts of this movement are considered its movement path.
+
+- For example: If you cast [[Whirling Blades]] on an animated [[Drought]] aura, it can move two steps and then will strike enemies at any of the 8 locations it occupied, since all 8 locations are part of its movement path. (If it moved forward and back, then only 6 locations would be part of its movement path.)
+
+When moving, an oversized unit only "((enters))" locations it did not occupy before taking each step.
+
+#### ))Attacking((
+
+When attacking, oversized units must target a single enemy unit or site surface that shares a location with it.
+
+- For example, a Mountain Giant occupying sites in the squares marked with "M" is attacking. It must choose an enemy unit or site surface in one of those locations. The attack is then happening at that location, and defenders must reach that specific location to defend.
+
+_See live codex for table_
+
+#### ))Nearby(( and ))Adjacent((
+
+When determining if a card is near or adjacent to an oversized unit, you check to see if it is near or adjacent to any location the oversized unit occupies. For instance, the following locations marked "a" are adjacent to the Mountain Giant, marked "M":
+
+_See live codex for table_
+
+As a further example, the locations marked "n" are nearby an oversized avatar, marked "A," that has been stretched into an L-shape by [[The Rack]]:
+
+_See live codex for table_
+
+In the ))above(( diagrams, the locations occupied by the oversized unit are also nearby/adjacent to the unit.
+
+#### For more detailed and specific rulings, see the subcodex entries below:
+
+## Burrowing or Submerging Oversized Units
+Since an oversized unit occupies more than one location, it cannot burrow or submerge itself when it occupies both a land site and a water site unless it has both the Submerge and Burrowing ability.
+
+When an effect attempts to burrow or submerge an oversized unit by force (e.g. [[Bury]], [[Drown]]) the effect will fail unless the oversized unit occupies only one type of site (i.e. either all water sites, or all land sites).
+
+- For example, you cast [[Bury]] on a [[Mountain Giant]] that occupies the surface of three land sites and one water site. The effect will fail, since not all parts of the Giant can be burrowed.
+
+## Oversized Units Carrying Artifacts
+When casting an artifact into the hands of an oversized unit, choose one of its locations to conjure the artifact to. It will be held by the oversized unit at that location.
+
+When an oversized unit carrying an artifact moves, the artifact stays in the same relative position within the oversized unit. For instance, if you have a Mountain Giant at the locations marked "M" and it is carrying an artifact in the location marked "A", it will stay in that relative location while the Giant moves:
+
+_See live codex for table_
+
+Stepping to the right:
+
+_See live codex for table_
+
+Then stepping forward:
+
+_See live codex for table_
+
+The same rules will apply if an oversized unit is carrying another unit.
+
+## Traversing Borders
+When an oversized unit moves, it does not "traverse" borders that it was straddling before moving.
+
+- For example: if there is a Mountain Giant occupying the "M" locations and a [[Perilous Bridge]] in square "P", the Mountain Giant can step forward to square 1, because it will not be traversing the border between 2 and P. It could not step back down to P afterward, though, as then it would be crossing that border.
+
+_See live codex for table_
+
+_See live codex for table_
 
 ## Teleporting Oversized Units
 When an oversized unit is teleported, it must be to a location or set of locations that are all legal for that unit to occupy, and must not cross regional boundaries unless allowed by card text.
+
+If the teleport effect requires the oversized unit to be targeted, you must choose one of its locations where it can be legally targeted to be the part of the unit teleported. If the effect does not target, the controller of the effect may choose any part of the oversized unit to be the part which is teleported.
 
 If the destination of the teleportation is a single location, the controller of the teleportation effect chooses the position and orientation of the unit, as long as the destination is included in the locations it ends up occupying.
 
@@ -1654,8 +1726,33 @@ _See live codex for table_
 
 Since the Mountain Giant is a square shape, its orientation doesn't typically matter, but if it were carrying something, it could also be rotated as desired from the teleportation.
 
-## Cards that Assume Units Occupy Only One Location
-There are many cards that assume units occupy only one location or site. When resolving such effects for oversized units, simply pick a single site or location they occupy. For example, [[Spin Attack]], [[Leap Attack]], and [[Recall]] all assume the unit occupies only one location; to resolve them properly, you pick one location the oversized unit occupies.
+For a more complicated example, an Avatar has been stretched by [[The Rack]] so that it is an asymmetrical shape, and is then chosen as the ally for [[Blink]]. The controller decides that the part of the Avatar marked with "x" will be teleporting to the square marked "X":
+
+_See live codex for table_
+
+The Avatar can end up in any of the following orientations, given those choices:
+
+_See live codex for table_
+
+_See live codex for table_
+
+_See live codex for table_
+
+_See live codex for table_
+
+However, if a different section of the Avatar is chosen the be the part which teleports to a nearby location, a whole new set of orientations become available.
+
+## Cards that Refer to a Unit's Site or Location
+There are many cards that assume units occupy only one location or site. These cards will have language which refers to "its site" or "its location," or words to that effect, in the context of a unit.
+
+When resolving such effects for oversized units, simply pick a single site or location they occupy. For example, [[Spin Attack]], [[Leap Attack]], and [[Recall]] all assume the unit occupies only one location; to resolve them properly, you pick one location the oversized unit occupies.
+
+## Oversized Units Shooting Projectiles
+When shooting a projectile, an oversized unit chooses one of its locations and the projectile shoots from there.
+
+- For example: If you case Grapple Shot and choose your Mountain Giant, occupying the squares marked with "M/m," for its effect. You must select one location occupied by the Giant to be the origin for the projectile, so you choose the location marked "m." The projectile shoots north and hits the Bosk Troll at "B" and then drags the Giant to its location. The Giant will be dragged over the Vile Imp at "V" and will occupy the four squares at the top of the diagram instead of the four at the bottom.
+
+_See live codex for table_
 
 [Codex Entry](https://curiosa.io/codex?id=7f57fe26-eac3-45a4-b449-994fef47d872)
 
@@ -2038,6 +2135,8 @@ If a site is played to rubble that is occupied by minions or artifacts, those mi
 
 When cards refer to "adjacent site" or "nearby site," see ((adjacent)) and ((nearby)) for clarity on how to resolve it.
 
+Some effects cause sites to ))move(( to another square. When this happens, everything of normal size is carried along with the site. Anything that is carried along with the site does not count as ((moving)) and does not ((enter)) the site or location. 
+
 [Codex Entry](https://curiosa.io/codex?id=5e633a96-c807-4915-be05-e83cacfcbfd6)
 
 # Skeleton Token
@@ -2128,13 +2227,13 @@ The start phase is the first phase you complete during your turn. Follow these s
 # Stealth
 **Keyword Ability. **Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
 
-Stealth is tracked with a stealth token.
+Stealth is tracked with a stealth mark.
 
 Stealth is lost after the minion interacts with the realm.
 
-Non-minions cannot have Stealth. If a minion with Stealth becomes a non-minion, remove the Stealth token and they lose Stealth.
+Non-minions cannot have Stealth. If a minion with Stealth becomes a non-minion, remove the Stealth mark and they lose Stealth.
 
-A minion with the Stealth keyword enters the realm with a Stealth token. If a minion becomes disabled or silenced, it will lose its Stealth token, since Stealth is an ability (similar to Ward).
+A minion with the Stealth keyword enters the realm with a Stealth mark. If a minion becomes disabled or silenced, it will lose its Stealth mark, since Stealth is an ability (similar to Ward).
 
 ## When exactly is "after"?
 Stealth is lost "after" interacting with the realm, so here is a precise explanation of when "after" occurs for the ways Stealth could be lost.
@@ -2284,7 +2383,7 @@ It's my turn and I cast [[Apprentice Wizard]] to the surface of my [[Bottomless 
 
 - Summon Apprentice Wizard to the surface of Bottomless Pit
 
-There are no triggers yet, because the Wizard isn't the realm yet. So, we resolve the storyline and it looks like this:
+There are no triggers yet, because the Wizard isn't in the realm yet. So, we resolve the storyline and it looks like this:
 
 - DONE: _Summon Apprentice Wizard to the surface of Bottomless Pit_
 
@@ -2356,6 +2455,20 @@ Some effects care about a unit's "next strike" or "the next time it strikes."  I
 Note that this is different from attacking while there are multiple defenders. In that case, the attacker makes a single strike, and the damage is split among the defenders.
 
 [Codex Entry](https://curiosa.io/codex?id=8bb6e5a1-6989-4ec1-98d7-ef50283cccf6)
+
+# Stronger, Strongest, Weaker, Weakest
+Effects with these terms compare the power of two or more units:
+
+- Stronger: Strictly more power than.
+- Strongest: Strictly the highest power.
+- Weaker: Strictly less power than.
+- Weakest: Strictly the lowest power.
+
+In the case of ties for Strongest and Weakest, the active player chooses.
+
+When comparing a minion with split power, use the average of their attack power and defense power, rounding down.
+
+[Codex Entry](https://curiosa.io/codex?id=dcf0d619-240b-4529-b98a-0494075ea666)
 
 # Submerge
 **Keyword Ability. **A minion with Submerge can be summoned to underwater locations and survive underwater.
@@ -2545,9 +2658,9 @@ In contrast, any ongoing effects continue to apply to the new form! For example,
 
 The game treats the new form as the same game object. For example, if the old form was tapped, had taken damage, and was carrying an artifact, the new form will also be tapped, have damage, and will be carrying that artifact.
 
-Note that Stealth and Ward, though a printed keyword on many cards, are tracked via a Stealth token and a Ward token, respectively. Therefore, Stealth and Ward tokens _will _carry over to the new form. For example, if I [[Shapeshift]] a [[Band of Thieves]] with a Stealth token into a [[Great Old One]], it will still have the Stealth token. If I cast [[Fade]] on my [[Bosk Troll]] and then [[Shapeshift]] it into [[Great Old One]], then it will also still have the Stealth token. Unlike the Airborne example, Stealth and Ward are tracked via a token, which carries over.
+Note that Stealth and Ward, though a printed keyword on many cards, are tracked via a Stealth mark and a Ward mark, respectively. Therefore, Stealth and Ward marks _will _carry over to the new form. For example, if I [[Shapeshift]] a [[Band of Thieves]] with a Stealth mark into a [[Great Old One]], it will still have the Stealth mark. If I cast [[Fade]] on my [[Bosk Troll]] and then [[Shapeshift]] it into [[Great Old One]], then it will also still have the Stealth mark. Unlike the Airborne example, Stealth and Ward are tracked via a mark, which carries over.
 
-Finally, if you Shapeshift a minion into a new form with the printed Stealth or Ward keyword, Stealth and Ward will not trigger since they are an "enters the realm" effect. You only get the Stealth token or Ward token when the minion enters the realm, and it's not entering the realm when transforming.
+Finally, if you Shapeshift a minion into a new form with the printed Stealth or Ward keyword, Stealth and Ward will not trigger since they are an "enters the realm" effect. You only get the Stealth mark or Ward mark when the minion enters the realm, and it's not entering the realm when transforming.
 
 [Codex Entry](https://curiosa.io/codex?id=c27cbd3f-39d3-46b0-8133-37063e86df7e)
 
@@ -2563,6 +2676,10 @@ Some effects use the phrase "traverse on the ground," e.g. [[Wall of Brambles]].
 
 # Triggered Ability
 A triggered ability specifies a condition and then an effect. Triggered abilities use words such as “when,” “whenever,” and “at [a specified moment].” For example, [[Scourge Zombies]] have a triggered ability.
+
+If the act of removing a triggered ability would satisfy its trigger condition, the ability is still triggered.
+
+- For example: If you play [[Fields of Phyxis]] in front of [[Vindictive Nation]], Vindictive Nation will be silenced but its ability will still trigger and cause life loss.
 
 [Codex Entry](https://curiosa.io/codex?id=511a6488-28f7-420b-80c4-fcf94993d050)
 
@@ -2629,12 +2746,14 @@ The majority of updates have been made for rules clarity and design intent, ofte
 
 - [[Druid]] - Tawny is only summoned once; the thorns from the flip side only affect your sites; thorns are a site ability, not the Druid's, and thus can be silenced. Druid was very powerful as originally written and repeated summoning of a free minion (i.e. Tawny) limited future design space.
 - [[Infiltrate]] - Control of the infiltrated minion returns when it no longer has Stealth, allowing for interesting counterplay. Infiltrate was very powerful as originally written and it was a thematic miss to retain control even after Stealth was lost.
+- [[Lord of Lies]] - Don’t trust his words, it’s in the name! He won’t dirty his own hands in the fight any more. Causes two **other** units to fight.
 
 **Updates to Match Original Design Intent**
 
 - [[Daperyll Vampire]], [[Blood Ravens]], [[Sir Galahad]], [[Mask of Mayhem]], [[Grim Guisarme]], Lance - The abilities on these cards only work when striking units, not sites. This matches design intent. (In an older version of the rules, units didn't strike sites.)
 - [[Seirawan Hydra]] - Hydra can be killed by taking 6 or more damage at once. For example, double defense by two [[Bosk Troll]]s will kill a Hydra. This matches design intent and how the card was ))played(( for a long time.
 - [[Deathspeaker]] - The cast minion is banished; a copy is summoned (using its Genesis) and also banished, matching design intent and avoiding [[Bottomless Pit]] shenanigans where the minion could have ended up in the cemetery repeatedly.
+- [[Mirage]] - The site you return to your hand must be one you own AND control. This now matches design intent and avoids [[Desecrate]] and [[Heirloom Lost]] shenanigans where you could steal sites from your opponent.
 
 **Minor Updates for Clarity**
 
@@ -2676,13 +2795,13 @@ For example, [[Hounds of Ondaros]] can be summoned to any void location. Then, a
 # Ward
 **Keyword Ability. **If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
 
-Ward is tracked with a ward token. A unit or site can have at most one Ward.
+Ward is tracked with a ward mark. A unit or site can have at most one Ward.
 
-Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward token and they lose Ward. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward token.
+Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark and they lose Ward. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
 
-Only units and sites can have Wards. If a unit or site with Ward becomes a non-unit, non-site, remove the Ward token and they lose Ward.
+Only units and sites can have Wards. If a unit or site with Ward becomes a non-unit, non-site, remove the Ward mark and they lose Ward.
 
-A unit or site with the Ward keyword enters the realm with a Ward token. If a minion or site becomes disabled or silenced, it will lose its Ward token, since Ward is an ability (similar to Stealth).
+A unit or site with the Ward keyword enters the realm with a Ward mark. If a minion or site becomes disabled or silenced, it will lose its Ward mark, since Ward is an ability (similar to Stealth).
 
 Further Notes:
 

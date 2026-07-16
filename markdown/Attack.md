@@ -17,7 +17,7 @@ You may only attack enemy units or the surface of enemy sites that are at your l
    4. Defend window is closed.
 4. Check for attack target legality again. As long as it occupies the attack's location, units that used the Defend ability are automatically legal targets (e.g. a Stealth minion chooses to defend, a unit on [[Dome of Osiros]] chooses to defend, etc.)
 5. Resolve the fight.
-   1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life.
+   1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life. This strike is referred to as "successfully attacking" the site (even if no damage is dealt due to a zero power strike).
 6. The attack is over. Any "after attack" triggers resolve now.
 
 [Codex Entry](https://curiosa.io/codex?id=c0fbcbae-e6a5-4048-b925-f2219ad43662)

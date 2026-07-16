@@ -1,7 +1,7 @@
 # Interact
 A unit "interacts" with the realm if it does any of the following things:
 
-- Strikes
+- Strikes (even if the strike is replaced with another effect)
 - Casts a spell
 - Activates a special ability
    - Note that only ((activated abilities)) can be activated. Triggered abilities and passive abilities aren't activated.

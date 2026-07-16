@@ -15,9 +15,9 @@ First, group ongoing effects by layer:
 
 1. Copy effects, e.g. [[Mirror Realm]], [[Selfsame Simulacrum]], [[Assimilator Snail]]
 2. Type and sub-type changing effects, e.g. [[Bower of Bliss]], [[Corruptor]], [[Enchantress]], [[Tombstone Wardens]]
-3. Ability Removing effects, including Disabling effects, silencing effects, e.g. [[Root Spider]], [[Sisters of Silence]], [[Smokestacks of Gnaak]]
+3. Ability Removing effects, including Disabling effects, silencing effects, e.g. [[Root Spider]], [[Sisters of Silence]], [[Watchtower]], [[Smokestacks of Gnaak]]
 4. Control effects, e.g. [[King of the Realm]], [[Mesmerism]]
-5. Ability adding effects, and affinity changing effects, e.g. [[Power of Flight]], [[Watchtower]], [[Tide Naiads]], [[Drought]]
+5. Ability adding effects, and affinity changing effects, e.g. [[Power of Flight]], [[Tide Naiads]], [[Drought]]
 6. Power Modification effects
    1. Setting effects, e.g. [[Shrink]]
    2. Then, addition and subtraction effects, e.g. [[Overpower]]
