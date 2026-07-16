@@ -104,7 +104,7 @@ It's my turn and I cast [[Apprentice Wizard]] to the surface of my [[Bottomless 
 
 - Summon Apprentice Wizard to the surface of Bottomless Pit
 
-There are no triggers yet, because the Wizard isn't the realm yet. So, we resolve the storyline and it looks like this:
+There are no triggers yet, because the Wizard isn't in the realm yet. So, we resolve the storyline and it looks like this:
 
 - DONE: _Summon Apprentice Wizard to the surface of Bottomless Pit_
 

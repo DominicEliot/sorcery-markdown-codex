@@ -3,7 +3,7 @@
 
 For auras, that usually means 4 locations, most commonly the surface of 4 sites. For example, [[A Midsummer Night's Dream]]. Another example is the use of "here" on [[Evil Presence]], which includes the site surfaces but could also include void squares as well, if the aura occupied a void square.
 
-When a site itself uses the word "here," that includes both the site's surface location and it's subsurface location. For example, [[Dome of Osiros]] protects minions in its subsurface as well as surface.
+When a site itself uses the word "here," that includes both the site's surface location and it's subsurface location. For example, [[Dome of Osiros]] protects minions in its subsurface as well as surface. When an effect cares about a card entering "here" in reference to a site, that means to enter any of the site's locations from outside of the site.
 
 "Here" is analogous to "there."
 
