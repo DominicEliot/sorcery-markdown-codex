@@ -1,6 +1,9 @@
 # Shell Scripts
 *.sh
 
+# keyfiles
+keys/
+
 # Logs
 logs
 *.log
