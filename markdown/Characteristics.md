@@ -20,7 +20,7 @@ Avatars have the following characteristics:
 
 - Card name
 - Power, which is a single number (including zero)
-- Current and max life
+- Max life
 - Spellcaster ability
 
 ## Artifact Characteristics
