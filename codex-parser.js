@@ -8,6 +8,7 @@ async function main() {
     //let codexData = JSON.parse(rawData);
     let codexData = await GetCodexFromCuriosaIo();
 
+    console.log(`Processing ${codexData.length} codex entries.`)
 
     const damageGridRegex = /```json(.*\n)*?```/g;
 
@@ -33,6 +34,7 @@ async function main() {
     }
 
     fs.writeFileSync(path.join('Full Codex.md'), singleFileMarkdown.trim());
+    console.log(`Processing Complete. Wrote ${codexData.length} individual codex files.`)
 }
 
 main().catch(console.error);
