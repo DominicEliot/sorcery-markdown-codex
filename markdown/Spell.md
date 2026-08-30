@@ -5,4 +5,4 @@ Magics are a type of spell, but minions, artifacts, and auras are all spells as 
 
 See casting spells for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=22382253-7c9b-4bca-a483-4d1942bf5e97)
+[Codex Entry](https://curiosa.io/codex/22382253-7c9b-4bca-a483-4d1942bf5e97)

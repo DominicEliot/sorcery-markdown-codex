@@ -23,4 +23,4 @@ Sorcery cards use natural, thematic language. Some words and phrases are synonym
 
 - In the context of a projectile: Shoot. Throw.
 
-[Codex Entry](https://curiosa.io/codex?id=fdac6723-8fb2-4a1c-9e1c-c64cdb167bce)
+[Codex Entry](https://curiosa.io/codex/fdac6723-8fb2-4a1c-9e1c-c64cdb167bce)

@@ -10,4 +10,4 @@ By default, cards are controlled by whoever puts them into the realm, with the f
    - If such an artifact is not carried, it has no controller.
 - If [[King Arthur]] is in play, anything other than carriable artifacts will be controlled by their owner.
 
-[Codex Entry](https://curiosa.io/codex?id=40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f)
+[Codex Entry](https://curiosa.io/codex/40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f)

@@ -7,4 +7,4 @@ Teleportation from the same location to itself is not movement at all; in that c
 
 See the "Oversized Units" codex entry for more details on teleportation with oversized units.
 
-[Codex Entry](https://curiosa.io/codex?id=148ecc13-72e8-46eb-812f-2c6f3b37cd6d)
+[Codex Entry](https://curiosa.io/codex/148ecc13-72e8-46eb-812f-2c6f3b37cd6d)

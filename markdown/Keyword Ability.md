@@ -3,4 +3,4 @@ A keyword is a word or phrase that functions as shorthand for a longer piece of 
 
 If a card gains multiple copies of a keyword ability, usually there is no benefit. For example, a [[Plumed Pegasus]] with Airborne and [[Power of Flight]] simply has Airborne. When the Power of Flight ends, the Pegasus will still have Airborne due to its printed ability. Sometimes, multiple copies of a keyword do provide a benefit, such as multiple Lance keywords, e.g. [[Thankless Squire]].
 
-[Codex Entry](https://curiosa.io/codex?id=f422c6d1-5f14-4e7b-a483-2b56033c9db3)
+[Codex Entry](https://curiosa.io/codex/f422c6d1-5f14-4e7b-a483-2b56033c9db3)

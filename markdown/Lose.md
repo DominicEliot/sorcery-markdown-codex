@@ -5,4 +5,4 @@ Some effects will cause artifacts, minions, and sites to lose certain abilities,
 
 See the "Can vs. Can't" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=7e87d038-ec40-446e-a213-952e429f2071)
+[Codex Entry](https://curiosa.io/codex/7e87d038-ec40-446e-a213-952e429f2071)

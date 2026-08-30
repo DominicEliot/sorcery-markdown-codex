@@ -20,4 +20,4 @@ _See live codex for table_
 
 The [[Mountain Giant]] occupies the four left squares, and then takes a step to the east. It enters the two sites in the right column, but it does not enter the two sites in the middle column, since it already occupied those sites before the move. See the "((Oversized Units))" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=5b927a70-2900-4f83-bcf3-595f5a5f4212)
+[Codex Entry](https://curiosa.io/codex/5b927a70-2900-4f83-bcf3-595f5a5f4212)

@@ -19,4 +19,4 @@ Note that Stealth and Ward, though a printed keyword on many cards, are tracked 
 
 Finally, if you Shapeshift a minion into a new form with the printed Stealth or Ward keyword, Stealth and Ward will not trigger since they are an "enters the realm" effect. You only get the Stealth mark or Ward mark when the minion enters the realm, and it's not entering the realm when transforming.
 
-[Codex Entry](https://curiosa.io/codex?id=c27cbd3f-39d3-46b0-8133-37063e86df7e)
+[Codex Entry](https://curiosa.io/codex/c27cbd3f-39d3-46b0-8133-37063e86df7e)

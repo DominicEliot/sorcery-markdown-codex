@@ -3,4 +3,4 @@ When you banish a card, it is removed from the game; place in a separate area, c
 
 Once a card is banished, it can never return to the game.
 
-[Codex Entry](https://curiosa.io/codex?id=703eaeda-d0ac-46ca-9103-a2f9fadf327a)
+[Codex Entry](https://curiosa.io/codex/703eaeda-d0ac-46ca-9103-a2f9fadf327a)

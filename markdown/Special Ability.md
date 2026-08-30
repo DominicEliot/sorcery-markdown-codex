@@ -6,4 +6,4 @@ Anything printed in the text box of a card is considered a special ability, as w
 - Activated ability
 - Triggered ability
 
-[Codex Entry](https://curiosa.io/codex?id=f2bd2f7d-0032-4929-b18d-5c9793f09e99)
+[Codex Entry](https://curiosa.io/codex/f2bd2f7d-0032-4929-b18d-5c9793f09e99)

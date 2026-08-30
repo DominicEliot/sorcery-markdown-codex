@@ -25,4 +25,4 @@ Further Notes:
    - Another example: My [[Abaddon Succubus]] tries to lure your warded minion. The Ward protects the minion and breaks. The protected minion does not take a step closer, does not take 2 damage, and I do not heal 2.
 - Note that Move and Attack is a Basic Ability, and thus Ward does not protect a unit from being attacked. For example, if I have a warded Apprentice Wizard, you ))can attack(( it. But, once we get to strikes in the attack sequence, assuming you actually strike for 1 or more damage, the Apprentice Wizard's Ward will break at that point, preventing the damage.
 
-[Codex Entry](https://curiosa.io/codex?id=ae9b6774-aa8f-45c5-a424-d6d7e58014c3)
+[Codex Entry](https://curiosa.io/codex/ae9b6774-aa8f-45c5-a424-d6d7e58014c3)

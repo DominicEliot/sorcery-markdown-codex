@@ -5,4 +5,4 @@ For example, [[Drowned]] must be cast submerged and also to a site you control. 
 
 Note that if you summon a minion directly to the realm without casting it, e.g. [[Raise Dead]] or [[Boneyard]], then casting restrictions do not apply. (Summoning restrictions still apply.)
 
-[Codex Entry](https://curiosa.io/codex?id=e02be40f-a696-45dd-a37d-e3019231de88)
+[Codex Entry](https://curiosa.io/codex/e02be40f-a696-45dd-a37d-e3019231de88)

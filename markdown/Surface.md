@@ -7,4 +7,4 @@ Surface as a verb means "to move up from underwater," as in "surface the submerg
 
 Void squares do not have a surface (or subsurface).
 
-[Codex Entry](https://curiosa.io/codex?id=044f9fc4-dea9-4fe0-9c17-6db00bd5e361)
+[Codex Entry](https://curiosa.io/codex/044f9fc4-dea9-4fe0-9c17-6db00bd5e361)

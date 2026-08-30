@@ -22,4 +22,4 @@ To activate an ability, ensure that:
 
 Once you pay the cost and declare targets (if any), the effect of the activated ability goes on the storyline and then will resolve normally.
 
-[Codex Entry](https://curiosa.io/codex?id=c7f83847-8d96-4d13-a8df-a510ba603f1e)
+[Codex Entry](https://curiosa.io/codex/c7f83847-8d96-4d13-a8df-a510ba603f1e)

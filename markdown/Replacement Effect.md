@@ -7,4 +7,4 @@ Note that replacement effects do not use the storyline; they immediately resolve
 
 See the "((Damage))" codex entry and subsections for more details on damage-specific replacement effects.
 
-[Codex Entry](https://curiosa.io/codex?id=68c087c1-84f7-41f3-b44b-fb1753fce12e)
+[Codex Entry](https://curiosa.io/codex/68c087c1-84f7-41f3-b44b-fb1753fce12e)

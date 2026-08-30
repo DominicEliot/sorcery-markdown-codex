@@ -5,4 +5,4 @@ Unlike sites that have two locations (surface and subsurface), a void square onl
 
 Avatars in the void have a mandatory action.
 
-[Codex Entry](https://curiosa.io/codex?id=8371e6b3-dee7-4881-aa6b-063781c97be3)
+[Codex Entry](https://curiosa.io/codex/8371e6b3-dee7-4881-aa6b-063781c97be3)

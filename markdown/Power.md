@@ -5,4 +5,4 @@ Some minions have split power. Units may not have less than zero power.
 
 See the "((zero))" codex entry for more details on units with zero power.
 
-[Codex Entry](https://curiosa.io/codex?id=5e4c5091-610a-4830-9dc2-7bbad713ae0f)
+[Codex Entry](https://curiosa.io/codex/5e4c5091-610a-4830-9dc2-7bbad713ae0f)

@@ -9,4 +9,4 @@ Your atlas must contain 30 or more sites and respect rarity limits.
 **Limited Formats (Draft or Sealed)**  
 Your atlas must contain 12 or more sites, ignoring rarity restrictions.
 
-[Codex Entry](https://curiosa.io/codex?id=f0bcef51-cd6e-4ae8-8c09-95b0e6fd96a0)
+[Codex Entry](https://curiosa.io/codex/f0bcef51-cd6e-4ae8-8c09-95b0e6fd96a0)

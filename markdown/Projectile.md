@@ -21,4 +21,4 @@ Some projectiles cause forced movement after they hit, e.g. [[Grapple Shot]] or 
 
 See the "((Movement on the Storyline))" entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=c81c8875-ef70-4202-8c98-7ac00ece0cc6)
+[Codex Entry](https://curiosa.io/codex/c81c8875-ef70-4202-8c98-7ac00ece0cc6)

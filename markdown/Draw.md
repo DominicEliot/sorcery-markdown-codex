@@ -9,4 +9,4 @@ Whenever you draw multiple cards, sites, or spells, you draw them one at a time 
 
 If you draw a card but it ends up in a different zone, e.g. [[Morgana le Fay]], Omphalos, etc., it still counts as you (the player) drawing it.
 
-[Codex Entry](https://curiosa.io/codex?id=c50821a8-cb00-4270-a252-25e5f9c077c1)
+[Codex Entry](https://curiosa.io/codex/c50821a8-cb00-4270-a252-25e5f9c077c1)

@@ -15,4 +15,4 @@ For example, if you play [[Troubled Town]], you may gain any Townsfolk and cast 
 
 Your collection includes every card that you own outside of the game during casual play.
 
-[Codex Entry](https://curiosa.io/codex?id=78ce4090-a2e1-4893-97c0-6eaafd5c5937)
+[Codex Entry](https://curiosa.io/codex/78ce4090-a2e1-4893-97c0-6eaafd5c5937)

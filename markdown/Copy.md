@@ -7,4 +7,4 @@ By default, whoever creates the copy controls it and makes any necessary decisio
 
 A card's characteristics and abilities are its printed characteristics and abilities, by default. However, if a card "entered as a copy" then its characteristics and abilities are what's printed on the copied card. For example, if you play a [[Selfsame Simulacrum]] and have it enter as a copy of a nearby [[Locusts of Illyria]], at the end of the turn it will summon a new Locust, not a new Simulacrum. Additionally, if you play a [[Mirror Realm]], copying a nearby [[Bedrock]], and your opponent then plays their own Mirror Realm copying your first one, the new Mirror Realm will be a Bedrock.
 
-[Codex Entry](https://curiosa.io/codex?id=88663410-ac07-4dd6-b2fe-fbecbadf232a)
+[Codex Entry](https://curiosa.io/codex/88663410-ac07-4dd6-b2fe-fbecbadf232a)

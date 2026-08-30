@@ -5,7 +5,7 @@ When another card gains such an ability, the text should be read as referencing 
 
 In effect, when reading an ability which references the name of the card on which it is printed, you replace the name with a grammatically appropriate version of "this card."
 
-[Codex Entry](https://curiosa.io/codex?id=d123e994-d95f-4fa9-9f2d-3a3e31fe95af)
+[Codex Entry](https://curiosa.io/codex/d123e994-d95f-4fa9-9f2d-3a3e31fe95af)
 
 # Ability
 All cards in the game have abilities! There are two categories of abilities:
@@ -15,7 +15,7 @@ All cards in the game have abilities! There are two categories of abilities:
 
 Cards also have characteristics, which are distinct from abilities.
 
-[Codex Entry](https://curiosa.io/codex?id=b59ebea2-8981-49ef-bb6f-770cafa22876)
+[Codex Entry](https://curiosa.io/codex/b59ebea2-8981-49ef-bb6f-770cafa22876)
 
 # Activated Ability
 An activated ability has a cost (such as tapping or paying mana) and an effect.  For example, [[Field Laborers]] have an activated ability. If you pay the cost, the effect occurs. If you can pay the cost multiple times, you may do so (and the effect will occur each time you pay the cost).
@@ -41,12 +41,12 @@ To activate an ability, ensure that:
 
 Once you pay the cost and declare targets (if any), the effect of the activated ability goes on the storyline and then will resolve normally.
 
-[Codex Entry](https://curiosa.io/codex?id=c7f83847-8d96-4d13-a8df-a510ba603f1e)
+[Codex Entry](https://curiosa.io/codex/c7f83847-8d96-4d13-a8df-a510ba603f1e)
 
 # Active Player
 The active player is the player who is currently taking their turn.
 
-[Codex Entry](https://curiosa.io/codex?id=d883088a-d18e-45a2-92a1-07743323d843)
+[Codex Entry](https://curiosa.io/codex/d883088a-d18e-45a2-92a1-07743323d843)
 
 # Adjacent
 Adjacent refers to the current square and the four **orthogonal** squares that share a border with it (not diagonals). For example, the middle square has 5 adjacent squares - itself and four others.
@@ -61,14 +61,14 @@ When referring to **adjacent sites**, **adjacent voids**, or **adjacent squares*
 
 **For all other references to adjacent**, such as adjacent locations, adjacent minions, adjacent artifact, etc., _regional boundaries must be respected and cannot be crossed_. For example, if a minion with Voidwalk was attacked while at a site and then played [[Dodge Roll]], it could not move to a void square because "adjacent location" cannot cross a regional boundary.
 
-[Codex Entry](https://curiosa.io/codex?id=1d3363e4-3b12-46fb-99d9-f4319967f484)
+[Codex Entry](https://curiosa.io/codex/1d3363e4-3b12-46fb-99d9-f4319967f484)
 
 # Air Site
 An air site is a site that provides at least one air (A) affinity.
 
 If the site provides other types of affinity as well, it's still an air site as long as it provides at least one air affinity.
 
-[Codex Entry](https://curiosa.io/codex?id=e770af60-d84a-47e8-a31b-5d377362d549)
+[Codex Entry](https://curiosa.io/codex/e770af60-d84a-47e8-a31b-5d377362d549)
 
 # Airborne
 **Keyword ability.** A unit with Airborne may fly while on the surface. It gains three benefits _while on the surface:_
@@ -83,19 +83,19 @@ _Important reminders:_
 - Airborne only works on the surface. If the unit starts its step on the surface of a site, it can step diagonally. If the unit starts its step in a different region (void, underwater, underground), then it can't step diagonally (and also doesn't get the other benefits either).
 - Airborne has no effect on counting distance for effects with "up to X steps away," e.g. [[Disenchant]].
 
-[Codex Entry](https://curiosa.io/codex?id=c7c182e2-629c-4e65-a9a0-97feff983a3d)
+[Codex Entry](https://curiosa.io/codex/c7c182e2-629c-4e65-a9a0-97feff983a3d)
 
 # Ally
 An ally is a unit that you control, including your Avatar.
 
 Allies are always units, unless otherwise specified by card text. For example, [[Cast into Exile]] uses "allied site," which means "a site you control." [[Holy Nova]] uses "allied Ward," which means "a Ward on card you control."
 
-[Codex Entry](https://curiosa.io/codex?id=040cd91a-60f2-4a12-bebc-b9bf482b9877)
+[Codex Entry](https://curiosa.io/codex/040cd91a-60f2-4a12-bebc-b9bf482b9877)
 
 # Animate
 Animate means to give a card the minion type. It becomes a minion for the duration of the effect, in addition to its other types. For example, [[Enchantress]].
 
-[Codex Entry](https://curiosa.io/codex?id=1235b762-af7e-4007-b51c-557b5d4e4957)
+[Codex Entry](https://curiosa.io/codex/1235b762-af7e-4007-b51c-557b5d4e4957)
 
 # Artifact
 Artifacts are various relics, edifices, tools, gear, gadgets, devices, and baubles, often charged with lasting enchantments by wizards of old. [[Spear of Destiny]] is an example of an artifact.
@@ -114,7 +114,7 @@ Automatons are artifacts that are minions. See "Cards With Multiple Types" in th
 ## Monument
 Monuments are an artifact subtype that cannot be carried. [[The Immortal Throne]] is an example of a monument.
 
-[Codex Entry](https://curiosa.io/codex?id=169db6b5-aae8-407e-ae7f-07206707a5eb)
+[Codex Entry](https://curiosa.io/codex/169db6b5-aae8-407e-ae7f-07206707a5eb)
 
 # As If Adjacent
 Some effects allow movement "as if adjacent" e.g. [[Minecart Madness]].
@@ -123,7 +123,7 @@ If it matters, the controller of the movement effect decides the cardinal direct
 
 Units moving "as if adjacent" do not cross any borders. Therefore, a [[Waypoint Portal]] would allow you to circumvent a [[Wall of Ice]] or [[Great Wall]], which look for crossing borders.
 
-[Codex Entry](https://curiosa.io/codex?id=99016615-f793-4b58-89fe-44572cffa657)
+[Codex Entry](https://curiosa.io/codex/99016615-f793-4b58-89fe-44572cffa657)
 
 # As If Connected
 Some effects allow movement "as if the top and bottom edges of the realm were connected" e.g. [[Polar Explorers]].
@@ -136,7 +136,7 @@ Oversized units that move as if connected and then find themselves spanning the 
 
 Forced movement effects do not cause units to take their own steps, and so they cannot cause a unit with such an ability to cross an edge of the realm. The only exception is if the edges of the realm are truly connected by some other effect (e.g. [[Magellan Globe]]).
 
-[Codex Entry](https://curiosa.io/codex?id=78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b)
+[Codex Entry](https://curiosa.io/codex/78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b)
 
 # At Rest
 The default state of a unit is at rest, but it stops being at rest when:
@@ -153,7 +153,7 @@ It returns to being "at rest" after passive effects have been applied and the St
 - Units being carried by other units will not be at rest while being moved.
 - Units being forcefully moved by an effect like [[Grapple Shot]] or [[Windblast]] will not be at rest, since they’re being moved.
 
-[Codex Entry](https://curiosa.io/codex?id=a5c6422f-a641-4eb2-8f5b-874729c4da16)
+[Codex Entry](https://curiosa.io/codex/a5c6422f-a641-4eb2-8f5b-874729c4da16)
 
 # Atlas
 Your atlas is your deck of sites and is one of the zones in the game.
@@ -166,7 +166,7 @@ Your atlas must contain 30 or more sites and respect rarity limits.
 **Limited Formats (Draft or Sealed)**  
 Your atlas must contain 12 or more sites, ignoring rarity restrictions.
 
-[Codex Entry](https://curiosa.io/codex?id=f0bcef51-cd6e-4ae8-8c09-95b0e6fd96a0)
+[Codex Entry](https://curiosa.io/codex/f0bcef51-cd6e-4ae8-8c09-95b0e6fd96a0)
 
 # Atop
 On the surface of a site (not void).
@@ -177,7 +177,7 @@ This includes Airborne minions, as well as all types of sites, including water s
 
 Note: [[The Base of Babel]] uses the word "atop" in a different way. See the FAQ for that card for clarity.
 
-[Codex Entry](https://curiosa.io/codex?id=00747d40-bcc5-405b-9f26-0a46ef6898ed)
+[Codex Entry](https://curiosa.io/codex/00747d40-bcc5-405b-9f26-0a46ef6898ed)
 
 # Attack
 Attacking is one of the main ways you deal damage to your opponent's units and sites, and is a core part of _Sorcery_.
@@ -201,7 +201,7 @@ You may only attack enemy units or the surface of enemy sites that are at your l
    1. If there are no other units involved since you're attacking an undefended site, simply strike the site, damaging it and causing the controlling avatar to lose that amount of life. This strike is referred to as "successfully attacking" the site (even if no damage is dealt due to a zero power strike).
 6. The attack is over. Any "after attack" triggers resolve now.
 
-[Codex Entry](https://curiosa.io/codex?id=c0fbcbae-e6a5-4048-b925-f2219ad43662)
+[Codex Entry](https://curiosa.io/codex/c0fbcbae-e6a5-4048-b925-f2219ad43662)
 
 # Aura
 Auras are mostly incorporeal but lasting manifestations of elemental power.  They usually affect a 2x2 area and can be cast anywhere in the realm. [[Entangle Terrain]] is an example of an aura.
@@ -217,12 +217,12 @@ For example, a [[Thunderstorm]] moves itself with its end-of-turn ability. It ca
 
 This only applies to non-minion auras. See "Cards with Multiple Types" for details on Aura Minions.
 
-[Codex Entry](https://curiosa.io/codex?id=1c5c02a4-586e-4bfd-99ce-11e9230ed140)
+[Codex Entry](https://curiosa.io/codex/1c5c02a4-586e-4bfd-99ce-11e9230ed140)
 
 # Aura minion
 An aura minion is a card that is both an aura and a minion! See "Cards with Multiple Types" for details. 
 
-[Codex Entry](https://curiosa.io/codex?id=f1858871-f558-41d3-a540-76df43b35a5e)
+[Codex Entry](https://curiosa.io/codex/f1858871-f558-41d3-a540-76df43b35a5e)
 
 # Avatar
 Your Avatar represents you and your connection to the realm. Every deck must contain exactly 1 Avatar. Choose wisely! [[Sparkmage]] is an example of an avatar.
@@ -231,14 +231,14 @@ Avatars have characteristics, specifically ((avatar characteristics)), and are o
 
 Avatars are immune to many negative effects, as described in their characteristics.
 
-[Codex Entry](https://curiosa.io/codex?id=a43c193c-02d6-4389-b791-08d3b77bde11)
+[Codex Entry](https://curiosa.io/codex/a43c193c-02d6-4389-b791-08d3b77bde11)
 
 # Banished
 When you banish a card, it is removed from the game; place in a separate area, clearly distinct from any game zone.
 
 Once a card is banished, it can never return to the game.
 
-[Codex Entry](https://curiosa.io/codex?id=703eaeda-d0ac-46ca-9103-a2f9fadf327a)
+[Codex Entry](https://curiosa.io/codex/703eaeda-d0ac-46ca-9103-a2f9fadf327a)
 
 # Basic Ability
 All units in Sorcery have five abilities that are not printed on their cards. These are called basic abilities, and are described in their own codex entries:
@@ -249,24 +249,24 @@ All units in Sorcery have five abilities that are not printed on their cards. Th
 - Pick Up
 - Drop
 
-[Codex Entry](https://curiosa.io/codex?id=bc7971bb-0eb8-4bbe-9924-80fbddd5f85d)
+[Codex Entry](https://curiosa.io/codex/bc7971bb-0eb8-4bbe-9924-80fbddd5f85d)
 
 # Basic Movement
 Basic movement is movement from any basic ability, i.e. Move and Attack, or Defend.
 
-[Codex Entry](https://curiosa.io/codex?id=87da10a4-a269-4d30-a02a-8f3e52f924f5)
+[Codex Entry](https://curiosa.io/codex/87da10a4-a269-4d30-a02a-8f3e52f924f5)
 
 # Bearer
 A unit holding a carriable artifact is its "bearer." Some artifacts grant abilities to their bearer, e.g. [[Sword and Shield]].
 
 If an artifact is also a minion (e.g. [[Clay Golem]]), it does not have a bearer even if it's being carried (e.g. [[War Horse]]).
 
-[Codex Entry](https://curiosa.io/codex?id=7905603d-dce8-48ad-9932-7bd31ebeedce)
+[Codex Entry](https://curiosa.io/codex/7905603d-dce8-48ad-9932-7bd31ebeedce)
 
 # Below
 At the subsurface of a site (not void).
 
-[Codex Entry](https://curiosa.io/codex?id=dddd875f-725d-4173-9905-6393156fa5bb)
+[Codex Entry](https://curiosa.io/codex/dddd875f-725d-4173-9905-6393156fa5bb)
 
 # Body of Water
 A body of water is a contiguous group of adjacent water sites, **regardless of who controls those sites**.
@@ -275,12 +275,12 @@ If a card refers to "its body of water" or "this body of water" (e.g. [[Anui Und
 
 To choose a body of water (e.g. [[Marine Voyage]]), choose one water site. Every water site (regardless of controller) that's connected to the chosen site via adjacent water sites is in that body of water. If a site becomes disconnected from the chosen water site (e.g. [[Earthquake]] in the middle of the turn), the disconnected site is no longer in the body of water. If the chosen site is no longer a water site (e.g. [[Drought]] in the middle of the turn), then the "chosen body of water" no longer exists.
 
-[Codex Entry](https://curiosa.io/codex?id=1122beef-02de-47bd-9aa6-8c471d03fdda)
+[Codex Entry](https://curiosa.io/codex/1122beef-02de-47bd-9aa6-8c471d03fdda)
 
 # Border
 A square's border means other adjacent squares and doesn't include diagonals. The border is the edge of the square, not including the corners. For example, [[Border Militia]] checks for adjacent enemy sites, not diagonals.
 
-[Codex Entry](https://curiosa.io/codex?id=a0e13f69-90df-469c-ac32-960091b307e5)
+[Codex Entry](https://curiosa.io/codex/a0e13f69-90df-469c-ac32-960091b307e5)
 
 # Bottom
 "Bottom" can have two different meanings in _Sorcery_, depending on context.
@@ -289,27 +289,27 @@ When referring to your deck, bottom or bottommost simply means the bottom card o
 
 When referring to the realm, bottom means the row closest to you. For example, [[Polar Explorers]].
 
-[Codex Entry](https://curiosa.io/codex?id=53d7e6bf-1f13-4f24-b290-9e213282968a)
+[Codex Entry](https://curiosa.io/codex/53d7e6bf-1f13-4f24-b290-9e213282968a)
 
 # Break Stealth
 "Break ))Stealth((" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]], means that the minion must have Stealth and voluntarily lose it as the cost of the activated ability.  The ability is not activated if the minion loses Stealth for any other reason, such as interacting with the realm or being silenced.
 
-[Codex Entry](https://curiosa.io/codex?id=0a28f999-f406-478e-b396-61930bdd948a)
+[Codex Entry](https://curiosa.io/codex/0a28f999-f406-478e-b396-61930bdd948a)
 
 # Broken Artifact
 A broken artifact is an artifact that's in a cemetery.
 
-[Codex Entry](https://curiosa.io/codex?id=5c445257-6991-4660-a55c-e29da00d7227)
+[Codex Entry](https://curiosa.io/codex/5c445257-6991-4660-a55c-e29da00d7227)
 
 # Bruin
 Bruin is a token minion with 4 power. Bruin is a Unique Beast with "While near your Avatar, Bruin takes damage for them." Bruin is an ((earth)) minion. See [[Druid]].
 
-[Codex Entry](https://curiosa.io/codex?id=4910cd12-7c15-42e8-9a07-c0f9919d4190)
+[Codex Entry](https://curiosa.io/codex/4910cd12-7c15-42e8-9a07-c0f9919d4190)
 
 # Burrowed Safely
 Burrowed safely means that the minion has burrowing and can't move itself, while at this location. Typically an effect will cause the minion to unburrow, for example [[Awakened Mummies]].
 
-[Codex Entry](https://curiosa.io/codex?id=9f65c9e4-3bb8-45a8-942a-91862e46d844)
+[Codex Entry](https://curiosa.io/codex/9f65c9e4-3bb8-45a8-942a-91862e46d844)
 
 # Burrowing
 **Keyword Ability. **A minion with Burrowing can be summoned to underground locations and survive underground.
@@ -320,33 +320,33 @@ For example, [[Cave Trolls]] can be summoned underground to one of your land sit
 
 To "burrow" means to move from the surface to the underground of a land site. When an effect "burrows" a card, you forcefully move that card from the surface to underground, even if it doesn't have the Burrowing ability. If an effect tries to forcefully burrow (e.g. [[Bury]]) a card that occupies at least one water site, the effect fails.
 
-[Codex Entry](https://curiosa.io/codex?id=16ed5006-40f3-4df2-8b60-6d0b13bb35a8)
+[Codex Entry](https://curiosa.io/codex/16ed5006-40f3-4df2-8b60-6d0b13bb35a8)
 
 # Can vs. Can't
 If one or more effects say you "can" do something and one or more effects say you "can't" do that same thing, the "can't" effects always take precedence. For example, [[Queen Guinevere]] explicitly allows you to untap an allied minion, while [[Rhitta Gawr of Snowdonia]] prohibits other minions from untapping. If Queen Guinevere tries to untap any minion other than Rhitta, the effect will fail because the "can't" effect from Rhitta takes precedence.
 
 Note that "lose" effects (e.g. [[Sky Baron]]) also implicitly include a "can't" effect. So if Sky Baron is in the realm and then you cast [[Power of Flight]], the "can't" effect takes precedence and the minion doesn't gain Airborne.
 
-[Codex Entry](https://curiosa.io/codex?id=243adf84-5b6e-4ee5-b652-c825659fdd32)
+[Codex Entry](https://curiosa.io/codex/243adf84-5b6e-4ee5-b652-c825659fdd32)
 
 # Can't Drop
 If an artifact ))can't(( be dropped, it may not be chosen for the "((Drop))" basic ability. Also, any effect that specifies "drop," will not affect that artifact, e.g. [[Shameless Squire]] or [[Attack by Night]].
 
-[Codex Entry](https://curiosa.io/codex?id=c40d934e-6c71-4116-89de-f9e2915b7c8c)
+[Codex Entry](https://curiosa.io/codex/c40d934e-6c71-4116-89de-f9e2915b7c8c)
 
 # Can't be Modified
 A card that "can't be modified" cannot be disabled, silenced, immobilized, or transformed. It also cannot gain or lose any abilities, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] cannot gain stealth (since it's an ability) or power (since it's a characteristic).
 
 Note that [[Monks of Kobalsa]] can have their cost reduced (or increased) during casting while they're still in hand, since abilities only apply while in the realm unless explicitly stated.
 
-[Codex Entry](https://curiosa.io/codex?id=5b78b0b7-6d27-421b-898e-cc69bd33771b)
+[Codex Entry](https://curiosa.io/codex/5b78b0b7-6d27-421b-898e-cc69bd33771b)
 
 # Card
 Cards are the sites, spells, and avatars that are used to play a game of Sorcery. At the beginning of the game, all of your spell cards will be in your Spellbook, your site cards will be in your Atlas, and your collection will consist of cards you have selected to begin the game in that zone. The only card that begins in play is the Avatar you have selected to represent you during the game.
 
 If a game effect or rule references a **card** in the realm, it includes tokens as well.
 
-[Codex Entry](https://curiosa.io/codex?id=82d71a35-8bec-4d1d-9c33-765b0aa443e8)
+[Codex Entry](https://curiosa.io/codex/82d71a35-8bec-4d1d-9c33-765b0aa443e8)
 
 # Card Type
 There are six different card types in _Sorcery_:
@@ -363,7 +363,7 @@ It is sometimes possible for cards to have multiple types. For example, automato
 
 For more details, see characteristics and "Cards with Multiple Types."
 
-[Codex Entry](https://curiosa.io/codex?id=289bff87-3bdd-4134-9d6d-537be8323f97)
+[Codex Entry](https://curiosa.io/codex/289bff87-3bdd-4134-9d6d-537be8323f97)
 
 # Cards with Multiple Types
 It's possible for cards to have multiple types. For example, automatons are minions and artifacts.
@@ -379,12 +379,12 @@ When a card has multiple types, apply the following rules regarding characterist
       - Note that artifact minions _can_ be carried as a minion would be carried (e.g. [[War Horse]]).
    - Auras cannot carry artifacts. Minions can carry artifacts. Therefore, Aura minions can carry artifacts, since we give preference to the minion rules.
 
-[Codex Entry](https://curiosa.io/codex?id=6ff828a9-0337-42cd-bfa7-8605235a4dd0)
+[Codex Entry](https://curiosa.io/codex/6ff828a9-0337-42cd-bfa7-8605235a4dd0)
 
 # Carriable Artifact
 A carriable artifact is any artifact that's not a ((monument)) and not a minion (i.e. not an ((automaton))). Carriable artifacts have additional options when being cast as a spell. See "((Casting Artifacts))" for more details, and "((Ownership and Control))" for details on how control can change for carriable artifacts.
 
-[Codex Entry](https://curiosa.io/codex?id=022ecb6d-319c-4d97-8ecb-b225d533396e)
+[Codex Entry](https://curiosa.io/codex/022ecb6d-319c-4d97-8ecb-b225d533396e)
 
 # Carrying Artifacts
 Many artifacts can be carried by units, and carried artifacts are moved along with the unit that's carrying them. For example, [[Ruby Core]] can be carried by a unit. See "((Carriable Artifacts))" for more details on which artifacts can be carried, and how control may change for such artifacts.
@@ -399,7 +399,7 @@ Non-units cannot carry artifacts. If a non-unit is somehow carrying an artifact,
 
 If a unit is forcefully moved, anything they're carrying moves with them, e.g. [[Bury]]. If a minion leaves the realm, anything they're carrying remains in the realm, e.g. [[Fey Changeling]], [[Cast into Exile]], [[Monster Hunter]].
 
-[Codex Entry](https://curiosa.io/codex?id=0071b464-5f55-4aaa-b959-f51ae80f902c)
+[Codex Entry](https://curiosa.io/codex/0071b464-5f55-4aaa-b959-f51ae80f902c)
 
 # Carrying Units
 Normally, units cannot be carried by other units, but some effects allow it, e.g. [[War Horse]]. Such effects are worded "may carry..." or "can pick up..." or similar, but all work in the same way.
@@ -414,7 +414,7 @@ Units that can carry other units confer Airborne, Burrowing, Submerge, and/or Vo
 
 Carried units may take the Move and Attack action normally (once the Storyline is empty). Therefore, even if the carrying unit ))can't Drop(( that turn, the carried unit could still move themselves normally. For that first step, they will have any movement abilities conferred to them by being carried, which are lost as soon as they're no longer carried. For example, a Bosk Troll on a Phantom Steed in the void could step from the void onto the surface of an adjacent site, using the Voidwalk ability conferred to them by being carried. Once the Troll is on the surface of a site, it's no longer being carried by the Phantom Steed, but by that point it's safely out of the void and on the surface.
 
-[Codex Entry](https://curiosa.io/codex?id=5f6697d3-c0a4-42b3-b682-ce807b9e4cd4)
+[Codex Entry](https://curiosa.io/codex/5f6697d3-c0a4-42b3-b682-ce807b9e4cd4)
 
 # Casting Spells
 Spells are the main way Avatars and other Spellcasters influence the realm. You cast minions, artifacts, auras, and magics.
@@ -453,7 +453,7 @@ Note that some magic spells do not use the word "target" and instead use a word 
 
 Finally, there are a few magic spells that don't target directly, and instead cause an ally to target. In that case, you also do not need to specify targets when you cast, since you only need to declare the targets that the magic itself is targeting. For example, if you cast [[Joust!]], you do not need to declare the target when you cast the magic; you select the ally when the magic is resolving from the storyline, and then the ally (not the magic!) does the targeting at that time.
 
-[Codex Entry](https://curiosa.io/codex?id=43a73161-4f77-46b1-a23a-f916223a748c)
+[Codex Entry](https://curiosa.io/codex/43a73161-4f77-46b1-a23a-f916223a748c)
 
 # Cemetery
 Your cemetery represents a record of your contest in the realm. Whenever any of your cards are discarded, destroyed, or resolved, place them face-up in your cemetery.
@@ -462,7 +462,7 @@ Players may freely examine the contents of any cemetery at any time, and the ord
 
 Each cemetery is a zone in the game.
 
-[Codex Entry](https://curiosa.io/codex?id=5ea9c063-3158-4476-a261-04eb0a43d43e)
+[Codex Entry](https://curiosa.io/codex/5ea9c063-3158-4476-a261-04eb0a43d43e)
 
 # Characteristics
 Many cards have abilities that can be gained or removed during the game, but there are some characteristics that all cards possess, depending on their card type. Effects that remove or modify _abilities _will not remove or modify these characteristics, unless specifically mentioned in the effect.
@@ -524,12 +524,12 @@ Sites occupy two locations by default, surface and subsurface. Sites have the fo
 - Elemental affinity, which may be none
 - Provides 1 mana
 
-[Codex Entry](https://curiosa.io/codex?id=30561063-e0e1-41f7-9ab2-903475629dde)
+[Codex Entry](https://curiosa.io/codex/30561063-e0e1-41f7-9ab2-903475629dde)
 
 # Charge
 **Keyword Ability. **This minion does not suffer from summoning sickness. It can tap or be tapped to pay for costs associated with an ability the same turn it is summoned.
 
-[Codex Entry](https://curiosa.io/codex?id=4cff66bd-45c0-452b-aaa8-18119accf443)
+[Codex Entry](https://curiosa.io/codex/4cff66bd-45c0-452b-aaa8-18119accf443)
 
 # Closest
 When determining "closest," e.g. for [[Persecutor]], imagine the Persecutor had unlimited movement and then ask: Are there any Evil units in Persecutor's range of motion?
@@ -538,7 +538,7 @@ If not, there is no "closest" Evil.
 
 If so, the "closest" Evil is the unit that requires the fewest Persecutor steps to reach. (Your choice if tied.)
 
-[Codex Entry](https://curiosa.io/codex?id=feafadfc-2b19-40c3-a23f-e64e27c10c42)
+[Codex Entry](https://curiosa.io/codex/feafadfc-2b19-40c3-a23f-e64e27c10c42)
 
 # Codex
 The codex is a ))collection(( of terms and rules to create a fair and consistent way to enjoy _Sorcery_ anywhere in the world!
@@ -548,7 +548,7 @@ Please do not mention the existence of this subcodex entry to anyone publicly. I
 
 _Pbatenghyngvbaf ba qrpvcurevat guvf pbqr ohevrq jvguva gur Pbqrk! Vs lbh QZ @Ven jvgu n abgr gung lbh'ir ernq gur shyy Pbqrk, ur jvyy njneq lbh jvgu gur Pbqrk Ernqre ebyr ba gur znva Fbeprel qvfpbeq freire. V ubcr lbh'ir unq sha ernqvat ehyrf! -Ven_
 
-[Codex Entry](https://curiosa.io/codex?id=adfc6e12-be98-4543-af85-4b71ac228651)
+[Codex Entry](https://curiosa.io/codex/adfc6e12-be98-4543-af85-4b71ac228651)
 
 # Collection
 Your collection includes additional cards and is one of the zones in the game.
@@ -567,12 +567,12 @@ For example, if you play [[Troubled Town]], you may gain any Townsfolk and cast 
 
 Your collection includes every card that you own outside of the game during casual play.
 
-[Codex Entry](https://curiosa.io/codex?id=78ce4090-a2e1-4893-97c0-6eaafd5c5937)
+[Codex Entry](https://curiosa.io/codex/78ce4090-a2e1-4893-97c0-6eaafd5c5937)
 
 # Conjure
 Conjure means "enter the realm," for artifacts and auras. See the "summon" codex entry for details. Conjure and summon are analogous.
 
-[Codex Entry](https://curiosa.io/codex?id=d5ceed50-8e0e-44da-8e18-749f179038c3)
+[Codex Entry](https://curiosa.io/codex/d5ceed50-8e0e-44da-8e18-749f179038c3)
 
 # Copy
 When a card enters the realm as a copy, e.g. [[Mirror Realm]] or [[Selfsame Simulacrum]], its characteristics and abilities match the copied card. If the copying card (e.g. Selfsame Simulacrum) leaves the realm, it reverts to its printed characteristics and abilities.
@@ -583,14 +583,14 @@ By default, whoever creates the copy controls it and makes any necessary decisio
 
 A card's characteristics and abilities are its printed characteristics and abilities, by default. However, if a card "entered as a copy" then its characteristics and abilities are what's printed on the copied card. For example, if you play a [[Selfsame Simulacrum]] and have it enter as a copy of a nearby [[Locusts of Illyria]], at the end of the turn it will summon a new Locust, not a new Simulacrum. Additionally, if you play a [[Mirror Realm]], copying a nearby [[Bedrock]], and your opponent then plays their own Mirror Realm copying your first one, the new Mirror Realm will be a Bedrock.
 
-[Codex Entry](https://curiosa.io/codex?id=88663410-ac07-4dd6-b2fe-fbecbadf232a)
+[Codex Entry](https://curiosa.io/codex/88663410-ac07-4dd6-b2fe-fbecbadf232a)
 
 # Corner
 The corners of the realm are squares 1, 5, 16, and 20.
 
 _See live codex for table_
 
-[Codex Entry](https://curiosa.io/codex?id=8ea4ca44-ea21-4dd0-94a0-02ffee19b2d9)
+[Codex Entry](https://curiosa.io/codex/8ea4ca44-ea21-4dd0-94a0-02ffee19b2d9)
 
 # Cost
 Cost is the amount of mana required to cast a spell. Cost can be modified by various effects, e.g. [[Hamlet]]. Cost cannot be negative.
@@ -608,7 +608,7 @@ To calculate the total cost of a spell or ability:
 
 Note that if you cast the spell "for free" or "for (0)," you do not pay any additional costs at all! For example, [[Deathspeaker]] on Death's Door near a [[Maddening Bells]] will still pay (0) to use the Deathspeaker's ability. See ((For Free)) in the Codex for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=a6a73d30-6b05-4402-b148-9eeaf88b4d0b)
+[Codex Entry](https://curiosa.io/codex/a6a73d30-6b05-4402-b148-9eeaf88b4d0b)
 
 # Damage
 Cards take damage from fighting and from the effects of spells and abilities.
@@ -660,7 +660,7 @@ After applying all damage modification effects, then apply damage prevention eff
    1. Note that prevention effects do not use the storyline, and thus these effects are immediately resolved as soon as they are declared.
 2. In the order of their choice, the non-active player does the same thing.
 
-[Codex Entry](https://curiosa.io/codex?id=d54c08da-2107-484a-9f68-123bb62581b5)
+[Codex Entry](https://curiosa.io/codex/d54c08da-2107-484a-9f68-123bb62581b5)
 
 # Damage Grid
 To simplify rules text and illustrate the extent of effects over a wide area, some cards show a damage grid, e.g. [[Craterize]].
@@ -675,12 +675,12 @@ By default, an effect with a damage grid may be oriented so that the grid is par
 
 Damage grids do not inherently target sites or locations in the grid; effects will use the word "target" if they actually target a site or location.
 
-[Codex Entry](https://curiosa.io/codex?id=015d636e-716c-450e-9e17-abef557f3e4c)
+[Codex Entry](https://curiosa.io/codex/015d636e-716c-450e-9e17-abef557f3e4c)
 
 # Dead Minion
 A dead minion is a minion that's in a cemetery.
 
-[Codex Entry](https://curiosa.io/codex?id=04c09db6-71f6-42ee-8bd1-1dba23e6af02)
+[Codex Entry](https://curiosa.io/codex/04c09db6-71f6-42ee-8bd1-1dba23e6af02)
 
 # Death Blow
 A death blow is any damage dealt to an Avatar who is on death's door, other than on the turn they reached death's door. If you deal a death blow to your opponent's avatar, you win! The damage can come from a strike or any effect that specifically deals damage.
@@ -689,7 +689,7 @@ Note that attacking their sites causes your opponent's avatar to lose life, whic
 
 If both Avatars suffer a death blow simultaneously (perhaps by one attacking the other), the game is a draw. Alternately, many tournaments declare that simultaneous death blows are ignored, and the game continues.
 
-[Codex Entry](https://curiosa.io/codex?id=2cffd099-b5f5-4af6-9ce9-966ac6d1306c)
+[Codex Entry](https://curiosa.io/codex/2cffd099-b5f5-4af6-9ce9-966ac6d1306c)
 
 # Death's Door
 As your Avatar loses life, its connection with the realm weakens. When your life is reduced to 0, you don't instantly lose the game! Instead, you are at death's door. While at death's door, you can no longer heal or set your life to a higher number.
@@ -698,7 +698,7 @@ The moment you reach 0 life, you can't die that turn. After that single turn, an
 
 For example, on my turn, if I attack you and put you to death's door (e.g. 0 life), you cannot die for the rest of that turn. Then, on your turn and beyond, any damage to your avatar will be a death blow and I would win.
 
-[Codex Entry](https://curiosa.io/codex?id=8dd871eb-65ec-4f9a-be06-4e81e417d1a2)
+[Codex Entry](https://curiosa.io/codex/8dd871eb-65ec-4f9a-be06-4e81e417d1a2)
 
 # Deathrite
 **Keyword Ability. **Deathrite is keyword for a triggered ability with the text:
@@ -711,7 +711,7 @@ Deathrite effects resolve **before** placing the card in its owner's cemetery.
 
 See the "((die))" and "((attack))" codex entries for more details on specific Deathrite timing.
 
-[Codex Entry](https://curiosa.io/codex?id=7bd846a2-c55b-42cc-915a-9861f2080202)
+[Codex Entry](https://curiosa.io/codex/7bd846a2-c55b-42cc-915a-9861f2080202)
 
 # Defend
 Defend is a basic ability that allows you to defend against your opponent's attacks. A unit must be untapped to defend, and it's one of two basic abilities that you can use on your opponent’s turn (the other is Intercept). Defend is a triggered ability with the following text:
@@ -736,31 +736,21 @@ When a unit defends, it must declare a movement path that ends with it occupying
 ## When Exactly is a Unit Allowed to Defend?
 If the unit is untapped and the attack's location is within its range of motion. See "((range of motion))" for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=7bc7a52c-25dc-4c80-8608-89667ef5eed7)
+[Codex Entry](https://curiosa.io/codex/7bc7a52c-25dc-4c80-8608-89667ef5eed7)
 
 # Defender
 Defender is the opposite of attacker. Any attacked _unit_ is considered a defender, even if they didn't use the Defend ability. A unit that uses the Defend ability becomes a defender, but the originally attacked unit is also a "defender" if it stays in the fight.
 
 An attack is “undefended” only if there are no defenders (i.e. attacking a site).
 
-[Codex Entry](https://curiosa.io/codex?id=799f6239-a805-4574-8150-60ca963e9e78)
+[Codex Entry](https://curiosa.io/codex/799f6239-a805-4574-8150-60ca963e9e78)
 
 # Die
 "Dies" is synonymous with "destroyed" and "killed" (and "dispel" for auras).
 
-Whenever a minion has damage on it equal to or greater than its power (or is destroyed directly by an effect), that card is marked for death. After it is marked, any "kill" or Deathrite triggers resolve, and finally the marked card is put into its owner’s cemetery. If multiple cards are marked for death simultaneously, use the normal storyline rules for simultaneous triggers, then all the marked cards are put into their owners’ cemeteries simultaneously.  
-  
-Once a card has been marked for death, nothing can remove the mark. An effect that heals a marked creature or increases its power does not remove the mark. Certain replacement effects can avoid death entirely (e.g. Ward, [[Gilded Aegis]], [[Lady Iseult]]), in which case the minion was never marked for death at all, because that's how replacement effects work.  
-  
-An effect may move a marked card to a different zone (e.g. [[Fey Changeling]] on [[The Geistwood]]), but that card is still considered to have died for the purposes of other effects.  
-  
-If a Deathrite ability causes more cards to die, they are also marked for death, and their Deathrite effects will also trigger before any cards are placed in the cemetery. None of the cards that have been marked for death are put into their owners’ cemeteries until all Deathrite effects have resolved.  
-  
-Players cannot choose to sacrifice or kill a card that is already marked for death. A card that is already marked for death cannot be marked for death again, and any effect that attempts to destroy or sacrifice that card fails. That card still only triggers its Deathrite ability once.  
-  
-Cards that are sacrificed also count as being destroyed. They are marked for death following the same process outlined ))above((.
+$41
 
-[Codex Entry](https://curiosa.io/codex?id=56de42f7-3d67-4437-826c-6a89cd356458)
+[Codex Entry](https://curiosa.io/codex/56de42f7-3d67-4437-826c-6a89cd356458)
 
 # Disabled
 While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.  
@@ -773,7 +763,7 @@ If a site is disabled, it has no abilities and cannot provide any mana or affini
 
 If an artifact or aura is disabled, it has no abilities.
 
-[Codex Entry](https://curiosa.io/codex?id=08fff20b-76c1-45c3-b13f-989202cdacf0)
+[Codex Entry](https://curiosa.io/codex/08fff20b-76c1-45c3-b13f-989202cdacf0)
 
 # Discard
 To "discard" a card, choose a card from your hand zone and put it into your cemetery. Some effects ))modify(( where the discarded card(s) come from. For example, an effect which tells you to discard your "top spell," means you discard the topmost card from your spellbook.
@@ -782,12 +772,12 @@ By default, you may choose which card to discard, though many effects will tell 
 
 Cards that are in zones other than a player's hand cannot be discarded, unless explicitly stated. For example, if you summon a [[Dreadwing]], you cannot discard a card from [[Morgana le Fay]]'s hand to pay for its effect.
 
-[Codex Entry](https://curiosa.io/codex?id=adee8b2b-40ba-4231-874d-df4790483730)
+[Codex Entry](https://curiosa.io/codex/adee8b2b-40ba-4231-874d-df4790483730)
 
 # Dispel
 Dispel means to "die," for auras. See the "die" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=52381b7c-b7bc-4f71-a21e-30f2cfa49015)
+[Codex Entry](https://curiosa.io/codex/52381b7c-b7bc-4f71-a21e-30f2cfa49015)
 
 # Draw
 Drawing is the primary way of getting cards from your Spellbook or Atlas into your hand. It means to take a card from one of your decks and put it into your hand, resolving anything which may trigger from "drawing." Effects which say to put a card into your hand (e.g. [[Common Sense]]) do not trigger "draw" effects.
@@ -800,7 +790,7 @@ Whenever you draw multiple cards, sites, or spells, you draw them one at a time 
 
 If you draw a card but it ends up in a different zone, e.g. [[Morgana le Fay]], Omphalos, etc., it still counts as you (the player) drawing it.
 
-[Codex Entry](https://curiosa.io/codex?id=c50821a8-cb00-4270-a252-25e5f9c077c1)
+[Codex Entry](https://curiosa.io/codex/c50821a8-cb00-4270-a252-25e5f9c077c1)
 
 # Drop
 Drop is a basic, activated ability with the following text:
@@ -813,7 +803,7 @@ If the unit has the ability to carry other units (e.g. [[War Horse]]), then its 
 
 See the "Pick Up" and "Interact" codex entries for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=6f40e8ae-9b16-4a37-8401-ac5fa425cab1)
+[Codex Entry](https://curiosa.io/codex/6f40e8ae-9b16-4a37-8401-ac5fa425cab1)
 
 # Earth Site
 An earth site is a site that provides at least one earth (E) affinity.
@@ -824,7 +814,7 @@ In particular, note that a site could be a water site (because it provides water
 
 Earth site and land site are NOT synonyms.
 
-[Codex Entry](https://curiosa.io/codex?id=51f40c06-080b-45a2-ac17-a56e672300f6)
+[Codex Entry](https://curiosa.io/codex/51f40c06-080b-45a2-ac17-a56e672300f6)
 
 # Element
 _Sorcery: Contested Realm_ is built around the four classical elements: Air, Earth, Fire, and Water. To cast spells, you'll generally need to have elemental affinity.
@@ -845,7 +835,7 @@ Fire is the element of desire and destruction, willing to do whatever it takes t
 ## Water
 Water is the element of charm and trickery, ready to adapt and disrupt the strategies of the enemy as it manipulates all. An attunement with water grants you a powerful homefield advantage that will slowly engulf the realm and the ability to position the enemy right where you want them.
 
-[Codex Entry](https://curiosa.io/codex?id=1cba3c8f-e8a8-4280-b85e-38c1f97c83ae)
+[Codex Entry](https://curiosa.io/codex/1cba3c8f-e8a8-4280-b85e-38c1f97c83ae)
 
 # Elemental Threshold and Affinity
 Elemental threshold, often shortened to simply "threshold," describes how much elemental affinity is needed to cast most spells or use some abilities. Elemental affinity is most often provided by sites, but can come from other sources as well. For example, [[Arid Desert]] provides one fire affinity (F), denoted by the red triangle near the bottom right of the card. Similarly, [[Blacksmith Family]] is a minion that provides fire affinity.
@@ -859,12 +849,12 @@ There are four elemental thresholds:
 
 Unlike mana, you don't spend your affinity. It is merely a requirement you must meet to cast spells and use ability. For example, to cast [[Ancient Dragon]] with its three fire threshold (F)(F)(F), you must have three or more fire affinity. Some spells, often artifacts, have no threshold requirements to cast.
 
-[Codex Entry](https://curiosa.io/codex?id=fc149f73-4afe-425f-9e73-e8a42fad3e71)
+[Codex Entry](https://curiosa.io/codex/fc149f73-4afe-425f-9e73-e8a42fad3e71)
 
 # Empty Site
 A site is empty if it has absolutely nothing there, not even an aura.
 
-[Codex Entry](https://curiosa.io/codex?id=e55c9be1-9e4e-46ac-8451-9d2ebec428a8)
+[Codex Entry](https://curiosa.io/codex/e55c9be1-9e4e-46ac-8451-9d2ebec428a8)
 
 # End Phase
 The end phase is the last phase during your turn.
@@ -876,14 +866,14 @@ The end phase is the last phase during your turn.
 
 Your turn is now over. Anything that triggers "after each turn" resolves now.
 
-[Codex Entry](https://curiosa.io/codex?id=6a0eced9-82ad-48cd-87d7-77d2de0db9bd)
+[Codex Entry](https://curiosa.io/codex/6a0eced9-82ad-48cd-87d7-77d2de0db9bd)
 
 # Enemy
 An enemy is a unit that an opponent controls, including their Avatar.
 
 Enemies are always units, unless otherwise specified by card text. For example, [[Fade]] uses "enemy site," which means "a site an opponent controls."
 
-[Codex Entry](https://curiosa.io/codex?id=251c23c3-c934-4399-8edf-84fa24dcad8d)
+[Codex Entry](https://curiosa.io/codex/251c23c3-c934-4399-8edf-84fa24dcad8d)
 
 # Enter
 A unit "enters" a location or site when it is summoned there, or when it moves there from somewhere else. "Somewhere else" means "a different location" for entering locations, and it means "a different site" for entering sites.
@@ -907,12 +897,12 @@ _See live codex for table_
 
 The [[Mountain Giant]] occupies the four left squares, and then takes a step to the east. It enters the two sites in the right column, but it does not enter the two sites in the middle column, since it already occupied those sites before the move. See the "((Oversized Units))" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=5b927a70-2900-4f83-bcf3-595f5a5f4212)
+[Codex Entry](https://curiosa.io/codex/5b927a70-2900-4f83-bcf3-595f5a5f4212)
 
 # Evil
 Any minion that is an Undead, Demon, or Monster is Evil. Various cards in the game reference Evil, such as [[Day of Judgment]].
 
-[Codex Entry](https://curiosa.io/codex?id=400bbb94-8877-4eea-ad2d-bd466aee2622)
+[Codex Entry](https://curiosa.io/codex/400bbb94-8877-4eea-ad2d-bd466aee2622)
 
 # Fight
 When units fight, they strike each other. Apply the following sequence to resolve a fight:
@@ -924,19 +914,19 @@ When units fight, they strike each other. Apply the following sequence to resolv
 
 Whenever a unit is striking against multiple other units (for example, if there are multiple defenders), the controller decides how the strike damage is distributed. There is still only a single strike from that unit (though some of the struck units could be struck for zero damage).
 
-[Codex Entry](https://curiosa.io/codex?id=42987967-710c-48a3-b40e-1daaa47f8e91)
+[Codex Entry](https://curiosa.io/codex/42987967-710c-48a3-b40e-1daaa47f8e91)
 
 # Fire Site
 A fire site is a site that provides at least one fire (F) affinity.
 
 If the site provides other types of affinity as well, it's still a fire site as long as it provides at least one fire affinity.
 
-[Codex Entry](https://curiosa.io/codex?id=c9864c85-887e-4b75-b28a-c413c9479cb2)
+[Codex Entry](https://curiosa.io/codex/c9864c85-887e-4b75-b28a-c413c9479cb2)
 
 # Fireball
 This refers to the actual [[Fireball]] spell! This is relevant for the [[Avatar of Fire]].
 
-[Codex Entry](https://curiosa.io/codex?id=d91daeec-302e-47ce-8716-26aec656318b)
+[Codex Entry](https://curiosa.io/codex/d91daeec-302e-47ce-8716-26aec656318b)
 
 # Flooded
 **Keyword ability.** A flooded site has a minimum of one water affinity (W). Therefore, it's a water site, though it still provides other elemental affinities, if any.
@@ -945,7 +935,7 @@ For example, if a [[Humble Village]] was flooded, it would provide earth (E) aff
 
 If an effect "floods" a site (e.g. [[Geyser]]), that site gains the Flooded ability for the stated duration. Since Flooded is an ability, effects that remove abilities from sites will also remove Flooded.
 
-[Codex Entry](https://curiosa.io/codex?id=610226cf-24be-4d6b-885f-b466197672c5)
+[Codex Entry](https://curiosa.io/codex/610226cf-24be-4d6b-885f-b466197672c5)
 
 # Fly
 If you fly a unit somewhere, treat the unit as if it had Airborne while crossing borders, e.g. [[Avatar of Air]]. Fly is synonymous with "throw through the air," e.g. [[Siege Giant]].
@@ -954,17 +944,17 @@ For example, a unit being moved by ))Avatar(( of Air's ability will be able to c
 
 If you fly a site somewhere, e.g. [[Cloud City]], treat all units occupying the site as if they had Airborne while the site moves.
 
-[Codex Entry](https://curiosa.io/codex?id=a679bc15-c028-430f-a84a-8b6556b33f0c)
+[Codex Entry](https://curiosa.io/codex/a679bc15-c028-430f-a84a-8b6556b33f0c)
 
 # Fly Over
 Some effects specify that projectiles "))fly(( over" a unit. This means that projectiles can't hit the unit, hitting other units normally.
 
-[Codex Entry](https://curiosa.io/codex?id=173e7fe0-f96c-4aea-8281-060c447ec78f)
+[Codex Entry](https://curiosa.io/codex/173e7fe0-f96c-4aea-8281-060c447ec78f)
 
 # Foot Soldier Token
 A Foot Soldier is a token minion with 1 power. A Foot Soldier is an Ordinary Mortal and an ((earth)) minion. For example, [[Common Village]].
 
-[Codex Entry](https://curiosa.io/codex?id=194b5249-57f1-49d6-8e41-71e734649053)
+[Codex Entry](https://curiosa.io/codex/194b5249-57f1-49d6-8e41-71e734649053)
 
 # For Free
 When you cast a spell "for free" it costs (0) mana and requires no additional costs either. "For free" is synonymous with "for (0)."
@@ -973,7 +963,7 @@ You must still meet the threshold requirements to cast the spell.
 
 If you cast a spell that costs X "for free" and you can choose the value of X, e.g. [[Arcane Barrage]], then X must equal zero. But, if the spell itself specifies the value of X, e.g. [[Twist of Fate]], then X = whatever is specified by the spell.
 
-[Codex Entry](https://curiosa.io/codex?id=6c4c8d4d-e954-4018-bc7b-e32b85a6829b)
+[Codex Entry](https://curiosa.io/codex/6c4c8d4d-e954-4018-bc7b-e32b85a6829b)
 
 # Forced Movement
 Forced movement is any movement that does not require the unit to take their own step.
@@ -992,24 +982,24 @@ The guiding principle for forced movement is whether or not the unit is taking t
 
 Unless specified by card text, forced movement cannot cause a card to change regions (except for teleportation, which can change regions by default).
 
-[Codex Entry](https://curiosa.io/codex?id=8ffdae56-1aef-44f7-b9af-cdcbc334a377)
+[Codex Entry](https://curiosa.io/codex/8ffdae56-1aef-44f7-b9af-cdcbc334a377)
 
 # Forward
 "Forward" is the cardinal direction away from your starting edge. This is relevant for a few cards like [[Dalcean Phalanx]].
 
 "Forward" is player-relative. If the control of such a card changes, the direction it perceives as "forward" will also change.
 
-[Codex Entry](https://curiosa.io/codex?id=7b70131f-975a-4a1f-8ecc-4b042f72fe06)
+[Codex Entry](https://curiosa.io/codex/7b70131f-975a-4a1f-8ecc-4b042f72fe06)
 
 # Frog Token
 A Frog is a token minion with zero power. A Frog is an Ordinary Beast with "Submerge." A Frog is a ((water)) minion. For example, [[Pollimorph]].
 
-[Codex Entry](https://curiosa.io/codex?id=11d10824-e4d9-4ac2-b6bd-d272dfe8ac59)
+[Codex Entry](https://curiosa.io/codex/11d10824-e4d9-4ac2-b6bd-d272dfe8ac59)
 
 # Fully Heal
 To fully heal a minion, remove all damage from it. To fully heal an Avatar, its current life becomes its maximum life. A "fully heal" effect supersedes other effects that reduce healing, e.g. [[River of Blood]].
 
-[Codex Entry](https://curiosa.io/codex?id=1fd795ca-305f-49df-9fbf-557c44452e68)
+[Codex Entry](https://curiosa.io/codex/1fd795ca-305f-49df-9fbf-557c44452e68)
 
 # Genesis
 **Keyword Ability. **Genesis is keyword for a triggered ability with the text:
@@ -1018,7 +1008,7 @@ _When this card enters the realm, ..._
 
 Do whatever is stated.
 
-[Codex Entry](https://curiosa.io/codex?id=22b458ed-cb2f-407d-8a66-94fae90eb77e)
+[Codex Entry](https://curiosa.io/codex/22b458ed-cb2f-407d-8a66-94fae90eb77e)
 
 # Hand
 Your hand contains spells and sites. There is no limit to the number of cards you may have in your hand, and their order is irrelevant.
@@ -1029,7 +1019,7 @@ For clarity of game state, if you are using card sleeves, you should use differe
 
 Your hand is one of the zones in the game.
 
-[Codex Entry](https://curiosa.io/codex?id=0cfac092-e152-4b50-9eb6-c772a8e717b8)
+[Codex Entry](https://curiosa.io/codex/0cfac092-e152-4b50-9eb6-c772a8e717b8)
 
 # Healing
 Healing an avatar is synonymous with gaining life. Healing a minion removes damage from that minion.
@@ -1040,7 +1030,7 @@ If you are at death's door, your life total can't change, so any healing effect 
 
 Setting life doesn't count as healing (e.g. [[Twist of Fate]]). But, if you're at death's door, your life total can't change and will remain at 0.
 
-[Codex Entry](https://curiosa.io/codex?id=f980ed60-def7-4a2d-87ca-589573087481)
+[Codex Entry](https://curiosa.io/codex/f980ed60-def7-4a2d-87ca-589573087481)
 
 # Here
 "Here" refers to the location(s) that the card occupies. For most cards, such as minions and artifacts, that means one location. For example, [[Fey Changeling]].
@@ -1051,7 +1041,7 @@ When a site itself uses the word "here," that includes both the site's surface l
 
 "Here" is analogous to "there."
 
-[Codex Entry](https://curiosa.io/codex?id=8e4684e4-479b-45d1-a75b-a41568ea6e6f)
+[Codex Entry](https://curiosa.io/codex/8e4684e4-479b-45d1-a75b-a41568ea6e6f)
 
 # Immobile
 **Keyword ability.** An Immobile unit cannot take steps.
@@ -1060,7 +1050,7 @@ For example, if you use the Move and Attack basic ability, an Immobile unit can'
 
 Forced movement effects apply normally to Immobile units, so they can [[Blink]] or [[Grapple Shot]] like any other unit.
 
-[Codex Entry](https://curiosa.io/codex?id=7db6da14-a5eb-4dcf-8b3b-4ba4e3ecfbeb)
+[Codex Entry](https://curiosa.io/codex/7db6da14-a5eb-4dcf-8b3b-4ba4e3ecfbeb)
 
 # Interact
 A unit "interacts" with the realm if it does any of the following things:
@@ -1074,7 +1064,7 @@ A unit "interacts" with the realm if it does any of the following things:
 
 If a unit's damage-dealing triggered ability (e.g. [[Infernal Legion]], [[Colicky Dragonettes]], [[Redbreast Robin]], etc.) doesn't actually hit anything, it has not interacted with the realm. If it hit something (whether or not damage was prevented), then it has interacted.
 
-[Codex Entry](https://curiosa.io/codex?id=c60b2516-48e8-4c55-9bc9-9971d98d829e)
+[Codex Entry](https://curiosa.io/codex/c60b2516-48e8-4c55-9bc9-9971d98d829e)
 
 # Intercept
 Intercept is a basic ability that allows you to fight your opponent's units who "Move and Attack" without actually attacking. A unit must be untapped to intercept, and it's one of two basic abilities that you can use on your opponent’s turn (the other is Defend). Intercept is a triggered ability with the following text:
@@ -1141,35 +1131,35 @@ Units can technically tap to use their Move and Attack ability without moving an
 
 For example, you have untapped [[Amazon Warriors]] and I have an [[Autumn Unicorn]] at the same location. If I tap my [[Autumn Unicorn]] to use its Move and Attack basic ability, then decline to move and decline to attack, your Amazon Warriors may tap to Intercept.
 
-[Codex Entry](https://curiosa.io/codex?id=eb6018eb-554d-44af-9627-7c636cef7583)
+[Codex Entry](https://curiosa.io/codex/eb6018eb-554d-44af-9627-7c636cef7583)
 
 # Its Location
 If minion, artifact, aura, or avatar refers to "its location," that means the location that it currently occupies.
 
 See the "here" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=45bd7032-958b-46e5-9d23-d7fc606633e7)
+[Codex Entry](https://curiosa.io/codex/45bd7032-958b-46e5-9d23-d7fc606633e7)
 
 # Its Site
 If minion, artifact, aura, or avatar refers to "its site," that means the site that it currently occupies.
 
 See the "here" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=a4bfc6cd-7f83-437e-8ae7-b2409fa9ec89)
+[Codex Entry](https://curiosa.io/codex/a4bfc6cd-7f83-437e-8ae7-b2409fa9ec89)
 
 # Keyword Ability
 A keyword is a word or phrase that functions as shorthand for a longer piece of rules text. For example, Burrowing is a keyword that includes multiple related rules and abilities (e.g. can move between surface and underground locations, and can survive underground). Keywords are used to communicate concepts that require more text than what will fit on a card. You can find these longer explanations in the rulebook and the Codex.
 
 If a card gains multiple copies of a keyword ability, usually there is no benefit. For example, a [[Plumed Pegasus]] with Airborne and [[Power of Flight]] simply has Airborne. When the Power of Flight ends, the Pegasus will still have Airborne due to its printed ability. Sometimes, multiple copies of a keyword do provide a benefit, such as multiple Lance keywords, e.g. [[Thankless Squire]].
 
-[Codex Entry](https://curiosa.io/codex?id=f422c6d1-5f14-4e7b-a483-2b56033c9db3)
+[Codex Entry](https://curiosa.io/codex/f422c6d1-5f14-4e7b-a483-2b56033c9db3)
 
 # Kill
 Kill simply means destroy; they are synonyms.
 
 See "kill credit" for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=f6e68ade-9736-4354-936b-e461ab73d352)
+[Codex Entry](https://curiosa.io/codex/f6e68ade-9736-4354-936b-e461ab73d352)
 
 # Kill Credit
 Some effects care about who did the killing (e.g. [[Crown of the Victor]]). Only units can get credit for a kill. Determine credit for a kill when a minion dies (i.e. marked for death), in priority order (highest first):
@@ -1190,7 +1180,7 @@ The **killer must be a unit**, but multiple units can share credit for a kill, i
 
 Note that passive abilities and other ongoing effects are not included in kill credit. Only activated and triggered abilities are included at priority 3.
 
-[Codex Entry](https://curiosa.io/codex?id=9da58b70-6d76-4a13-970d-1518ffd596d6)
+[Codex Entry](https://curiosa.io/codex/9da58b70-6d76-4a13-970d-1518ffd596d6)
 
 # Lance
 **Keyword Ability. **A minion with the Lance keyword enters the realm carrying a [[Lance]] artifact token.
@@ -1209,7 +1199,7 @@ Further notes:
 - When they break, they are removed from the game, like all tokens.
 - Since the Lance keyword is an "enters the realm" effect, even if the minion is immediately disabled or silenced when entering the realm, they will still have their Lance with them!
 
-[Codex Entry](https://curiosa.io/codex?id=091b556c-3abc-4e42-81ab-5216cf11d9ed)
+[Codex Entry](https://curiosa.io/codex/091b556c-3abc-4e42-81ab-5216cf11d9ed)
 
 # Land Site
 A land site is a site that provides zero water affinity. Though water sites are tied specifically to the element of water, land sites can have any combination of non-water affinity, or no affinity at all.
@@ -1220,12 +1210,12 @@ If a site provides water affinity and other types of affinity (e.g. earth), it's
 
 "Land site" and "water site" are mutually exclusive. A site cannot be both a water site and a land site; it will always be one or the other.
 
-[Codex Entry](https://curiosa.io/codex?id=9910f208-497c-4932-b382-9f14218fff3e)
+[Codex Entry](https://curiosa.io/codex/9910f208-497c-4932-b382-9f14218fff3e)
 
 # Landbound
 **Keyword Ability. **This minion is disabled while not occupying at least one land location. The landbound ability persists even when disabled.
 
-[Codex Entry](https://curiosa.io/codex?id=64a2cd57-fed4-4ace-a2e5-a5f63a3e576c)
+[Codex Entry](https://curiosa.io/codex/64a2cd57-fed4-4ace-a2e5-a5f63a3e576c)
 
 # Lasts 3 of Your Turns
 This terminology is used on various aura, e.g. [[Entangle Terrain]], [[Falling Star]].
@@ -1234,7 +1224,7 @@ To resolve the effect, add a counter at the end of each of your turns, and dispe
 
 If the aura is silenced during your end phase (presumably because it was animated by [[Enchantress]] and then silenced somehow), then no counter will be added that turn.
 
-[Codex Entry](https://curiosa.io/codex?id=3315e2bf-73f5-4db2-833f-ed25d0bbd260)
+[Codex Entry](https://curiosa.io/codex/3315e2bf-73f5-4db2-833f-ed25d0bbd260)
 
 # Lethal
 **Keyword Ability. **Any damage a Lethal unit deals to a minion is enough to kill it. (Remember that zero damage isn't damage at all, so it will need to do one or more damage.)
@@ -1243,7 +1233,7 @@ For example, [[Pit Vipers]] can kill [[Amazon Warriors]] with a single strike fo
 
 A spellcaster with the Lethal ability still casts Magic spells normally; the Magic spells themselves deal the damage. For example, a spellcaster with Lethal casts [[Firebolts]], but the damage from [[Firebolts]] is not Lethal; Firebolts is dealing the damage, not the spellcaster. On the other hand, the damage from [[Poison Nova]] is Lethal, because the spell itself says it's lethal.
 
-[Codex Entry](https://curiosa.io/codex?id=47a59bae-9234-404e-8299-efeec4d1c78d)
+[Codex Entry](https://curiosa.io/codex/47a59bae-9234-404e-8299-efeec4d1c78d)
 
 # Life
 Avatars have life. Life represents the amount of damage that your Avatar can endure before it is placed on death’s door. As your Avatar takes damage, its overall life decreases accordingly.
@@ -1252,7 +1242,7 @@ An avatar’s maximum life is the value printed on their card (typically 20), an
 
 When an avatar reaches zero life, it is on Death's Door.
 
-[Codex Entry](https://curiosa.io/codex?id=f8cfde2b-b0e8-4052-a48d-6010454e3a7d)
+[Codex Entry](https://curiosa.io/codex/f8cfde2b-b0e8-4052-a48d-6010454e3a7d)
 
 # Location
 The smallest area in _Sorcery_. A location is defined by its square AND region.
@@ -1261,14 +1251,14 @@ For example, a square with a void has a single location, that particular void lo
 
 A square with a site has two locations: the surface of the site and the subsurface of the site. Those are two different locations, even though they're in the same square. If the entire 5x4 realm was filled with sites, then the realm would contain 40 locations (the surface and subsurface of each of the 20 sites).
 
-[Codex Entry](https://curiosa.io/codex?id=1c06ae66-10a5-4c5a-96bc-21bdcfbd2999)
+[Codex Entry](https://curiosa.io/codex/1c06ae66-10a5-4c5a-96bc-21bdcfbd2999)
 
 # Look At
 When a card instructs you to "look at" cards in a zone, you do not reveal those cards to other players, only you look at them.  This is similar to, but distinct from, a "search."
 
 Whenever you return cards that you have looked at to a deck, you may put them back in any order unless the effect specifies otherwise.
 
-[Codex Entry](https://curiosa.io/codex?id=0f71f26a-a091-4fb2-9dcc-bcfed14f282a)
+[Codex Entry](https://curiosa.io/codex/0f71f26a-a091-4fb2-9dcc-bcfed14f282a)
 
 # Lose
 Some effects will cause artifacts, minions, and sites to lose certain abilities, often keywords. “Lose” really means "lose, can't gain, and can't have." These effects take precedence over competing passive abilities. E.g. [[Sky Baron]] wins, even if I give [[Wings of Invention]] to my minion after you summoned Sky Baron. It’s relevant to these cards:
@@ -1277,7 +1267,7 @@ Some effects will cause artifacts, minions, and sites to lose certain abilities,
 
 See the "Can vs. Can't" codex entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=7e87d038-ec40-446e-a213-952e429f2071)
+[Codex Entry](https://curiosa.io/codex/7e87d038-ec40-446e-a213-952e429f2071)
 
 # Magic
 Magics are transient spells that have an immediate impact but do not persist in the realm. [[Heat Ray]] is an example of a magic.
@@ -1286,7 +1276,7 @@ Magics have characteristics, specifically ((magic characteristics)), and are one
 
 The "((Casting Magics))" entry has details on how to cast magic spells.
 
-[Codex Entry](https://curiosa.io/codex?id=98cf8f6c-b954-4a38-b749-f4572186556b)
+[Codex Entry](https://curiosa.io/codex/98cf8f6c-b954-4a38-b749-f4572186556b)
 
 # Main Phase
 The main phase is where most of Sorcery’s actions and events take place. During this phase, your units can be ordered to do two types of actions. They can:
@@ -1296,7 +1286,7 @@ The main phase is where most of Sorcery’s actions and events take place. Durin
 
 You may have your units do these as many times as you have resources to do so, and in any order you like. For example, you might have one minion use their Move and Attack basic ability, then cast a spell with your Avatar, then have a minion use their Pick Up basic ability, then have a different minion use their Move and Attack ability.
 
-[Codex Entry](https://curiosa.io/codex?id=cdd8d7be-ace7-457f-9ad6-28701ccb33d6)
+[Codex Entry](https://curiosa.io/codex/cdd8d7be-ace7-457f-9ad6-28701ccb33d6)
 
 # Mana
 Mana can come from several sources, but sites are the most common. When a mana source enters the realm on your turn, and during your start phase, they generate mana.
@@ -1305,12 +1295,12 @@ You use this mana to cast spells or activate abilities. During step 3 of the end
 
 You may not generate mana on your opponent's turn.
 
-[Codex Entry](https://curiosa.io/codex?id=72e711f6-ced0-4ff0-8386-e380e628f06f)
+[Codex Entry](https://curiosa.io/codex/72e711f6-ced0-4ff0-8386-e380e628f06f)
 
 # Mana Cost
 Mana cost is the printed cost of the spell. See ((Cost)) for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=867a518a-aae5-46cb-8b1b-ced9a6217d54)
+[Codex Entry](https://curiosa.io/codex/867a518a-aae5-46cb-8b1b-ced9a6217d54)
 
 # Mandatory Actions
 One game rule causes a mandatory action: If your Avatar is in the void, you may and must use their ability to play a site under them, ignoring normal site adjacency rules.
@@ -1334,19 +1324,19 @@ Perhaps you cast a [[War Horse]] in the same square as the Bosk Troll. Then, you
 
 After resolving the War Horse's ability and the storyline is empty, the Bosk Troll is now able to attack The Green Knight. You must do so, in the middle of your main phase before doing anything else. You were not required to carry the Bosk Troll closer to The Green Knight. But once you chose to do that, the game noticed that The Green Knight was in the Bosk Troll's range of motion, and thus you were required to make the Troll's attack.
 
-[Codex Entry](https://curiosa.io/codex?id=af65379e-7a9a-4d6f-9a9e-99f1434575e8)
+[Codex Entry](https://curiosa.io/codex/af65379e-7a9a-4d6f-9a9e-99f1434575e8)
 
 # Materials Needed to Play Sorcery
 A deck, a way to track life, and a fun attitude! A playmat will also help, but it's not strictly required!
 
 Your deck includes 1 avatar, a spellbook, and an atlas. Depending on the format (constructed vs. draft/sealed), the minimum deck size varies, so explore those codex entries for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=38c2882a-0dad-4063-a6f0-424eacc87ee9)
+[Codex Entry](https://curiosa.io/codex/38c2882a-0dad-4063-a6f0-424eacc87ee9)
 
 # May and Can
 If an effect uses the word "may" or "can," it is optional, e.g. [[Aramos Mercenaries]] or [[Felbog Frog Men]]. Exception: if the effect uses "may only" or "can only," then it's actually a mandatory restriction, e.g. [[Dalcean Phalanx]] or [[Morgana le Fay]].
 
-[Codex Entry](https://curiosa.io/codex?id=c9c58cc0-b406-4307-b95f-cb32d5c32c52)
+[Codex Entry](https://curiosa.io/codex/c9c58cc0-b406-4307-b95f-cb32d5c32c52)
 
 # Minion
 Minions are your greatest allies, assisting you with myriad abilities in offense and defense. [[Plumed Pegasus]] is an example of a minion.
@@ -1355,7 +1345,7 @@ Minions have characteristics, specifically ((minion characteristics)), and are o
 
 The "((Casting Minions))" entry has details on how to cast minion spells.
 
-[Codex Entry](https://curiosa.io/codex?id=280d58e2-40f3-407e-834a-a2f26a6e6f02)
+[Codex Entry](https://curiosa.io/codex/280d58e2-40f3-407e-834a-a2f26a6e6f02)
 
 # Move
 "Move" means to go from one location in the realm to a different location in the realm. There are many ways for units in _Sorcery _to move.
@@ -1375,7 +1365,7 @@ See ((Range of Motion)) for how to apply lookahead when determining the path.
 
 Note that the basic abilities "Move and Attack" and "Defend" do not require the player to choose the shortest path to the destination because they are limited by the unit's movement (typically just a single step).
 
-[Codex Entry](https://curiosa.io/codex?id=248f42b3-ce6e-422d-9c27-c3072f192811)
+[Codex Entry](https://curiosa.io/codex/248f42b3-ce6e-422d-9c27-c3072f192811)
 
 # Move and Attack
 **Move and Attack** is a basic, activated ability with the following text:
@@ -1394,14 +1384,14 @@ After completing all the movement (if any), you may attack, declaring your attac
 
 #### 
 
-[Codex Entry](https://curiosa.io/codex?id=d7f6af80-0923-4ab1-88bc-11b7c694d49b)
+[Codex Entry](https://curiosa.io/codex/d7f6af80-0923-4ab1-88bc-11b7c694d49b)
 
 # Movement +X
 **Keyword Ability. **A unit with Movement +X may move up to X additional steps when using the Move and Attack or Defend basic abilities. For example, [[Rimland Nomads]] may take two steps instead of just one.
 
 If a unit has multiple copies of the Movement +X ability, the numbers simply add together. For example, [[Rimland Nomads]] with [[Mad Dash]] have Movement +2.
 
-[Codex Entry](https://curiosa.io/codex?id=22c9d0fe-727c-4700-9375-91cc7a2f7f2b)
+[Codex Entry](https://curiosa.io/codex/22c9d0fe-727c-4700-9375-91cc7a2f7f2b)
 
 # Moves Freely
 A unit with Moves Freely spends no steps moving via the Move and Attack or Defend basic abilities, as long as the _starting and ending locations_ of the step satisfy the Moves Freely condition.
@@ -1434,7 +1424,7 @@ Same as above, but [[Sir Pelleas]] starts on the surface of B. He can declare th
 
 The last three steps are all free, because they are between two water locations, per the Moves Freely ability of [[Sir Pelleas]]. Note that [[Sir Pelleas]] couldn't then continue from w2 surface to A surface, because that's not a free step, and [[Sir Pelleas]] already used up his 1 step for his Move and Attack basic ability.
 
-[Codex Entry](https://curiosa.io/codex?id=20b77492-0f14-47a6-86be-075526af3018)
+[Codex Entry](https://curiosa.io/codex/20b77492-0f14-47a6-86be-075526af3018)
 
 # Must Be Cast
 If a spell (typically a minion) "must be cast" to a certain location it is an _additional_ restriction; you still must also follow normal casting restrictions for minions, e.g. to a site you control.
@@ -1443,12 +1433,12 @@ For example, [[Drowned]] must be cast submerged and also to a site you control. 
 
 Note that if you summon a minion directly to the realm without casting it, e.g. [[Raise Dead]] or [[Boneyard]], then casting restrictions do not apply. (Summoning restrictions still apply.)
 
-[Codex Entry](https://curiosa.io/codex?id=e02be40f-a696-45dd-a37d-e3019231de88)
+[Codex Entry](https://curiosa.io/codex/e02be40f-a696-45dd-a37d-e3019231de88)
 
 # Near
 Near is a synonym for "nearby."
 
-[Codex Entry](https://curiosa.io/codex?id=7d4faa7e-d624-4ffc-bab9-9ae37b0ee24e)
+[Codex Entry](https://curiosa.io/codex/7d4faa7e-d624-4ffc-bab9-9ae37b0ee24e)
 
 # Nearby
 Nearby refers to the current square and the eight squares that surround it (including diagonals). For example, the middle square has 9 nearby squares - itself and eight others.
@@ -1463,24 +1453,24 @@ When referring to **nearby sites**, **nearby** **voids**, or **nearby squares** 
 
 **For all other references to nearby**, such as nearby locations, nearby minions, nearby artifact, etc., _regional boundaries must be respected and cannot be crossed_. For example, if [[Belfry]] is on a site, it will not untap allies in a nearby void, because "nearby ally" cannot cross a regional boundary.
 
-[Codex Entry](https://curiosa.io/codex?id=7de60b0a-855c-4bab-95a7-7e6f172ba4a0)
+[Codex Entry](https://curiosa.io/codex/7de60b0a-855c-4bab-95a7-7e6f172ba4a0)
 
 # Non-Active Player
 The non-active player is the player who is not currently taking their turn.
 
-[Codex Entry](https://curiosa.io/codex?id=9c37d326-d9f1-4efa-bd20-cd84a210a64a)
+[Codex Entry](https://curiosa.io/codex/9c37d326-d9f1-4efa-bd20-cd84a210a64a)
 
 # Normal Size
 A card is "normal size" if it occupies exactly one location. This is the default size for minions, avatars, and artifacts.
 
-[Codex Entry](https://curiosa.io/codex?id=3aac6b84-0fe9-4c94-ad58-f37fb604eed6)
+[Codex Entry](https://curiosa.io/codex/3aac6b84-0fe9-4c94-ad58-f37fb604eed6)
 
 # On the Ground
 To move "on the ground" means to start from the surface of a site and move to another site's surface, excluding Airborne and teleport.
 
 This includes all types of sites, including water sites.
 
-[Codex Entry](https://curiosa.io/codex?id=0998a44b-f7ff-4a88-b66d-aaf14072e4b2)
+[Codex Entry](https://curiosa.io/codex/0998a44b-f7ff-4a88-b66d-aaf14072e4b2)
 
 # Ongoing Effect
 Ongoing effects apply continuously during their duration. If they do not have a listed duration, they apply indefinitely while the source is in the realm. For example, [[King of the Realm]]'s passive ability is an ongoing effect that gives you control of all mortals. [[Gnome Hollows]]' passive ability is an ongoing effect that prevents units with 3 or more power from entering. [[Quagmire]]'s genesis ability creates an ongoing effect that causes units to be Immobile while they occupy nearby sites until your next turn.
@@ -1496,7 +1486,7 @@ For example, you have a [[Bosk Troll]] that has taken 1 damage this turn. Then, 
 
 Therefore, between each event on the storyline, the game applies all ongoing effects before checking for minions dying.
 
-[Codex Entry](https://curiosa.io/codex?id=e598f1a7-a876-431c-a414-33e1893cd4d8)
+[Codex Entry](https://curiosa.io/codex/e598f1a7-a876-431c-a414-33e1893cd4d8)
 
 # Only It Can Cast
 Some effects allow a non-Avatar to become a special spellcaster, draw a spell, and then only it can cast the spell. For example, [[Char Omphalos]], [[Morgana Le Fay]], or [[Archangel Gabriel]].
@@ -1509,7 +1499,7 @@ If the special spellcaster leaves the realm, any remaining spells go to the ceme
 
 While casting the spell(s), the special spellcaster has the Spellcaster ability, e.g. the allied minion blessed by [[Archangel Gabriel]].
 
-[Codex Entry](https://curiosa.io/codex?id=31be3c09-84b6-4ff4-bb37-18b00e77e77e)
+[Codex Entry](https://curiosa.io/codex/31be3c09-84b6-4ff4-bb37-18b00e77e77e)
 
 # Ordering Ongoing Effects - The Layer System
 Sometimes there will be several ongoing effects and the game must apply them in the proper order. Remember the Golden Rule! This system is somewhat complex, but is intended to provide intuitive results. You can probably ignore this whole section simply do what's intuitive, and you'll get the right result.
@@ -1623,7 +1613,7 @@ This is not an exhaustive list of cards with conditional ongoing effects, but hi
 - [[King of the Realm]] or [[Returned King]]
    - Control is normally layer 4. Subtype changing happens in layer 2. So, these apply in layer 4 normally, since effects related to their condition have already been applied by the time we get to layer 4.
 
-[Codex Entry](https://curiosa.io/codex?id=aa624e74-7c3e-4622-8471-03e05b576c52)
+[Codex Entry](https://curiosa.io/codex/aa624e74-7c3e-4622-8471-03e05b576c52)
 
 # Oversized Units
 Normally, units occupy only one location while in the realm. However, some oversized units occupy multiple locations simultaneously due to their size, e.g. [[Mountain Giant]]. To represent the minion’s locations, place the card at the intersection of the sites.
@@ -1754,7 +1744,7 @@ When shooting a projectile, an oversized unit chooses one of its locations and t
 
 _See live codex for table_
 
-[Codex Entry](https://curiosa.io/codex?id=7f57fe26-eac3-45a4-b449-994fef47d872)
+[Codex Entry](https://curiosa.io/codex/7f57fe26-eac3-45a4-b449-994fef47d872)
 
 # Ownership and Control
 You are the owner of all the cards you bring to a game of _Sorcery_. The owner of a card does not change during the game. A card is always returned to its owner’s hand, shuffled into its owner’s deck, or sent to its owner’s cemetery, regardless of who controls the card when it leaves the realm.
@@ -1768,14 +1758,14 @@ By default, cards are controlled by whoever puts them into the realm, with the f
    - If such an artifact is not carried, it has no controller.
 - If [[King Arthur]] is in play, anything other than carriable artifacts will be controlled by their owner.
 
-[Codex Entry](https://curiosa.io/codex?id=40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f)
+[Codex Entry](https://curiosa.io/codex/40fc4dfb-0290-4f9e-9f98-4ad5b28ccc8f)
 
 # Passive Ability
 A passive ability creates an ongoing effect that is always active while the card is in the relevant game zone. Typically this zone will be the realm, but some cards have abilities that specify what they do while in your hand, while in your cemetery, etc. [[King of the Realm]] is an example of a card with a passive ability.
 
 A passive ability is one of the few ways that an ongoing effect can be created. See the "((ongoing effect))" codex entry for more details on how to handle multiple overlapping or conflicting ongoing effects.
 
-[Codex Entry](https://curiosa.io/codex?id=ac7557f6-356c-475f-8b0f-2e14abbb0ec6)
+[Codex Entry](https://curiosa.io/codex/ac7557f6-356c-475f-8b0f-2e14abbb0ec6)
 
 # Path
 A path for a card that's moving involves 1 or more steps, and each step has a starting and ending location that's different. If your step is from a location to that same location, you didn't actually move anywhere. If you occupied multiple locations while moving, all of those locations are included in your path, including for oversized units.
@@ -1798,14 +1788,14 @@ _See live codex for table_
 
 Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C.
 
-[Codex Entry](https://curiosa.io/codex?id=2ba56532-3ac0-41e8-a73f-1005cbefe8db)
+[Codex Entry](https://curiosa.io/codex/2ba56532-3ac0-41e8-a73f-1005cbefe8db)
 
 # Pay Life
 You can only pay X life if your life total is at least X. For example, you cannot pay 3 life if you have 2 or less life. If you have 0 life, you cannot pay any life at all.
 
 Note that losing life is different from paying life. You can lose life even if you have 0 life.
 
-[Codex Entry](https://curiosa.io/codex?id=b9cdd997-5404-466c-9fad-97ac278c8a59)
+[Codex Entry](https://curiosa.io/codex/b9cdd997-5404-466c-9fad-97ac278c8a59)
 
 # Phrases that are Synonymous
 Sorcery cards use natural, thematic language. Some words and phrases are synonymous and have the same game effect:
@@ -1832,7 +1822,7 @@ Sorcery cards use natural, thematic language. Some words and phrases are synonym
 
 - In the context of a projectile: Shoot. Throw.
 
-[Codex Entry](https://curiosa.io/codex?id=fdac6723-8fb2-4a1c-9e1c-c64cdb167bce)
+[Codex Entry](https://curiosa.io/codex/fdac6723-8fb2-4a1c-9e1c-c64cdb167bce)
 
 # Phrases with Subtle Meanings
 Sorcery cards use natural, thematic language. Some words and phrases have different meanings depending on their context. Read the card text carefully to determine which meaning is correct:
@@ -1865,7 +1855,7 @@ Sorcery cards use natural, thematic language. Some words and phrases have differ
 - Draw vs. "Put into your hand"
    - If you put a card directly into your hand, you have not drawn it.
 
-[Codex Entry](https://curiosa.io/codex?id=1a4a88c5-0dcf-4af3-92ba-6d8018178a4e)
+[Codex Entry](https://curiosa.io/codex/1a4a88c5-0dcf-4af3-92ba-6d8018178a4e)
 
 # Pick Up
 Pick Up is a basic, activated ability with the following text:
@@ -1880,14 +1870,14 @@ See the "Drop" and "((Carrying Units))" codex entries for more details.
 
 An oversized unit may simultaneously Pick Up from all locations it occupies.
 
-[Codex Entry](https://curiosa.io/codex?id=80001912-428c-45bc-bc04-296c848dc708)
+[Codex Entry](https://curiosa.io/codex/80001912-428c-45bc-bc04-296c848dc708)
 
 # Play
 The word “play” is synonymous with “cast” for purposes of spells.
 
 For sites, the word “play” means selecting the site and placing it in the realm. Unlike spells that enter the storyline, playing sites does not use the storyline. They go directly from your hand (or sometimes from a different zone) to the realm.
 
-[Codex Entry](https://curiosa.io/codex?id=ac520e79-b59f-42b1-b866-2c59afc02488)
+[Codex Entry](https://curiosa.io/codex/ac520e79-b59f-42b1-b866-2c59afc02488)
 
 # Power
 Units have power, which is a measure of their ability to inflict damage and sustain damage. Power is most often shown as a single number in the top right of the card. For example, [[Bosk Troll]] has a power of 3. When it strikes, it will inflict 3 damage. If it takes 3 or more damage in a turn, it will die.
@@ -1896,7 +1886,7 @@ Some minions have split power. Units may not have less than zero power.
 
 See the "((zero))" codex entry for more details on units with zero power.
 
-[Codex Entry](https://curiosa.io/codex?id=5e4c5091-610a-4830-9dc2-7bbad713ae0f)
+[Codex Entry](https://curiosa.io/codex/5e4c5091-610a-4830-9dc2-7bbad713ae0f)
 
 # Prevention Effect
 Prevention effects are very similar to replacement effects, but are specifically related to preventing damage, and apply _after _replacement effects.
@@ -1905,12 +1895,12 @@ For example, [[Tufted Turtle]] is a prevention effect. When applying damage to a
 
 For more details, see the "((Damage))" codex entry and subsections.
 
-[Codex Entry](https://curiosa.io/codex?id=05a7fdfc-6427-42d7-9ec6-9cefa7036fc9)
+[Codex Entry](https://curiosa.io/codex/05a7fdfc-6427-42d7-9ec6-9cefa7036fc9)
 
 # Printed Ability
 Printed abilities are the special abilities actually printed on the card. Any special abilities that the card gains through other effects, while still special abilities, are not "printed" abilities.
 
-[Codex Entry](https://curiosa.io/codex?id=a107909e-4392-448e-b98f-0f96a787052f)
+[Codex Entry](https://curiosa.io/codex/a107909e-4392-448e-b98f-0f96a787052f)
 
 # Projectile
 A projectile’s flight begins at the shooting unit’s location and travels within the same region in a cardinal direction. Its flight continues until it either reaches the edge of its region or it reaches the first unit (enemy or ally) along its path, ignoring any allies at the projectile’s starting location.
@@ -1935,14 +1925,14 @@ Some projectiles cause forced movement after they hit, e.g. [[Grapple Shot]] or 
 
 See the "((Movement on the Storyline))" entry for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=c81c8875-ef70-4202-8c98-7ac00ece0cc6)
+[Codex Entry](https://curiosa.io/codex/c81c8875-ef70-4202-8c98-7ac00ece0cc6)
 
 # Random
 Random effects are those that use the word "random" or involve rolling a ))die((, e.g. [[Salmon of Knowledge]].
 
 To determine a random outcome, use any reasonable method, such as rolling a ))die((, assigning equal probability to each possible outcome. For example, if there are three units at the location you target with [[Lightning Bolt]], you could assign 1-2 to the first unit, 3-4 to the second unit, and 5-6 to the third unit, then roll a six-sided ))die((.
 
-[Codex Entry](https://curiosa.io/codex?id=49a7cb1a-443a-49f4-a5ed-a0c2a2f1b9cd)
+[Codex Entry](https://curiosa.io/codex/49a7cb1a-443a-49f4-a5ed-a0c2a2f1b9cd)
 
 # Range of Motion
 A unit's range of motion is every location it could reach if it used the Move and Attack basic ability, ignoring all triggered abilities. If a unit can't use the Move and Attack basic ability (e.g. Disabled), then it has no range of motion.
@@ -1979,7 +1969,7 @@ The attack is happening at A. I have [[Rimland Nomads]] at N. There is a [[Giant
 **Explanation  
 **If you're reading this deeply into the Codex, you might be wondering why the game ignores triggered abilities for the lookahead. One reason is that there are some cases where the lookahead for triggered abilities yields an unknown outcome. For example, in Example 5, instead of Nomads, if it were a [[Phantom Steed]] with a [[Poisonous Dagger]] carrying [[Amazon Warriors]], can the Phantom Steed reach A or not? It depends if the Shark chooses to fight the Warriors first or the Steed first. The second reason is that this approach allows the lookahead for mandatory actions like "must attack" (e.g. [[Mask of Mayhem]]) to use the same rules, since players' intuition in those cases is to force an attack even into a Shark or [[Mariner's Curse]]. Therefore, we consistently ignore triggered abilities when considering a unit's range of motion.
 
-[Codex Entry](https://curiosa.io/codex?id=baf60fbb-dcd9-4bb5-a2b4-158f8df5cbb1)
+[Codex Entry](https://curiosa.io/codex/baf60fbb-dcd9-4bb5-a2b4-158f8df5cbb1)
 
 # Ranged, Ranged X, and +X Range
 **Keyword Ability. **Ranged is a keyword that grants a unit the following activated ability:
@@ -1996,7 +1986,7 @@ If the projectile hits a unit, the ranged shooter strikes the hit unit. This fol
 
 Note that the ranged ability shoots a projectile that may hit a unit; it will not hit sites, and thus cannot damage sites in that way (use the Move and Attack ability instead).
 
-[Codex Entry](https://curiosa.io/codex?id=23eb6bf6-7bc3-4665-a9de-920e1c72a862)
+[Codex Entry](https://curiosa.io/codex/23eb6bf6-7bc3-4665-a9de-920e1c72a862)
 
 # Rarity
 There are four levels of rarity in Sorcery, described below. Note that Avatars do not have a rarity listed on their typeline and thus don't have any rarity during gameplay, but you still only have one Avatar!
@@ -2016,12 +2006,12 @@ The highest level of rarity. You may include only 1 ))copy(( of a unique card (b
 ## Curios
 We don't talk about curios!
 
-[Codex Entry](https://curiosa.io/codex?id=5bf019ed-250f-43a8-b0c5-b5d38c48e585)
+[Codex Entry](https://curiosa.io/codex/5bf019ed-250f-43a8-b0c5-b5d38c48e585)
 
 # Realm
 The realm is all the squares in the game and everything in those squares. Typically the realm is a 5x4 grid of squares.
 
-[Codex Entry](https://curiosa.io/codex?id=38d32154-2790-4912-9660-89c23966e086)
+[Codex Entry](https://curiosa.io/codex/38d32154-2790-4912-9660-89c23966e086)
 
 # Region
 There are exactly four regions in _Sorcery_:
@@ -2033,12 +2023,12 @@ There are exactly four regions in _Sorcery_:
 
 Even if a group of surface locations is separated by the void from another group of surface locations, there is still only a single surface region. Every surface location is part of the surface region. Every underground location is part of the underground region. Etc.
 
-[Codex Entry](https://curiosa.io/codex?id=aecd74a9-a6fd-41f2-8734-9d1f1c8ace1e)
+[Codex Entry](https://curiosa.io/codex/aecd74a9-a6fd-41f2-8734-9d1f1c8ace1e)
 
 # Replace
 When you"replace" a site, banish it and immediately play another site in its square. There is no time during this process when there's a void.
 
-[Codex Entry](https://curiosa.io/codex?id=b9b55fb1-cabf-47df-b789-ad389d15df40)
+[Codex Entry](https://curiosa.io/codex/b9b55fb1-cabf-47df-b789-ad389d15df40)
 
 # Replacement Effect
 Replacement effects replace one event with another. These types of effects often use the word "instead" and "would," with phrases like "would die," "would take damage," "would successfully attack," or "would untap."
@@ -2049,7 +2039,7 @@ Note that replacement effects do not use the storyline; they immediately resolve
 
 See the "((Damage))" codex entry and subsections for more details on damage-specific replacement effects.
 
-[Codex Entry](https://curiosa.io/codex?id=68c087c1-84f7-41f3-b44b-fb1753fce12e)
+[Codex Entry](https://curiosa.io/codex/68c087c1-84f7-41f3-b44b-fb1753fce12e)
 
 # Row and Column
 The realm is divided into Rows and Columns. Rows are each contiguous set of squares directly left and right of one another, and Columns are contiguous sets of squares directly in front of or behind one another. 
@@ -2058,19 +2048,19 @@ This diagram shows the default shape of the realm, with an example of a Row (mar
 
 _See live codex for table_
 
-[Codex Entry](https://curiosa.io/codex?id=b7cf02ba-497b-4ec2-a596-14c636024868)
+[Codex Entry](https://curiosa.io/codex/b7cf02ba-497b-4ec2-a596-14c636024868)
 
 # Royalty
 Royalty is any card with King, Queen (or Queene), Prince, or Princess in its name. For example, [[Crown Prince]] and [[The Faerie Queene]] are royalty.
 
-[Codex Entry](https://curiosa.io/codex?id=d270ecb2-9ddc-4de7-aa54-c57215be04d5)
+[Codex Entry](https://curiosa.io/codex/d270ecb2-9ddc-4de7-aa54-c57215be04d5)
 
 # Rubble
 Rubble is a Ordinary site token with the ability "Provides no mana." It also has no affinity and is controlled by no one. When a site is destroyed, it leaves behind a Rubble token.
 
 When a site would enter the realm, it may replace a Rubble as if the Rubble were a void, following all other normal site placement rules. In all other ways, Rubble is treated the same as any other site. For example, because it has no water affinity, it is a land site.
 
-[Codex Entry](https://curiosa.io/codex?id=1a435965-bf30-4c8e-8cd7-086e1ae44017)
+[Codex Entry](https://curiosa.io/codex/1a435965-bf30-4c8e-8cd7-086e1ae44017)
 
 # Sacrifice
 You can only sacrifice cards you control and that are in the realm.
@@ -2081,7 +2071,7 @@ If you sacrifice a card that would normally be prevented from being destroyed (e
 
 For example, if I have [[Bluecap Knockers]] on my [[Sinkhole]] and then use the activated ability on my Sinkhole to sacrifice it, I indeed destroy my own Sinkhole even though Bluecap Knockers says it can't be destroyed. As another example, my Apprentice Wizard is nearby Lady Iseult when I sacrifice my Apprentice Wizard to summon a [[Moon Clan Werewolf]]. My Apprentice Wizard is about to die, and normally Lady Iseult would return him to my hand. But because this is a sacrifice effect, the death cannot be prevented. The Moon Clan Werewolf is summoned and the Apprentice Wizard goes to my cemetery. The examples above would be the same if the Sinkhole and Apprentice Wizard were warded; the Ward would not save them from being sacrificed!
 
-[Codex Entry](https://curiosa.io/codex?id=b6ffd09a-c8fb-4b80-ac24-4900e8fd5ca3)
+[Codex Entry](https://curiosa.io/codex/b6ffd09a-c8fb-4b80-ac24-4900e8fd5ca3)
 
 # Search
 Searching a zone (e.g. [[Adept Illusionist]]) allows you to ))look at(( the cards in those zones and potentially find something.  Only effects which use the word "search" are considered to be searching a zone.
@@ -2092,7 +2082,7 @@ When returning cards you have searched through to the top or bottom of a deck, s
 
 Some search effects say "shuffle if needed."  This is usually because the effect gives you the option to search a private zone, and/or public ones.  If you choose to search a private zone, you must shuffle afterward, but if you only search a public zone, you do not shuffle.  For instance, if you use [[Adept Illusionist]]'s ability to summon another copy from your cemetery and do not search your spellbook, you do not shuffle your spellbook.
 
-[Codex Entry](https://curiosa.io/codex?id=fc2e5653-d210-4ba9-9280-57f2baeaedfd)
+[Codex Entry](https://curiosa.io/codex/fc2e5653-d210-4ba9-9280-57f2baeaedfd)
 
 # Setup
 Follow these steps to set up the game:
@@ -2107,14 +2097,14 @@ Follow these steps to set up the game:
 
 Some tournament rules may modify the setup procedure.
 
-[Codex Entry](https://curiosa.io/codex?id=bc2036cd-69d3-4fab-b63b-dd094cf279c5)
+[Codex Entry](https://curiosa.io/codex/bc2036cd-69d3-4fab-b63b-dd094cf279c5)
 
 # Silenced
 A silenced card loses all its special abilities. It retains its characteristics and its basic abilities.
 
 See the "((lose))" codex entry to understand what that word means in a _Sorcery _context.
 
-[Codex Entry](https://curiosa.io/codex?id=ad3816bb-9097-42bb-9231-4d9311f4a7e9)
+[Codex Entry](https://curiosa.io/codex/ad3816bb-9097-42bb-9231-4d9311f4a7e9)
 
 # Site
 A site is a locus of energy within the realm that provides you with mana to cast spells. Sites are usually played by activating your Avatar’s ability, though they may enter the realm in other ways.
@@ -2137,12 +2127,12 @@ When cards refer to "adjacent site" or "nearby site," see ((adjacent)) and ((nea
 
 Some effects cause sites to ))move(( to another square. When this happens, everything of normal size is carried along with the site. Anything that is carried along with the site does not count as ((moving)) and does not ((enter)) the site or location. 
 
-[Codex Entry](https://curiosa.io/codex?id=5e633a96-c807-4915-be05-e83cacfcbfd6)
+[Codex Entry](https://curiosa.io/codex/5e633a96-c807-4915-be05-e83cacfcbfd6)
 
 # Skeleton Token
 A Skeleton is a token minion with 1 power.  A Skeleton is an Ordinary Undead and an ((air)) minion.  For example, [[Open Mausoleum]].
 
-[Codex Entry](https://curiosa.io/codex?id=4d00cfac-df9c-417c-80c8-40bce04a46a8)
+[Codex Entry](https://curiosa.io/codex/4d00cfac-df9c-417c-80c8-40bce04a46a8)
 
 # Span of Land
 A span of land is a contiguous group of adjacent land sites, **regardless of who controls those sites**.
@@ -2151,7 +2141,7 @@ If a card refers to "its span of land" or "this span of land," it means the span
 
 To choose a span of land (e.g. [[Minecart Madness]]), choose one land site. Every land site (regardless of controller) that's connected to the chosen site via adjacent land sites is in that span of land. If a site becomes disconnected from the chosen land site (e.g. [[Earthquake]] in the middle of the turn), the disconnected site is no longer in the span of land. If the chosen site is no longer a land site (e.g. [[Flood]] in the middle of the turn), then the "chosen span of land" no longer exists.
 
-[Codex Entry](https://curiosa.io/codex?id=b00b6e30-c6f2-4744-96f1-82a41119e4a6)
+[Codex Entry](https://curiosa.io/codex/b00b6e30-c6f2-4744-96f1-82a41119e4a6)
 
 # Special Ability
 Anything printed in the text box of a card is considered a special ability, as well as any other abilities it gains via other effects, e.g. [[Charge!]]. Special abilities have four categories, described in their own codex entries:
@@ -2161,7 +2151,7 @@ Anything printed in the text box of a card is considered a special ability, as w
 - Activated ability
 - Triggered ability
 
-[Codex Entry](https://curiosa.io/codex?id=f2bd2f7d-0032-4929-b18d-5c9793f09e99)
+[Codex Entry](https://curiosa.io/codex/f2bd2f7d-0032-4929-b18d-5c9793f09e99)
 
 # Spell
 Spells represent all of your prepared power to contest the realm. These include minions to help you defend your sites and attack the enemy, artifacts to tip the balance of power in your favor, magics to overpower your foes, and auras to impose your will on areas of the realm.
@@ -2170,7 +2160,7 @@ Magics are a type of spell, but minions, artifacts, and auras are all spells as 
 
 See casting spells for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=22382253-7c9b-4bca-a483-4d1942bf5e97)
+[Codex Entry](https://curiosa.io/codex/22382253-7c9b-4bca-a483-4d1942bf5e97)
 
 # Spellbook
 Your spellbook is your deck of spells and is one of the zones in the game.
@@ -2183,14 +2173,14 @@ Your spellbook must contain 60 or more spells and respect rarity limits.
 **Limited Formats (Draft or Sealed)**  
 Your spellbook must contain 24 or more spells, ignoring rarity restrictions.
 
-[Codex Entry](https://curiosa.io/codex?id=8a3808bf-6b89-4e91-8d8f-1b5d69e563b3)
+[Codex Entry](https://curiosa.io/codex/8a3808bf-6b89-4e91-8d8f-1b5d69e563b3)
 
 # Spellcaster
 **Keyword Ability. **A card with the Spellcaster keyword may cast spells. Avatars are automatically spellcasters.
 
 Some spellcasters may only cast spells that match a specific element. For example, [[Lava Salamander]] is a Fire Spellcaster, and thus may only cast spells that require Fire threshold (F).
 
-[Codex Entry](https://curiosa.io/codex?id=89067d2f-058b-4c86-b3ae-3aebf1c3895a)
+[Codex Entry](https://curiosa.io/codex/89067d2f-058b-4c86-b3ae-3aebf1c3895a)
 
 # Split Power
 Some units have split power, with a separate number for attack power and defense power. The first number is attack power and the second number is defense power. For example, [[White Knight]] has 3 attack power and 5 defense power.
@@ -2201,7 +2191,7 @@ Defense power is how much damage the unit can take in a turn before it dies. For
 
 If an effect needs to know the "power" of a unit with split power, e.g. [[Gnome Hollows]] or [[Chaos Twister]], take the average of the two numbers and round down, if needed. For example, a [[Brother Knight]] could enter Gnome Hollows and would deal 2 damage via Chaos Twister.
 
-[Codex Entry](https://curiosa.io/codex?id=7f64db2b-3903-4bbd-8d36-bfa53ce5faa8)
+[Codex Entry](https://curiosa.io/codex/7f64db2b-3903-4bbd-8d36-bfa53ce5faa8)
 
 # Square
 One grid square in the realm. The default size of the realm is a 5 x 4 grid of squares.
@@ -2210,7 +2200,7 @@ When referring to squares, an effect can cross the boundaries of regions.
 
 The physical dimensions of a grid square can sometimes matter, e.g. [[Chaos Twister]]. Follow the golden rule and tournament rules, but reasonable sizes are between 4.5" and 5".
 
-[Codex Entry](https://curiosa.io/codex?id=36163d29-36b5-4b80-adca-4ffccf4ef738)
+[Codex Entry](https://curiosa.io/codex/36163d29-36b5-4b80-adca-4ffccf4ef738)
 
 # Start Phase
 The start phase is the first phase you complete during your turn. Follow these steps in order:
@@ -2222,7 +2212,7 @@ The start phase is the first phase you complete during your turn. Follow these s
 5. Draw a card from either your spellbook or atlas.
    1. On the first player's first turn of the game, they do not draw a card.
 
-[Codex Entry](https://curiosa.io/codex?id=d74587ee-6256-4009-b144-9d46e9125822)
+[Codex Entry](https://curiosa.io/codex/d74587ee-6256-4009-b144-9d46e9125822)
 
 # Stealth
 **Keyword Ability. **Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
@@ -2248,7 +2238,7 @@ Important note: If a minion loses Stealth for multiple reasons (e.g. activated a
 
 **Cast a spell:** Resolve the entire spell, including any Deathrites. Once the Storyline is empty, Stealth is lost.
 
-[Codex Entry](https://curiosa.io/codex?id=8dc27cdf-47d5-4d69-8724-c30efbe94158)
+[Codex Entry](https://curiosa.io/codex/8dc27cdf-47d5-4d69-8724-c30efbe94158)
 
 # Step
 Step has two meanings in _Sorcery_!
@@ -2264,7 +2254,7 @@ If an effect uses "**take a step**"** **or "**move one step**," the unit is movi
 
 Note that the Moves Freely ability only applies during the "Move and Attack" and "Defend" basic abilities.
 
-[Codex Entry](https://curiosa.io/codex?id=0f53b70d-d13a-4982-8c16-20bb4ab1aa9d)
+[Codex Entry](https://curiosa.io/codex/0f53b70d-d13a-4982-8c16-20bb4ab1aa9d)
 
 # Stops
 After a unit moves, it “stops” when there is no additional movement for that unit on the storyline (or if it's being carried, no additional movement on the storyline for the unit that's carrying it). A unit must first move to then stop.
@@ -2275,7 +2265,7 @@ Note that "stops" is not the same as at rest.
 
 As a complicated example, consider casting [[Blink]] with an [[Orb of Ba’al Berith]] nearby. Both Blink spells will be on the storyline. After the first Blink resolves, whatever unit just moved will “stop,” since there’s no other movement for that unit on the storyline immediately after the first Blink resolves; the ally for the second Blink hasn’t been chosen yet. If the same unit is chosen for the second Blink, it will stop a second time (assuming it changes locations after each Blink to actually result in movement).
 
-[Codex Entry](https://curiosa.io/codex?id=a8c1b7eb-e60a-4087-8715-ea6799593ea2)
+[Codex Entry](https://curiosa.io/codex/a8c1b7eb-e60a-4087-8715-ea6799593ea2)
 
 # Storyline
 When the story being told during a game of _Sorcery_ starts to get complicated, particularly when multiple abilities trigger at the same time, use the storyline to resolve them.
@@ -2430,7 +2420,7 @@ The Bottomless Pit ability resolves. It tries to kill the Apprentice Wizard and 
 
 If a specific event has started to resolve and got split up (per the ((Splitting Events on the Storyline)) rules), that event will continue to resolve even if the source leaves the realm.
 
-[Codex Entry](https://curiosa.io/codex?id=081fc13c-49fb-4893-90c1-1ba5324e6241)
+[Codex Entry](https://curiosa.io/codex/081fc13c-49fb-4893-90c1-1ba5324e6241)
 
 # Strike
 Strike simply means to deal damage equal to the unit's power. For example, if a [[Bosk Troll]] strikes, it strikes for 3 damage.
@@ -2454,7 +2444,7 @@ Some effects care about a unit's "next strike" or "the next time it strikes."  I
 
 Note that this is different from attacking while there are multiple defenders. In that case, the attacker makes a single strike, and the damage is split among the defenders.
 
-[Codex Entry](https://curiosa.io/codex?id=8bb6e5a1-6989-4ec1-98d7-ef50283cccf6)
+[Codex Entry](https://curiosa.io/codex/8bb6e5a1-6989-4ec1-98d7-ef50283cccf6)
 
 # Stronger, Strongest, Weaker, Weakest
 Effects with these terms compare the power of two or more units:
@@ -2468,7 +2458,7 @@ In the case of ties for Strongest and Weakest, the active player chooses.
 
 When comparing a minion with split power, use the average of their attack power and defense power, rounding down.
 
-[Codex Entry](https://curiosa.io/codex?id=dcf0d619-240b-4529-b98a-0494075ea666)
+[Codex Entry](https://curiosa.io/codex/dcf0d619-240b-4529-b98a-0494075ea666)
 
 # Submerge
 **Keyword Ability. **A minion with Submerge can be summoned to underwater locations and survive underwater.
@@ -2479,14 +2469,14 @@ For example, [[Coral-reef Kelpie]] can be summoned underwater to one of your wat
 
 To "submerge" means to move from the surface to the underwater of a water site. When an effect "submerges" a card, you forcefully move that card from the surface to underwater, even if it doesn't have the Submerge ability. If an effect tries to forcefully submerge (e.g. [[Drown]]) a card that occupies at least one land site, the effect fails.
 
-[Codex Entry](https://curiosa.io/codex?id=aaa76e05-0cbc-4114-ad1c-411eeec89eea)
+[Codex Entry](https://curiosa.io/codex/aaa76e05-0cbc-4114-ad1c-411eeec89eea)
 
 # Subsurface
 The bottom layer of a site. The subsurface of a water site is underwater. The subsurface of a land site is underground.
 
 Void squares do not have a subsurface (or surface).
 
-[Codex Entry](https://curiosa.io/codex?id=41587ac6-6bf0-49eb-b6d5-988a96256933)
+[Codex Entry](https://curiosa.io/codex/41587ac6-6bf0-49eb-b6d5-988a96256933)
 
 # Subtypes
 Subtypes provide additional theme and flavor for a card. Subtypes are capitalized and shown in the card's typeline. For example, the card [[Roaming Monster]] has the "Monster" subtype.
@@ -2495,7 +2485,7 @@ In general, subtypes have no inherent game effect, but other cards may refer to 
 
 Artifacts have two special subtypes ("((Automaton))", "((Monument))") that do have inherent game rules. See the those codex entries for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=951f9481-d26e-4c81-9a4f-168863efc22e)
+[Codex Entry](https://curiosa.io/codex/951f9481-d26e-4c81-9a4f-168863efc22e)
 
 # Summon
 Summon means "enter the realm," for minions. When you cast a minion spell, the result is that you summon that minion, following normal restrictions about casting spells.
@@ -2508,14 +2498,14 @@ If a summon effect does not specify where the summoned minion appears, e.g. [[Ra
 
 If you try to summon a minion to a location that it can't enter, e.g. [[Gnome Hollows]], it doesn't change zones and remains where it was.
 
-[Codex Entry](https://curiosa.io/codex?id=679db7d7-3cb3-4655-b84b-53c4bd6ed637)
+[Codex Entry](https://curiosa.io/codex/679db7d7-3cb3-4655-b84b-53c4bd6ed637)
 
 # Summoning Sickness
 A minion that entered the realm this turn, whether from being cast or from another card’s effect, suffers from ))summoning(( sickness until the end of turn. A minion suffering from ))summoning(( sickness cannot tap, or be tapped, to pay for costs associated with any ability. This includes any additional abilities that may have been granted by spells and artifacts.
 
 When you summon a minion on your turn, it enters play untapped, so you may use it to defend on your opponent’s turn.
 
-[Codex Entry](https://curiosa.io/codex?id=6d43aa10-e794-463a-a5ea-93e6f0807e00)
+[Codex Entry](https://curiosa.io/codex/6d43aa10-e794-463a-a5ea-93e6f0807e00)
 
 # Surface
 Surface has two meanings in Sorcery! Sorry about that! English is tricky.
@@ -2526,14 +2516,14 @@ Surface as a verb means "to move up from underwater," as in "surface the submerg
 
 Void squares do not have a surface (or subsurface).
 
-[Codex Entry](https://curiosa.io/codex?id=044f9fc4-dea9-4fe0-9c17-6db00bd5e361)
+[Codex Entry](https://curiosa.io/codex/044f9fc4-dea9-4fe0-9c17-6db00bd5e361)
 
 # Tap
 Units in the realm can be tapped as a cost to activate various abilities. A player may also need to tap a unit as a cost related to spells or abilities on other cards. A minion with summoning sickness cannot tap or be tapped to pay costs (but may be tapped directly by other effects, e.g. [[Grievous Insult]]).
 
 To tap a card, turn a it 90° to the right, from an upright position. Only untapped units in the realm can be tapped.
 
-[Codex Entry](https://curiosa.io/codex?id=4b73c89d-914a-4911-a73b-1ae905e4a398)
+[Codex Entry](https://curiosa.io/codex/4b73c89d-914a-4911-a73b-1ae905e4a398)
 
 # Target
 A target is the chosen object of a spell or effect. A spell or effect that targets will and must use the word "target." Choosing a target is required. For example, [[Arc Lightning]] has a target of a "nearby unit" and [[Red Desert]] has a target of "nearby site."
@@ -2546,12 +2536,12 @@ You must declare a legal target as the effect goes on the storyline, and the leg
 
 See "((Casting Magics))" for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=98943611-2a6f-4756-ad9b-a7d6598e9729)
+[Codex Entry](https://curiosa.io/codex/98943611-2a6f-4756-ad9b-a7d6598e9729)
 
 # Tawny
 Tawny is a token minion with 1 power. She is a Unique Beast with "Airborne, Spellcaster, Can’t defend." Tawny is an ((air)) minion. See [[Druid]].
 
-[Codex Entry](https://curiosa.io/codex?id=6abfe680-2378-4bff-bd76-ecc07dc4439a)
+[Codex Entry](https://curiosa.io/codex/6abfe680-2378-4bff-bd76-ecc07dc4439a)
 
 # Teleport
 Teleportation is forced movement directly from one location to another. Teleportation does not cross borders, and does not have a defined cardinal direction (even if the two locations are in the same row or column). 
@@ -2562,12 +2552,12 @@ Teleportation from the same location to itself is not movement at all; in that c
 
 See the "Oversized Units" codex entry for more details on teleportation with oversized units.
 
-[Codex Entry](https://curiosa.io/codex?id=148ecc13-72e8-46eb-812f-2c6f3b37cd6d)
+[Codex Entry](https://curiosa.io/codex/148ecc13-72e8-46eb-812f-2c6f3b37cd6d)
 
 # The Golden Rule
 The Golden Rule of _Sorcery_ is that some text is intentionally informal or necessarily compact. Use common sense and be cool.
 
-[Codex Entry](https://curiosa.io/codex?id=71a4d703-f2d0-4b24-a90c-1a6f1339731d)
+[Codex Entry](https://curiosa.io/codex/71a4d703-f2d0-4b24-a90c-1a6f1339731d)
 
 # The Silver Rule
 When card text and rules text conflict, specific card text takes precedence when there is a direct conflict. See also the "Can vs. Can't" codex entry.
@@ -2579,7 +2569,7 @@ The priority from highest to lowest is:
 3. Rules text that says you "can't" do something.
 4. Rules text that says you "can" do something.
 
-[Codex Entry](https://curiosa.io/codex?id=12353d52-055e-4ac0-8ebc-ddb557760ebb)
+[Codex Entry](https://curiosa.io/codex/12353d52-055e-4ac0-8ebc-ddb557760ebb)
 
 # There
 "There" refers to the location(s) that the card occupies. For most cards, such as minions and artifacts, that means one location. For example, [[Backstab]]'s use of "there" means the adjacent location of the tapped minion.
@@ -2590,7 +2580,7 @@ For sites, "there" includes both the site's surface location and it's subsurface
 
 "There" is analogous to "here."
 
-[Codex Entry](https://curiosa.io/codex?id=91fbd78b-46d3-4497-890f-4796e4ee9310)
+[Codex Entry](https://curiosa.io/codex/91fbd78b-46d3-4497-890f-4796e4ee9310)
 
 # Token
 Token cards are equivalent to normal cards while in the realm. If they would ever leave the realm, they are banished instead. Tokens have a default cost of zero, though if the token is a copy of another card it will copy that card's characteristics. Players may use anything they wish to represent tokens, as long as the game state is clear.
@@ -2612,7 +2602,7 @@ Typical token artifacts include:
 
 - Lance
 
-[Codex Entry](https://curiosa.io/codex?id=c0a4c32b-5894-4821-ae03-172b1358d5d9)
+[Codex Entry](https://curiosa.io/codex/c0a4c32b-5894-4821-ae03-172b1358d5d9)
 
 # Top
 "Top" can have two different meanings in _Sorcery_, depending on context.
@@ -2621,14 +2611,14 @@ When referring to your deck, top or topmost simply means the top card of the dec
 
 When referring to the realm, top means the row farthest from you. For example, [[Polar Explorers]].
 
-[Codex Entry](https://curiosa.io/codex?id=ac0d8c13-08c4-40b4-8acd-1c50d9d22392)
+[Codex Entry](https://curiosa.io/codex/ac0d8c13-08c4-40b4-8acd-1c50d9d22392)
 
 # Top Border
 The "top border" of a site is the border farthest from your starting edge. This is relevant for a few cards like [[Perilous Bridge]].
 
 "Top border" is player-relative. If the control of such a card changes, the direction it perceives as "top border" will also change.
 
-[Codex Entry](https://curiosa.io/codex?id=be294849-d2dd-494d-9ab3-e3d18fec3f79)
+[Codex Entry](https://curiosa.io/codex/be294849-d2dd-494d-9ab3-e3d18fec3f79)
 
 # Tournament Rules
 _Sorcery_ is intended to be played in whatever way you and your friends find most enjoyable!
@@ -2639,7 +2629,7 @@ For example, one such setup rule is that after mulligans, the second player may 
 
 Please check with the tournament organizer of any events you attend to ensure you understand the rules that will be in effect, and most importantly, have fun!
 
-[Codex Entry](https://curiosa.io/codex?id=c50ff53f-9b65-4695-8cf5-082a2a890106)
+[Codex Entry](https://curiosa.io/codex/c50ff53f-9b65-4695-8cf5-082a2a890106)
 
 # Transform
 When a card transforms, its printed abilities and characteristics change to match its new form, but it is otherwise the same game object. That means the new form does not "enter the realm" and does not trigger any "enter the realm" effects like Genesis - it was there all along! Furthermore, since the new form doesn't enter the realm, it will not suffer from summoning sickness, assuming the old form didn't enter the realm this turn.
@@ -2662,7 +2652,7 @@ Note that Stealth and Ward, though a printed keyword on many cards, are tracked 
 
 Finally, if you Shapeshift a minion into a new form with the printed Stealth or Ward keyword, Stealth and Ward will not trigger since they are an "enters the realm" effect. You only get the Stealth mark or Ward mark when the minion enters the realm, and it's not entering the realm when transforming.
 
-[Codex Entry](https://curiosa.io/codex?id=c27cbd3f-39d3-46b0-8133-37063e86df7e)
+[Codex Entry](https://curiosa.io/codex/c27cbd3f-39d3-46b0-8133-37063e86df7e)
 
 # Traverse
 Traverse means to move through a border. For example, [[Wall of Brambles]] specifies that it sits atop a border of a site. [[Perilous Bridge]] has a passive ability which affects its top border.
@@ -2672,7 +2662,7 @@ To move through a border, a unit must take a step which causes it to enter a loc
 ## On the Ground
 Some effects use the phrase "traverse on the ground," e.g. [[Wall of Brambles]]. To "traverse on the ground," a unit must move from the surface of a site to the surface of another site, excluding Airborne and Teleportation.
 
-[Codex Entry](https://curiosa.io/codex?id=aed3e6b7-726e-4fb7-9017-d95128b9a976)
+[Codex Entry](https://curiosa.io/codex/aed3e6b7-726e-4fb7-9017-d95128b9a976)
 
 # Triggered Ability
 A triggered ability specifies a condition and then an effect. Triggered abilities use words such as “when,” “whenever,” and “at [a specified moment].” For example, [[Scourge Zombies]] have a triggered ability.
@@ -2681,7 +2671,7 @@ If the act of removing a triggered ability would satisfy its trigger condition, 
 
 - For example: If you play [[Fields of Phyxis]] in front of [[Vindictive Nation]], Vindictive Nation will be silenced but its ability will still trigger and cause life loss.
 
-[Codex Entry](https://curiosa.io/codex?id=511a6488-28f7-420b-80c4-fcf94993d050)
+[Codex Entry](https://curiosa.io/codex/511a6488-28f7-420b-80c4-fcf94993d050)
 
 # Turn Overview
 Your turn has three phases:
@@ -2690,24 +2680,24 @@ Your turn has three phases:
 2. Main phase
 3. End phase
 
-[Codex Entry](https://curiosa.io/codex?id=ddc92a09-aa5d-4a86-9a01-a8cacad61871)
+[Codex Entry](https://curiosa.io/codex/ddc92a09-aa5d-4a86-9a01-a8cacad61871)
 
 # Unburrow
 Unburrow means "to move up from underground." For example, [[Mudflow]].
 
-[Codex Entry](https://curiosa.io/codex?id=40c4adc8-67f9-4b21-8c3f-4f1532f3f1dc)
+[Codex Entry](https://curiosa.io/codex/40c4adc8-67f9-4b21-8c3f-4f1532f3f1dc)
 
 # Uncontrolled
 Some cards in the realm are uncontrolled, meaning that neither player controls them. For example, a carriable artifact that's not currently being carried is uncontrolled.
 
 If an uncontrolled card has a trigger, e.g. [[Angel's Egg]], the owner of the card orders the trigger with other effects they control, as needed.
 
-[Codex Entry](https://curiosa.io/codex?id=bae0959e-002a-4b58-9d3f-858c8e94093e)
+[Codex Entry](https://curiosa.io/codex/bae0959e-002a-4b58-9d3f-858c8e94093e)
 
 # Under
 At the subsurface of a site (not void).
 
-[Codex Entry](https://curiosa.io/codex?id=d586e5ef-a605-4364-81c5-82e27f5df3eb)
+[Codex Entry](https://curiosa.io/codex/d586e5ef-a605-4364-81c5-82e27f5df3eb)
 
 # Underground
 The subsurface of land sites.
@@ -2716,7 +2706,7 @@ Whenever a minion without Burrowing occupies an underground location, it immedia
 
 Underground is one of the four regions in the realm.
 
-[Codex Entry](https://curiosa.io/codex?id=018ccca1-61ce-47fc-8cf2-ad8c5740928b)
+[Codex Entry](https://curiosa.io/codex/018ccca1-61ce-47fc-8cf2-ad8c5740928b)
 
 # Underwater
 The subsurface of water sites.
@@ -2725,17 +2715,17 @@ Whenever a minion without Submerge occupies an underwater location, it immediate
 
 Underwater is one of the four regions in the realm.
 
-[Codex Entry](https://curiosa.io/codex?id=da576642-eda0-4a44-98ed-e571f9f9a45e)
+[Codex Entry](https://curiosa.io/codex/da576642-eda0-4a44-98ed-e571f9f9a45e)
 
 # Unit
 A unit is a collective term that includes Avatars **and** minions. Some cards might specify only minions, or only Avatars, but many cards affect units in general.
 
-[Codex Entry](https://curiosa.io/codex?id=23d11ec6-41b3-42b7-9b44-23e881f7e780)
+[Codex Entry](https://curiosa.io/codex/23d11ec6-41b3-42b7-9b44-23e881f7e780)
 
 # Untap
 To untap a card, turn it upright.  Even though only units can tap, all of your cards in the realm untap during your Start phase (i.e. if they were previously units and are now no longer units, they still untap).
 
-[Codex Entry](https://curiosa.io/codex?id=28aa5f89-96ed-4d96-8276-578f65920d8b)
+[Codex Entry](https://curiosa.io/codex/28aa5f89-96ed-4d96-8276-578f65920d8b)
 
 # Updated Cards
 A few cards have updated rules text that does not match the printed text. These cards have the "UPDATED:" label on curiosa.io and players should use the updated text.
@@ -2770,7 +2760,7 @@ The majority of updates have been made for rules clarity and design intent, ofte
 - [[Torshammar Trinket]] - The Trinket returns to hand after the turn ends, i.e., after damage has been healed. Also, it will return to hand from the realm even if it's not controlled by anyone. This matches design intent and how players have been playing it.
 - [[Truesight Crossbow]] - With truesight, projectiles will hit minions with Stealth, even though hitting with a projectile doesn't target. (In an older version of the rules, Stealth didn't provide protection from projectiles.)
 
-[Codex Entry](https://curiosa.io/codex?id=bff36deb-d447-49d9-b909-d64417f6e045)
+[Codex Entry](https://curiosa.io/codex/bff36deb-d447-49d9-b909-d64417f6e045)
 
 # Void
 A square without a site is a void. Minions in the void are immediately banished unless they have Voidwalk.
@@ -2779,7 +2769,7 @@ Unlike sites that have two locations (surface and subsurface), a void square onl
 
 Avatars in the void have a mandatory action.
 
-[Codex Entry](https://curiosa.io/codex?id=8371e6b3-dee7-4881-aa6b-063781c97be3)
+[Codex Entry](https://curiosa.io/codex/8371e6b3-dee7-4881-aa6b-063781c97be3)
 
 # Voidwalk
 **Keyword Ability. **A minion with Voidwalk can be summoned to void locations and survive in the void.
@@ -2790,7 +2780,7 @@ By using one step, a minion with Voidwalk can move between the surface of a site
 
 For example, [[Hounds of Ondaros]] can be summoned to any void location. Then, after their summoning sickness wore off, they could use their Move and Attack ability to take a step from the void directly to the subsurface of an adjacent site, or directly to the surface of an adjacent site. If they were underground (or underwater or on the surface), they could use their step to move to an adjacent void.
 
-[Codex Entry](https://curiosa.io/codex?id=b0d18273-8870-4c0b-a8dd-1bda6e75e6bf)
+[Codex Entry](https://curiosa.io/codex/b0d18273-8870-4c0b-a8dd-1bda6e75e6bf)
 
 # Ward
 **Keyword Ability. **If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
@@ -2819,7 +2809,7 @@ Further Notes:
    - Another example: My [[Abaddon Succubus]] tries to lure your warded minion. The Ward protects the minion and breaks. The protected minion does not take a step closer, does not take 2 damage, and I do not heal 2.
 - Note that Move and Attack is a Basic Ability, and thus Ward does not protect a unit from being attacked. For example, if I have a warded Apprentice Wizard, you ))can attack(( it. But, once we get to strikes in the attack sequence, assuming you actually strike for 1 or more damage, the Apprentice Wizard's Ward will break at that point, preventing the damage.
 
-[Codex Entry](https://curiosa.io/codex?id=ae9b6774-aa8f-45c5-a424-d6d7e58014c3)
+[Codex Entry](https://curiosa.io/codex/ae9b6774-aa8f-45c5-a424-d6d7e58014c3)
 
 # Water Site
 A water site is a site that provides one or more water affinity. If a site provides water affinity and other types of affinity (e.g. earth), it's still a water site (and not a land site).
@@ -2828,36 +2818,36 @@ If a site previously provided water affinity and then stops providing water affi
 
 "Land site" and "water site" are mutually exclusive. A site cannot be both a water site and a land site; it will always be one or the other.
 
-[Codex Entry](https://curiosa.io/codex?id=9f36ba9a-8139-46c7-b322-451ba5c08118)
+[Codex Entry](https://curiosa.io/codex/9f36ba9a-8139-46c7-b322-451ba5c08118)
 
 # Waterbound
 **Keyword Ability. **This minion is disabled while not occupying at least one water location. The waterbound ability persists even when disabled.
 
-[Codex Entry](https://curiosa.io/codex?id=00c82dd7-d184-4a34-adf7-45a9bf9f3f70)
+[Codex Entry](https://curiosa.io/codex/00c82dd7-d184-4a34-adf7-45a9bf9f3f70)
 
 # When it Arrives
 Some effects use the phrase "when it arrives." For example, ((Grapple Shot)). A card "arrives" when it shares a location with the origin of the effect, after resolving movement, if any. If no movement occurs, but the card shares a location with the origin of the effect, it still "arrives."
 
-[Codex Entry](https://curiosa.io/codex?id=ba6ffd23-34eb-400c-b57f-aa0344194320)
+[Codex Entry](https://curiosa.io/codex/ba6ffd23-34eb-400c-b57f-aa0344194320)
 
 # Winning the Game
 You win the game if you deal a death blow to your opponent's avatar, or if your opponent attempts to draw a card from an empty deck.
 
 There may be other effects that cause you to win the game, e.g. [[Wedding Hall]].
 
-[Codex Entry](https://curiosa.io/codex?id=48bee2d2-6d32-466f-b4fe-6c3178cb6ba4)
+[Codex Entry](https://curiosa.io/codex/48bee2d2-6d32-466f-b4fe-6c3178cb6ba4)
 
 # Wounded
 A wounded minion is one that has damage (from this turn). A wounded Avatar is one that has current life less than its maximum life.
 
-[Codex Entry](https://curiosa.io/codex?id=65b32de9-b4a3-48e4-90ee-98cf67d4f2a6)
+[Codex Entry](https://curiosa.io/codex/65b32de9-b4a3-48e4-90ee-98cf67d4f2a6)
 
 # You
 "You" and "your" in card text refers to the player. For example, [[Sparkmage]] cares about "spells you've cast," which includes any spells from any of your spellcasters. As another example, [[Bone Rabble]] would trigger if you used your Avatar's ability or if you used [[Frontier Settlers]].
 
 Some older cards use the word "you" to mean "your avatar." _If it's impossible to read the card as "player" in a sensible way,_ then use "avatar" instead. For example, [[Cerberus in Chains]] follows your avatar and [[Avatar of Earth]] looks at her own adjacent sites.
 
-[Codex Entry](https://curiosa.io/codex?id=ab3da2d7-1bc7-414d-9737-68ce4cb79525)
+[Codex Entry](https://curiosa.io/codex/ab3da2d7-1bc7-414d-9737-68ce4cb79525)
 
 # Zero
 In _Sorcery, _if there is zero of something, the game considers that thing to not exist at all. For example:
@@ -2874,7 +2864,7 @@ There are two notable exceptions:
 
 A spell cast for zero mana does not require any mana at all to cast, but it still counts as a cast spell.
 
-[Codex Entry](https://curiosa.io/codex?id=d6cf9596-0204-4e4b-bb8a-ba706169061b)
+[Codex Entry](https://curiosa.io/codex/d6cf9596-0204-4e4b-bb8a-ba706169061b)
 
 # Zone
 A zone is a general area where a card can exist. Game zones include:
@@ -2892,4 +2882,4 @@ Each player may view the cards in their own hand and collection.
 
 Cards in the spellbook and atlas are face-down, and thus not visible to any player.
 
-[Codex Entry](https://curiosa.io/codex?id=837a1f64-a5b0-4ce2-b973-6fb118711774)
+[Codex Entry](https://curiosa.io/codex/837a1f64-a5b0-4ce2-b973-6fb118711774)

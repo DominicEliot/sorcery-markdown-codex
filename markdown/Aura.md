@@ -12,4 +12,4 @@ For example, a [[Thunderstorm]] moves itself with its end-of-turn ability. It ca
 
 This only applies to non-minion auras. See "Cards with Multiple Types" for details on Aura Minions.
 
-[Codex Entry](https://curiosa.io/codex?id=1c5c02a4-586e-4bfd-99ce-11e9230ed140)
+[Codex Entry](https://curiosa.io/codex/1c5c02a4-586e-4bfd-99ce-11e9230ed140)

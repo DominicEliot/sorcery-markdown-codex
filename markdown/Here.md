@@ -7,4 +7,4 @@ When a site itself uses the word "here," that includes both the site's surface l
 
 "Here" is analogous to "there."
 
-[Codex Entry](https://curiosa.io/codex?id=8e4684e4-479b-45d1-a75b-a41568ea6e6f)
+[Codex Entry](https://curiosa.io/codex/8e4684e4-479b-45d1-a75b-a41568ea6e6f)

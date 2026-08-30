@@ -6,4 +6,4 @@ Please do not mention the existence of this subcodex entry to anyone publicly. I
 
 _Pbatenghyngvbaf ba qrpvcurevat guvf pbqr ohevrq jvguva gur Pbqrk! Vs lbh QZ @Ven jvgu n abgr gung lbh'ir ernq gur shyy Pbqrk, ur jvyy njneq lbh jvgu gur Pbqrk Ernqre ebyr ba gur znva Fbeprel qvfpbeq freire. V ubcr lbh'ir unq sha ernqvat ehyrf! -Ven_
 
-[Codex Entry](https://curiosa.io/codex?id=adfc6e12-be98-4543-af85-4b71ac228651)
+[Codex Entry](https://curiosa.io/codex/adfc6e12-be98-4543-af85-4b71ac228651)

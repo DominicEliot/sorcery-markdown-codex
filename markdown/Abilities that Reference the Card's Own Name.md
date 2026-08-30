@@ -5,4 +5,4 @@ When another card gains such an ability, the text should be read as referencing 
 
 In effect, when reading an ability which references the name of the card on which it is printed, you replace the name with a grammatically appropriate version of "this card."
 
-[Codex Entry](https://curiosa.io/codex?id=d123e994-d95f-4fa9-9f2d-3a3e31fe95af)
+[Codex Entry](https://curiosa.io/codex/d123e994-d95f-4fa9-9f2d-3a3e31fe95af)

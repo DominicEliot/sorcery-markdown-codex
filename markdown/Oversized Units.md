@@ -127,4 +127,4 @@ When shooting a projectile, an oversized unit chooses one of its locations and t
 
 _See live codex for table_
 
-[Codex Entry](https://curiosa.io/codex?id=7f57fe26-eac3-45a4-b449-994fef47d872)
+[Codex Entry](https://curiosa.io/codex/7f57fe26-eac3-45a4-b449-994fef47d872)

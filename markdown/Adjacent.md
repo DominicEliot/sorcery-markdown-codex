@@ -11,4 +11,4 @@ When referring to **adjacent sites**, **adjacent voids**, or **adjacent squares*
 
 **For all other references to adjacent**, such as adjacent locations, adjacent minions, adjacent artifact, etc., _regional boundaries must be respected and cannot be crossed_. For example, if a minion with Voidwalk was attacked while at a site and then played [[Dodge Roll]], it could not move to a void square because "adjacent location" cannot cross a regional boundary.
 
-[Codex Entry](https://curiosa.io/codex?id=1d3363e4-3b12-46fb-99d9-f4319967f484)
+[Codex Entry](https://curiosa.io/codex/1d3363e4-3b12-46fb-99d9-f4319967f484)

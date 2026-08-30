@@ -5,4 +5,4 @@ If the act of removing a triggered ability would satisfy its trigger condition, 
 
 - For example: If you play [[Fields of Phyxis]] in front of [[Vindictive Nation]], Vindictive Nation will be silenced but its ability will still trigger and cause life loss.
 
-[Codex Entry](https://curiosa.io/codex?id=511a6488-28f7-420b-80c4-fcf94993d050)
+[Codex Entry](https://curiosa.io/codex/511a6488-28f7-420b-80c4-fcf94993d050)

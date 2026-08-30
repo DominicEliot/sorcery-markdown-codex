@@ -18,4 +18,4 @@ Typical token artifacts include:
 
 - Lance
 
-[Codex Entry](https://curiosa.io/codex?id=c0a4c32b-5894-4821-ae03-172b1358d5d9)
+[Codex Entry](https://curiosa.io/codex/c0a4c32b-5894-4821-ae03-172b1358d5d9)

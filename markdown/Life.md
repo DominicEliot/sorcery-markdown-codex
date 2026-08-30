@@ -5,4 +5,4 @@ An avatar’s maximum life is the value printed on their card (typically 20), an
 
 When an avatar reaches zero life, it is on Death's Door.
 
-[Codex Entry](https://curiosa.io/codex?id=f8cfde2b-b0e8-4052-a48d-6010454e3a7d)
+[Codex Entry](https://curiosa.io/codex/f8cfde2b-b0e8-4052-a48d-6010454e3a7d)

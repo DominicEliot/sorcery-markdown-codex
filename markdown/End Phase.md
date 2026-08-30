@@ -8,4 +8,4 @@ The end phase is the last phase during your turn.
 
 Your turn is now over. Anything that triggers "after each turn" resolves now.
 
-[Codex Entry](https://curiosa.io/codex?id=6a0eced9-82ad-48cd-87d7-77d2de0db9bd)
+[Codex Entry](https://curiosa.io/codex/6a0eced9-82ad-48cd-87d7-77d2de0db9bd)

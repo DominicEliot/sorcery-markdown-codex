@@ -5,4 +5,4 @@ You use this mana to cast spells or activate abilities. During step 3 of the end
 
 You may not generate mana on your opponent's turn.
 
-[Codex Entry](https://curiosa.io/codex?id=72e711f6-ced0-4ff0-8386-e380e628f06f)
+[Codex Entry](https://curiosa.io/codex/72e711f6-ced0-4ff0-8386-e380e628f06f)

@@ -10,4 +10,4 @@ A unit "interacts" with the realm if it does any of the following things:
 
 If a unit's damage-dealing triggered ability (e.g. [[Infernal Legion]], [[Colicky Dragonettes]], [[Redbreast Robin]], etc.) doesn't actually hit anything, it has not interacted with the realm. If it hit something (whether or not damage was prevented), then it has interacted.
 
-[Codex Entry](https://curiosa.io/codex?id=c60b2516-48e8-4c55-9bc9-9971d98d829e)
+[Codex Entry](https://curiosa.io/codex/c60b2516-48e8-4c55-9bc9-9971d98d829e)

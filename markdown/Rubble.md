@@ -3,4 +3,4 @@ Rubble is a Ordinary site token with the ability "Provides no mana." It also has
 
 When a site would enter the realm, it may replace a Rubble as if the Rubble were a void, following all other normal site placement rules. In all other ways, Rubble is treated the same as any other site. For example, because it has no water affinity, it is a land site.
 
-[Codex Entry](https://curiosa.io/codex?id=1a435965-bf30-4c8e-8cd7-086e1ae44017)
+[Codex Entry](https://curiosa.io/codex/1a435965-bf30-4c8e-8cd7-086e1ae44017)

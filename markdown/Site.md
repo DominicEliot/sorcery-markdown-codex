@@ -19,4 +19,4 @@ When cards refer to "adjacent site" or "nearby site," see ((adjacent)) and ((nea
 
 Some effects cause sites to ))move(( to another square. When this happens, everything of normal size is carried along with the site. Anything that is carried along with the site does not count as ((moving)) and does not ((enter)) the site or location. 
 
-[Codex Entry](https://curiosa.io/codex?id=5e633a96-c807-4915-be05-e83cacfcbfd6)
+[Codex Entry](https://curiosa.io/codex/5e633a96-c807-4915-be05-e83cacfcbfd6)

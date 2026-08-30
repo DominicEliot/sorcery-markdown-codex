@@ -6,4 +6,4 @@ To move through a border, a unit must take a step which causes it to enter a loc
 ## On the Ground
 Some effects use the phrase "traverse on the ground," e.g. [[Wall of Brambles]]. To "traverse on the ground," a unit must move from the surface of a site to the surface of another site, excluding Airborne and Teleportation.
 
-[Codex Entry](https://curiosa.io/codex?id=aed3e6b7-726e-4fb7-9017-d95128b9a976)
+[Codex Entry](https://curiosa.io/codex/aed3e6b7-726e-4fb7-9017-d95128b9a976)

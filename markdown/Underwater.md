@@ -5,4 +5,4 @@ Whenever a minion without Submerge occupies an underwater location, it immediate
 
 Underwater is one of the four regions in the realm.
 
-[Codex Entry](https://curiosa.io/codex?id=da576642-eda0-4a44-98ed-e571f9f9a45e)
+[Codex Entry](https://curiosa.io/codex/da576642-eda0-4a44-98ed-e571f9f9a45e)

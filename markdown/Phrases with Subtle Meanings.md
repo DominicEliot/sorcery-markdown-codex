@@ -29,4 +29,4 @@ Sorcery cards use natural, thematic language. Some words and phrases have differ
 - Draw vs. "Put into your hand"
    - If you put a card directly into your hand, you have not drawn it.
 
-[Codex Entry](https://curiosa.io/codex?id=1a4a88c5-0dcf-4af3-92ba-6d8018178a4e)
+[Codex Entry](https://curiosa.io/codex/1a4a88c5-0dcf-4af3-92ba-6d8018178a4e)

@@ -11,4 +11,4 @@ By default, an effect with a damage grid may be oriented so that the grid is par
 
 Damage grids do not inherently target sites or locations in the grid; effects will use the word "target" if they actually target a site or location.
 
-[Codex Entry](https://curiosa.io/codex?id=015d636e-716c-450e-9e17-abef557f3e4c)
+[Codex Entry](https://curiosa.io/codex/015d636e-716c-450e-9e17-abef557f3e4c)

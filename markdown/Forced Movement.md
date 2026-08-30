@@ -15,4 +15,4 @@ The guiding principle for forced movement is whether or not the unit is taking t
 
 Unless specified by card text, forced movement cannot cause a card to change regions (except for teleportation, which can change regions by default).
 
-[Codex Entry](https://curiosa.io/codex?id=8ffdae56-1aef-44f7-b9af-cdcbc334a377)
+[Codex Entry](https://curiosa.io/codex/8ffdae56-1aef-44f7-b9af-cdcbc334a377)

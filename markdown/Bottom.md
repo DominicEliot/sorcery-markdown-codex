@@ -5,4 +5,4 @@ When referring to your deck, bottom or bottommost simply means the bottom card o
 
 When referring to the realm, bottom means the row closest to you. For example, [[Polar Explorers]].
 
-[Codex Entry](https://curiosa.io/codex?id=53d7e6bf-1f13-4f24-b290-9e213282968a)
+[Codex Entry](https://curiosa.io/codex/53d7e6bf-1f13-4f24-b290-9e213282968a)

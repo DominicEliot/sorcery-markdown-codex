@@ -5,4 +5,4 @@ By default, you may choose which card to discard, though many effects will tell 
 
 Cards that are in zones other than a player's hand cannot be discarded, unless explicitly stated. For example, if you summon a [[Dreadwing]], you cannot discard a card from [[Morgana le Fay]]'s hand to pay for its effect.
 
-[Codex Entry](https://curiosa.io/codex?id=adee8b2b-40ba-4231-874d-df4790483730)
+[Codex Entry](https://curiosa.io/codex/adee8b2b-40ba-4231-874d-df4790483730)

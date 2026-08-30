@@ -63,4 +63,4 @@ Units can technically tap to use their Move and Attack ability without moving an
 
 For example, you have untapped [[Amazon Warriors]] and I have an [[Autumn Unicorn]] at the same location. If I tap my [[Autumn Unicorn]] to use its Move and Attack basic ability, then decline to move and decline to attack, your Amazon Warriors may tap to Intercept.
 
-[Codex Entry](https://curiosa.io/codex?id=eb6018eb-554d-44af-9627-7c636cef7583)
+[Codex Entry](https://curiosa.io/codex/eb6018eb-554d-44af-9627-7c636cef7583)

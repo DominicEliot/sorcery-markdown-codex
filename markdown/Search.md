@@ -7,4 +7,4 @@ When returning cards you have searched through to the top or bottom of a deck, s
 
 Some search effects say "shuffle if needed."  This is usually because the effect gives you the option to search a private zone, and/or public ones.  If you choose to search a private zone, you must shuffle afterward, but if you only search a public zone, you do not shuffle.  For instance, if you use [[Adept Illusionist]]'s ability to summon another copy from your cemetery and do not search your spellbook, you do not shuffle your spellbook.
 
-[Codex Entry](https://curiosa.io/codex?id=fc2e5653-d210-4ba9-9280-57f2baeaedfd)
+[Codex Entry](https://curiosa.io/codex/fc2e5653-d210-4ba9-9280-57f2baeaedfd)

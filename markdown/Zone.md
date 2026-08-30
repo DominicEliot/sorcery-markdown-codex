@@ -14,4 +14,4 @@ Each player may view the cards in their own hand and collection.
 
 Cards in the spellbook and atlas are face-down, and thus not visible to any player.
 
-[Codex Entry](https://curiosa.io/codex?id=837a1f64-a5b0-4ce2-b973-6fb118711774)
+[Codex Entry](https://curiosa.io/codex/837a1f64-a5b0-4ce2-b973-6fb118711774)

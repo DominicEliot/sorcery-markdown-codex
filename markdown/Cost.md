@@ -14,4 +14,4 @@ To calculate the total cost of a spell or ability:
 
 Note that if you cast the spell "for free" or "for (0)," you do not pay any additional costs at all! For example, [[Deathspeaker]] on Death's Door near a [[Maddening Bells]] will still pay (0) to use the Deathspeaker's ability. See ((For Free)) in the Codex for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=a6a73d30-6b05-4402-b148-9eeaf88b4d0b)
+[Codex Entry](https://curiosa.io/codex/a6a73d30-6b05-4402-b148-9eeaf88b4d0b)

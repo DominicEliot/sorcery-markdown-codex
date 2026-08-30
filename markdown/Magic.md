@@ -5,4 +5,4 @@ Magics have characteristics, specifically ((magic characteristics)), and are one
 
 The "((Casting Magics))" entry has details on how to cast magic spells.
 
-[Codex Entry](https://curiosa.io/codex?id=98cf8f6c-b954-4a38-b749-f4572186556b)
+[Codex Entry](https://curiosa.io/codex/98cf8f6c-b954-4a38-b749-f4572186556b)

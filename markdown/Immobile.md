@@ -5,4 +5,4 @@ For example, if you use the Move and Attack basic ability, an Immobile unit can'
 
 Forced movement effects apply normally to Immobile units, so they can [[Blink]] or [[Grapple Shot]] like any other unit.
 
-[Codex Entry](https://curiosa.io/codex?id=7db6da14-a5eb-4dcf-8b3b-4ba4e3ecfbeb)
+[Codex Entry](https://curiosa.io/codex/7db6da14-a5eb-4dcf-8b3b-4ba4e3ecfbeb)

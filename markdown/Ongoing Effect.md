@@ -12,4 +12,4 @@ For example, you have a [[Bosk Troll]] that has taken 1 damage this turn. Then, 
 
 Therefore, between each event on the storyline, the game applies all ongoing effects before checking for minions dying.
 
-[Codex Entry](https://curiosa.io/codex?id=e598f1a7-a876-431c-a414-33e1893cd4d8)
+[Codex Entry](https://curiosa.io/codex/e598f1a7-a876-431c-a414-33e1893cd4d8)

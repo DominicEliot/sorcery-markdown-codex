@@ -3,4 +3,4 @@ To move "on the ground" means to start from the surface of a site and move to an
 
 This includes all types of sites, including water sites.
 
-[Codex Entry](https://curiosa.io/codex?id=0998a44b-f7ff-4a88-b66d-aaf14072e4b2)
+[Codex Entry](https://curiosa.io/codex/0998a44b-f7ff-4a88-b66d-aaf14072e4b2)

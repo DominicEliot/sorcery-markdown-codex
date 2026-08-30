@@ -3,4 +3,4 @@ A minion that entered the realm this turn, whether from being cast or from anoth
 
 When you summon a minion on your turn, it enters play untapped, so you may use it to defend on your opponent’s turn.
 
-[Codex Entry](https://curiosa.io/codex?id=6d43aa10-e794-463a-a5ea-93e6f0807e00)
+[Codex Entry](https://curiosa.io/codex/6d43aa10-e794-463a-a5ea-93e6f0807e00)

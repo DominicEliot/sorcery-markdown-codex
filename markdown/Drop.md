@@ -9,4 +9,4 @@ If the unit has the ability to carry other units (e.g. [[War Horse]]), then its 
 
 See the "Pick Up" and "Interact" codex entries for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=6f40e8ae-9b16-4a37-8401-ac5fa425cab1)
+[Codex Entry](https://curiosa.io/codex/6f40e8ae-9b16-4a37-8401-ac5fa425cab1)

@@ -13,4 +13,4 @@ If the projectile hits a unit, the ranged shooter strikes the hit unit. This fol
 
 Note that the ranged ability shoots a projectile that may hit a unit; it will not hit sites, and thus cannot damage sites in that way (use the Move and Attack ability instead).
 
-[Codex Entry](https://curiosa.io/codex?id=23eb6bf6-7bc3-4665-a9de-920e1c72a862)
+[Codex Entry](https://curiosa.io/codex/23eb6bf6-7bc3-4665-a9de-920e1c72a862)

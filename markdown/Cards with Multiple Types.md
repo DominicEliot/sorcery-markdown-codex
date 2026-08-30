@@ -12,4 +12,4 @@ When a card has multiple types, apply the following rules regarding characterist
       - Note that artifact minions _can_ be carried as a minion would be carried (e.g. [[War Horse]]).
    - Auras cannot carry artifacts. Minions can carry artifacts. Therefore, Aura minions can carry artifacts, since we give preference to the minion rules.
 
-[Codex Entry](https://curiosa.io/codex?id=6ff828a9-0337-42cd-bfa7-8605235a4dd0)
+[Codex Entry](https://curiosa.io/codex/6ff828a9-0337-42cd-bfa7-8605235a4dd0)

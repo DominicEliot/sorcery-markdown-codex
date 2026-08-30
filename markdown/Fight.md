@@ -8,4 +8,4 @@ When units fight, they strike each other. Apply the following sequence to resolv
 
 Whenever a unit is striking against multiple other units (for example, if there are multiple defenders), the controller decides how the strike damage is distributed. There is still only a single strike from that unit (though some of the struck units could be struck for zero damage).
 
-[Codex Entry](https://curiosa.io/codex?id=42987967-710c-48a3-b40e-1daaa47f8e91)
+[Codex Entry](https://curiosa.io/codex/42987967-710c-48a3-b40e-1daaa47f8e91)

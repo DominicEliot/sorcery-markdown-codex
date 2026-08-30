@@ -9,4 +9,4 @@ Oversized units that move as if connected and then find themselves spanning the 
 
 Forced movement effects do not cause units to take their own steps, and so they cannot cause a unit with such an ability to cross an edge of the realm. The only exception is if the edges of the realm are truly connected by some other effect (e.g. [[Magellan Globe]]).
 
-[Codex Entry](https://curiosa.io/codex?id=78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b)
+[Codex Entry](https://curiosa.io/codex/78dc99c6-354e-4bb0-86d6-e2f62bcb1e5b)

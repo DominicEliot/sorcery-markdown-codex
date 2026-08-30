@@ -7,4 +7,4 @@ For example, [[Coral-reef Kelpie]] can be summoned underwater to one of your wat
 
 To "submerge" means to move from the surface to the underwater of a water site. When an effect "submerges" a card, you forcefully move that card from the surface to underwater, even if it doesn't have the Submerge ability. If an effect tries to forcefully submerge (e.g. [[Drown]]) a card that occupies at least one land site, the effect fails.
 
-[Codex Entry](https://curiosa.io/codex?id=aaa76e05-0cbc-4114-ad1c-411eeec89eea)
+[Codex Entry](https://curiosa.io/codex/aaa76e05-0cbc-4114-ad1c-411eeec89eea)

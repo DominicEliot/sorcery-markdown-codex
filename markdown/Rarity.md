@@ -16,4 +16,4 @@ The highest level of rarity. You may include only 1 ))copy(( of a unique card (b
 ## Curios
 We don't talk about curios!
 
-[Codex Entry](https://curiosa.io/codex?id=5bf019ed-250f-43a8-b0c5-b5d38c48e585)
+[Codex Entry](https://curiosa.io/codex/5bf019ed-250f-43a8-b0c5-b5d38c48e585)

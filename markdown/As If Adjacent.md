@@ -5,4 +5,4 @@ If it matters, the controller of the movement effect decides the cardinal direct
 
 Units moving "as if adjacent" do not cross any borders. Therefore, a [[Waypoint Portal]] would allow you to circumvent a [[Wall of Ice]] or [[Great Wall]], which look for crossing borders.
 
-[Codex Entry](https://curiosa.io/codex?id=99016615-f793-4b58-89fe-44572cffa657)
+[Codex Entry](https://curiosa.io/codex/99016615-f793-4b58-89fe-44572cffa657)

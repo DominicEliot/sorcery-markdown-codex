@@ -5,4 +5,4 @@ Players may freely examine the contents of any cemetery at any time, and the ord
 
 Each cemetery is a zone in the game.
 
-[Codex Entry](https://curiosa.io/codex?id=5ea9c063-3158-4476-a261-04eb0a43d43e)
+[Codex Entry](https://curiosa.io/codex/5ea9c063-3158-4476-a261-04eb0a43d43e)

@@ -5,4 +5,4 @@ For example, a unit being moved by ))Avatar(( of Air's ability will be able to c
 
 If you fly a site somewhere, e.g. [[Cloud City]], treat all units occupying the site as if they had Airborne while the site moves.
 
-[Codex Entry](https://curiosa.io/codex?id=a679bc15-c028-430f-a84a-8b6556b33f0c)
+[Codex Entry](https://curiosa.io/codex/a679bc15-c028-430f-a84a-8b6556b33f0c)

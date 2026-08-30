@@ -5,4 +5,4 @@ For example, [[Tufted Turtle]] is a prevention effect. When applying damage to a
 
 For more details, see the "((Damage))" codex entry and subsections.
 
-[Codex Entry](https://curiosa.io/codex?id=05a7fdfc-6427-42d7-9ec6-9cefa7036fc9)
+[Codex Entry](https://curiosa.io/codex/05a7fdfc-6427-42d7-9ec6-9cefa7036fc9)

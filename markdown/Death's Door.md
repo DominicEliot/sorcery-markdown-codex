@@ -5,4 +5,4 @@ The moment you reach 0 life, you can't die that turn. After that single turn, an
 
 For example, on my turn, if I attack you and put you to death's door (e.g. 0 life), you cannot die for the rest of that turn. Then, on your turn and beyond, any damage to your avatar will be a death blow and I would win.
 
-[Codex Entry](https://curiosa.io/codex?id=8dd871eb-65ec-4f9a-be06-4e81e417d1a2)
+[Codex Entry](https://curiosa.io/codex/8dd871eb-65ec-4f9a-be06-4e81e417d1a2)

@@ -11,4 +11,4 @@ Units that can carry other units confer Airborne, Burrowing, Submerge, and/or Vo
 
 Carried units may take the Move and Attack action normally (once the Storyline is empty). Therefore, even if the carrying unit ))can't Drop(( that turn, the carried unit could still move themselves normally. For that first step, they will have any movement abilities conferred to them by being carried, which are lost as soon as they're no longer carried. For example, a Bosk Troll on a Phantom Steed in the void could step from the void onto the surface of an adjacent site, using the Voidwalk ability conferred to them by being carried. Once the Troll is on the surface of a site, it's no longer being carried by the Phantom Steed, but by that point it's safely out of the void and on the surface.
 
-[Codex Entry](https://curiosa.io/codex?id=5f6697d3-c0a4-42b3-b682-ce807b9e4cd4)
+[Codex Entry](https://curiosa.io/codex/5f6697d3-c0a4-42b3-b682-ce807b9e4cd4)

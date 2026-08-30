@@ -7,4 +7,4 @@ For clarity of game state, if you are using card sleeves, you should use differe
 
 Your hand is one of the zones in the game.
 
-[Codex Entry](https://curiosa.io/codex?id=0cfac092-e152-4b50-9eb6-c772a8e717b8)
+[Codex Entry](https://curiosa.io/codex/0cfac092-e152-4b50-9eb6-c772a8e717b8)

@@ -3,4 +3,4 @@ A passive ability creates an ongoing effect that is always active while the card
 
 A passive ability is one of the few ways that an ongoing effect can be created. See the "((ongoing effect))" codex entry for more details on how to handle multiple overlapping or conflicting ongoing effects.
 
-[Codex Entry](https://curiosa.io/codex?id=ac7557f6-356c-475f-8b0f-2e14abbb0ec6)
+[Codex Entry](https://curiosa.io/codex/ac7557f6-356c-475f-8b0f-2e14abbb0ec6)

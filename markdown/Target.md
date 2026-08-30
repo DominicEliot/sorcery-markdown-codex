@@ -9,4 +9,4 @@ You must declare a legal target as the effect goes on the storyline, and the leg
 
 See "((Casting Magics))" for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=98943611-2a6f-4756-ad9b-a7d6598e9729)
+[Codex Entry](https://curiosa.io/codex/98943611-2a6f-4756-ad9b-a7d6598e9729)

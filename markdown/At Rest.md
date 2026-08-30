@@ -13,4 +13,4 @@ It returns to being "at rest" after passive effects have been applied and the St
 - Units being carried by other units will not be at rest while being moved.
 - Units being forcefully moved by an effect like [[Grapple Shot]] or [[Windblast]] will not be at rest, since they’re being moved.
 
-[Codex Entry](https://curiosa.io/codex?id=a5c6422f-a641-4eb2-8f5b-874729c4da16)
+[Codex Entry](https://curiosa.io/codex/a5c6422f-a641-4eb2-8f5b-874729c4da16)

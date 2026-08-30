@@ -8,4 +8,4 @@ The priority from highest to lowest is:
 3. Rules text that says you "can't" do something.
 4. Rules text that says you "can" do something.
 
-[Codex Entry](https://curiosa.io/codex?id=12353d52-055e-4ac0-8ebc-ddb557760ebb)
+[Codex Entry](https://curiosa.io/codex/12353d52-055e-4ac0-8ebc-ddb557760ebb)

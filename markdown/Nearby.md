@@ -11,4 +11,4 @@ When referring to **nearby sites**, **nearby** **voids**, or **nearby squares** 
 
 **For all other references to nearby**, such as nearby locations, nearby minions, nearby artifact, etc., _regional boundaries must be respected and cannot be crossed_. For example, if [[Belfry]] is on a site, it will not untap allies in a nearby void, because "nearby ally" cannot cross a regional boundary.
 
-[Codex Entry](https://curiosa.io/codex?id=7de60b0a-855c-4bab-95a7-7e6f172ba4a0)
+[Codex Entry](https://curiosa.io/codex/7de60b0a-855c-4bab-95a7-7e6f172ba4a0)

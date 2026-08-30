@@ -5,4 +5,4 @@ To resolve the effect, add a counter at the end of each of your turns, and dispe
 
 If the aura is silenced during your end phase (presumably because it was animated by [[Enchantress]] and then silenced somehow), then no counter will be added that turn.
 
-[Codex Entry](https://curiosa.io/codex?id=3315e2bf-73f5-4db2-833f-ed25d0bbd260)
+[Codex Entry](https://curiosa.io/codex/3315e2bf-73f5-4db2-833f-ed25d0bbd260)

@@ -11,4 +11,4 @@ Non-units cannot carry artifacts. If a non-unit is somehow carrying an artifact,
 
 If a unit is forcefully moved, anything they're carrying moves with them, e.g. [[Bury]]. If a minion leaves the realm, anything they're carrying remains in the realm, e.g. [[Fey Changeling]], [[Cast into Exile]], [[Monster Hunter]].
 
-[Codex Entry](https://curiosa.io/codex?id=0071b464-5f55-4aaa-b959-f51ae80f902c)
+[Codex Entry](https://curiosa.io/codex/0071b464-5f55-4aaa-b959-f51ae80f902c)

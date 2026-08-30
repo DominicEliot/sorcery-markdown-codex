@@ -7,4 +7,4 @@ For sites, "there" includes both the site's surface location and it's subsurface
 
 "There" is analogous to "here."
 
-[Codex Entry](https://curiosa.io/codex?id=91fbd78b-46d3-4497-890f-4796e4ee9310)
+[Codex Entry](https://curiosa.io/codex/91fbd78b-46d3-4497-890f-4796e4ee9310)

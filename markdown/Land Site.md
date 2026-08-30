@@ -7,4 +7,4 @@ If a site provides water affinity and other types of affinity (e.g. earth), it's
 
 "Land site" and "water site" are mutually exclusive. A site cannot be both a water site and a land site; it will always be one or the other.
 
-[Codex Entry](https://curiosa.io/codex?id=9910f208-497c-4932-b382-9f14218fff3e)
+[Codex Entry](https://curiosa.io/codex/9910f208-497c-4932-b382-9f14218fff3e)

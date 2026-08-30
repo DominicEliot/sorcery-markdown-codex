@@ -22,4 +22,4 @@ Important note: If a minion loses Stealth for multiple reasons (e.g. activated a
 
 **Cast a spell:** Resolve the entire spell, including any Deathrites. Once the Storyline is empty, Stealth is lost.
 
-[Codex Entry](https://curiosa.io/codex?id=8dc27cdf-47d5-4d69-8724-c30efbe94158)
+[Codex Entry](https://curiosa.io/codex/8dc27cdf-47d5-4d69-8724-c30efbe94158)

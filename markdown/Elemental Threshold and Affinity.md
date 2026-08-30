@@ -10,4 +10,4 @@ There are four elemental thresholds:
 
 Unlike mana, you don't spend your affinity. It is merely a requirement you must meet to cast spells and use ability. For example, to cast [[Ancient Dragon]] with its three fire threshold (F)(F)(F), you must have three or more fire affinity. Some spells, often artifacts, have no threshold requirements to cast.
 
-[Codex Entry](https://curiosa.io/codex?id=fc149f73-4afe-425f-9e73-e8a42fad3e71)
+[Codex Entry](https://curiosa.io/codex/fc149f73-4afe-425f-9e73-e8a42fad3e71)

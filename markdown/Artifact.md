@@ -15,4 +15,4 @@ Automatons are artifacts that are minions. See "Cards With Multiple Types" in th
 ## Monument
 Monuments are an artifact subtype that cannot be carried. [[The Immortal Throne]] is an example of a monument.
 
-[Codex Entry](https://curiosa.io/codex?id=169db6b5-aae8-407e-ae7f-07206707a5eb)
+[Codex Entry](https://curiosa.io/codex/169db6b5-aae8-407e-ae7f-07206707a5eb)

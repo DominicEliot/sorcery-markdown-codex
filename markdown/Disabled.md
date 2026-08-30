@@ -9,4 +9,4 @@ If a site is disabled, it has no abilities and cannot provide any mana or affini
 
 If an artifact or aura is disabled, it has no abilities.
 
-[Codex Entry](https://curiosa.io/codex?id=08fff20b-76c1-45c3-b13f-989202cdacf0)
+[Codex Entry](https://curiosa.io/codex/08fff20b-76c1-45c3-b13f-989202cdacf0)

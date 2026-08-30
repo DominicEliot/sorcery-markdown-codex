@@ -3,4 +3,4 @@ Defender is the opposite of attacker. Any attacked _unit_ is considered a defend
 
 An attack is “undefended” only if there are no defenders (i.e. attacking a site).
 
-[Codex Entry](https://curiosa.io/codex?id=799f6239-a805-4574-8150-60ca963e9e78)
+[Codex Entry](https://curiosa.io/codex/799f6239-a805-4574-8150-60ca963e9e78)

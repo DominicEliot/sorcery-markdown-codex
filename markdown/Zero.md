@@ -13,4 +13,4 @@ There are two notable exceptions:
 
 A spell cast for zero mana does not require any mana at all to cast, but it still counts as a cast spell.
 
-[Codex Entry](https://curiosa.io/codex?id=d6cf9596-0204-4e4b-bb8a-ba706169061b)
+[Codex Entry](https://curiosa.io/codex/d6cf9596-0204-4e4b-bb8a-ba706169061b)

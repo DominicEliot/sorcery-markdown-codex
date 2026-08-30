@@ -31,4 +31,4 @@ The majority of updates have been made for rules clarity and design intent, ofte
 - [[Torshammar Trinket]] - The Trinket returns to hand after the turn ends, i.e., after damage has been healed. Also, it will return to hand from the realm even if it's not controlled by anyone. This matches design intent and how players have been playing it.
 - [[Truesight Crossbow]] - With truesight, projectiles will hit minions with Stealth, even though hitting with a projectile doesn't target. (In an older version of the rules, Stealth didn't provide protection from projectiles.)
 
-[Codex Entry](https://curiosa.io/codex?id=bff36deb-d447-49d9-b909-d64417f6e045)
+[Codex Entry](https://curiosa.io/codex/bff36deb-d447-49d9-b909-d64417f6e045)

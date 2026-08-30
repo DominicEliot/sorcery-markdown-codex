@@ -5,4 +5,4 @@ If not, there is no "closest" Evil.
 
 If so, the "closest" Evil is the unit that requires the fewest Persecutor steps to reach. (Your choice if tied.)
 
-[Codex Entry](https://curiosa.io/codex?id=feafadfc-2b19-40c3-a23f-e64e27c10c42)
+[Codex Entry](https://curiosa.io/codex/feafadfc-2b19-40c3-a23f-e64e27c10c42)

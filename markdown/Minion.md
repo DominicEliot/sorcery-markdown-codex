@@ -5,4 +5,4 @@ Minions have characteristics, specifically ((minion characteristics)), and are o
 
 The "((Casting Minions))" entry has details on how to cast minion spells.
 
-[Codex Entry](https://curiosa.io/codex?id=280d58e2-40f3-407e-834a-a2f26a6e6f02)
+[Codex Entry](https://curiosa.io/codex/280d58e2-40f3-407e-834a-a2f26a6e6f02)

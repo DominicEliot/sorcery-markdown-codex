@@ -16,4 +16,4 @@ See ((Range of Motion)) for how to apply lookahead when determining the path.
 
 Note that the basic abilities "Move and Attack" and "Defend" do not require the player to choose the shortest path to the destination because they are limited by the unit's movement (typically just a single step).
 
-[Codex Entry](https://curiosa.io/codex?id=248f42b3-ce6e-422d-9c27-c3072f192811)
+[Codex Entry](https://curiosa.io/codex/248f42b3-ce6e-422d-9c27-c3072f192811)

@@ -20,4 +20,4 @@ Perhaps you cast a [[War Horse]] in the same square as the Bosk Troll. Then, you
 
 After resolving the War Horse's ability and the storyline is empty, the Bosk Troll is now able to attack The Green Knight. You must do so, in the middle of your main phase before doing anything else. You were not required to carry the Bosk Troll closer to The Green Knight. But once you chose to do that, the game noticed that The Green Knight was in the Bosk Troll's range of motion, and thus you were required to make the Troll's attack.
 
-[Codex Entry](https://curiosa.io/codex?id=af65379e-7a9a-4d6f-9a9e-99f1434575e8)
+[Codex Entry](https://curiosa.io/codex/af65379e-7a9a-4d6f-9a9e-99f1434575e8)

@@ -35,4 +35,4 @@ Note that some magic spells do not use the word "target" and instead use a word 
 
 Finally, there are a few magic spells that don't target directly, and instead cause an ally to target. In that case, you also do not need to specify targets when you cast, since you only need to declare the targets that the magic itself is targeting. For example, if you cast [[Joust!]], you do not need to declare the target when you cast the magic; you select the ally when the magic is resolving from the storyline, and then the ally (not the magic!) does the targeting at that time.
 
-[Codex Entry](https://curiosa.io/codex?id=43a73161-4f77-46b1-a23a-f916223a748c)
+[Codex Entry](https://curiosa.io/codex/43a73161-4f77-46b1-a23a-f916223a748c)

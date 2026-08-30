@@ -20,4 +20,4 @@ Some effects care about a unit's "next strike" or "the next time it strikes."  I
 
 Note that this is different from attacking while there are multiple defenders. In that case, the attacker makes a single strike, and the damage is split among the defenders.
 
-[Codex Entry](https://curiosa.io/codex?id=8bb6e5a1-6989-4ec1-98d7-ef50283cccf6)
+[Codex Entry](https://curiosa.io/codex/8bb6e5a1-6989-4ec1-98d7-ef50283cccf6)

@@ -11,4 +11,4 @@ _Important reminders:_
 - Airborne only works on the surface. If the unit starts its step on the surface of a site, it can step diagonally. If the unit starts its step in a different region (void, underwater, underground), then it can't step diagonally (and also doesn't get the other benefits either).
 - Airborne has no effect on counting distance for effects with "up to X steps away," e.g. [[Disenchant]].
 
-[Codex Entry](https://curiosa.io/codex?id=c7c182e2-629c-4e65-a9a0-97feff983a3d)
+[Codex Entry](https://curiosa.io/codex/c7c182e2-629c-4e65-a9a0-97feff983a3d)

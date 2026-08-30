@@ -15,4 +15,4 @@ Further notes:
 - When they break, they are removed from the game, like all tokens.
 - Since the Lance keyword is an "enters the realm" effect, even if the minion is immediately disabled or silenced when entering the realm, they will still have their Lance with them!
 
-[Codex Entry](https://curiosa.io/codex?id=091b556c-3abc-4e42-81ab-5216cf11d9ed)
+[Codex Entry](https://curiosa.io/codex/091b556c-3abc-4e42-81ab-5216cf11d9ed)

@@ -11,4 +11,4 @@ Follow these steps to set up the game:
 
 Some tournament rules may modify the setup procedure.
 
-[Codex Entry](https://curiosa.io/codex?id=bc2036cd-69d3-4fab-b63b-dd094cf279c5)
+[Codex Entry](https://curiosa.io/codex/bc2036cd-69d3-4fab-b63b-dd094cf279c5)

@@ -7,4 +7,4 @@ For example, one such setup rule is that after mulligans, the second player may 
 
 Please check with the tournament organizer of any events you attend to ensure you understand the rules that will be in effect, and most importantly, have fun!
 
-[Codex Entry](https://curiosa.io/codex?id=c50ff53f-9b65-4695-8cf5-082a2a890106)
+[Codex Entry](https://curiosa.io/codex/c50ff53f-9b65-4695-8cf5-082a2a890106)

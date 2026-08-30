@@ -9,4 +9,4 @@ If the special spellcaster leaves the realm, any remaining spells go to the ceme
 
 While casting the spell(s), the special spellcaster has the Spellcaster ability, e.g. the allied minion blessed by [[Archangel Gabriel]].
 
-[Codex Entry](https://curiosa.io/codex?id=31be3c09-84b6-4ff4-bb37-18b00e77e77e)
+[Codex Entry](https://curiosa.io/codex/31be3c09-84b6-4ff4-bb37-18b00e77e77e)

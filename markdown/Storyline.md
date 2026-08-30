@@ -151,4 +151,4 @@ The Bottomless Pit ability resolves. It tries to kill the Apprentice Wizard and 
 
 If a specific event has started to resolve and got split up (per the ((Splitting Events on the Storyline)) rules), that event will continue to resolve even if the source leaves the realm.
 
-[Codex Entry](https://curiosa.io/codex?id=081fc13c-49fb-4893-90c1-1ba5324e6241)
+[Codex Entry](https://curiosa.io/codex/081fc13c-49fb-4893-90c1-1ba5324e6241)

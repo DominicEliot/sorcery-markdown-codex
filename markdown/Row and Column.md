@@ -5,4 +5,4 @@ This diagram shows the default shape of the realm, with an example of a Row (mar
 
 _See live codex for table_
 
-[Codex Entry](https://curiosa.io/codex?id=b7cf02ba-497b-4ec2-a596-14c636024868)
+[Codex Entry](https://curiosa.io/codex/b7cf02ba-497b-4ec2-a596-14c636024868)

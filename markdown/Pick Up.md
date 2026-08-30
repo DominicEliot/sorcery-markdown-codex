@@ -11,4 +11,4 @@ See the "Drop" and "((Carrying Units))" codex entries for more details.
 
 An oversized unit may simultaneously Pick Up from all locations it occupies.
 
-[Codex Entry](https://curiosa.io/codex?id=80001912-428c-45bc-bc04-296c848dc708)
+[Codex Entry](https://curiosa.io/codex/80001912-428c-45bc-bc04-296c848dc708)

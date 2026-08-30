@@ -29,4 +29,4 @@ Same as above, but [[Sir Pelleas]] starts on the surface of B. He can declare th
 
 The last three steps are all free, because they are between two water locations, per the Moves Freely ability of [[Sir Pelleas]]. Note that [[Sir Pelleas]] couldn't then continue from w2 surface to A surface, because that's not a free step, and [[Sir Pelleas]] already used up his 1 step for his Move and Attack basic ability.
 
-[Codex Entry](https://curiosa.io/codex?id=20b77492-0f14-47a6-86be-075526af3018)
+[Codex Entry](https://curiosa.io/codex/20b77492-0f14-47a6-86be-075526af3018)

@@ -15,4 +15,4 @@ After completing all the movement (if any), you may attack, declaring your attac
 
 #### 
 
-[Codex Entry](https://curiosa.io/codex?id=d7f6af80-0923-4ab1-88bc-11b7c694d49b)
+[Codex Entry](https://curiosa.io/codex/d7f6af80-0923-4ab1-88bc-11b7c694d49b)

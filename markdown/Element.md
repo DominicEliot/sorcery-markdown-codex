@@ -17,4 +17,4 @@ Fire is the element of desire and destruction, willing to do whatever it takes t
 ## Water
 Water is the element of charm and trickery, ready to adapt and disrupt the strategies of the enemy as it manipulates all. An attunement with water grants you a powerful homefield advantage that will slowly engulf the realm and the ability to position the enemy right where you want them.
 
-[Codex Entry](https://curiosa.io/codex?id=1cba3c8f-e8a8-4280-b85e-38c1f97c83ae)
+[Codex Entry](https://curiosa.io/codex/1cba3c8f-e8a8-4280-b85e-38c1f97c83ae)

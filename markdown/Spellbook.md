@@ -9,4 +9,4 @@ Your spellbook must contain 60 or more spells and respect rarity limits.
 **Limited Formats (Draft or Sealed)**  
 Your spellbook must contain 24 or more spells, ignoring rarity restrictions.
 
-[Codex Entry](https://curiosa.io/codex?id=8a3808bf-6b89-4e91-8d8f-1b5d69e563b3)
+[Codex Entry](https://curiosa.io/codex/8a3808bf-6b89-4e91-8d8f-1b5d69e563b3)

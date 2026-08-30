@@ -19,4 +19,4 @@ _See live codex for table_
 
 Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C.
 
-[Codex Entry](https://curiosa.io/codex?id=2ba56532-3ac0-41e8-a73f-1005cbefe8db)
+[Codex Entry](https://curiosa.io/codex/2ba56532-3ac0-41e8-a73f-1005cbefe8db)

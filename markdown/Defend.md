@@ -21,4 +21,4 @@ When a unit defends, it must declare a movement path that ends with it occupying
 ## When Exactly is a Unit Allowed to Defend?
 If the unit is untapped and the attack's location is within its range of motion. See "((range of motion))" for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=7bc7a52c-25dc-4c80-8608-89667ef5eed7)
+[Codex Entry](https://curiosa.io/codex/7bc7a52c-25dc-4c80-8608-89667ef5eed7)

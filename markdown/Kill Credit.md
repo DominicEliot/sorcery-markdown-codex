@@ -17,4 +17,4 @@ The **killer must be a unit**, but multiple units can share credit for a kill, i
 
 Note that passive abilities and other ongoing effects are not included in kill credit. Only activated and triggered abilities are included at priority 3.
 
-[Codex Entry](https://curiosa.io/codex?id=9da58b70-6d76-4a13-970d-1518ffd596d6)
+[Codex Entry](https://curiosa.io/codex/9da58b70-6d76-4a13-970d-1518ffd596d6)

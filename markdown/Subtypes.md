@@ -5,4 +5,4 @@ In general, subtypes have no inherent game effect, but other cards may refer to 
 
 Artifacts have two special subtypes ("((Automaton))", "((Monument))") that do have inherent game rules. See the those codex entries for more details.
 
-[Codex Entry](https://curiosa.io/codex?id=951f9481-d26e-4c81-9a4f-168863efc22e)
+[Codex Entry](https://curiosa.io/codex/951f9481-d26e-4c81-9a4f-168863efc22e)

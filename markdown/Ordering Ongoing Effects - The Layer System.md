@@ -110,4 +110,4 @@ This is not an exhaustive list of cards with conditional ongoing effects, but hi
 - [[King of the Realm]] or [[Returned King]]
    - Control is normally layer 4. Subtype changing happens in layer 2. So, these apply in layer 4 normally, since effects related to their condition have already been applied by the time we get to layer 4.
 
-[Codex Entry](https://curiosa.io/codex?id=aa624e74-7c3e-4622-8471-03e05b576c52)
+[Codex Entry](https://curiosa.io/codex/aa624e74-7c3e-4622-8471-03e05b576c52)

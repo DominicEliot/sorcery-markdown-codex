@@ -12,4 +12,4 @@ If an effect uses "**take a step**"** **or "**move one step**," the unit is movi
 
 Note that the Moves Freely ability only applies during the "Move and Attack" and "Defend" basic abilities.
 
-[Codex Entry](https://curiosa.io/codex?id=0f53b70d-d13a-4982-8c16-20bb4ab1aa9d)
+[Codex Entry](https://curiosa.io/codex/0f53b70d-d13a-4982-8c16-20bb4ab1aa9d)

@@ -58,4 +58,4 @@ Sites occupy two locations by default, surface and subsurface. Sites have the fo
 - Elemental affinity, which may be none
 - Provides 1 mana
 
-[Codex Entry](https://curiosa.io/codex?id=30561063-e0e1-41f7-9ab2-903475629dde)
+[Codex Entry](https://curiosa.io/codex/30561063-e0e1-41f7-9ab2-903475629dde)

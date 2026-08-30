@@ -8,4 +8,4 @@ The start phase is the first phase you complete during your turn. Follow these s
 5. Draw a card from either your spellbook or atlas.
    1. On the first player's first turn of the game, they do not draw a card.
 
-[Codex Entry](https://curiosa.io/codex?id=d74587ee-6256-4009-b144-9d46e9125822)
+[Codex Entry](https://curiosa.io/codex/d74587ee-6256-4009-b144-9d46e9125822)

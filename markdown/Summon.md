@@ -9,4 +9,4 @@ If a summon effect does not specify where the summoned minion appears, e.g. [[Ra
 
 If you try to summon a minion to a location that it can't enter, e.g. [[Gnome Hollows]], it doesn't change zones and remains where it was.
 
-[Codex Entry](https://curiosa.io/codex?id=679db7d7-3cb3-4655-b84b-53c4bd6ed637)
+[Codex Entry](https://curiosa.io/codex/679db7d7-3cb3-4655-b84b-53c4bd6ed637)

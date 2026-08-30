@@ -48,4 +48,4 @@ After applying all damage modification effects, then apply damage prevention eff
    1. Note that prevention effects do not use the storyline, and thus these effects are immediately resolved as soon as they are declared.
 2. In the order of their choice, the non-active player does the same thing.
 
-[Codex Entry](https://curiosa.io/codex?id=d54c08da-2107-484a-9f68-123bb62581b5)
+[Codex Entry](https://curiosa.io/codex/d54c08da-2107-484a-9f68-123bb62581b5)

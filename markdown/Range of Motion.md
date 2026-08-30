@@ -33,4 +33,4 @@ The attack is happening at A. I have [[Rimland Nomads]] at N. There is a [[Giant
 **Explanation  
 **If you're reading this deeply into the Codex, you might be wondering why the game ignores triggered abilities for the lookahead. One reason is that there are some cases where the lookahead for triggered abilities yields an unknown outcome. For example, in Example 5, instead of Nomads, if it were a [[Phantom Steed]] with a [[Poisonous Dagger]] carrying [[Amazon Warriors]], can the Phantom Steed reach A or not? It depends if the Shark chooses to fight the Warriors first or the Steed first. The second reason is that this approach allows the lookahead for mandatory actions like "must attack" (e.g. [[Mask of Mayhem]]) to use the same rules, since players' intuition in those cases is to force an attack even into a Shark or [[Mariner's Curse]]. Therefore, we consistently ignore triggered abilities when considering a unit's range of motion.
 
-[Codex Entry](https://curiosa.io/codex?id=baf60fbb-dcd9-4bb5-a2b4-158f8df5cbb1)
+[Codex Entry](https://curiosa.io/codex/baf60fbb-dcd9-4bb5-a2b4-158f8df5cbb1)

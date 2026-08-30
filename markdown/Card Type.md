@@ -13,4 +13,4 @@ It is sometimes possible for cards to have multiple types. For example, automato
 
 For more details, see characteristics and "Cards with Multiple Types."
 
-[Codex Entry](https://curiosa.io/codex?id=289bff87-3bdd-4134-9d6d-537be8323f97)
+[Codex Entry](https://curiosa.io/codex/289bff87-3bdd-4134-9d6d-537be8323f97)

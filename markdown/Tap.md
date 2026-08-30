@@ -3,4 +3,4 @@ Units in the realm can be tapped as a cost to activate various abilities. A play
 
 To tap a card, turn a it 90° to the right, from an upright position. Only untapped units in the realm can be tapped.
 
-[Codex Entry](https://curiosa.io/codex?id=4b73c89d-914a-4911-a73b-1ae905e4a398)
+[Codex Entry](https://curiosa.io/codex/4b73c89d-914a-4911-a73b-1ae905e4a398)

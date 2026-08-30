@@ -7,4 +7,4 @@ In particular, note that a site could be a water site (because it provides water
 
 Earth site and land site are NOT synonyms.
 
-[Codex Entry](https://curiosa.io/codex?id=51f40c06-080b-45a2-ac17-a56e672300f6)
+[Codex Entry](https://curiosa.io/codex/51f40c06-080b-45a2-ac17-a56e672300f6)
