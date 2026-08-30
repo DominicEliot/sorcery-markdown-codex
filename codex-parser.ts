@@ -25,7 +25,7 @@ async function main() {
             };
         }
 
-        markdown += '\n\n[Codex Entry](https://curiosa.io/codex?id=' + codex._id + ')';
+        markdown += '\n\n[Codex Entry](https://curiosa.io/codex/' + codex._id + ')';
         markdown = markdown.replaceAll(/\n\n\n+/g, '\n\n');
 
         singleFileMarkdown += markdown + '\n\n';
@@ -40,17 +40,38 @@ async function main() {
 main().catch(console.error);
 
 async function GetCodexFromCuriosaIo() {
-    const response = await fetch('https://curiosa.io/codex');
+    const response = await fetch('https://sorcerytcg.com/codex');
     if (!response.ok) {
         throw new Error(`Couldn't load URL. Http Status: ${response.status} - ${response.statusText}`);
     }
     const data = await response.text();
 
-    let searchTerm = `<script id="__NEXT_DATA__" type="application/json">`;
-    let start = data.indexOf(searchTerm) + searchTerm.length;
-    let end = data.indexOf(`</script>`, start);
-    let jsonString = data.substring(start, end);
-    let codexMetaData = JSON.parse(jsonString);
-    let codexData = codexMetaData.props.pageProps.trpcState.json.queries[0].state.data;
-    return codexData;
+    let codexMetaData = findAndParseCodexBlock(data);
+    return codexMetaData;
+}
+
+// This is a sample of what the html page returns
+// <script>self.__next_f.push([1,"15:{\"json\":[{\"_createdAt\":\"2026-04-22T19:59:14Z\",\"_id\":\"d123e994-d95f-4fa9-9f2d-3a3e31fe95af\",\"_rev\":\"xUfyFbT1vwoJFdAninWR38\",\"_type\":\"codex\",\"_updatedAt\":\"2026-05-19T18:39:37Z\",\"content\":[{\"_key\":\"a04eb8a98c1c\",\"_type\":\"block\",\"children\":[{\"_key\":\"aeb747c7085a\",\"_type\":\"span\",\"marks\":[],\"text\":\"There are many abilities...\" ..."])</script>
+export function findAndParseCodexBlock(html: string) {
+    const marker = '\\"_type\\":\\"codex\\"';  // escaped version of the escpaed json text in the raw HTML
+    const markerIndex = html.indexOf(marker);
+    if (markerIndex === -1) return null;
+
+    const pushStart = html.lastIndexOf("self.__next_f.push([1,", markerIndex);
+    if (pushStart === -1) return null;
+
+    const pushEnd = html.indexOf('"])', markerIndex);
+    if (pushEnd === -1) return null;
+
+    const chunkSlice = html.slice(pushStart, pushEnd + 3);
+    const match = chunkSlice.match(/self\.__next_f\.push\(\[1,\s*("(?:\\.|[^"\\])*")\]\)/s);
+    if (!match) return null;
+
+    const unescaped = JSON.parse(match[1]);
+    
+    const jsonPayload = unescaped.match(/^[0-9a-f]+:(.*)$/s);
+    if (!jsonPayload) return null;
+    
+    const parsed = JSON.parse(jsonPayload[1]);
+    return parsed.json;
 }
