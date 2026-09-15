@@ -63,20 +63,20 @@ async function WriteFaqFilesFacade() {
             existingData.push(faqDto);
         }
     }
-    fs.writeFileSync('generatedFaqs.json', JSON.stringify(cardDict));
+    fs.writeFileSync('generatedFaqs.json', JSON.stringify(cardDict, null, 2));
 
     let singleFileMarkdown = "";
-    for (let [key, faqs] of Object.entries(cardDict)) {
-        let cardName = key.replace("_", " ");
-        let text = "## " + cardName + "\n";
+    for (let [key, faqs] of Object.entries(cardDict).sort()) {
+        let cardName = key.replaceAll("_", " ").replace(/\b\w/g, (char) => char.toUpperCase());
+        let text = "# " + cardName + "\n";
 
         for (let faq of faqs) {
-            text += "### " + faq.question + "\n" + faq.question + "\n";
+            text += "## " + faq.question + "\n" + faq.question + "\n";
         }
         fs.writeFileSync(path.join('faq', cardName + '.md'), text);
-        singleFileMarkdown += text + '\n\n';
+        singleFileMarkdown += text + '\n';
     }
-    fs.writeFileSync('Faqs.md', singleFileMarkdown);
+    fs.writeFileSync('Full Faqs.md', singleFileMarkdown);
 }
 
 async function GetCodexFromSorcerySite() {
