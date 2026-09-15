@@ -2,13 +2,21 @@ import * as fs from 'fs'
 import { portableTextToMarkdown } from '@portabletext/markdown'
 import * as path from 'node:path'
 
-async function main() {
+async function main() {    
+    await WriteCodexFilesFacade();
+
+    await WriteFaqFilesFacade();
+}
+
+main().catch(console.error);
+
+async function WriteCodexFilesFacade() {
     // Uncomment the following lines to use a file instead, and comment out/delete the GetCodexFromCuriosaIo line.
     //let rawData = fs.readFileSync('codex.json');
     //let codexData = JSON.parse(rawData);
-    let codexData = await GetCodexFromCuriosaIo();
+    let codexData = await GetCodexFromSorcerySite();
 
-    console.log(`Processing ${codexData.length} codex entries.`)
+    console.log(`Processing ${codexData.length} codex entries.`);
 
     const damageGridRegex = /```json(.*\n)*?```/g;
 
@@ -34,12 +42,44 @@ async function main() {
     }
 
     fs.writeFileSync(path.join('Full Codex.md'), singleFileMarkdown.trim());
-    console.log(`Processing Complete. Wrote ${codexData.length} individual codex files.`)
+    console.log(`Processing Complete. Wrote ${codexData.length} individual codex files.`);
 }
 
-main().catch(console.error);
+async function WriteFaqFilesFacade() {
+    let faqData = await GetFaqsFromSorcerySite();
+    let cardDict: Record<string, Faq[]> = {};
 
-async function GetCodexFromCuriosaIo() {
+    for (let faq of faqData) {
+        let markdownQuestion = portableTextToMarkdown(faq.question);
+        let markdownAnswer = portableTextToMarkdown(faq.answer);
+
+        for (let card of faq.cards) {
+            let existingData = cardDict[card];
+            if (existingData == null) {
+                existingData = [];
+                cardDict[card] = existingData;
+            }
+            let faqDto = new Faq(markdownQuestion, markdownAnswer, faq.cards);
+            existingData.push(faqDto);
+        }
+    }
+    fs.writeFileSync('generatedFaqs.json', JSON.stringify(cardDict));
+
+    let singleFileMarkdown = "";
+    for (let [key, faqs] of Object.entries(cardDict)) {
+        let cardName = key.replace("_", " ");
+        let text = "## " + cardName + "\n";
+
+        for (let faq of faqs) {
+            text += "### " + faq.question + "\n" + faq.question + "\n";
+        }
+        fs.writeFileSync(path.join('faq', cardName + '.md'), text);
+        singleFileMarkdown += text + '\n\n';
+    }
+    fs.writeFileSync('Faqs.md', singleFileMarkdown);
+}
+
+async function GetCodexFromSorcerySite() {
     const response = await fetch('https://sorcerytcg.com/codex');
     if (!response.ok) {
         throw new Error(`Couldn't load URL. Http Status: ${response.status} - ${response.statusText}`);
@@ -50,10 +90,24 @@ async function GetCodexFromCuriosaIo() {
     return codexMetaData;
 }
 
+async function GetFaqsFromSorcerySite() {
+    const response = await fetch('https://sorcerytcg.com/api/trpc/cms.faqs?batch=1');
+
+    if (!response.ok) {
+        throw new Error(`Couldn't load URL. Http Status: ${response.status} - ${response.statusText}`);
+    }
+    const data = await response.text();
+    //const data = fs.readFileSync('rawFaq.json');
+
+    let fullPayload = JSON.parse(data);
+    let faqData = fullPayload[0].result.data.json;
+    return faqData;
+}
+
 // This is a sample of what the html page returns
 // <script>self.__next_f.push([1,"15:{\"json\":[{\"_createdAt\":\"2026-04-22T19:59:14Z\",\"_id\":\"d123e994-d95f-4fa9-9f2d-3a3e31fe95af\",\"_rev\":\"xUfyFbT1vwoJFdAninWR38\",\"_type\":\"codex\",\"_updatedAt\":\"2026-05-19T18:39:37Z\",\"content\":[{\"_key\":\"a04eb8a98c1c\",\"_type\":\"block\",\"children\":[{\"_key\":\"aeb747c7085a\",\"_type\":\"span\",\"marks\":[],\"text\":\"There are many abilities...\" ..."])</script>
 export function findAndParseCodexBlock(html: string) {
-    const marker = '\\"_type\\":\\"codex\\"';  // escaped version of the escpaed json text in the raw HTML
+    const marker = '\\"_type\\":\\"codex\\"';  // escaped version of the escaped json text in the raw HTML
     const markerIndex = html.indexOf(marker);
     if (markerIndex === -1) return null;
 
@@ -74,4 +128,16 @@ export function findAndParseCodexBlock(html: string) {
     
     const parsed = JSON.parse(jsonPayload[1]);
     return parsed.json;
+}
+
+class Faq {
+    question: string;
+    answer: string;
+    cards: string[];
+
+    constructor(question: string, answer: string, cards: string[]){
+        this.question = question;
+        this.answer = answer;
+        this.cards = cards;
+    }
 }
