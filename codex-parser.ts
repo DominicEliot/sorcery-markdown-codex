@@ -71,7 +71,7 @@ async function WriteFaqFilesFacade() {
         let text = "# " + cardName + "\n";
 
         for (let faq of faqs) {
-            text += "## " + faq.question + "\n" + faq.question + "\n";
+            text += "### " + faq.question + "\n" + faq.answer + "\n";
         }
         fs.writeFileSync(path.join('faq', cardName + '.md'), text);
         singleFileMarkdown += text + '\n';
