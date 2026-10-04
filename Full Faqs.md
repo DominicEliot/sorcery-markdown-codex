@@ -44,7 +44,7 @@ Yes, since "you" or "your" refers to the controller of the artifact, and carriab
 
 # Algor Omphalos
 ### Must spells cast by the Omphalos match its elements?
-Yes. Any spell the Omphalos casts much match at least one of its elements.
+Yes. Any spell the Omphalos casts must match at least one of its elements.
 
 # Altar Of Malachai
 ### Does my avatar still take the damage, but I just don't lose the game?
@@ -495,7 +495,7 @@ In a tournament setting, you'll probably hit the round time limit eventually.
 
 # Char Omphalos
 ### Must spells cast by the Omphalos match its elements?
-Yes. Any spell the Omphalos casts much match at least one of its elements.
+Yes. Any spell the Omphalos casts must match at least one of its elements.
 
 # City Of Glass
 ### When this is destroyed because it was damaged, who is responsible for the destruction?
@@ -700,7 +700,7 @@ They will not lose life. This is because Cursed Land's ability is a triggered ab
 
 # Dank Omphalos
 ### Must spells cast by the Omphalos match its elements?
-Yes. Any spell the Omphalos casts much match at least one of its elements.
+Yes. Any spell the Omphalos casts must match at least one of its elements.
 
 # Darkest Dungeon
 ### What path can I choose when resolving this ability?
@@ -2728,7 +2728,7 @@ Yes!
 
 # Torrid Omphalos
 ### Must spells cast by the Omphalos match its elements?
-Yes. Any spell the Omphalos casts much match at least one of its elements.
+Yes. Any spell the Omphalos casts must match at least one of its elements.
 
 # Torshammar Trinket
 ### How does this work with end of turn and damage clearing?

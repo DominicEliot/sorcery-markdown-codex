@@ -2407,7 +2407,7 @@
   "algor_omphalos": [
     {
       "question": "Must spells cast by the Omphalos match its elements?",
-      "answer": "Yes. Any spell the Omphalos casts much match at least one of its elements.",
+      "answer": "Yes. Any spell the Omphalos casts must match at least one of its elements.",
       "cards": [
         "algor_omphalos",
         "char_omphalos",
@@ -2419,7 +2419,7 @@
   "char_omphalos": [
     {
       "question": "Must spells cast by the Omphalos match its elements?",
-      "answer": "Yes. Any spell the Omphalos casts much match at least one of its elements.",
+      "answer": "Yes. Any spell the Omphalos casts must match at least one of its elements.",
       "cards": [
         "algor_omphalos",
         "char_omphalos",
@@ -2431,7 +2431,7 @@
   "dank_omphalos": [
     {
       "question": "Must spells cast by the Omphalos match its elements?",
-      "answer": "Yes. Any spell the Omphalos casts much match at least one of its elements.",
+      "answer": "Yes. Any spell the Omphalos casts must match at least one of its elements.",
       "cards": [
         "algor_omphalos",
         "char_omphalos",
@@ -2443,7 +2443,7 @@
   "torrid_omphalos": [
     {
       "question": "Must spells cast by the Omphalos match its elements?",
-      "answer": "Yes. Any spell the Omphalos casts much match at least one of its elements.",
+      "answer": "Yes. Any spell the Omphalos casts must match at least one of its elements.",
       "cards": [
         "algor_omphalos",
         "char_omphalos",
