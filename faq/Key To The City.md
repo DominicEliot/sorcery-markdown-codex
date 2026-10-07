@@ -1,6 +1,4 @@
 # Key To The City
-### When does this artifact provide mana?
-When it enters the realm, and at the start of its controller’s turn.
 ### How does this ability work?
 Site abilities cannot target, damage, destroy, banish, modify, move, or impede the movement or attacks of the bearer of the Key. Additionally, site abilities cannot cause the bearer to lose or gain life, and cannot affect healing the bearer receives. For example:
 

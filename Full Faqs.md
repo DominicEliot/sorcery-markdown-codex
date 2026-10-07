@@ -50,10 +50,6 @@ Yes. Any spell the Omphalos casts must match at least one of its elements.
 ### Does my avatar still take the damage, but I just don't lose the game?
 Correct! Damage is still dealt to your avatar for effects that care about dealing damage. You just don't lose the game as a result!
 
-# Amethyst Core
-### When does this artifact provide mana?
-When it enters the realm, and at the start of its controller’s turn.
-
 # Amulet Of Niniane
 ### What does "can't be targeted or damaged by magic" mean?
 Magic can't target the card and the card can't be damaged by Magic (even without targeting). The card can still be targeted by non-Magic effects.
@@ -89,10 +85,6 @@ Yes!
 # Apprentice Wizard
 ### There's a promotional version of this card with the name "Apurrentice Wizard." Since it has a different name, does that mean I can have four copies of each in my deck?
 No, treat "Apurrentice Wizard" as being named "Apprentice Wizard" for all deck building and gameplay purposes.
-
-# Aquamarine Core
-### When does this artifact provide mana?
-When it enters the realm, and at the start of its controller’s turn.
 
 # Aramos Mercenaries
 ### Do you still need to meet threshold requirements when using its ability?
@@ -1565,8 +1557,6 @@ No, since A is already being attacked, they cannot take the Defend reaction.
 The damage is split as the attacker chooses.
 
 # Key To The City
-### When does this artifact provide mana?
-When it enters the realm, and at the start of its controller’s turn.
 ### How does this ability work?
 Site abilities cannot target, damage, destroy, banish, modify, move, or impede the movement or attacks of the bearer of the Key. Additionally, site abilities cannot cause the bearer to lose or gain life, and cannot affect healing the bearer receives. For example:
 
@@ -2017,10 +2007,6 @@ Note that Onslaught does not remove any ongoing effects which may be disabling, 
 
 For example, if you play Onslaught and then summon a [[Slumbering Giantess]], her Genesis ability will still resolve, and she will be disabled when the effect of Onslaught wears off. For the duration of your turn, however, she will have +1 power and Charge, and will ignore the disable effect from her Genesis ability.
 
-# Onyx Core
-### When does this artifact provide mana?
-When it enters the realm, and at the start of its controller’s turn.
-
 # Orb Of Baal Berith
 ### Is the Orb the spellcaster for the copied spell?
 Yes.
@@ -2292,10 +2278,6 @@ Nothing (it turns into more Rubble, and thus doesn't change).
 # Rowdy Boys
 ### When exactly is "after striking" ?
 After effects concurrent with striking (e.g. after gaining life via Daperyll Vampire), but before any Deathrite abilities resolve. It's in the same moment that Stealth would break due to striking.
-
-# Ruby Core
-### When does this artifact provide mana?
-When it enters the realm, and at the start of its controller’s turn.
 
 # Ruler Of Thul
 ### If Polar Explorers or Ruler of Thul are in play and an oversized unit on the top row moves “up” one row to wrap around to the bottom, what happens?
