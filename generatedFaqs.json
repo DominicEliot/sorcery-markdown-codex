@@ -1,7 +1,7 @@
 {
   "swap": [
     {
-      "question": "If one target is a minion, can the other target be an artifact, and vice versa?",
+      "question": "If one target is a minion, can the other target be an artifact, and vice versa?  ",
       "answer": "Yes. Target one (minion or artifact) and target another (minion or artifact).",
       "cards": [
         "swap"
@@ -4034,13 +4034,6 @@
     {
       "question": "If my opponent gains control of my Erik's Curiosa and then they rip it, who gets to pick the card?",
       "answer": "They get a card of the controller's choice from the controller’s collection (so they get to pick). Hopefully you can still be friends! (They must give you a moment to concede before they rip it.)",
-      "cards": [
-        "eriks_curiosa"
-      ]
-    },
-    {
-      "question": "Does this effect let me break the normal restrictions on deck legality? e.g. duplicate Unique card, or duplicate any site for Pathfinder?",
-      "answer": "The card limits exist only when the game starts; once the game begins, various effects can change your deck composition. So, yes, you are free to get an extra copy of a Unique card via Erik's Curiosa, as long as the card is actually in your collection.",
       "cards": [
         "eriks_curiosa"
       ]

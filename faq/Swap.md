@@ -1,5 +1,5 @@
 # Swap
-### If one target is a minion, can the other target be an artifact, and vice versa?
+### If one target is a minion, can the other target be an artifact, and vice versa?  
 Yes. Target one (minion or artifact) and target another (minion or artifact).
 ### How exactly do I resolve a "swap" effect?
 The two cards are simultaneously teleported to each other's location. If one of the targets cannot be targeted or teleported (e.g. Iron Man Talus), neither target moves.
