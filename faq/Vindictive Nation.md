@@ -77,5 +77,5 @@ Yes! Silence from Smokestacks is applied as a passive ability, but the act of si
 Yes! They are very vindictive.
 ### Does "modifying" a site include Flooding it?
 Yes, since Flooded is an ability that gets added to the site.
-### If my Vindictive Nation is affected by my opponent's Atlantean Fate, do they lose 1 or 2 life?
-Two life. Vindictive Nation is flooded (which counts as modifying it) and then silenced (which also counts as modifying it).
+### If my Vindictive Nation, or an allied site near it, is affected by my opponent's Atlantean Fate, how much life do they lose?
+One life. Atlantean Fate will flood and silence Vindictive Nation, as well as prevent it from providing non-water threshold. These are all modifications to the site, all from a single effect on the storyline. Since these all come from a single effect on the storyline, Vindictive Nation sees it as a single modification.

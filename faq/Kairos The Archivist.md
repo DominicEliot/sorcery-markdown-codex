@@ -8,7 +8,7 @@ No! It does not include any other zone. The thing to focus on are literally the 
 ### Do I archive global effects like Critical Strike?
 No, since it's not an "archived card," but instead an ongoing effect that hasn't yet been applied. The test for inclusion in the archive is if the effect is currently applying to a card in the realm. E.g. Whether or not you've discarded a card for Wizard's Den would be included in the archive.
 ### When a card is "returned to its recorded state," does it enter the realm?
-No, it is not entering the realm. Genesis, Stealth, Lance, etc. will not trigger and sites do not generate mana.
+No, it is not entering the realm. Genesis, Stealth, Lance, etc. will not trigger.
 ### How do I "return all archived cards to their recorded state" ?
 Players should look at the picture they took, then return each card to where it was before, though banished cards can never be returned; sometimes knowledge is truly lost. Once Kairos enters the realm, cards will be tracked across zones solely for the purpose of his deathrite. He's that good of a librarian! If tracking a card across zones is not possible due to hidden information, e.g. shuffled into your deck, then the player may return the card from any zone (but never from banished).
 ### When we "return all archived cards to their recorded state," do all changes happen simultaneously?

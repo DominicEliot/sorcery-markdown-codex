@@ -7,6 +7,6 @@ Typically a summon effect will specify where the summoned minion appears. For ex
 
 If a summon effect does not specify where the summoned minion appears, e.g. [[Raise Dead]] or [[Plague of Frogs]], you may summon it to any location in any region.
 
-If you try to summon a minion to a location that it can't enter, e.g. [[Gnome Hollows]], it doesn't change zones and remains where it was.
+if you cannot pay mandatory additional costs to summon a minion, e.g. [[Mock Court]], the minion is banished and never enters the realm at all. This rule also applies to rare cases where you somehow attempt to summon a minion to an illegal location, e.g. [[Lilith]] or [[Mother Nature]] somehow in a [[Gnome Hollows]] trying to summon a minion there. Note when casting a minion, you are always required to declare a legal summoning location at the time of casting.
 
 [Codex Entry](https://curiosa.io/codex/679db7d7-3cb3-4655-b84b-53c4bd6ed637)

@@ -1,4 +1,6 @@
 # Cloud City
+### Can Cloud City move onto The Void (the site) ?
+No.
 ### Does this carry along oversized minions or auras that occupy more than one square?
 No. If an oversized minion is now occupying the void, it will be banished. (Megamoeba will still move with Cloud City.)
 ### Does this carry along oversized units or auras that occupy more than one square?

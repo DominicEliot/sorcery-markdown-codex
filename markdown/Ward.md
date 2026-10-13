@@ -1,13 +1,17 @@
 # Ward
-**Keyword Ability. **If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
+**Keyword Ability. **Cards with the Ward keyword have the ability:
 
-Ward is tracked with a ward mark. A unit or site can have at most one Ward.
+_Genesis → Gain a ward mark._
 
-Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark and they lose Ward. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
+If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
 
-Only units and sites can have Wards. If a unit or site with Ward becomes a non-unit, non-site, remove the Ward mark and they lose Ward.
+A unit or site can have at most one Ward mark.
 
-A unit or site with the Ward keyword enters the realm with a Ward mark. If a minion or site becomes disabled or silenced, it will lose its Ward mark, since Ward is an ability (similar to Stealth).
+Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
+
+Only units and sites can have Wards. If a unit or site with Ward becomes a non-unit, non-site, remove the mark.
+
+If a minion or site becomes disabled, remove the mark.
 
 Further Notes:
 

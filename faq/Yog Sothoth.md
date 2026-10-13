@@ -1,4 +1,6 @@
 # Yog Sothoth
+### How does “ignores the abilities of sites” work?
+Yog-Sothoth is protected from sites. See the "((Protected))" codex entry.
 ### What does "Occupies all locations safely" mean?
 Yog Sothoth occupies all locations simultaneously, in all regions. That includes all surface locations, subsurface locations and voids. Yog Sothoth does not die due to being burrowed or submerged and is not banished due to being in the void.
 ### What happens if there's a silence or disable effect somewhere in the realm that affects minions (e.g. Root Spider, Silence aura)?

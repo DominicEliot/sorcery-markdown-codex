@@ -77,9 +77,9 @@ _See live codex for table_
 _See live codex for table_
 
 ## Teleporting Oversized Units
-When an oversized unit is teleported, it must be to a location or set of locations that are all legal for that unit to occupy, and must not cross regional boundaries unless allowed by card text.
+When an oversized unit is teleported, it must be to locations that are all legal for that unit to occupy. It also must not cross regional boundaries, unless the chosen part changes regions (see next paragraph).
 
-If the teleport effect requires the oversized unit to be targeted, you must choose one of its locations where it can be legally targeted to be the part of the unit teleported. If the effect does not target, the controller of the effect may choose any part of the oversized unit to be the part which is teleported.
+If the teleportation effect does not target, the controller of the effect chooses one part of the oversized unit. If the effect does target, choose a part that could be targeted. E.g. if [[Aethermoeba]] is partially in the void and partially on the surface and you target it with a teleportation effect, choose a part that’s on the surface.
 
 If the destination of the teleportation is a single location, the controller of the teleportation effect chooses the position and orientation of the unit, as long as the destination is included in the locations it ends up occupying.
 
@@ -113,7 +113,7 @@ _See live codex for table_
 
 _See live codex for table_
 
-However, if a different section of the Avatar is chosen the be the part which teleports to a nearby location, a whole new set of orientations become available.
+However, if you choose a different part of the Avatar as the “chosen part,” a whole new set of orientations would be possible.
 
 ## Cards that Refer to a Unit's Site or Location
 There are many cards that assume units occupy only one location or site. These cards will have language which refers to "its site" or "its location," or words to that effect, in the context of a unit.

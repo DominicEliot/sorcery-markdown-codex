@@ -292,7 +292,7 @@ When referring to the realm, bottom means the row closest to you. For example, [
 [Codex Entry](https://curiosa.io/codex/53d7e6bf-1f13-4f24-b290-9e213282968a)
 
 # Break Stealth
-"Break ))Stealth((" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]], means that the minion must have Stealth and voluntarily lose it as the cost of the activated ability.  The ability is not activated if the minion loses Stealth for any other reason, such as interacting with the realm or being silenced.
+"Break ))Stealth((" as a cost for an activated ability, e.g. [[Asmodeus]] or [[Frozen Horror]], means that the minion must have a Stealth mark and voluntarily lose it as the cost of the activated ability.  The ability is not activated if the minion loses Stealth for any other reason, such as interacting with the realm or being disabled.
 
 [Codex Entry](https://curiosa.io/codex/0a28f999-f406-478e-b396-61930bdd948a)
 
@@ -335,7 +335,7 @@ If an artifact ))can't(( be dropped, it may not be chosen for the "((Drop))" bas
 [Codex Entry](https://curiosa.io/codex/c40d934e-6c71-4116-89de-f9e2915b7c8c)
 
 # Can't be Modified
-A card that "can't be modified" cannot be disabled, silenced, immobilized, or transformed. It also cannot gain or lose any abilities, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] cannot gain stealth (since it's an ability) or power (since it's a characteristic).
+A card that "can't be modified" cannot have status effects applied to it, and it transformed. It also cannot gain or lose any abilities, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] cannot gain stealth (since it's an ability) or power (since it's a characteristic).
 
 Note that [[Monks of Kobalsa]] can have their cost reduced (or increased) during casting while they're still in hand, since abilities only apply while in the realm unless explicitly stated.
 
@@ -938,9 +938,11 @@ If an effect "floods" a site (e.g. [[Geyser]]), that site gains the Flooded abil
 [Codex Entry](https://curiosa.io/codex/610226cf-24be-4d6b-885f-b466197672c5)
 
 # Fly
-If you fly a unit somewhere, treat the unit as if it had Airborne while crossing borders, e.g. [[Avatar of Air]]. Fly is synonymous with "throw through the air," e.g. [[Siege Giant]].
+If you fly a unit somewhere, treat the unit as if it had Airborne while crossing borders, e.g. [[Avatar of Air]].
 
-For example, a unit being moved by ))Avatar(( of Air's ability will be able to cross the border of a [[Perilous Bridge]] or [[Great Wall]], and will not take damage from a [[Wall of Brambles]], even if it's disabled, silenced, or [[Sky Baron]] is in the realm. Note that this effect is specific to crossing borders (and not entering sites), and therefore [[Bottomless Pit]] will still trigger for non-Airborne minions moved via ))Avatar(( of Air's ability.
+Most cards use fly (or a synonym like "throw through the air," e.g. [[Siege Giant]]), as forced movement. In these cases, e.g. a unit being moved by ))Avatar(( of Air's ability, it will be able to cross the border of a [[Perilous Bridge]] or [[Great Wall]], and will not take damage from a [[Wall of Brambles]], even if it's disabled, silenced, or [[Sky Baron]] is in the realm. Note that this effect is specific to crossing borders (and not entering sites), and therefore [[Bottomless Pit]] will still trigger for non-Airborne minions moved via ))Avatar(( of Air's ability.
+
+Alternately, sometimes a unit flies itself, e.g. [[Harpyon Urge]] or [[Guardian Angel]], in which case it is not forced movement. See the ((forced movement)) entry for details.
 
 If you fly a site somewhere, e.g. [[Cloud City]], treat all units occupying the site as if they had Airborne while the site moves.
 
@@ -1183,7 +1185,9 @@ Note that passive abilities and other ongoing effects are not included in kill c
 [Codex Entry](https://curiosa.io/codex/9da58b70-6d76-4a13-970d-1518ffd596d6)
 
 # Lance
-**Keyword Ability. **A minion with the Lance keyword enters the realm carrying a [[Lance]] artifact token.
+**Keyword Ability. **A minion with the Lance keyword has the ability:
+
+_Genesis → Create and carry a _Lance_._
 
 A Lance is an Ordinary, Weapon, artifact token with the text:
 
@@ -1197,7 +1201,7 @@ Further notes:
 - If a unit carrying a Lance strikes a site, the Lance does not break and does not confer additional damage.
 - Lances are normal artifacts that can be picked up and dropped as usual.
 - When they break, they are removed from the game, like all tokens.
-- Since the Lance keyword is an "enters the realm" effect, even if the minion is immediately disabled or silenced when entering the realm, they will still have their Lance with them!
+- Since the Lance keyword is a Genesis effect, if the minion is immediately disabled or silenced when entering the realm, it will not gain a Lance.
 
 [Codex Entry](https://curiosa.io/codex/091b556c-3abc-4e42-81ab-5216cf11d9ed)
 
@@ -1225,6 +1229,17 @@ To resolve the effect, add a counter at the end of each of your turns, and dispe
 If the aura is silenced during your end phase (presumably because it was animated by [[Enchantress]] and then silenced somehow), then no counter will be added that turn.
 
 [Codex Entry](https://curiosa.io/codex/3315e2bf-73f5-4db2-833f-ed25d0bbd260)
+
+# Leave and Leave the Realm
+To “leave” a location means to enter another location with movement that began at the location you are leaving.
+
+For example, an Avatar standing atop a site in the effect of a Sphere of Animosity cannot take a step to a location outside of the Sphere, nor can they teleport to such a location or be pulled out of the Sphere.
+
+If a minion dies, it does not “leave” the location where it died, since that’s not movement.
+
+To “leave the realm” means to not be in the realm, for any reason, e.g. die, banish, return to hand or deck, etc.
+
+[Codex Entry](https://curiosa.io/codex/ce6e7f68-9031-4e28-9b8e-4d17d60e86f1)
 
 # Lethal
 **Keyword Ability. **Any damage a Lethal unit deals to a minion is enough to kill it. (Remember that zero damage isn't damage at all, so it will need to do one or more damage.)
@@ -1289,11 +1304,17 @@ You may have your units do these as many times as you have resources to do so, a
 [Codex Entry](https://curiosa.io/codex/cdd8d7be-ace7-457f-9ad6-28701ccb33d6)
 
 # Mana
-Mana can come from several sources, but sites are the most common. When a mana source enters the realm on your turn, and during your start phase, they generate mana.
+Mana can come from several sources, but sites are the most common. You use this mana to cast spells or activate abilities. 
 
-You use this mana to cast spells or activate abilities. During step 3 of the end phase of your turn, any remaining mana is lost, whether or not you used it that turn.
+When you spend mana, you count your current mana sources and subtract how much you’ve already spent this turn. For example, if you currently have 5 mana sources and have spent 3, you can spend 2 more.
 
-You may not generate mana on your opponent's turn.
+You only have mana on your own turn and cannot spend mana on your opponent's turn.
+
+Sometimes you gain or lose control of a mana source during your turn, which applies immediately. For example, I have 3 sites including [[Sinkhole]]. I sacrifice my Sinkhole, then play another site, bringing my total sites back up to 3. I can cast something that costs 3, not 4, since I currently control 3 mana sources.
+
+As another example, I have 3 sites including Sinkhole. I cast something that costs 3, then sacrifice the Sinkhole. That’s fine! The rule is simply that at the moment you want to spend mana, you check to see if you have enough.
+
+I have 4 sites. I play [[Swap]] (3 mana), gaining control of my opponent’s [[Amethyst Core]]. I can now cast something that costs 2, since I have 5 mana sources (4 sites + 1 core) and I’ve spent 3 mana so far.
 
 [Codex Entry](https://curiosa.io/codex/72e711f6-ced0-4ff0-8386-e380e628f06f)
 
@@ -1615,6 +1636,15 @@ This is not an exhaustive list of cards with conditional ongoing effects, but hi
 
 [Codex Entry](https://curiosa.io/codex/aa624e74-7c3e-4622-8471-03e05b576c52)
 
+# Outerbound
+**Keyword Ability. **This minion is disabled while not occupying at least one location on the outside of the realm, meaning a location in a square that has fewer than four other adjacent squares. The outerbound ability persists even when disabled.
+
+The following shows a common board configuration with the outer squares marked with “O”:
+
+_See live codex for table_
+
+[Codex Entry](https://curiosa.io/codex/626a7bde-8b4c-4b74-83ff-42cf1b02b477)
+
 # Oversized Units
 Normally, units occupy only one location while in the realm. However, some oversized units occupy multiple locations simultaneously due to their size, e.g. [[Mountain Giant]]. To represent the minion’s locations, place the card at the intersection of the sites.
 
@@ -1694,9 +1724,9 @@ _See live codex for table_
 _See live codex for table_
 
 ## Teleporting Oversized Units
-When an oversized unit is teleported, it must be to a location or set of locations that are all legal for that unit to occupy, and must not cross regional boundaries unless allowed by card text.
+When an oversized unit is teleported, it must be to locations that are all legal for that unit to occupy. It also must not cross regional boundaries, unless the chosen part changes regions (see next paragraph).
 
-If the teleport effect requires the oversized unit to be targeted, you must choose one of its locations where it can be legally targeted to be the part of the unit teleported. If the effect does not target, the controller of the effect may choose any part of the oversized unit to be the part which is teleported.
+If the teleportation effect does not target, the controller of the effect chooses one part of the oversized unit. If the effect does target, choose a part that could be targeted. E.g. if [[Aethermoeba]] is partially in the void and partially on the surface and you target it with a teleportation effect, choose a part that’s on the surface.
 
 If the destination of the teleportation is a single location, the controller of the teleportation effect chooses the position and orientation of the unit, as long as the destination is included in the locations it ends up occupying.
 
@@ -1730,7 +1760,7 @@ _See live codex for table_
 
 _See live codex for table_
 
-However, if a different section of the Avatar is chosen the be the part which teleports to a nearby location, a whole new set of orientations become available.
+However, if you choose a different part of the Avatar as the “chosen part,” a whole new set of orientations would be possible.
 
 ## Cards that Refer to a Unit's Site or Location
 There are many cards that assume units occupy only one location or site. These cards will have language which refers to "its site" or "its location," or words to that effect, in the context of a unit.
@@ -1778,7 +1808,7 @@ If your unit takes at least one step, it has moved; if it takes zero steps, it h
 
 A path for projectiles is a bit different, and can include just the starting location. See "((projectiles))" for more details.
 
-## Example - Declaring a Seemingly Illegal Movement Path
+## Examples - Declaring Seemingly Illegal Movement Paths
 _See live codex for table_
 
 [[Rimland Nomads]] are at A, in a [[Silence]] aura on the leftmost 2x2 area. You use their Move and Attack basic ability and declare the following movement path:
@@ -1787,6 +1817,15 @@ _See live codex for table_
 - Surface B -> Surface C
 
 Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C.
+
+Conversely, if the Nomads began outside of the Silence aura, declared a path of two steps, and entered the Silence aura on the first step, they would be unable to continue, as they have used one step and have lost the ability that allows them to take more than one step during movement.
+
+As another example, if you control [[Sir Pelleas]] on the surface of a land site A (see the above diagram), adjacent to a water site B being affected by [[Mariner’s Curse]] and another water site C, you can declare the following movement path:
+
+- Surface A -> Surface B
+- Subsurface B -> Subsurface C
+
+Even though that path would normally not work since it doesn’t explain how Pelleas is getting from the surface of B to the subsurface, when you go to resolve the steps of the path, Pelleas will be pushed to the subsurface by the Curse, allowing him to continue the path you defined.
 
 [Codex Entry](https://curiosa.io/codex/2ba56532-3ac0-41e8-a73f-1005cbefe8db)
 
@@ -1800,7 +1839,7 @@ Note that losing life is different from paying life. You can lose life even if y
 # Phrases that are Synonymous
 Sorcery cards use natural, thematic language. Some words and phrases are synonymous and have the same game effect:
 
-- Fly. Throw through the air.
+- Fly. Throw through the air. Fling.
 
 - You heal. Gain life.
    - Technically, if a minion heals, its wounds can go away. If a minion gains life, there's no effect. But there are very few cards in the game that ever heal minions, e.g. [[Font of Life]]. The vast majority of healing effects only heal "you," the player.
@@ -1927,6 +1966,26 @@ See the "((Movement on the Storyline))" entry for more details.
 
 [Codex Entry](https://curiosa.io/codex/c81c8875-ef70-4202-8c98-7ac00ece0cc6)
 
+# Protected from X
+A unit which is “Protected from X” ignores the following abilities and effects from certain types of cards, denoted by “X”
+
+- X cannot target, damage, destroy, banish, modify, move, or impede the movement or attacks of the Protected unit.
+- X cannot cause a Protected Avatar to lose or gain life, and cannot affect the healing that a Protected unit receives.
+
+For example, if a unit is Protected from Sites, Gnome Hollows will not prevent it from entering, a Remote Desert will not damage it, and River Rapids cannot move it. If a unit is protected from Magic, they cannot be targeted by Zap!, will not take damage from Minor Explosion, and cannot be banished by Day of Judgement.
+
+As further examples for “Protected from Sites” (e.g. [[Key to the City]]), note that these site abilities will continue to work:
+
+- Wizard's Den will still allow a Key bearer Avatar to draw a spell (since players actually draw spells, not units).
+- Garden of Eden will still stop a Key bearer Avatar from drawing extra spells (since players actually draw spells, not units).
+- Beacon will still count an enemy Key bearer.
+- Asmodeus with the Key still can't destroy a Bedrock.
+- A Key bearer Avatar will still have to pay (2) extra for Bureau of Occult Control, since gaining and paying mana is done by the player.
+- A Key bearer Avatar will still be able to use the threshold provided by The Empyrean's site ability, since tracking threshold is done by the player.
+- [[The Void]] ))site(( would still banish a non-voidwalk minion Key bearer, since the game itself is banishing the minion.
+
+[Codex Entry](https://curiosa.io/codex/2a4648bf-d6e6-4167-ac6b-2ee30f393d86)
+
 # Random
 Random effects are those that use the word "random" or involve rolling a ))die((, e.g. [[Salmon of Knowledge]].
 
@@ -2026,7 +2085,7 @@ Even if a group of surface locations is separated by the void from another group
 [Codex Entry](https://curiosa.io/codex/aecd74a9-a6fd-41f2-8734-9d1f1c8ace1e)
 
 # Replace
-When you"replace" a site, banish it and immediately play another site in its square. There is no time during this process when there's a void.
+When you"replace" a site, banish it and immediately play another site in its square. There is no time during this process when there's a void. Genesis abilities of the site will trigger normally, because that’s what happens when you “play” a site.
 
 [Codex Entry](https://curiosa.io/codex/b9b55fb1-cabf-47df-b789-ad389d15df40)
 
@@ -2100,9 +2159,15 @@ Some tournament rules may modify the setup procedure.
 [Codex Entry](https://curiosa.io/codex/bc2036cd-69d3-4fab-b63b-dd094cf279c5)
 
 # Silenced
-A silenced card loses all its special abilities. It retains its characteristics and its basic abilities.
+A silenced card loses its printed abilities and cannot cast spells. It retains its characteristics, its basic abilities, and any abilities it gains from other sources.
 
-See the "((lose))" codex entry to understand what that word means in a _Sorcery _context.
+If a minion already has a Stealth or Ward mark and then is affected by Silence, _it will retain the mark!_
+
+If [[Pudge Butcher]] is silenced, he will ))lose(( Immobile and be able to move, since Immobile is printed on the card. If a minion is in [[Entangle Terrain]] and is silenced, it will still be Immobile, since Immobile is being applied from another source and is not printed on the minion itself.
+
+If [[Mismanaged Mortuary]] is silenced, it will lose Flooded, since it’s printed on the card. If a site is Flooded via [[Floodplain]], [[The Flood]], [[Great Old One]], etc. and then is silenced, it will still be Flooded, since Flooded is being applied from another source and not printed on the site itself.
+
+If a minion gains Charge via [[Charge!]] or Airborne via [[Power of Flight]] and is silenced, it will retain those abilities since they aren’t printed on the card.
 
 [Codex Entry](https://curiosa.io/codex/ad3816bb-9097-42bb-9231-4d9311f4a7e9)
 
@@ -2207,23 +2272,24 @@ The start phase is the first phase you complete during your turn. Follow these s
 
 1. All abilities that last “Until next turn” now end.
 2. All of your cards untap.
-3. All of your sites (and other cards) provide their mana for this turn.
-4. Trigger and resolve abilities that happen at the start of the turn.
-5. Draw a card from either your spellbook or atlas.
+3. Trigger and resolve abilities that happen at the start of the turn.
+4. Draw a card from either your spellbook or atlas.
    1. On the first player's first turn of the game, they do not draw a card.
 
 [Codex Entry](https://curiosa.io/codex/d74587ee-6256-4009-b144-9d46e9125822)
 
 # Stealth
-**Keyword Ability. **Minions with Stealth cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
+**Keyword Ability. **Minions with the Stealth keyword have the ability:
 
-Stealth is tracked with a stealth mark.
+_Genesis → Gain a stealth mark._
 
-Stealth is lost after the minion interacts with the realm.
+Minions with a Stealth mark cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
 
-Non-minions cannot have Stealth. If a minion with Stealth becomes a non-minion, remove the Stealth mark and they lose Stealth.
+A stealth mark is lost after the minion interacts with the realm.
 
-A minion with the Stealth keyword enters the realm with a Stealth mark. If a minion becomes disabled or silenced, it will lose its Stealth mark, since Stealth is an ability (similar to Ward).
+Only minions can have a Stealth mark. If a minion with a Stealth mark becomes a non-minion, remove the mark.
+
+If a minion becomes disabled, remove the mark.
 
 ## When exactly is "after"?
 Stealth is lost "after" interacting with the realm, so here is a precise explanation of when "after" occurs for the ways Stealth could be lost.
@@ -2496,7 +2562,7 @@ Typically a summon effect will specify where the summoned minion appears. For ex
 
 If a summon effect does not specify where the summoned minion appears, e.g. [[Raise Dead]] or [[Plague of Frogs]], you may summon it to any location in any region.
 
-If you try to summon a minion to a location that it can't enter, e.g. [[Gnome Hollows]], it doesn't change zones and remains where it was.
+if you cannot pay mandatory additional costs to summon a minion, e.g. [[Mock Court]], the minion is banished and never enters the realm at all. This rule also applies to rare cases where you somehow attempt to summon a minion to an illegal location, e.g. [[Lilith]] or [[Mother Nature]] somehow in a [[Gnome Hollows]] trying to summon a minion there. Note when casting a minion, you are always required to declare a legal summoning location at the time of casting.
 
 [Codex Entry](https://curiosa.io/codex/679db7d7-3cb3-4655-b84b-53c4bd6ed637)
 
@@ -2654,6 +2720,17 @@ Finally, if you Shapeshift a minion into a new form with the printed Stealth or 
 
 [Codex Entry](https://curiosa.io/codex/c27cbd3f-39d3-46b0-8133-37063e86df7e)
 
+# Trap
+When you play a site with a Trap (X) ability, it enters the realm face-down. Based on the trap’s threshold, place a matching draft site ([[Spire]], [[Stream]], [[Valley]], or [[Wasteland]]) on top of it with the back of the trap site partially visible. Treat the trap site as that Ordinary draft site while it’s face down.
+
+As an activated ability, you may pay X to flip the site face up and resolve its Trap effect. You cannot activate a Silenced or Disabled trap site. If a Trap becomes Silenced or Disabled during activation (e.g. [[Atlantean Fate]] with a non-Ordinary trap), the activation still resolves.
+
+There are other effects which can be applied specifically to Trap cards. To “Disarm” a trap means to turn it face up without resolving its Trap ability, and to “Reset” a trap means to turn it face-down. To “reactivate” a trap means to activate its trap ability while it is face-up, paying the mana and controlling the effect while it is resolving.
+
+If an effect causes you to “reveal and play” a trap site, e.g. [[Pathfinder]], you still reveal it, and then it enters place face-down.
+
+[Codex Entry](https://curiosa.io/codex/6f08ece8-44da-443e-8b8b-97af877eb139)
+
 # Traverse
 Traverse means to move through a border. For example, [[Wall of Brambles]] specifies that it sits atop a border of a site. [[Perilous Bridge]] has a passive ability which affects its top border.
 
@@ -2783,15 +2860,19 @@ For example, [[Hounds of Ondaros]] can be summoned to any void location. Then, a
 [Codex Entry](https://curiosa.io/codex/b0d18273-8870-4c0b-a8dd-1bda6e75e6bf)
 
 # Ward
-**Keyword Ability. **If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
+**Keyword Ability. **Cards with the Ward keyword have the ability:
 
-Ward is tracked with a ward mark. A unit or site can have at most one Ward.
+_Genesis → Gain a ward mark._
 
-Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark and they lose Ward. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
+If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
 
-Only units and sites can have Wards. If a unit or site with Ward becomes a non-unit, non-site, remove the Ward mark and they lose Ward.
+A unit or site can have at most one Ward mark.
 
-A unit or site with the Ward keyword enters the realm with a Ward mark. If a minion or site becomes disabled or silenced, it will lose its Ward mark, since Ward is an ability (similar to Stealth).
+Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
+
+Only units and sites can have Wards. If a unit or site with Ward becomes a non-unit, non-site, remove the mark.
+
+If a minion or site becomes disabled, remove the mark.
 
 Further Notes:
 

@@ -1,4 +1,6 @@
 # Smokestacks Of Gnaak
+### Is this a “silence” effect?
+Yes, treat this as “Other nearby sites are silenced.”
 ### What happens if there are two Smokestacks of Gnaak nearby each other?
 See "((Example - Two Smokestacks of Gnaak))" in the codex!
 ### How do Smokestacks of Gnaak and Mirror Realm interact?

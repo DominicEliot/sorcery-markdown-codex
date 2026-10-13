@@ -1,7 +1,7 @@
 # Phrases that are Synonymous
 Sorcery cards use natural, thematic language. Some words and phrases are synonymous and have the same game effect:
 
-- Fly. Throw through the air.
+- Fly. Throw through the air. Fling.
 
 - You heal. Gain life.
    - Technically, if a minion heals, its wounds can go away. If a minion gains life, there's no effect. But there are very few cards in the game that ever heal minions, e.g. [[Font of Life]]. The vast majority of healing effects only heal "you," the player.

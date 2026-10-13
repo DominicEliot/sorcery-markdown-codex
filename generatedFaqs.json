@@ -1,4 +1,147 @@
 {
+  "smokestacks_of_gnaak": [
+    {
+      "question": "Is this a “silence” effect?",
+      "answer": "Yes, treat this as “Other nearby sites are silenced.”",
+      "cards": [
+        "smokestacks_of_gnaak"
+      ]
+    },
+    {
+      "question": "What happens if there are two Smokestacks of Gnaak nearby each other?",
+      "answer": "See \"((Example - Two Smokestacks of Gnaak))\" in the codex!",
+      "cards": [
+        "smokestacks_of_gnaak"
+      ]
+    },
+    {
+      "question": "How do Smokestacks of Gnaak and Mirror Realm interact?",
+      "answer": "By the time Mirror ))Realm(( enters the realm, it's already a copy. Thus, it can copy a nearby site, and then promptly loses all abilities of that copied site (but still is the copy, without abilities). See \"((Apply Ongoing Effects In Order))\" in the codex for nitty-gritty details.",
+      "cards": [
+        "mirror_realm",
+        "smokestacks_of_gnaak"
+      ]
+    },
+    {
+      "question": "How do Smokestacks of Gnaak and Rift Valley interact?",
+      "answer": "Rift Valley enters the realm using its ability, and only loses its ability once it's in the realm (which by then, it doesn't really matter).",
+      "cards": [
+        "rift_valley",
+        "smokestacks_of_gnaak"
+      ]
+    }
+  ],
+  "sir_gawain": [
+    {
+      "question": "If Sir Gawain dies for multiple reasons (e.g. Poison Nova that kills him normally, and also kills him from redirected damage), do I get to draw a card?",
+      "answer": " Yes, as long as some damage was redirected and he dies immediately as that damage is applied. Damage from earlier in the turn isn’t sufficient; it must be redirected damage at the moment of his death.",
+      "cards": [
+        "sir_gawain"
+      ]
+    }
+  ],
+  "yog_sothoth": [
+    {
+      "question": "How does “ignores the abilities of sites” work?",
+      "answer": "Yog-Sothoth is protected from sites. See the \"((Protected))\" codex entry.",
+      "cards": [
+        "yog_sothoth"
+      ]
+    },
+    {
+      "question": "What does \"Occupies all locations safely\" mean?",
+      "answer": "Yog Sothoth occupies all locations simultaneously, in all regions. That includes all surface locations, subsurface locations and voids. Yog Sothoth does not die due to being burrowed or submerged and is not banished due to being in the void.",
+      "cards": [
+        "yog_sothoth"
+      ]
+    },
+    {
+      "question": "What happens if there's a silence or disable effect somewhere in the realm that affects minions (e.g. Root Spider, Silence aura)?",
+      "answer": "Yog-Sothoth will be disabled or silenced by the effect, but will continue to occupy all locations since its size is a characteristic. This usually means Yog-Sothoth will be banished, since it can no longer safely occupy void locations!",
+      "cards": [
+        "yog_sothoth"
+      ]
+    }
+  ],
+  "saint_of_redemption": [
+    {
+      "question": "Does Saint of Redemption himself enter tapped?",
+      "answer": "Yes! This is an “enters the realm” effect, and therefore it effects himself as he enters the realm. He is very pious!",
+      "cards": [
+        "saint_of_redemption"
+      ]
+    },
+    {
+      "question": "Does \"no minion is Evil\" mean they are no longer considered a Demon, Monster or Undead?",
+      "answer": "Minions will still keep their Demon, Monster and Undead types! They simply are no longer Evil, and will not be affected by things which specifically affect Evil.",
+      "cards": [
+        "saint_of_redemption"
+      ]
+    },
+    {
+      "question": "If Persecutor brands a minion, are they still considered evil by that player's cards while the Saint of Redemption is in play?",
+      "answer": "No, the Saint redeems all minions, and even the Persecutor's brand will not condemn a redeemed soul!",
+      "cards": [
+        "saint_of_redemption"
+      ]
+    },
+    {
+      "question": "Do all minions enter the realm tapped, or only minions which would have been Evil?",
+      "answer": "All minion enter the realm tapped.",
+      "cards": [
+        "saint_of_redemption"
+      ]
+    },
+    {
+      "question": "Does this mean that minions which are not in the realm are not Evil as well?",
+      "answer": "No minion anywhere is Evil as long as the Saint is in play.  This means that if a player casts [[Black Mass]], they will not be able to reveal any minions, as none of them can be Evil.",
+      "cards": [
+        "saint_of_redemption"
+      ]
+    }
+  ],
+  "cloud_city": [
+    {
+      "question": "Can Cloud City move onto The Void (the site) ?",
+      "answer": "No.",
+      "cards": [
+        "cloud_city"
+      ]
+    },
+    {
+      "question": "Does this carry along oversized minions or auras that occupy more than one square?",
+      "answer": "No. If an oversized minion is now occupying the void, it will be banished. (Megamoeba will still move with Cloud City.)",
+      "cards": [
+        "cloud_city"
+      ]
+    },
+    {
+      "question": "Does this carry along oversized units or auras that occupy more than one square?",
+      "answer": "No.",
+      "cards": [
+        "atlas_wanderers",
+        "cloud_city",
+        "earthquake"
+      ]
+    },
+    {
+      "question": "What happens if an oversized avatar is occupying a site, and then some effect moves that site?",
+      "answer": "When a site moves, only things of \"normal\" size move with it. As the avatar is now oversized, it will not be moved.\n\nIn most cases when a site moves, another site will be left in its place (e.g. [[Rift Valley]]). In these situations, the avatar will end up occupying the surface of the new site. In the case of [[Cloud City]], which leaves a void location behind, the avatar will now be occupying that void square. See ((mandatory actions)) for what happens if your avatar is in the void.\n\nNote that in both cases the avatar does not \"enter\" the new location that it is occupying.",
+      "cards": [
+        "the_rack",
+        "cloud_city"
+      ]
+    }
+  ],
+  "thin_ice": [
+    {
+      "question": "How does the resolution of this ability interact with other “end of turn” triggers?",
+      "answer": "The ability is placed on the storyline with all other end of turn triggers. Then, when it resolves, if the total power of minions on the surface of the site is 5 or greater, submerge them.\n\nFor example, if you control a [[Questing Beast]] atop your Thin Ice, you could order the end of turn triggers so that the Beast takes a step away from the Thin Ice first, then you would only submerge other minions atop Thin Ice if their total power was still 5 or greater (not counting the Questing Beast).",
+      "cards": [
+        "thin_ice"
+      ]
+    }
+  ],
   "swap": [
     {
       "question": "If one target is a minion, can the other target be an artifact, and vice versa?  ",
@@ -101,27 +244,11 @@
       ]
     },
     {
-      "question": "If my Vindictive Nation is affected by my opponent's Atlantean Fate, do they lose 1 or 2 life?",
-      "answer": "Two life. Vindictive Nation is flooded (which counts as modifying it) and then silenced (which also counts as modifying it).",
+      "question": "If my Vindictive Nation, or an allied site near it, is affected by my opponent's Atlantean Fate, how much life do they lose?",
+      "answer": "One life. Atlantean Fate will flood and silence Vindictive Nation, as well as prevent it from providing non-water threshold. These are all modifications to the site, all from a single effect on the storyline. Since these all come from a single effect on the storyline, Vindictive Nation sees it as a single modification.",
       "cards": [
         "vindictive_nation",
         "atlantean_fate"
-      ]
-    }
-  ],
-  "yog_sothoth": [
-    {
-      "question": "What does \"Occupies all locations safely\" mean?",
-      "answer": "Yog Sothoth occupies all locations simultaneously, in all regions. That includes all surface locations, subsurface locations and voids. Yog Sothoth does not die due to being burrowed or submerged and is not banished due to being in the void.",
-      "cards": [
-        "yog_sothoth"
-      ]
-    },
-    {
-      "question": "What happens if there's a silence or disable effect somewhere in the realm that affects minions (e.g. Root Spider, Silence aura)?",
-      "answer": "Yog-Sothoth will be disabled or silenced by the effect, but will continue to occupy all locations since its size is a characteristic. This usually means Yog-Sothoth will be banished, since it can no longer safely occupy void locations!",
-      "cards": [
-        "yog_sothoth"
       ]
     }
   ],
@@ -549,7 +676,7 @@
   "key_to_the_city": [
     {
       "question": "How does this ability work?",
-      "answer": "Site abilities cannot target, damage, destroy, banish, modify, move, or impede the movement or attacks of the bearer of the Key. Additionally, site abilities cannot cause the bearer to lose or gain life, and cannot affect healing the bearer receives. For example:\n\n- Gnome Hollows will not stop a 3+ power Key bearer from entering. A Key bearer can walk over a Perilous Bridge on the ground.\n- Remote Desert will not damage a Key bearer.\n- Poisoned Well cannot cause the bearer to lose life.\n- An Avatar Key bearer will not gain life from Holy Ground or lose life from Poisoned Well.\n- An Avatar Key bearer will not have its healing reduced by River of Blood. (The Avatar itself must hold the Key to ignore the half healing effect from River of Blood.)\n- Fields of Camlann will not destroy a Key bearer, even when it's not the chosen minion.\n- River Rapids can't move a Key bearer.\n- Many site effects won't apply, as part of \"can't be modified\":\n   - Gilman House can't transform a Key bearer\n   - Babbling Brook can't disable a Key bearer\n   - Bog can't immobilize a Key bearer\n   - Silent Hills can't silence a Key bearer\n   - Road to Perdition can't increase or decrease a Key bearer's power\n   - Accursed Desert can't break a Key bearer's Ward\n\nSome site abilities will continue to work:\n\n- Wizard's Den will still allow a Key bearer Avatar to draw a spell (since players actually draw spells, not units).\n- Garden of Eden will still stop a Key bearer Avatar from drawing extra spells (since players actually draw spells, not units).\n- Beacon will still count an enemy Key bearer.\n- Asmodeus with the Key still can't destroy a Bedrock.\n- A Key bearer Avatar will still have to pay (2) extra for Bureau of Occult Control, since gaining and paying mana is done by the player.\n- A Key bearer Avatar will still be able to use the threshold provided by The Empyrean's site ability, since tracking threshold is done by the player.\n- [[The Void]] ))site(( would still banish a non-voidwalk minion Key bearer, since the game itself is banishing the minion.",
+      "answer": "The bearer is protected from sites. See the \"((Protected))\" codex entry.",
       "cards": [
         "key_to_the_city"
       ]
@@ -696,7 +823,7 @@
     },
     {
       "question": "When a card is \"returned to its recorded state,\" does it enter the realm?",
-      "answer": "No, it is not entering the realm. Genesis, Stealth, Lance, etc. will not trigger and sites do not generate mana.",
+      "answer": "No, it is not entering the realm. Genesis, Stealth, Lance, etc. will not trigger.",
       "cards": [
         "kairos_the_archivist"
       ]
@@ -2017,36 +2144,6 @@
       ]
     }
   ],
-  "saint_of_redemption": [
-    {
-      "question": "Does \"no minion is Evil\" mean they are no longer considered a Demon, Monster or Undead?",
-      "answer": "Minions will still keep their Demon, Monster and Undead types! They simply are no longer Evil, and will not be affected by things which specifically affect Evil.",
-      "cards": [
-        "saint_of_redemption"
-      ]
-    },
-    {
-      "question": "If Persecutor brands a minion, are they still considered evil by that player's cards while the Saint of Redemption is in play?",
-      "answer": "No, the Saint redeems all minions, and even the Persecutor's brand will not condemn a redeemed soul!",
-      "cards": [
-        "saint_of_redemption"
-      ]
-    },
-    {
-      "question": "Do all minions enter the realm tapped, or only minions which would have been Evil?",
-      "answer": "All minion enter the realm tapped.",
-      "cards": [
-        "saint_of_redemption"
-      ]
-    },
-    {
-      "question": "Does this mean that minions which are not in the realm are not Evil as well?",
-      "answer": "No minion anywhere is Evil as long as the Saint is in play.  This means that if a player casts [[Black Mass]], they will not be able to reveal any minions, as none of them can be Evil.",
-      "cards": [
-        "saint_of_redemption"
-      ]
-    }
-  ],
   "locusts_of_illyria": [
     {
       "question": "Do I summon a copy the turn I first summon the Locusts?",
@@ -2787,8 +2884,8 @@
       ]
     },
     {
-      "question": "If my Vindictive Nation is affected by my opponent's Atlantean Fate, do they lose 1 or 2 life?",
-      "answer": "Two life. Vindictive Nation is flooded (which counts as modifying it) and then silenced (which also counts as modifying it).",
+      "question": "If my Vindictive Nation, or an allied site near it, is affected by my opponent's Atlantean Fate, how much life do they lose?",
+      "answer": "One life. Atlantean Fate will flood and silence Vindictive Nation, as well as prevent it from providing non-water threshold. These are all modifications to the site, all from a single effect on the storyline. Since these all come from a single effect on the storyline, Vindictive Nation sees it as a single modification.",
       "cards": [
         "vindictive_nation",
         "atlantean_fate"
@@ -2807,7 +2904,7 @@
   "lord_of_fear": [
     {
       "question": "What does \"defend alone\" mean?",
-      "answer": "When the Defend window closes (see \"((Attack))\" in the codex for details), If only a single enemy unit uses the Defend ability, the Defender is removed from the fight and the original attack target is reinstated. Defenders still arrive one at a time, but if there's only one, the defense effectively is negated (though that one defender still got to tap and move to the attack's location).",
+      "answer": "When the Defend window closes (see \"((Attack))\" in the codex for details), at least two units must be in the fight. If not, any unit that used the Defend ability is removed from the fight and the original attack target is reinstated. Defenders still arrive one at a time; if there isn’t at least two units after the Defend window, the defense is effectively negated (though that one defender still got to tap and move to the attack's location).",
       "cards": [
         "lord_of_fear"
       ]
@@ -2858,7 +2955,7 @@
   "the_base_of_babel": [
     {
       "question": "What does it mean to \"build The Tower of Babel\" and \"play ... atop this\" ?",
-      "answer": "You may play The Apex of Babel onto the same square as The Base of Babel! (If you have multiple copes of The Base of Babel in the realm, choose one.) If you do, they merge into a single site called The Tower of Babel. When you build it by playing the Apex, resolve the effect on The Apex of Babel.\n\nThe Tower of Babel is considered a single site that provides (2) mana and (A)(E), and is both Unique and Exceptional. (The turn you play it, you gain (1) more mana since the Base was already in play.) If it's destroyed, both The Apex of Babel and The Base of Babel go to your cemetery. If it's copied, e.g. Mirror Realm, the copy will provide (2) mana, etc., but you won't get the build bonus again.\n\nFor all purposes, The Tower of Babel is considered a single site.",
+      "answer": "You may play The Apex of Babel onto the same square as The Base of Babel! (If you have multiple copes of The Base of Babel in the realm, choose one.) If you do, they merge into a single site called The Tower of Babel. When you build it by playing the Apex, resolve the effect on The Apex of Babel.\n\nThe Tower of Babel is considered a single site that provides (2) mana and (A)(E), and is both Unique and Exceptional. If it's destroyed, both The Apex of Babel and The Base of Babel go to your cemetery. If it's copied, e.g. Mirror Realm, the copy will provide (2) mana, etc., but you won't get the build bonus again.\n\nFor all purposes, The Tower of Babel is considered a single site.",
       "cards": [
         "the_base_of_babel",
         "the_apex_of_babel"
@@ -2868,7 +2965,7 @@
   "the_apex_of_babel": [
     {
       "question": "What does it mean to \"build The Tower of Babel\" and \"play ... atop this\" ?",
-      "answer": "You may play The Apex of Babel onto the same square as The Base of Babel! (If you have multiple copes of The Base of Babel in the realm, choose one.) If you do, they merge into a single site called The Tower of Babel. When you build it by playing the Apex, resolve the effect on The Apex of Babel.\n\nThe Tower of Babel is considered a single site that provides (2) mana and (A)(E), and is both Unique and Exceptional. (The turn you play it, you gain (1) more mana since the Base was already in play.) If it's destroyed, both The Apex of Babel and The Base of Babel go to your cemetery. If it's copied, e.g. Mirror Realm, the copy will provide (2) mana, etc., but you won't get the build bonus again.\n\nFor all purposes, The Tower of Babel is considered a single site.",
+      "answer": "You may play The Apex of Babel onto the same square as The Base of Babel! (If you have multiple copes of The Base of Babel in the realm, choose one.) If you do, they merge into a single site called The Tower of Babel. When you build it by playing the Apex, resolve the effect on The Apex of Babel.\n\nThe Tower of Babel is considered a single site that provides (2) mana and (A)(E), and is both Unique and Exceptional. If it's destroyed, both The Apex of Babel and The Base of Babel go to your cemetery. If it's copied, e.g. Mirror Realm, the copy will provide (2) mana, etc., but you won't get the build bonus again.\n\nFor all purposes, The Tower of Babel is considered a single site.",
       "cards": [
         "the_base_of_babel",
         "the_apex_of_babel"
@@ -3562,31 +3659,6 @@
       ]
     }
   ],
-  "smokestacks_of_gnaak": [
-    {
-      "question": "What happens if there are two Smokestacks of Gnaak nearby each other?",
-      "answer": "See \"((Example - Two Smokestacks of Gnaak))\" in the codex!",
-      "cards": [
-        "smokestacks_of_gnaak"
-      ]
-    },
-    {
-      "question": "How do Smokestacks of Gnaak and Mirror Realm interact?",
-      "answer": "By the time Mirror ))Realm(( enters the realm, it's already a copy. Thus, it can copy a nearby site, and then promptly loses all abilities of that copied site (but still is the copy, without abilities). See \"((Apply Ongoing Effects In Order))\" in the codex for nitty-gritty details.",
-      "cards": [
-        "mirror_realm",
-        "smokestacks_of_gnaak"
-      ]
-    },
-    {
-      "question": "How do Smokestacks of Gnaak and Rift Valley interact?",
-      "answer": "Rift Valley enters the realm using its ability, and only loses its ability once it's in the realm (which by then, it doesn't really matter).",
-      "cards": [
-        "rift_valley",
-        "smokestacks_of_gnaak"
-      ]
-    }
-  ],
   "selfsame_simulacrum": [
     {
       "question": "If it tries to become a basic copy of an aura animated by Enchantress, what happens?",
@@ -3804,7 +3876,7 @@
     },
     {
       "question": "Does Pristine Paradise provide mana the turn the Pathfinder plays it from the atlas? That is, does the site have enough time to make mana before the Pathfinder moves onto it?",
-      "answer": "Yes, sites immediately generate mana when they come into play.",
+      "answer": "Because Pathfinder plays the site and then immediately moves onto it, there is no opportunity for them to take advantage of the mana provided by Pristine Paradise that turn, unless the Pathfinder has a way to move off the site.",
       "cards": [
         "pathfinder",
         "pristine_paradise"
@@ -5154,35 +5226,9 @@
     },
     {
       "question": "Using Dream-Quest, can I put to sleep one of my non-minion Spellcasters (e.g. Omphalos, River of Flame) or a spellcaster with restrictions (e.g. Earl of the Ivory Towers, Wind Sylph)?",
-      "answer": "Yes!\n\nAn Omphalos will be disabled and thus not draw a spell that turn, but it cannot be hurt unless it's animated. Assuming it is not hurt, you may wake it up at the start of your next turn.\n\nFor a site (e.g. River of Flame), it provides no Threshold while disabled, but it will wake up in time to produce mana next turn, due to the order of resolution in the Start Phase.",
+      "answer": "Yes!\n\nAn Omphalos will be disabled and thus not draw a spell that turn, but it cannot be hurt unless it's animated. Assuming it is not hurt, you may wake it up at the start of your next turn.\n\nFor a site (e.g. River of Flame), it provides no Threshold or Mana while disabled.",
       "cards": [
         "dream_quest"
-      ]
-    }
-  ],
-  "cloud_city": [
-    {
-      "question": "Does this carry along oversized minions or auras that occupy more than one square?",
-      "answer": "No. If an oversized minion is now occupying the void, it will be banished. (Megamoeba will still move with Cloud City.)",
-      "cards": [
-        "cloud_city"
-      ]
-    },
-    {
-      "question": "Does this carry along oversized units or auras that occupy more than one square?",
-      "answer": "No.",
-      "cards": [
-        "atlas_wanderers",
-        "cloud_city",
-        "earthquake"
-      ]
-    },
-    {
-      "question": "What happens if an oversized avatar is occupying a site, and then some effect moves that site?",
-      "answer": "When a site moves, only things of \"normal\" size move with it. As the avatar is now oversized, it will not be moved.\n\nIn most cases when a site moves, another site will be left in its place (e.g. [[Rift Valley]]). In these situations, the avatar will end up occupying the surface of the new site. In the case of [[Cloud City]], which leaves a void location behind, the avatar will now be occupying that void square. See ((mandatory actions)) for what happens if your avatar is in the void.\n\nNote that in both cases the avatar does not \"enter\" the new location that it is occupying.",
-      "cards": [
-        "the_rack",
-        "cloud_city"
       ]
     }
   ],
@@ -5640,7 +5686,7 @@
     },
     {
       "question": "If I gain control of a site in the middle of my turn, does it produce mana immediately?",
-      "answer": "No. Sites produce mana at the start of your turn and when they enter the realm. Since the site with Land Deed was already in the realm, it doesn’t produce mana merely because you took control of it.",
+      "answer": "Yes, if you gain control of a site during your turn, you may immediately use the mana it provides.",
       "cards": [
         "land_deed"
       ]
@@ -5887,7 +5933,7 @@
     },
     {
       "question": "When do I get this extra mana?",
-      "answer": "Mana is added to a player’s mana pool during their Start Phase, or when a site enters the realm under their control. So, any sites already in play won’t get the extra mana until the start of your next turn. But, if you play Abundance and then play a site into Abundance’s area of effect, the newly played site will generate extra mana immediately. Also, if you start your turn with a site in Abundance, and then during your Main Phase the site is no longer in Abundance (e.g. Cloud City moving away, Scorched Earth, etc.), you don’t lose the mana that you gained during your Start Phase.",
+      "answer": "The extra Mana is provided immediately, as soon as the site is affected by the aura. The extra mana is lost immediately if the aura stops affecting that site.",
       "cards": [
         "abundance"
       ]
@@ -5903,7 +5949,7 @@
   "pristine_paradise": [
     {
       "question": "Does Pristine Paradise provide mana the turn the Pathfinder plays it from the atlas? That is, does the site have enough time to make mana before the Pathfinder moves onto it?",
-      "answer": "Yes, sites immediately generate mana when they come into play.",
+      "answer": "Because Pathfinder plays the site and then immediately moves onto it, there is no opportunity for them to take advantage of the mana provided by Pristine Paradise that turn, unless the Pathfinder has a way to move off the site.",
       "cards": [
         "pathfinder",
         "pristine_paradise"

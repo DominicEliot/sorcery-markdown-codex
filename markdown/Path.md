@@ -9,7 +9,7 @@ If your unit takes at least one step, it has moved; if it takes zero steps, it h
 
 A path for projectiles is a bit different, and can include just the starting location. See "((projectiles))" for more details.
 
-## Example - Declaring a Seemingly Illegal Movement Path
+## Examples - Declaring Seemingly Illegal Movement Paths
 _See live codex for table_
 
 [[Rimland Nomads]] are at A, in a [[Silence]] aura on the leftmost 2x2 area. You use their Move and Attack basic ability and declare the following movement path:
@@ -18,5 +18,14 @@ _See live codex for table_
 - Surface B -> Surface C
 
 Since the Nomads are in a Silence aura, they do not currently have Movement +1 and therefore they wouldn't normally be able to take two steps. Nonetheless, you can declare the path and see what happens. Once they step onto B, they're out of the aura. The game tries to resolve the second step and notices that, yes, the Nomads do have the capacity to take a second step, so they do, and end up at C.
+
+Conversely, if the Nomads began outside of the Silence aura, declared a path of two steps, and entered the Silence aura on the first step, they would be unable to continue, as they have used one step and have lost the ability that allows them to take more than one step during movement.
+
+As another example, if you control [[Sir Pelleas]] on the surface of a land site A (see the above diagram), adjacent to a water site B being affected by [[Mariner’s Curse]] and another water site C, you can declare the following movement path:
+
+- Surface A -> Surface B
+- Subsurface B -> Subsurface C
+
+Even though that path would normally not work since it doesn’t explain how Pelleas is getting from the surface of B to the subsurface, when you go to resolve the steps of the path, Pelleas will be pushed to the subsurface by the Curse, allowing him to continue the path you defined.
 
 [Codex Entry](https://curiosa.io/codex/2ba56532-3ac0-41e8-a73f-1005cbefe8db)

@@ -4,7 +4,7 @@ The beta text is correct.
 ### Where does Pathfinder play its first site turn 1?
 You must play your first site turn 1 under the Pathfinder per the game rules.
 ### Does Pristine Paradise provide mana the turn the Pathfinder plays it from the atlas? That is, does the site have enough time to make mana before the Pathfinder moves onto it?
-Yes, sites immediately generate mana when they come into play.
+Because Pathfinder plays the site and then immediately moves onto it, there is no opportunity for them to take advantage of the mana provided by Pristine Paradise that turn, unless the Pathfinder has a way to move off the site.
 ### What happens if I try to use Mirage's alternate play text when it's played via Pathfinder?
 Assuming you own and control the adjacent site, Mirage's ability can modify the play restrictions on Pathfinder, allowing you to return the site to your hand.
 ### If I have no sites but it's not the first turn (e.g. Roots of Yggdrasil destroyed everything) and I use the Pathfinder's ability, am I forced to play the site under the Pathfinder's current location, or could I play the site adjacent?

@@ -1,5 +1,7 @@
 # Lance
-**Keyword Ability. **A minion with the Lance keyword enters the realm carrying a [[Lance]] artifact token.
+**Keyword Ability. **A minion with the Lance keyword has the ability:
+
+_Genesis → Create and carry a _Lance_._
 
 A Lance is an Ordinary, Weapon, artifact token with the text:
 
@@ -13,6 +15,6 @@ Further notes:
 - If a unit carrying a Lance strikes a site, the Lance does not break and does not confer additional damage.
 - Lances are normal artifacts that can be picked up and dropped as usual.
 - When they break, they are removed from the game, like all tokens.
-- Since the Lance keyword is an "enters the realm" effect, even if the minion is immediately disabled or silenced when entering the realm, they will still have their Lance with them!
+- Since the Lance keyword is a Genesis effect, if the minion is immediately disabled or silenced when entering the realm, it will not gain a Lance.
 
 [Codex Entry](https://curiosa.io/codex/091b556c-3abc-4e42-81ab-5216cf11d9ed)

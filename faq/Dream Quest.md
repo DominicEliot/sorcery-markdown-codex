@@ -6,4 +6,4 @@ Yes!
 
 An Omphalos will be disabled and thus not draw a spell that turn, but it cannot be hurt unless it's animated. Assuming it is not hurt, you may wake it up at the start of your next turn.
 
-For a site (e.g. River of Flame), it provides no Threshold while disabled, but it will wake up in time to produce mana next turn, due to the order of resolution in the Start Phase.
+For a site (e.g. River of Flame), it provides no Threshold or Mana while disabled.
