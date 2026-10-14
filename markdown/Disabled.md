@@ -1,5 +1,5 @@
 # Disabled
-While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.  
+While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, loses Stealth and Ward marks, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.  
   
 A disabled minion may be ))moved(( forcefully as long the disabled minion does not take its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.  
   

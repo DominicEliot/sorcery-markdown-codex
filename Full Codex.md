@@ -753,7 +753,7 @@ $44
 [Codex Entry](https://curiosa.io/codex/56de42f7-3d67-4437-826c-6a89cd356458)
 
 # Disabled
-While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.  
+While disabled, a minion has no abilities (including basic abilities), cannot strike or deal damage, cannot take steps itself, cannot shoot projectiles, loses Stealth and Ward marks, and cannot be tapped to pay for costs. They also cannot take any action granted by another card or effect (e.g. [[Raze]], [[Trial by Water]]), though they can be moved by force.  
   
 A disabled minion may be ))moved(( forcefully as long the disabled minion does not take its own steps. A disabled minion may still be tapped by effects as long as it isn't tapping to pay for costs.  
   
@@ -1187,7 +1187,7 @@ Note that passive abilities and other ongoing effects are not included in kill c
 # Lance
 **Keyword Ability. **A minion with the Lance keyword has the ability:
 
-_Genesis → Create and carry a _Lance_._
+_When this card enters the realm, it gains a _Lance _token._
 
 A Lance is an Ordinary, Weapon, artifact token with the text:
 
@@ -1201,7 +1201,7 @@ Further notes:
 - If a unit carrying a Lance strikes a site, the Lance does not break and does not confer additional damage.
 - Lances are normal artifacts that can be picked up and dropped as usual.
 - When they break, they are removed from the game, like all tokens.
-- Since the Lance keyword is a Genesis effect, if the minion is immediately disabled or silenced when entering the realm, it will not gain a Lance.
+- Since the Lance keyword is triggered effect when the minion enters the realm, if the minion is immediately disabled or silenced when entering the realm due to an ongoing ability, it will not actually gain a Lance token.
 
 [Codex Entry](https://curiosa.io/codex/091b556c-3abc-4e42-81ab-5216cf11d9ed)
 
@@ -1306,15 +1306,19 @@ You may have your units do these as many times as you have resources to do so, a
 # Mana
 Mana can come from several sources, but sites are the most common. You use this mana to cast spells or activate abilities. 
 
-When you spend mana, you count your current mana sources and subtract how much you’ve already spent this turn. For example, if you currently have 5 mana sources and have spent 3, you can spend 2 more.
+When you want to spend mana, you total the mana from all sources you currently control and subtract how much you’ve already spent this turn. For example, if you currently have 5 mana from sources you control and have spent 3, you can spend 2 more.
 
 You only have mana on your own turn and cannot spend mana on your opponent's turn.
 
-Sometimes you gain or lose control of a mana source during your turn, which applies immediately. For example, I have 3 sites including [[Sinkhole]]. I sacrifice my Sinkhole, then play another site, bringing my total sites back up to 3. I can cast something that costs 3, not 4, since I currently control 3 mana sources.
+Sometimes you gain or lose control of a mana source during your turn, which applies immediately. For example, I have 3 sites including [[Sinkhole]]. I sacrifice my Sinkhole, then play another site, bringing my total sites back up to 3. I can cast something that costs 3, not 4, since I have a total of 3 mana from all sources I currently control.
 
-As another example, I have 3 sites including Sinkhole. I cast something that costs 3, then sacrifice the Sinkhole. That’s fine! The rule is simply that at the moment you want to spend mana, you check to see if you have enough.
+As another example, I have 3 sites including Sinkhole. I cast something that costs 3, then sacrifice the Sinkhole. That’s fine! The rule is simply that at the moment you want to spend mana, you check to see if you have enough. In this example, if I then played another site, bringing my total back to 3, I’d still have 0 available mana, since the game notices that I have 3 sites right now and already cast something that cost 3.
 
-I have 4 sites. I play [[Swap]] (3 mana), gaining control of my opponent’s [[Amethyst Core]]. I can now cast something that costs 2, since I have 5 mana sources (4 sites + 1 core) and I’ve spent 3 mana so far.
+As another example, I have 4 sites. I play [[Swap]] (3 mana), gaining control of my opponent’s [[Amethyst Core]]. I can now cast something that costs 2, since I have 5 mana from my sources (4 sites + 1 core) and I’ve spent 3 mana so far.
+
+Any mana source that “provides” mana, including sites, must be in the realm and controlled by you to count toward your total available mana, e.g. [[Onyx Core]].
+
+Other effects may allow you to “gain” mana, which function as independent mana sources. For example, if you sacrifice [[Ferryman’s Coin]], you have (1) extra mana when totaling your available mana that turn, even though Ferryman’s Coin isn’t in the realm after being sacrificed. This applies to all effects that cause you to “gain” mana, such as tapping [[Field Laborers]] (even if they leave the realm after tapping), resolving an [[Occult Ritual]] (which doesn’t go into the realm at all because it’s a magic), or the (1) bonus mana from [[Gothic Tower]]’s genesis effect (even if the site itself leaves the realm that turn).
 
 [Codex Entry](https://curiosa.io/codex/72e711f6-ced0-4ff0-8386-e380e628f06f)
 
@@ -2281,11 +2285,11 @@ The start phase is the first phase you complete during your turn. Follow these s
 # Stealth
 **Keyword Ability. **Minions with the Stealth keyword have the ability:
 
-_Genesis → Gain a stealth mark._
+_When this card enters the realm, it gains a Stealth mark._
 
 Minions with a Stealth mark cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
 
-A stealth mark is lost after the minion interacts with the realm.
+A stealth mark is lost after the minion interacts with the realm. If an effect grants or removes “Stealth,” that is shorthand for a Stealth mark.
 
 Only minions can have a Stealth mark. If a minion with a Stealth mark becomes a non-minion, remove the mark.
 
@@ -2862,11 +2866,11 @@ For example, [[Hounds of Ondaros]] can be summoned to any void location. Then, a
 # Ward
 **Keyword Ability. **Cards with the Ward keyword have the ability:
 
-_Genesis → Gain a ward mark._
+_When this card enters the realm, it gains a Ward mark._
 
 If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
 
-A unit or site can have at most one Ward mark.
+A unit or site can have at most one Ward mark. If an effect grants or removes a “Ward,” that is shorthand for a Ward mark.
 
 Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
 

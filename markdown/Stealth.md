@@ -1,11 +1,11 @@
 # Stealth
 **Keyword Ability. **Minions with the Stealth keyword have the ability:
 
-_Genesis → Gain a stealth mark._
+_When this card enters the realm, it gains a Stealth mark._
 
 Minions with a Stealth mark cannot be targeted by spells or abilities from your opponents (including attacks), their attacks cannot be defended, they cannot be intercepted, and projectiles cannot hit them. Carriable artifacts carried by a Stealthed minion also cannot be targeted.
 
-A stealth mark is lost after the minion interacts with the realm.
+A stealth mark is lost after the minion interacts with the realm. If an effect grants or removes “Stealth,” that is shorthand for a Stealth mark.
 
 Only minions can have a Stealth mark. If a minion with a Stealth mark becomes a non-minion, remove the mark.
 

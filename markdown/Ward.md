@@ -1,11 +1,11 @@
 # Ward
 **Keyword Ability. **Cards with the Ward keyword have the ability:
 
-_Genesis → Gain a ward mark._
+_When this card enters the realm, it gains a Ward mark._
 
 If a warded site or unit would be targeted by an opponent's spell or special ability, damaged, or destroyed, the Ward breaks instead.
 
-A unit or site can have at most one Ward mark.
+A unit or site can have at most one Ward mark. If an effect grants or removes a “Ward,” that is shorthand for a Ward mark.
 
 Evil minions can't be warded. If a Warded minion becomes Evil, remove the Ward mark. Note that [[Persecutor]] only causes your cards to treat the branded minion as Evil, so they keep their Ward mark.
 
