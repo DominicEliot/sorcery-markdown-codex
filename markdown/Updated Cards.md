@@ -5,7 +5,7 @@ The majority of updates have been made for rules clarity and design intent, ofte
 
 **Most Significant Updates**
 
-- [[Druid]] - Tawny is only summoned once; the thorns from the flip side only affect your sites; thorns are a site ability, not the Druid's, and thus can be silenced. Druid was very powerful as originally written and repeated summoning of a free minion (i.e. Tawny) limited future design space.
+- [[Druid]] - Tawny is only summoned once; the thorns from the flip side only affect your sites. Druid was very powerful as originally written and repeated summoning of a free minion (i.e. Tawny) limited future design space.
 - [[Infiltrate]] - Control of the infiltrated minion returns when it no longer has Stealth, allowing for interesting counterplay. Infiltrate was very powerful as originally written and it was a thematic miss to retain control even after Stealth was lost.
 - [[Lord of Lies]] - Don’t trust his words, it’s in the name! He won’t dirty his own hands in the fight any more. Causes two **other** units to fight.
 
