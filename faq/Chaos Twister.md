@@ -6,7 +6,7 @@ It deals no damage (even to itself). Since it's now in the void, it is banished 
 ### What if the minion lands atop two or more sites?
 It lands on only a single site, which is the one that it most fully overlaps.
 ### What if I'm using Chaos Twister on a token? Or a really expensive card with triple sleeves?
-Feel free to use a stand-in.
+Feel free to use a stand-in, which should be unsleeved, in good condition, and a normal size card.
 ### Does the minion continue to carry whatever it was carrying?
 Yes.
 ### How should I resolve this card in a tournament setting?
