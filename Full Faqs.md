@@ -164,6 +164,8 @@ If the Phoenix attacks and there are multiple defenders, each defending fire min
 If you cast the spell, the mana cost is X. For example, if you cast it for 2 mana, then Immortal Throne would see it as a 2 cost spell. But, if you aren't casting the spell and it's simply in your hand, spellbook, etc., then X is 0 until you actually cast it.
 
 # Atlantean Fate
+### Is this a “silence” effect?
+Yes, treat “and lose all other abilities” as “and are otherwise silenced.”
 ### If one of the sites it occupies is an Ordinary water site, are minions and artifacts there still submerged?
 Yes. It’s still affected by the aura, but that effect doesn’t do anything to Ordinary sites, other than the Genesis ability.
 ### Can you play Rift Valley into an area affected by Atlantean Fate?

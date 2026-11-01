@@ -1,4 +1,6 @@
 # Atlantean Fate
+### Is this a “silence” effect?
+Yes, treat “and lose all other abilities” as “and are otherwise silenced.”
 ### If one of the sites it occupies is an Ordinary water site, are minions and artifacts there still submerged?
 Yes. It’s still affected by the aura, but that effect doesn’t do anything to Ordinary sites, other than the Genesis ability.
 ### Can you play Rift Valley into an area affected by Atlantean Fate?
