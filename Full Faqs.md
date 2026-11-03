@@ -860,8 +860,10 @@ Tap -> Summon Bruin here. Flip this card.
 No. The site itself gains the ability and is doing the damage.
 ### Can the Druid's flip side ability give the Druid kill credit?
 No. Only units can get kill credit, and the site is source of the damage. The triggered ability is the site's ability, not the Druid's. See the "((kill credit))" codex entry for more details.
-### If a site loses its abilities, does the Druid's flip side ability still apply? Can this affect Bedrock?
-No. The Druid grants an ability to the site. If the site is silenced (or can't be modified in the case of Bedrock), then it loses the ability and will not deal damage.
+### If the site is silenced, does the Druid’s flip side ability still apply?
+Yes. Silence only removes printed abilities.
+
+(If the site can’t be modified, e.g. Bedrock, the flip side ability wouldn’t apply in that case.)
 
 # Drums Of Doom
 ### I strike your minion, which is nearby the Drums. Then, you redirect the damage to a bodyguard (e.g. Royal Bodyguard, Sir Gawain), who is not nearby the Drums. Does your bodyguard take lethal damage?

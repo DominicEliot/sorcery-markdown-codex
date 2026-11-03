@@ -2358,8 +2358,8 @@
       ]
     },
     {
-      "question": "If a site loses its abilities, does the Druid's flip side ability still apply? Can this affect Bedrock?",
-      "answer": "No. The Druid grants an ability to the site. If the site is silenced (or can't be modified in the case of Bedrock), then it loses the ability and will not deal damage.",
+      "question": "If the site is silenced, does the Druid’s flip side ability still apply?",
+      "answer": "Yes. Silence only removes printed abilities.\n\n(If the site can’t be modified, e.g. Bedrock, the flip side ability wouldn’t apply in that case.)",
       "cards": [
         "druid"
       ]

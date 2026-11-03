@@ -335,7 +335,7 @@ If an artifact ))can't(( be dropped, it may not be chosen for the "((Drop))" bas
 [Codex Entry](https://curiosa.io/codex/c40d934e-6c71-4116-89de-f9e2915b7c8c)
 
 # Can't be Modified
-A card that "can't be modified" cannot have status effects applied to it, and it transformed. It also cannot gain or lose any abilities, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] cannot gain stealth (since it's an ability) or power (since it's a characteristic).
+A card that "can't be modified" can’t be disabled, silenced, immobilized, or transformed. It also cannot gain or lose any abilities, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] cannot gain stealth (since it's an ability) or power (since it's a characteristic).
 
 Note that [[Monks of Kobalsa]] can have their cost reduced (or increased) during casting while they're still in hand, since abilities only apply while in the realm unless explicitly stated.
 
