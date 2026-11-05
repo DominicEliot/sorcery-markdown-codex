@@ -687,7 +687,7 @@ A death blow is any damage dealt to an Avatar who is on death's door, other than
 
 Note that attacking their sites causes your opponent's avatar to lose life, which is different from damaging their avatar. Losing life, _including due to site damage_, does not cause a death blow.
 
-If both Avatars suffer a death blow simultaneously (perhaps by one attacking the other), the game is a draw. Alternately, many tournaments declare that simultaneous death blows are ignored, and the game continues.
+If both Avatars suffer a death blow simultaneously (perhaps by one attacking the other), the game is a ))draw((. Alternately, many tournaments declare that simultaneous death blows are ignored, and the game continues.
 
 [Codex Entry](https://curiosa.io/codex/2cffd099-b5f5-4af6-9ce9-966ac6d1306c)
 
@@ -2582,7 +2582,7 @@ Surface has two meanings in Sorcery! Sorry about that! English is tricky.
 
 Surface as a noun means "the top layer of a site," as in "the surface of a site." This is the more common usage of the word, which you can see on [[Buried Treasure]], [[Teleport]], or [[Bone Rabble]].
 
-Surface as a verb means "to move up from underwater," as in "surface the submerged minion." You can see examples of this on [[Diluvian Kraken]], [[Iceberg]], and [[Mudflow]].
+Surface as a verb means "to move up from underwater," as in "surface the submerged minion." You can see examples of this on [[Diluvian Kraken]], [[Iceberg]], and [[Mudflow]]. It’s only possible to surface at a water site.
 
 Void squares do not have a surface (or subsurface).
 
@@ -2764,7 +2764,7 @@ Your turn has three phases:
 [Codex Entry](https://curiosa.io/codex/ddc92a09-aa5d-4a86-9a01-a8cacad61871)
 
 # Unburrow
-Unburrow means "to move up from underground." For example, [[Mudflow]].
+Unburrow means "to move up from underground." For example, [[Mudflow]]. It’s only possible to unburrow at a land site.
 
 [Codex Entry](https://curiosa.io/codex/40c4adc8-67f9-4b21-8c3f-4f1532f3f1dc)
 

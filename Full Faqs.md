@@ -2355,8 +2355,8 @@ Yes.  Only units can tap, so a spellcaster artifact or site would be unable to r
 0, because each source of damage is reduced by 1!
 
 # Shrike Orchard
-### Can this target sub-surface minions?
-Yes.  The minion must be nearby to the site, which means it must be near one of the site's locations.  This means that minions which are underground (or underwater, if the Shrike Orchard is flooded) can be targeted by this effect.
+### Can this target subsurface minions?
+Yes. The Orchard can target minions nearby its underground location or nearby its surface location. (If the Orchard were a water site, it could target minions nearby its underwater location.)
 
 # Siege Ballista
 ### Do both units need to have been in play for a turn or have charge?
@@ -2424,7 +2424,7 @@ Rift Valley enters the realm using its ability, and only loses its ability once 
 ### Are minions along the path affected even if they have stealth?
 Yes! Projectiles do not hit stealth minions, but Snowball is just using the projectile to draw a path. It doesn't matter what units are hit, all of them along the path are rolled up in the snowball and pulled along!
 ### Does the snowball’s path include both the starting and ending locations?
-Yes! The projectile's path determines which locations are affected by the rest of the snowball, gathering up everything along the way, just as you'd expect giant snowball physics would work after watching all those Saturday morning cartoons.
+Yes! The projectile's path determines which locations are affected by the snowball, gathering up everything along the way, just as you'd expect giant snowball physics would work after watching all those Saturday morning cartoons.
 
 # Sow The Earth
 ### If I happen to play a Lone Tower from the top of my atlas, will the mana from the Genesis ability also be doubled? What about mana from Abundance?

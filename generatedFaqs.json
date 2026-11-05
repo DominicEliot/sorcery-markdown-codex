@@ -1276,7 +1276,7 @@
     },
     {
       "question": "Does the snowball’s path include both the starting and ending locations?",
-      "answer": "Yes! The projectile's path determines which locations are affected by the rest of the snowball, gathering up everything along the way, just as you'd expect giant snowball physics would work after watching all those Saturday morning cartoons.",
+      "answer": "Yes! The projectile's path determines which locations are affected by the snowball, gathering up everything along the way, just as you'd expect giant snowball physics would work after watching all those Saturday morning cartoons.",
       "cards": [
         "snowball"
       ]
@@ -1547,8 +1547,8 @@
   ],
   "shrike_orchard": [
     {
-      "question": "Can this target sub-surface minions?",
-      "answer": "Yes.  The minion must be nearby to the site, which means it must be near one of the site's locations.  This means that minions which are underground (or underwater, if the Shrike Orchard is flooded) can be targeted by this effect.",
+      "question": "Can this target subsurface minions?",
+      "answer": "Yes. The Orchard can target minions nearby its underground location or nearby its surface location. (If the Orchard were a water site, it could target minions nearby its underwater location.)",
       "cards": [
         "shrike_orchard"
       ]

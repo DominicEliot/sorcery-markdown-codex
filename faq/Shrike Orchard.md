@@ -1,3 +1,3 @@
 # Shrike Orchard
-### Can this target sub-surface minions?
-Yes.  The minion must be nearby to the site, which means it must be near one of the site's locations.  This means that minions which are underground (or underwater, if the Shrike Orchard is flooded) can be targeted by this effect.
+### Can this target subsurface minions?
+Yes. The Orchard can target minions nearby its underground location or nearby its surface location. (If the Orchard were a water site, it could target minions nearby its underwater location.)
