@@ -335,7 +335,7 @@ If an artifact ))can't(( be dropped, it may not be chosen for the "((Drop))" bas
 [Codex Entry](https://curiosa.io/codex/c40d934e-6c71-4116-89de-f9e2915b7c8c)
 
 # Can't be Modified
-A card that "can't be modified" can’t be disabled, silenced, immobilized, or transformed. It also cannot gain or lose any abilities, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] cannot gain stealth (since it's an ability) or power (since it's a characteristic).
+A card that "can't be modified" can’t be disabled, silenced, immobilized, or transformed. It also can’t gain or lose any abilities, can’t have a Stealth mark or Ward mark, and its characteristics cannot be changed. For example, [[Bedrock]] is not affected by [[Atlantean Fate]] nor [[Abundance]]. As another example, [[Monks of Kobalsa]] can’t gain a stealth mark, Airborne (since it's an ability), or power (since it's a characteristic).
 
 Note that [[Monks of Kobalsa]] can have their cost reduced (or increased) during casting while they're still in hand, since abilities only apply while in the realm unless explicitly stated.
 
@@ -815,6 +815,13 @@ In particular, note that a site could be a water site (because it provides water
 Earth site and land site are NOT synonyms.
 
 [Codex Entry](https://curiosa.io/codex/51f40c06-080b-45a2-ac17-a56e672300f6)
+
+# East and West
+From the First Player’s point of view, the East is the eight squares to the right of the central column. The West is the eight squares to the left.
+
+The Far East or Far West are the squares in those outer columns.
+
+[Codex Entry](https://curiosa.io/codex/4028e675-9da2-4d8b-940d-c3eabbcff54d)
 
 # Element
 _Sorcery: Contested Realm_ is built around the four classical elements: Air, Earth, Fire, and Water. To cast spells, you'll generally need to have elemental affinity.
@@ -2959,7 +2966,7 @@ A zone is a general area where a card can exist. Game zones include:
 - The storyline (a shared zone)
 - Additional zones based on specific cards (e.g. [[Morgana le Fay]] creates a "Morgana's hand" zone.)
 
-Public zones include the realm and cemeteries, and cards in these zones have no hidden information, i.e. they're face-up, and you're allowed to look at the opposite side of any card in those zones, e.g. [[Druid]]. For clarity of game state, it's acceptable to put banished cards face-down in a specific area of the table, but they may be reviewed by either player at any time.
+Public zones include the realm and cemeteries, and cards in these zones have no hidden information except for face-down Traps in the realm. For clarity of game state, it's acceptable to put banished cards face-down in a specific area of the table, but they may be reviewed by either player at any time.
 
 The number of cards and type of card (e.g. spell or site) in each zone is public information (e.g. any player can know how many cards remain in any deck, or how many cards of each type you have in your hand).
 
