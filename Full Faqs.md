@@ -981,7 +981,7 @@ Yes, it will still gain stealth.
 
 # Fenvale Muse
 ### What happens if I use this to trigger the Genesis ability of a site my opponent controls?
-The controller of the site will be the one to resolve the Genesis ability. So in the case of a Desert, your opponent will choose the nearby site where damage is dealt. For a River, your opponent will be the one to look at their next spell and choose to put it on the bottom of their spellbook.
+You control the ability, even if it’s your opponent’s site.
 
 # Fey Changeling
 ### Can this be summoned to an inhospitable location (e.g. underground) and die, but still have a chance to use its genesis ability first?
@@ -1568,7 +1568,7 @@ The Flooded ability gives a site a minimum of 1 water threshold, making it a wat
 
 # Khamaseen Mummy
 ### What happens if I use this to trigger the Genesis ability of a site my opponent controls?
-The controller of the site will be the one to resolve the Genesis ability. So in the case of a Desert, your opponent will choose the nearby site where damage is dealt. For a River, your opponent will be the one to look at their next spell and choose to put it on the bottom of their spellbook.
+You control the ability, even if it’s your opponent’s site.
 
 # King Arthur
 ### What happens if King Arthur is in the realm and my opponent would control a card I own?
