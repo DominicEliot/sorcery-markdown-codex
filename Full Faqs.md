@@ -56,6 +56,14 @@ Magic can't target the card and the card can't be damaged by Magic (even without
 ### Can Magic spells which cause an ally to target a unit (e.g. Shatter Strike) select the bearer of Amulet as the target?
 Yes, because the ally is doing the targeting, not the Magic spell.
 
+# Ancient Thaw
+### If I cast an alpha Polar Bears via Ancient Thaw, do I use the actual alpha printing?
+As a special golden rule when casting via Ancient Thaw, yes, use the alpha version of Polar Bears (2-cost, 2-power). Ensure the game state is clear to all players.
+
+The default rule is that we always use the newest text regardless of what’s literally printed on the card, but this is a special golden rule for alpha Polar Bears plus Ancient Thaw. Have fun!
+### What is an “alpha” Beast?
+The card must have the alpha set symbol printed on it.
+
 # Angel Ascendant
 ### If a warded Angel Ascendant fights another minion, the ward will break when the strike happens. So does Angel Ascendant strike for 2 or 3?
 It will strike for 3 (with the +1 power from Ward). If the opposing minion somehow struck first (perhaps via a Lance), then the ward would indeed break first and then the Angel Ascendant would only strike back for 2.
@@ -113,6 +121,10 @@ No, any of your spellcasters can cast the copied spell.
 If you cannot cast any of those three spells, they remain banished and nothing else happens. You did not cast a spell. (If you can cast one of the three, you must.) 
 ### Can I use this ability to cast Valor or Dodge Roll?
 No, because the Archimago’s ability is an activated ability, which you can only use during your Main Phase when nothing is on the Storyline.
+
+# Aria Wraith
+### Must the destroyed artifacts be nearby Aria Wraith as well?
+Yes.
 
 # Army Of The Dead
 ### If the Army moves through many locations (e.g. Grapple Shot, Seven-league Boots), does it leave many Skeletons behind?
@@ -178,6 +190,12 @@ One life. Atlantean Fate will flood and silence Vindictive Nation, as well as pr
 Anything that occupies exactly 1 location.
 ### Does this carry along oversized units or auras that occupy more than one square?
 No.
+
+# Avalanche
+### Are minions disabled if they do not move?
+Yes, they are still disabled.
+### Are the minions disabled before being moved, or after?
+They are disabled as soon as the trap is sprung, simultaneously with the start of movement, i.e. in their starting location.
 
 # Avatar Of Water
 ### What does “your body of water” mean?
@@ -350,6 +368,12 @@ Non-active player chooses a minion. Active player chooses a minion. Both minions
 # Book Of Blessings
 ### If my magic targets my allied minion, does that qualify as "chooses" for the Book of Blessing?
 Yes!
+
+# Bouldermaw
+### Can I roll it from the underground location?
+Yes!
+### Do I have to pay to cast the Rolling Boulder?
+No. The 6 mana covers the cost of conjuring it and rolling it.
 
 # Boulevard Of Bones
 ### If the adjacent site silences the Boulevard (e.g. Smokestacks of Gnaak, Fields of Phyxis), is a Skeleton token is summoned?
@@ -1001,6 +1025,10 @@ No. To cast a spell, you must specify all targets.
 ### Does the target need to be in the same region as the caster?
 No. Normally the answer is yes, but the card text “above or ((below))” means that normal targeting restrictions are ignored, and the caster can be in any region (surface, underground, underwater, or in the void). As long as there is an adjacent Water site to the caster and a minion occupying that water site, it will get pulled to the caster’s location.
 
+# Fireball
+### The text on the Frost Mage vs. Lavamancer printing differs from previous printings. Is the newest printing correct?
+Yes, always use the text on the newest printing. If you play with older physical cards, ensure the game state is clear.
+
 # Firebolts
 ### What does "one at a time" mean?
 Resolve the first bolt (including any deathrite or other "kills" abilities), then resolve the next one, then resolve the 3rd one. Each bolt must go in the same direction.
@@ -1118,9 +1146,25 @@ No, since the attack is not happening on Free City.
 ### Can Frontier Settlers play a site that isn’t adjacent to your other sites?
 Yes.
 
+# Frost Elemental
+### Can this ability disable an avatar? It says "unit."
+You may target an avatar with this Genesis ability, but since avatars cannot be disabled, it will have no effect.
+
+# Frost Mage
+### If this ability is used on a minion that can’t be disabled, is it still immune to damage?
+Yes, it is still immune to damage.
+
+# Frostbolt
+### How do I properly resolve the damage and disable effect?
+The damage and disable effect happen simultaneously. Ongoing abilities like Shield Maidens, Sir Priamus, or Royal Bodyguard will still apply to the damage, but deathrites will not.
+
 # Frozen Horror
 ### If I activate this ability and then move a minion nearby the Horror, does the minion become disabled?
 No. This ability disables minions that are nearby the Horror when the ability is activated. A minion moving nearby after that moment will not be disabled.
+
+# Full Tilt Goliaths
+### What exactly does this ability silence?
+Nearby sites only, at the moment the genesis resolves. (Units, artifacts, and auras are not affected.)
 
 # Garden Of Eden
 ### Does this affect spells drawn by things like Morgana le Fay and the Omphaloi?
@@ -1252,6 +1296,10 @@ When the artifact is animated, it becomes a minion, and thus cannot be carried. 
 ### If the unit carrying the animated artifact can also carry minions, who retains control?
 Grösse Poltergeist says you gain control, but the game rules say that anyone carrying the artifact gains control. Grösse Poltergiest takes precedence due to the golden rule, and the controller of Grösse Poltergeist gets control.
 
+# Ground Slam
+### If I choose a disabled ally, will Ground Slam still damage other units?
+No. Treat this as “An ally strikes its site. If it does, deal 2 damage to other units at nearby sites.”
+
 # Guardian Angel
 ### Can you "fly to" a minion already sharing your location?
  No, that's not "flying to." Summon the Guardian Angel to a different location!
@@ -1311,6 +1359,10 @@ No and no. This isn’t the Move and Attack basic ability, which is what require
 Yes. When pulling or pushing an oversized unit, choose a single location the oversized unit occupies (and meets the requirement of the effect), and push/pull from there. So, you could choose Site 2: Oversized minion is pulled South, and ends up at 4-5-7-8. OR, choose Site 4: Oversized minion is pulled East, and ends up at 2-3-5-6. OR, choose Site 5: Oversized minion isn’t pulled at all.
 ### Is the ability mandatory?
 Yes. It doesn’t use the word “may.”
+
+# Hailstriker
+### How do I properly resolve the damage and disable effect?
+The damage and disable effect happen simultaneously. Ongoing abilities like Shield Maidens, Sir Priamus, or Royal Bodyguard will still apply to the damage, but deathrites will not.
 
 # Harbinger
 ### Does Harbinger's ability combo with other effects that allow you to cast minions, e.g. Elder Ruins, Troubled Town, Peculiar Port, etc.?
@@ -1389,6 +1441,10 @@ Simply remove the stealth token. It does not prevent the minion from gaining ste
 # Howl From Beyond
 ### How do I resolve this effect?
 Deal face up, one at a time. Then, draw the voidwalk minions and Monsters, and banish the rest. No minions actually "enter" the realm with this effect.
+
+# Humming Hummocks
+### Does this affect allies who are nearby at the moment the genesis triggers, or is it an ongoing effect centered on the Hummocks?
+It is an ongoing effect centered on the Hummocks.
 
 # Hyperparasite
 ### Is the minion only disabled while being carried?
@@ -1966,6 +2022,12 @@ Choose left or right, and apply it to every unit at land sites in the column.
 ### Does this effect span the void?
 Yes.
 
+# None Survive The Sun
+### Does this damage minions that are in the void?
+No, only “minions on the surface burn,” per card text.
+### If Magellan Globe is in the realm, this aura can stick around forever, right?
+Yes, that is how the sun works.
+
 # Occult Ritual
 ### The alpha, alternate art version of this card from the pledge pack has the text "Spellcaster nearby," while the regular foil and non-foil versions have the text "Spellcaster here." which is correct?
 The normal version is correct. The text should be "Spellcaster here." The alternate art version is not legal for tournament play.
@@ -2030,6 +2092,12 @@ Round up the life loss. For example, if you had 3 life, you'd lose 2, ending up 
 ### Does this cause a zero power unit to deal 2 damage when striking?
 Yes, this effect will cause zero power units to strike for 2 damage.
 
+# Pass Plug Serpent
+### Can the Serpent Intercept the enemy that moved into the allied site, assuming that enemy ended its movement there without attacking?
+Yes, assuming the Serpent is untapped of course. Merely moving through the Pass-plug Serpent won't allow interception, per the normal interception rules.
+### How exactly does this ability work?
+When an enemy enters the surface location of a nearby allied land site, the Serpent may move underground to that site, then unburrow at that site, arriving at the surface location the enemy entered. See the subcodex entry “((Moving to a Specific Location Via a Special Ability or Magic))” for more details, with the additional caveat that the Serpent’s ability specifies “unburrow there,” which means it must move from underground to the surface at that specific site.
+
 # Pathfinder
 ### The alpha and beta text is different, which should I use?
 The beta text is correct.
@@ -2067,6 +2135,10 @@ Yes, once the Peace Offering has been given to your opponent, they can't attack 
 No, assuming the unit does not have the Airborne ability.  Effects which drag/push/pull a unit cannot cause it to move through the top border of this site while on the ground.  For instance, a non-Airborne minion cannot use  [[Grapple Shot]] to pass through this border, and a [[Pudge Butcher]] cannot pull a non-Airborne unit through it.
 
 Teleport effects do not pass through borders, however, and are not considered movement on the ground, so they can allow a unit to ))move(( to a location on the other side.
+
+# Permafrost
+### How does this effect work?
+It replaces the normal end condition for disable effects with “until it leaves.” For example, if you summon a Slumbering Giantess to Permafrost, her Genesis ability would normally disable her until she takes damage, but instead she is disabled until she leaves the site. She won’t wake up if she takes damage, and if she leaves, she’ll be awake even without taking damage.
 
 # Persecutor
 ### Can I brand an enemy and step toward the closest Evil on the same turn?
@@ -2114,9 +2186,19 @@ Yes, that does seem fun!
 ### Where can I summon the frogs?
 You choose one location anywhere in the realm, and then all 7 frogs are summoned to that location.
 
+# Polar Bears
+### The power and cost on the Frost Mage vs. Lavamancer printing differs from previous printings. Is the newest printing correct?
+Yes, always use the text on the newest printing. If you play with older physical cards, ensure the game state is clear. All players should know Polar Bears cost 3 and have 3 power. (I have a sharpie I can lend you.)
+
 # Polar Explorers
 ### If Polar Explorers or Ruler of Thul are in play and an oversized unit on the top row moves “up” one row to wrap around to the bottom, what happens?
 This ability only allows movement across the borders, not ongoing occupation. Units cannot balance on the edge of the realm and an oversized unit that finds its way there falls to one side or the other. Its controller places it in the closest legal position, controller's choice if tied.
+
+# Polar Shift
+### What happens if you play this while Bedrock is in play?
+Move as much as you can, but Bedrock doesn't move. Any sites behind the Bedrock will be stuck and not move.
+### How do you shift the realm?
+Move sites and normal sized cards on them. Cards in the void do not move.
 
 # Pollimorph
 ### Does a pollimorphed animated aura (e.g. Enchantress) return to an aura form later?
@@ -2350,6 +2432,10 @@ The direction it is facing is tracked normally, and is not affected by the Trap'
 ### Does the Spellcaster have to be a unit to tap and release the Demon?
 Yes.  Only units can tap, so a spellcaster artifact or site would be unable to release the demon.
 
+# Shatter
+### Does the disabled minion have to be near the caster?
+Yes.
+
 # Shield Maidens
 ### My Shield Maidens attack, and then 3 Foot Soldiers defend. How much damage do my Shield Maidens take?
 0, because each source of damage is reduced by 1!
@@ -2402,6 +2488,14 @@ After declaring their movement path but before actually moving, Skirmishers may 
 
 Note that basic movement includes movement from a basic ability, i.e. Move and Attack, and Defend.
 
+# Slag Slug
+### Does the Slug damage itself with its ability?
+The ability will not trigger until the Slug has entered a new location, so it will not take damage.
+
+# Slide
+### Can this push a minion into the void?
+No, sliding is a form of forced movement and cannot cause the minion to change regions.
+
 # Slimy Mutants
 ### Is this an activated ability that I use while Slimy Mutants are in my hand?
 Yes! While Slimy Mutants are in your hand, you may pay (3) and resolve the effect.
@@ -2420,11 +2514,21 @@ By the time Mirror ))Realm(( enters the realm, it's already a copy. Thus, it can
 ### How do Smokestacks of Gnaak and Rift Valley interact?
 Rift Valley enters the realm using its ability, and only loses its ability once it's in the realm (which by then, it doesn't really matter).
 
+# Smoldering Hollow
+### If you attack with a zero power Frog, does it deal 0 or 1 damage?
+It deals 1 damage. See the “((Damage))” codex entry for more details, and the “Modifying Damage” subcodex entry.
+### If the damage gets redirected so it's no longer nearby, does the extra damage still apply?
+Yes, since damage modification is applied before damage is redirected. See the “((Damage))” codex entry for more details.
+
 # Snowball
 ### Are minions along the path affected even if they have stealth?
 Yes! Projectiles do not hit stealth minions, but Snowball is just using the projectile to draw a path. It doesn't matter what units are hit, all of them along the path are rolled up in the snowball and pulled along!
 ### Does the snowball’s path include both the starting and ending locations?
 Yes! The projectile's path determines which locations are affected by the snowball, gathering up everything along the way, just as you'd expect giant snowball physics would work after watching all those Saturday morning cartoons.
+
+# Southpaw Dyrodor
+### Can I mirror this grid pattern, flipping left and right?
+No, due to card text. Left to right is relative to the controlling player.
 
 # Sow The Earth
 ### If I happen to play a Lone Tower from the top of my atlas, will the mana from the Genesis ability also be doubled? What about mana from Abundance?
@@ -2483,6 +2587,12 @@ For example, I have an Abomination with 5 + 4 + 3 power, and you are dealing it 
 
 
 If an effect would destroy or kill the Abomination outright, including taking Lethal damage, all of its parts are killed. If an effect would banish the Abomination, all of it is banished.
+
+# Stomping Mammoth
+### if you attack a unit while at your own site, do you deal excess damage to your own site?
+Yes, you might cause yourself to lose life this way. When elephants fight, it is the grass that suffers!
+### How does this ability work when there are two (or more) defending minions?
+You must assign the Mammoth's damage to each defending minion until they would die. Then, any remaining damage is dealt to the Mammoth's site.
 
 # Sturmgeist
 ### When does this ability resolve?
@@ -2564,6 +2674,10 @@ That is, you declare and resolve each ally’s steps before proceeding to the ne
 # Templar
 ### Can any of my spellcasters cast a spell and still benefit from my avatar's ability?
 Yes! As long as you control the spellcaster, the game sees it as a spell "((you))" cast, meaning the player.
+
+# Terraform
+### How do I resolve this effect with Trap sites?
+If the top card from a player’s atlas is a Trap site, they replace their existing site and play the Trap face-down without revealing it to their opponent.
 
 # Thankless Squire
 ### Once the Thankless Squire has delivered all those lances, and isn't carrying any more, is it still Immobile?
@@ -2713,6 +2827,10 @@ The intent is that a 1 power minion with 1 damage + the Trinket would survive th
 ### Do I have to reveal the traded artifacts?
 Yes, you must reveal them to ensure it is a fair trade.
 
+# Trappers Rest
+### What does "reactivate" mean?
+It means to trigger the Trap ability of a face-up trap site. You control the ability, even if it’s your opponent’s site.
+
 # Tringh Constrictor
 ### The alpha and beta text is different, which should I use?
 The beta text is correct.
@@ -2738,6 +2856,12 @@ Yes. The bearer can target stealthed minions with spells, shoot them with projec
 # Tufted Turtles
 ### My Tufted Turtles attack (having taken no damage so far this turn), and then 3 Foot Soldiers defend. How much damage do my Tufted Turtles take?
 0, because all three Foot Soldiers did damage at the same time, tied for first, and thus all are prevented!
+
+# Tusslin Trolls
+### If there are no other adjacent minions, are they required to strike themselves?
+Yes!
+### Do I roll the d6 before or after choosing the target?
+You pick the target first, as the ability goes on the storyline. You roll the d6 as the ability resolves.
 
 # Twist Of Fate
 ### Does this count as healing?
@@ -2893,6 +3017,10 @@ No.
 ### What happens if Vivien uses the Druid’s ability to summon Bruin and flip?
 She summons Bruin and then flips. As a flipped card with nothing on the back, she has no game text and will effectively do nothing for the rest of the game. She is no longer a minion, has no card type or abilities, etc. The flipped card can exist in the void, and technically she could turn off Pristine Paradise, and would be destroyed by Roots of Yggdrasil.
 
+# Volcanic Eruption
+### Can these projectiles fire underground and/or on the surface?
+Yes, as long as they're in three different cardinal directions.
+
 # Wall Of Air
 ### Does this affect subsurface units?
 No. (They are not atop the site.)
@@ -2952,6 +3080,16 @@ Yes! Imagine a big wave washing over the Bedrock, knocking everyone over, and th
 The body of water (if any) that your Avatar currently occupies. If the Avatar isn’t in any body of water, the ability won’t function. (They're a fish out of water!)
 ### Can I choose the same site over and over?
 Yes, as long as it's nearby your body of water.
+
+# When The Peaks Fell
+### If the snow doesn't move at all (e.g. it starts from the farthest site in the column), does it still "stop" ?
+No, and that snow won't damage or disable units. Other snow moving onto units at the farthest site could still affect those units, though.
+### If a unit doesn’t end up where the snow stops, (e.g. can’t be moved by force, can’t move over a Perilous Bridge or into a Gnome Hollows), are they still affected?
+No.
+### If there are multiple sites in the column and a unit is hit by snow multiple times, does it take damage more than once?
+No, the damage is only dealt once, simultaneously after all snow stops.
+### How do I properly resolve the damage and disable effect?
+The damage and disable effect happen simultaneously. Ongoing abilities like Shield Maidens, Sir Priamus, or Royal Bodyguard will still apply to the damage, but deathrites will not.
 
 # Whirling Blades
 ### Does the path include the starting and ending locations?

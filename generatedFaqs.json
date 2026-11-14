@@ -1,4 +1,56 @@
 {
+  "terraform": [
+    {
+      "question": "How do I resolve this effect with Trap sites?",
+      "answer": "If the top card from a player’s atlas is a Trap site, they replace their existing site and play the Trap face-down without revealing it to their opponent.",
+      "cards": [
+        "terraform"
+      ]
+    }
+  ],
+  "ancient_thaw": [
+    {
+      "question": "If I cast an alpha Polar Bears via Ancient Thaw, do I use the actual alpha printing?",
+      "answer": "As a special golden rule when casting via Ancient Thaw, yes, use the alpha version of Polar Bears (2-cost, 2-power). Ensure the game state is clear to all players.\n\nThe default rule is that we always use the newest text regardless of what’s literally printed on the card, but this is a special golden rule for alpha Polar Bears plus Ancient Thaw. Have fun!",
+      "cards": [
+        "ancient_thaw"
+      ]
+    },
+    {
+      "question": "What is an “alpha” Beast?",
+      "answer": "The card must have the alpha set symbol printed on it.",
+      "cards": [
+        "ancient_thaw"
+      ]
+    }
+  ],
+  "full_tilt_goliaths": [
+    {
+      "question": "What exactly does this ability silence?",
+      "answer": "Nearby sites only, at the moment the genesis resolves. (Units, artifacts, and auras are not affected.)",
+      "cards": [
+        "full_tilt_goliaths"
+      ]
+    }
+  ],
+  "fireball": [
+    {
+      "question": "The text on the Frost Mage vs. Lavamancer printing differs from previous printings. Is the newest printing correct?",
+      "answer": "Yes, always use the text on the newest printing. If you play with older physical cards, ensure the game state is clear.",
+      "cards": [
+        "fireball"
+      ]
+    }
+  ],
+  "polar_bears": [
+    {
+      "question": "The power and cost on the Frost Mage vs. Lavamancer printing differs from previous printings. Is the newest printing correct?",
+      "answer": "Yes, always use the text on the newest printing. If you play with older physical cards, ensure the game state is clear. All players should know Polar Bears cost 3 and have 3 power. (I have a sharpie I can lend you.)",
+      "cards": [
+        "polar_bears"
+      ]
+    }
+  ],
   "atlantean_fate": [
     {
       "question": "Is this a “silence” effect?",
@@ -28,6 +80,274 @@
       "cards": [
         "vindictive_nation",
         "atlantean_fate"
+      ]
+    }
+  ],
+  "when_the_peaks_fell": [
+    {
+      "question": "If the snow doesn't move at all (e.g. it starts from the farthest site in the column), does it still \"stop\" ?",
+      "answer": "No, and that snow won't damage or disable units. Other snow moving onto units at the farthest site could still affect those units, though.",
+      "cards": [
+        "when_the_peaks_fell"
+      ]
+    },
+    {
+      "question": "If a unit doesn’t end up where the snow stops, (e.g. can’t be moved by force, can’t move over a Perilous Bridge or into a Gnome Hollows), are they still affected?",
+      "answer": "No.",
+      "cards": [
+        "when_the_peaks_fell"
+      ]
+    },
+    {
+      "question": "If there are multiple sites in the column and a unit is hit by snow multiple times, does it take damage more than once?",
+      "answer": "No, the damage is only dealt once, simultaneously after all snow stops.",
+      "cards": [
+        "when_the_peaks_fell"
+      ]
+    },
+    {
+      "question": "How do I properly resolve the damage and disable effect?",
+      "answer": "The damage and disable effect happen simultaneously. Ongoing abilities like Shield Maidens, Sir Priamus, or Royal Bodyguard will still apply to the damage, but deathrites will not.",
+      "cards": [
+        "frostbolt",
+        "hailstriker",
+        "when_the_peaks_fell"
+      ]
+    }
+  ],
+  "volcanic_eruption": [
+    {
+      "question": "Can these projectiles fire underground and/or on the surface?",
+      "answer": "Yes, as long as they're in three different cardinal directions.",
+      "cards": [
+        "volcanic_eruption"
+      ]
+    }
+  ],
+  "tusslin_trolls": [
+    {
+      "question": "If there are no other adjacent minions, are they required to strike themselves?",
+      "answer": "Yes!",
+      "cards": [
+        "tusslin_trolls"
+      ]
+    },
+    {
+      "question": "Do I roll the d6 before or after choosing the target?",
+      "answer": "You pick the target first, as the ability goes on the storyline. You roll the d6 as the ability resolves.",
+      "cards": [
+        "tusslin_trolls"
+      ]
+    }
+  ],
+  "trappers_rest": [
+    {
+      "question": "What does \"reactivate\" mean?",
+      "answer": "It means to trigger the Trap ability of a face-up trap site. You control the ability, even if it’s your opponent’s site.",
+      "cards": [
+        "trappers_rest"
+      ]
+    }
+  ],
+  "stomping_mammoth": [
+    {
+      "question": "if you attack a unit while at your own site, do you deal excess damage to your own site?",
+      "answer": "Yes, you might cause yourself to lose life this way. When elephants fight, it is the grass that suffers!",
+      "cards": [
+        "stomping_mammoth"
+      ]
+    },
+    {
+      "question": "How does this ability work when there are two (or more) defending minions?",
+      "answer": "You must assign the Mammoth's damage to each defending minion until they would die. Then, any remaining damage is dealt to the Mammoth's site.",
+      "cards": [
+        "stomping_mammoth"
+      ]
+    }
+  ],
+  "southpaw_dyrodor": [
+    {
+      "question": "Can I mirror this grid pattern, flipping left and right?",
+      "answer": "No, due to card text. Left to right is relative to the controlling player.",
+      "cards": [
+        "southpaw_dyrodor"
+      ]
+    }
+  ],
+  "smoldering_hollow": [
+    {
+      "question": "If you attack with a zero power Frog, does it deal 0 or 1 damage?",
+      "answer": "It deals 1 damage. See the “((Damage))” codex entry for more details, and the “Modifying Damage” subcodex entry.",
+      "cards": [
+        "smoldering_hollow"
+      ]
+    },
+    {
+      "question": "If the damage gets redirected so it's no longer nearby, does the extra damage still apply?",
+      "answer": "Yes, since damage modification is applied before damage is redirected. See the “((Damage))” codex entry for more details.",
+      "cards": [
+        "smoldering_hollow"
+      ]
+    }
+  ],
+  "slide": [
+    {
+      "question": "Can this push a minion into the void?",
+      "answer": "No, sliding is a form of forced movement and cannot cause the minion to change regions.",
+      "cards": [
+        "slide"
+      ]
+    }
+  ],
+  "slag_slug": [
+    {
+      "question": "Does the Slug damage itself with its ability?",
+      "answer": "The ability will not trigger until the Slug has entered a new location, so it will not take damage.",
+      "cards": [
+        "slag_slug"
+      ]
+    }
+  ],
+  "shatter": [
+    {
+      "question": "Does the disabled minion have to be near the caster?",
+      "answer": "Yes.",
+      "cards": [
+        "shatter"
+      ]
+    }
+  ],
+  "polar_shift": [
+    {
+      "question": "What happens if you play this while Bedrock is in play?",
+      "answer": "Move as much as you can, but Bedrock doesn't move. Any sites behind the Bedrock will be stuck and not move.",
+      "cards": [
+        "polar_shift"
+      ]
+    },
+    {
+      "question": "How do you shift the realm?",
+      "answer": "Move sites and normal sized cards on them. Cards in the void do not move.",
+      "cards": [
+        "polar_shift"
+      ]
+    }
+  ],
+  "permafrost": [
+    {
+      "question": "How does this effect work?",
+      "answer": "It replaces the normal end condition for disable effects with “until it leaves.” For example, if you summon a Slumbering Giantess to Permafrost, her Genesis ability would normally disable her until she takes damage, but instead she is disabled until she leaves the site. She won’t wake up if she takes damage, and if she leaves, she’ll be awake even without taking damage.",
+      "cards": [
+        "permafrost"
+      ]
+    }
+  ],
+  "pass_plug_serpent": [
+    {
+      "question": "Can the Serpent Intercept the enemy that moved into the allied site, assuming that enemy ended its movement there without attacking?",
+      "answer": "Yes, assuming the Serpent is untapped of course. Merely moving through the Pass-plug Serpent won't allow interception, per the normal interception rules.",
+      "cards": [
+        "pass_plug_serpent"
+      ]
+    },
+    {
+      "question": "How exactly does this ability work?",
+      "answer": "When an enemy enters the surface location of a nearby allied land site, the Serpent may move underground to that site, then unburrow at that site, arriving at the surface location the enemy entered. See the subcodex entry “((Moving to a Specific Location Via a Special Ability or Magic))” for more details, with the additional caveat that the Serpent’s ability specifies “unburrow there,” which means it must move from underground to the surface at that specific site.",
+      "cards": [
+        "pass_plug_serpent"
+      ]
+    }
+  ],
+  "none_survive_the_sun": [
+    {
+      "question": "Does this damage minions that are in the void?",
+      "answer": "No, only “minions on the surface burn,” per card text.",
+      "cards": [
+        "none_survive_the_sun"
+      ]
+    },
+    {
+      "question": "If Magellan Globe is in the realm, this aura can stick around forever, right?",
+      "answer": "Yes, that is how the sun works.",
+      "cards": [
+        "none_survive_the_sun"
+      ]
+    }
+  ],
+  "humming_hummocks": [
+    {
+      "question": "Does this affect allies who are nearby at the moment the genesis triggers, or is it an ongoing effect centered on the Hummocks?",
+      "answer": "It is an ongoing effect centered on the Hummocks.",
+      "cards": [
+        "humming_hummocks"
+      ]
+    }
+  ],
+  "ground_slam": [
+    {
+      "question": "If I choose a disabled ally, will Ground Slam still damage other units?",
+      "answer": "No. Treat this as “An ally strikes its site. If it does, deal 2 damage to other units at nearby sites.”",
+      "cards": [
+        "ground_slam"
+      ]
+    }
+  ],
+  "frost_mage": [
+    {
+      "question": "If this ability is used on a minion that can’t be disabled, is it still immune to damage?",
+      "answer": "Yes, it is still immune to damage.",
+      "cards": [
+        "frost_mage"
+      ]
+    }
+  ],
+  "frost_elemental": [
+    {
+      "question": "Can this ability disable an avatar? It says \"unit.\"",
+      "answer": "You may target an avatar with this Genesis ability, but since avatars cannot be disabled, it will have no effect.",
+      "cards": [
+        "frost_elemental"
+      ]
+    }
+  ],
+  "bouldermaw": [
+    {
+      "question": "Can I roll it from the underground location?",
+      "answer": "Yes!",
+      "cards": [
+        "bouldermaw"
+      ]
+    },
+    {
+      "question": "Do I have to pay to cast the Rolling Boulder?",
+      "answer": "No. The 6 mana covers the cost of conjuring it and rolling it.",
+      "cards": [
+        "bouldermaw"
+      ]
+    }
+  ],
+  "avalanche": [
+    {
+      "question": "Are minions disabled if they do not move?",
+      "answer": "Yes, they are still disabled.",
+      "cards": [
+        "avalanche"
+      ]
+    },
+    {
+      "question": "Are the minions disabled before being moved, or after?",
+      "answer": "They are disabled as soon as the trap is sprung, simultaneously with the start of movement, i.e. in their starting location.",
+      "cards": [
+        "avalanche"
+      ]
+    }
+  ],
+  "aria_wraith": [
+    {
+      "question": "Must the destroyed artifacts be nearby Aria Wraith as well?",
+      "answer": "Yes.",
+      "cards": [
+        "aria_wraith"
       ]
     }
   ],
@@ -162,6 +482,28 @@
       "cards": [
         "the_rack",
         "cloud_city"
+      ]
+    }
+  ],
+  "frostbolt": [
+    {
+      "question": "How do I properly resolve the damage and disable effect?",
+      "answer": "The damage and disable effect happen simultaneously. Ongoing abilities like Shield Maidens, Sir Priamus, or Royal Bodyguard will still apply to the damage, but deathrites will not.",
+      "cards": [
+        "frostbolt",
+        "hailstriker",
+        "when_the_peaks_fell"
+      ]
+    }
+  ],
+  "hailstriker": [
+    {
+      "question": "How do I properly resolve the damage and disable effect?",
+      "answer": "The damage and disable effect happen simultaneously. Ongoing abilities like Shield Maidens, Sir Priamus, or Royal Bodyguard will still apply to the damage, but deathrites will not.",
+      "cards": [
+        "frostbolt",
+        "hailstriker",
+        "when_the_peaks_fell"
       ]
     }
   ],
